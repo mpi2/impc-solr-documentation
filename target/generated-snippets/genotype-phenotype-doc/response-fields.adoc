@@ -1,0 +1,208 @@
+|===
+|Path|Type|Description
+
+|`+docId+`
+|`+String+`
+|The unique identifier for the document.
+
+|`+ontologyDbId+`
+|`+Number+`
+|The database ID associated with the ontology entry.
+
+|`+assertionType+`
+|`+String+`
+|The type of assertion made in the document.
+
+|`+assertionTypeId+`
+|`+String+`
+|The unique identifier for the assertion type.
+
+|`+mpathTermId+`
+|`+String+`
+|The identifier for the pathology (MPATH) term.
+
+|`+mpathTermName+`
+|`+String+`
+|The name of the pathology (MPATH) term.
+
+|`+anatomyTermId+`
+|`+Array+`
+|List of anatomy term identifiers.
+
+|`+anatomyTermName+`
+|`+Array+`
+|List of anatomy term names.
+
+|`+intermediateAnatomyTermId+`
+|`+Array+`
+|List of intermediate anatomy term identifiers.
+
+|`+intermediateAnatomyTermName+`
+|`+Array+`
+|List of intermediate anatomy term names.
+
+|`+topLevelAnatomyTermId+`
+|`+Array+`
+|List of top-level anatomy term identifiers.
+
+|`+topLevelAnatomyTermName+`
+|`+Array+`
+|List of top-level anatomy term names.
+
+|`+mpTermId+`
+|`+String+`
+|The identifier for the mouse phenotype (MP) term.
+
+|`+mpTermName+`
+|`+String+`
+|The name of the mouse phenotype (MP) term.
+
+|`+altMpTermId+`
+|`+Array+`
+|List of alternative mouse phenotype (MP) term identifiers.
+
+|`+topLevelMpTermId+`
+|`+Array+`
+|List of top-level mouse phenotype (MP) term identifiers.
+
+|`+topLevelMpTermName+`
+|`+Array+`
+|List of top-level mouse phenotype (MP) term names.
+
+|`+intermediateMpTermId+`
+|`+Array+`
+|List of intermediate mouse phenotype (MP) term identifiers.
+
+|`+intermediateMpTermName+`
+|`+Array+`
+|List of intermediate mouse phenotype (MP) term names.
+
+|`+markerSymbol+`
+|`+String+`
+|The symbol for the genetic marker.
+
+|`+markerAccessionId+`
+|`+String+`
+|The accession ID for the genetic marker.
+
+|`+colonyId+`
+|`+String+`
+|The identifier for the colony.
+
+|`+alleleName+`
+|`+String+`
+|The name of the allele.
+
+|`+alleleSymbol+`
+|`+String+`
+|The symbol of the allele.
+
+|`+alleleAccessionId+`
+|`+String+`
+|The accession ID of the allele.
+
+|`+strainName+`
+|`+String+`
+|The name of the strain.
+
+|`+strainAccessionId+`
+|`+String+`
+|The accession ID of the strain.
+
+|`+phenotypingCenter+`
+|`+String+`
+|The name of the phenotyping center.
+
+|`+projectExternalId+`
+|`+String+`
+|The external ID of the project.
+
+|`+projectName+`
+|`+Array+`
+|List of names for the project.
+
+|`+projectFullname+`
+|`+String+`
+|The full name of the project.
+
+|`+resourceName+`
+|`+String+`
+|The name of the resource.
+
+|`+resourceFullname+`
+|`+String+`
+|The full name of the resource.
+
+|`+sex+`
+|`+String+`
+|The sex of the subject.
+
+|`+zygosity+`
+|`+String+`
+|The zygosity of the subject.
+
+|`+pipelineName+`
+|`+String+`
+|The name of the pipeline.
+
+|`+pipelineStableId+`
+|`+String+`
+|The stable ID of the pipeline.
+
+|`+pipelineStableKey+`
+|`+String+`
+|The stable key of the pipeline.
+
+|`+procedureName+`
+|`+String+`
+|The name of the procedure.
+
+|`+procedureStableId+`
+|`+Array+`
+|List of stable IDs for the procedures.
+
+|`+procedureStableKey+`
+|`+Array+`
+|List of stable keys for the procedures.
+
+|`+parameterName+`
+|`+String+`
+|The name of the parameter.
+
+|`+parameterStableId+`
+|`+String+`
+|The stable ID of the parameter.
+
+|`+parameterStableKey+`
+|`+Array+`
+|List of stable keys for the parameter.
+
+|`+statisticalMethod+`
+|`+String+`
+|The statistical method used.
+
+|`+percentageChange+`
+|`+String+`
+|The percentage change observed.
+
+|`+pvalue+`
+|`+Number+`
+|The p-value resulting from statistical tests.
+
+|`+effectSize+`
+|`+Number+`
+|The effect size measured.
+
+|`+externalId+`
+|`+String+`
+|The external identifier for the document.
+
+|`+lifeStageAcc+`
+|`+String+`
+|The accession code for the life stage.
+
+|`+lifeStageName+`
+|`+String+`
+|The name of the life stage.
+
+|===

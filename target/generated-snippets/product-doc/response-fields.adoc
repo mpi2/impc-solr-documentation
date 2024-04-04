@@ -1,0 +1,156 @@
+|===
+|Path|Type|Description
+
+|`+alleleDesignProject+`
+|`+String+`
+|The design project associated with the allele.
+
+|`+alleleHasIssues+`
+|`+Boolean+`
+|Indicates whether the allele has any issues.
+
+|`+alleleId+`
+|`+String+`
+|The unique identifier for the allele.
+
+|`+alleleName+`
+|`+String+`
+|The name of the allele.
+
+|`+alleleDescription+`
+|`+String+`
+|A description of the allele.
+
+|`+alleleType+`
+|`+String+`
+|The type of allele.
+
+|`+associatedProductColonyName+`
+|`+String+`
+|The colony name associated with the product.
+
+|`+associatedProductEsCellName+`
+|`+String+`
+|The ES cell name associated with the product.
+
+|`+associatedProductVectorName+`
+|`+String+`
+|The vector name associated with the product.
+
+|`+associatedProductsColonyNames[]+`
+|`+Array+`
+|List of colony names associated with the product.
+
+|`+associatedProductsEsCellNames[]+`
+|`+Array+`
+|List of ES cell names associated with the product.
+
+|`+associatedProductsVectorNames[]+`
+|`+Array+`
+|List of vector names associated with the product.
+
+|`+cassette+`
+|`+String+`
+|The cassette associated with the allele.
+
+|`+contactLinks[]+`
+|`+Array+`
+|List of contact links.
+
+|`+contactNames[]+`
+|`+Array+`
+|List of contact names.
+
+|`+designId+`
+|`+String+`
+|The design ID associated with the allele.
+
+|`+geneticInfo[]+`
+|`+Array+`
+|List of genetic information associated with the allele.
+
+|`+ikmcProjectId+`
+|`+String+`
+|The IKMC project ID associated with the allele.
+
+|`+loaAssays[]+`
+|`+Array+`
+|List of LOA assays associated with the allele.
+
+|`+markerSymbol+`
+|`+String+`
+|The marker symbol associated with the allele.
+
+|`+mgiAccessionId+`
+|`+String+`
+|The MGI accession ID associated with the allele.
+
+|`+name+`
+|`+String+`
+|The name associated with the allele product.
+
+|`+orderLinks[]+`
+|`+Array+`
+|List of order links.
+
+|`+orderNames[]+`
+|`+Array+`
+|List of order names.
+
+|`+otherLinks[]+`
+|`+Array+`
+|List of other links.
+
+|`+tissueEnquiryLinks[]+`
+|`+Array+`
+|List of tissue enquiry links.
+
+|`+tissueEnquiryTypes[]+`
+|`+Array+`
+|List of tissue enquiry types.
+
+|`+tissueDistributionCentres[]+`
+|`+Array+`
+|List of tissue distribution centres.
+
+|`+productId+`
+|`+String+`
+|The product ID.
+
+|`+productIndex+`
+|`+String+`
+|The product index.
+
+|`+productionCentre+`
+|`+String+`
+|The production centre.
+
+|`+productionCompleted+`
+|`+Boolean+`
+|Indicates whether production is completed.
+
+|`+productionInfo[]+`
+|`+Array+`
+|List of production information.
+
+|`+productionPipeline+`
+|`+String+`
+|The production pipeline.
+
+|`+qcData[]+`
+|`+Array+`
+|List of QC data.
+
+|`+status+`
+|`+String+`
+|The status of the allele product.
+
+|`+statusDate+`
+|`+String+`
+|The date of the status.
+
+|`+type+`
+|`+String+`
+|The type of the allele product.
+
+|===

@@ -1,0 +1,524 @@
+|===
+|Path|Type|Description
+
+|`+alleleAccessionId+`
+|`+Array+`
+|List of accession IDs for alleles.
+
+|`+alleleName+`
+|`+Array+`
+|List of names for alleles.
+
+|`+altMpId+`
+|`+Array+`
+|List of alternative Mouse Phenotype (MP) IDs.
+
+|`+annotatedHigherLevelMaTermName+`
+|`+Array+`
+|List of annotated higher level Mouse Anatomy (MA) term names.
+
+|`+annotatedHigherLevelMpTermName+`
+|`+Array+`
+|List of annotated higher level Mouse Phenotype (MP) term names.
+
+|`+assignmentStatus+`
+|`+Null+`
+|The assignment status.
+
+|`+ccdsId+`
+|`+Array+`
+|List of Consensus CDS (CCDS) IDs.
+
+|`+childMaId+`
+|`+Array+`
+|List of child Mouse Anatomy (MA) IDs.
+
+|`+childMaTerm+`
+|`+Array+`
+|List of child Mouse Anatomy (MA) terms.
+
+|`+childMaTermSynonym+`
+|`+Array+`
+|List of synonyms for child MA terms.
+
+|`+childMpId+`
+|`+Array+`
+|List of child Mouse Phenotype (MP) IDs.
+
+|`+childMpTerm+`
+|`+Array+`
+|List of child MP terms.
+
+|`+childMpTermSynonym+`
+|`+Array+`
+|List of synonyms for child MP terms.
+
+|`+chrEnd+`
+|`+Null+`
+|Chromosome end position.
+
+|`+chrName+`
+|`+Null+`
+|Name of the chromosome.
+
+|`+chrStart+`
+|`+Null+`
+|Chromosome start position.
+
+|`+chrStrand+`
+|`+Null+`
+|Chromosome strand.
+
+|`+clanAcc+`
+|`+Array+`
+|List of clan accession numbers.
+
+|`+clanDesc+`
+|`+Array+`
+|List of clan descriptions.
+
+|`+clanId+`
+|`+Array+`
+|List of clan IDs.
+
+|`+conditionalAlleleProductionStatus+`
+|`+Null+`
+|Production status of the conditional allele.
+
+|`+crisprAlleleProductionStatus+`
+|`+Null+`
+|Production status of the CRISPR allele.
+
+|`+dataType+`
+|`+Null+`
+|The type of data.
+
+|`+datasetsRawData+`
+|`+Null+`
+|Raw data from datasets.
+
+|`+diseaseAlts+`
+|`+Array+`
+|List of alternative disease names.
+
+|`+diseaseClasses+`
+|`+Array+`
+|List of disease classes.
+
+|`+diseaseHumanPhenotypes+`
+|`+Null+`
+|Human phenotypes related to the disease.
+
+|`+diseaseId+`
+|`+Array+`
+|List of disease IDs.
+
+|`+diseaseSource+`
+|`+Array+`
+|List of sources for disease data.
+
+|`+diseaseTerm+`
+|`+Array+`
+|List of disease terms.
+
+|`+dmddImageDataAvailable+`
+|`+Null+`
+|Indicates if DMDD image data is available.
+
+|`+dmddLethalDataAvailable+`
+|`+Null+`
+|Indicates if DMDD lethal data is available.
+
+|`+embryoAnalysisViewName+`
+|`+Null+`
+|Name of the embryo analysis view.
+
+|`+embryoAnalysisViewUrl+`
+|`+Null+`
+|URL for the embryo analysis view.
+
+|`+embryoDataAvailable+`
+|`+Null+`
+|Indicates if embryo data is available.
+
+|`+embryoModalities+`
+|`+Array+`
+|List of modalities for embryo analysis.
+
+|`+ensemblGeneId+`
+|`+Array+`
+|List of Ensembl gene IDs.
+
+|`+esCellProductionStatus+`
+|`+Null+`
+|Production status of the ES cell.
+
+|`+evidCodeRank+`
+|`+Null+`
+|Evidence code rank.
+
+|`+expName+`
+|`+Array+`
+|List of experiment names.
+
+|`+goCount+`
+|`+Null+`
+|Count of Gene Ontology (GO) terms associated.
+
+|`+goTermDef+`
+|`+Array+`
+|List of GO term definitions.
+
+|`+goTermDomain+`
+|`+Array+`
+|List of domains for GO terms.
+
+|`+goTermEvid+`
+|`+Array+`
+|List of evidence for GO terms.
+
+|`+goTermId+`
+|`+Array+`
+|List of GO term IDs.
+
+|`+goTermName+`
+|`+Array+`
+|List of GO term names.
+
+|`+goUniprot+`
+|`+Array+`
+|List of UniProt IDs associated with GO terms.
+
+|`+hasQc+`
+|`+Null+`
+|Indicates if quality control (QC) has been performed.
+
+|`+hpId+`
+|`+Array+`
+|List of Human Phenotype Ontology (HPO) IDs.
+
+|`+hpTerm+`
+|`+Array+`
+|List of HPO terms.
+
+|`+humanCurated+`
+|`+Array+`
+|Indicates if the gene has been curated by human experts.
+
+|`+humanGeneSymbol+`
+|`+Array+`
+|List of human gene symbols associated with the gene.
+
+|`+humanSymbolSynonym+`
+|`+Null+`
+|List of human gene Synonym associated with the gene.
+
+|`+impcNovelPredictedInLocus+`
+|`+Array+`
+|Indicates if novel IMPC predictions exist within the gene locus.
+
+|`+impcPredicted+`
+|`+Array+`
+|Indicates if there are IMPC predictions for the gene.
+
+|`+impcPredictedInLocus+`
+|`+Null+`
+|Specific locus for the IMPC predicted gene.
+
+|`+impcPredictedKnownGene+`
+|`+Null+`
+|Indicates if known genes are predicted by IMPC within the locus.
+
+|`+inferredChildMaId+`
+|`+Array+`
+|List of inferred child Mouse Anatomy (MA) IDs.
+
+|`+inferredChildMaTerm+`
+|`+Array+`
+|List of inferred child MA terms.
+
+|`+inferredChildMaTermSynonym+`
+|`+Array+`
+|List of synonyms for the inferred child MA terms.
+
+|`+inferredMaId+`
+|`+Array+`
+|List of inferred Mouse Anatomy (MA) IDs.
+
+|`+inferredMaTerm+`
+|`+Array+`
+|List of inferred MA terms.
+
+|`+inferredMaTermSynonym+`
+|`+Array+`
+|List of synonyms for the inferred MA terms.
+
+|`+inferredSelectedTopLevelMaId+`
+|`+Array+`
+|List of IDs for the inferred selected top-level MA terms.
+
+|`+inferredSelectedTopLevelMaTerm+`
+|`+Array+`
+|List of inferred selected top-level MA terms.
+
+|`+inferredSelectedTopLevelMaTermSynonym+`
+|`+Array+`
+|List of synonyms for the inferred selected top-level MA terms.
+
+|`+intermediateMpId+`
+|`+Array+`
+|List of intermediate Mouse Phenotype (MP) IDs.
+
+|`+intermediateMpTerm+`
+|`+Array+`
+|List of intermediate MP terms.
+
+|`+intermediateMpTermSynonym+`
+|`+Array+`
+|List of synonyms for the intermediate MP terms.
+
+|`+isIdgGene+`
+|`+Boolean+`
+|Indicates if the gene is part of the IDG (Illuminating the Druggable Genome) project.
+
+|`+isUmassGene+`
+|`+Boolean+`
+|Indicates if the gene is associated with the University of Massachusetts.
+
+|`+maId+`
+|`+Array+`
+|List of Mouse Anatomy (MA) IDs.
+
+|`+maTerm+`
+|`+Array+`
+|List of MA terms.
+
+|`+maTermDefinition+`
+|`+Array+`
+|List of definitions for the MA terms.
+
+|`+maTermSynonym+`
+|`+Array+`
+|List of synonyms for the MA terms.
+
+|`+markerName+`
+|`+String+`
+|General name of the marker.
+
+|`+markerSymbol+`
+|`+String+`
+|Symbol representing the marker.
+
+|`+markerSynonym+`
+|`+Array+`
+|List of synonyms for the marker.
+
+|`+markerType+`
+|`+String+`
+|Type of marker.
+
+|`+mgiAccessionId+`
+|`+String+`
+|MGI (Mouse Genome Informatics) accession ID for the gene.
+
+|`+mgiNovelPredictedInLocus+`
+|`+Array+`
+|Indicates if novel MGI predictions exist within the gene locus.
+
+|`+mgiPredicted+`
+|`+Array+`
+|Indicates if there are MGI predictions for the gene.
+
+|`+mgiPredictedInLocus+`
+|`+String+`
+|Specific locus for the MGI predicted gene.
+
+|`+mgiPredictedKnownGene+`
+|`+Array+`
+|Indicates if known genes are predicted by MGI within the locus.
+
+|`+mouseCurated+`
+|`+Array+`
+|Indicates if the gene has been curated by mouse experts.
+
+|`+mouseProductionStatus+`
+|`+String+`
+|The production status of the mouse model for the gene.
+
+|`+mpId+`
+|`+Array+`
+|List of Mouse Phenotype (MP) IDs.
+
+|`+mpTerm+`
+|`+Array+`
+|List of MP terms.
+
+|`+mpTermDefinition+`
+|`+Array+`
+|List of definitions for the MP terms.
+
+|`+mpTermSynonym+`
+|`+Array+`
+|List of synonyms for the MP terms.
+
+|`+ncbiId+`
+|`+Array+`
+|List of NCBI IDs associated with the gene.
+
+|`+notSignificantTopLevelMpTerms+`
+|`+Array+`
+|List of top-level MP terms not deemed significant.
+
+|`+nullAlleleProductionStatus+`
+|`+String+`
+|Production status for null alleles.
+
+|`+pvalue+`
+|`+Array+`
+|List of p-values associated with statistical tests.
+
+|`+parameterName+`
+|`+Array+`
+|List of names for parameters used in experiments.
+
+|`+parameterStableId+`
+|`+Array+`
+|List of stable IDs for the experimental parameters.
+
+|`+pfamaAcc+`
+|`+Array+`
+|List of Pfam A accession numbers.
+
+|`+pfamaGoCat+`
+|`+Array+`
+|GO categories associated with Pfam A entries.
+
+|`+pfamaGoId+`
+|`+Array+`
+|GO IDs associated with Pfam A entries.
+
+|`+pfamaGoTerm+`
+|`+Array+`
+|GO terms associated with Pfam A entries.
+
+|`+pfamaId+`
+|`+Array+`
+|List of Pfam A IDs.
+
+|`+pfamaJson+`
+|`+Array+`
+|JSON data related to Pfam A entries.
+
+|`+phenotypeStatus+`
+|`+String+`
+|Status of the phenotyping effort for the gene.
+
+|`+phenotypingCentre+`
+|`+Array+`
+|List of centres where phenotyping has been conducted.
+
+|`+phenotypingDataAvailable+`
+|`+Boolean+`
+|Indicates if phenotyping data is available for the gene.
+
+|`+pipelineName+`
+|`+Array+`
+|List of names for pipelines used in data generation.
+
+|`+pipelineStableId+`
+|`+Array+`
+|List of stable IDs for the pipelines.
+
+|`+procParamName+`
+|`+Array+`
+|List of names for procedure parameters.
+
+|`+procParamStableId+`
+|`+Array+`
+|List of stable IDs for the procedure parameters.
+
+|`+procedureName+`
+|`+Array+`
+|List of names for procedures.
+
+|`+procedureStableId+`
+|`+Array+`
+|List of stable IDs for the procedures.
+
+|`+productionCentre+`
+|`+Array+`
+|List of centres responsible for producing the models.
+
+|`+scdbId+`
+|`+Array+`
+|List of IDs from the Sanger Cancer Database.
+
+|`+scdbLink+`
+|`+Array+`
+|List of links to the Sanger Cancer Database.
+
+|`+selectedTopLevelMaId+`
+|`+Array+`
+|List of selected top-level Mouse Anatomy (MA) IDs.
+
+|`+selectedTopLevelMaTerm+`
+|`+Array+`
+|List of selected top-level MA terms.
+
+|`+selectedTopLevelMaTermId+`
+|`+String+`
+|ID of the selected top-level MA term.
+
+|`+selectedTopLevelMaTermSynonym+`
+|`+Array+`
+|List of synonyms for the selected top-level MA terms.
+
+|`+seqRegionEnd+`
+|`+Number+`
+|End position on the sequence region.
+
+|`+seqRegionId+`
+|`+String+`
+|ID of the sequence region.
+
+|`+seqRegionStart+`
+|`+Number+`
+|Start position on the sequence region.
+
+|`+significantTopLevelMpTerms+`
+|`+Array+`
+|List of significant top-level MP terms.
+
+|`+subtype+`
+|`+Array+`
+|List of subtypes associated with the gene.
+
+|`+topLevelMpDefinition+`
+|`+String+`
+|Definition of the top-level MP term.
+
+|`+topLevelMpId+`
+|`+Array+`
+|List of top-level MP IDs.
+
+|`+topLevelMpTerm+`
+|`+Array+`
+|List of top-level MP terms.
+
+|`+topLevelMpTermSynonym+`
+|`+Array+`
+|List of synonyms for the top-level MP terms.
+
+|`+type+`
+|`+String+`
+|The type of document or data.
+
+|`+vegaId+`
+|`+Array+`
+|List of VEGA IDs associated with the gene.
+
+|`+xref+`
+|`+Array+`
+|List of cross-references for the gene.
+
+|===

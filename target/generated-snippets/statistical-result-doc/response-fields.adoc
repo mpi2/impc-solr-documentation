@@ -1,0 +1,532 @@
+|===
+|Path|Type|Description
+
+|`+docId+`
+|`+String+`
+|The document identifier unique to this dataset.
+
+|`+dbId+`
+|`+Number+`
+|The database identifier for the dataset.
+
+|`+dataType+`
+|`+String+`
+|The type of data represented in this dataset.
+
+|`+anatomyTermId[]+`
+|`+Array+`
+|List of anatomy term identifiers related to the dataset.
+
+|`+anatomyTermName[]+`
+|`+Array+`
+|List of anatomy term names related to the dataset.
+
+|`+intermediateAnatomyTermId[]+`
+|`+Array+`
+|List of intermediate anatomy term identifiers.
+
+|`+intermediateAnatomyTermName[]+`
+|`+Array+`
+|List of intermediate anatomy term names.
+
+|`+topLevelAnatomyTermId[]+`
+|`+Array+`
+|List of top-level anatomy term identifiers.
+
+|`+topLevelAnatomyTermName[]+`
+|`+Array+`
+|List of top-level anatomy term names.
+
+|`+mpTermIdOptions[]+`
+|`+Array+`
+|List of optional MP term identifiers.
+
+|`+mpTermNameOptions[]+`
+|`+Array+`
+|List of optional MP term names.
+
+|`+mpTermId+`
+|`+String+`
+|The identifier for the MP term.
+
+|`+mpTermName+`
+|`+String+`
+|The name of the MP term.
+
+|`+topLevelMpTermId[]+`
+|`+Array+`
+|List of top-level MP term identifiers.
+
+|`+topLevelMpTermName[]+`
+|`+Array+`
+|List of top-level MP term names.
+
+|`+intermediateMpTermId[]+`
+|`+Array+`
+|List of intermediate MP term identifiers.
+
+|`+intermediateMpTermName[]+`
+|`+Array+`
+|List of intermediate MP term names.
+
+|`+maleMpTermId+`
+|`+String+`
+|The identifier for the male MP term.
+
+|`+maleMpTermName+`
+|`+String+`
+|The name of the male MP term.
+
+|`+maleTopLevelMpTermId[]+`
+|`+Array+`
+|List of male top-level MP term identifiers.
+
+|`+maleTopLevelMpTermName[]+`
+|`+Array+`
+|List of male top-level MP term names.
+
+|`+maleIntermediateMpTermId[]+`
+|`+Array+`
+|List of male intermediate MP term identifiers.
+
+|`+maleIntermediateMpTermName[]+`
+|`+Array+`
+|List of male intermediate MP term names.
+
+|`+femaleMpTermId+`
+|`+String+`
+|The identifier for the female MP term.
+
+|`+femaleMpTermName+`
+|`+String+`
+|The name of the female MP term.
+
+|`+femaleTopLevelMpTermId[]+`
+|`+Array+`
+|List of female top-level MP term identifiers.
+
+|`+femaleTopLevelMpTermName[]+`
+|`+Array+`
+|List of female top-level MP term names.
+
+|`+femaleIntermediateMpTermId[]+`
+|`+Array+`
+|List of female intermediate MP term identifiers.
+
+|`+femaleIntermediateMpTermName[]+`
+|`+Array+`
+|List of female intermediate MP term names.
+
+|`+geneticBackground+`
+|`+String+`
+|The genetic background of the subjects in the dataset.
+
+|`+productionCenter+`
+|`+String+`
+|The center where the data was produced.
+
+|`+externalDbId+`
+|`+Number+`
+|External database identifier associated with the dataset.
+
+|`+id+`
+|`+Number+`
+|Unique identifier for the dataset.
+
+|`+organisationId+`
+|`+Number+`
+|Identifier of the organisation associated with the dataset.
+
+|`+phenotypingCenterId+`
+|`+Number+`
+|Identifier of the phenotyping center where the data was generated.
+
+|`+projectId+`
+|`+Number+`
+|Project identifier associated with the dataset.
+
+|`+maleControlMean+`
+|`+Number+`
+|The mean value for male controls.
+
+|`+maleMutantMean+`
+|`+Number+`
+|The mean value for male mutants.
+
+|`+femaleControlMean+`
+|`+Number+`
+|The mean value for female controls.
+
+|`+femaleMutantMean+`
+|`+Number+`
+|The mean value for female mutants.
+
+|`+genotypePValueLowVsNormalHigh+`
+|`+Number+`
+|P-value for genotype low versus normal/high comparison.
+
+|`+genotypePValueLowNormalVsHigh+`
+|`+Number+`
+|P-value for genotype low/normal versus high comparison.
+
+|`+genotypeEffectSizeLowVsNormalHigh+`
+|`+Number+`
+|Effect size for genotype low versus normal/high comparison.
+
+|`+genotypeEffectSizeLowNormalVsHigh+`
+|`+Number+`
+|Effect size for genotype low/normal versus high comparison.
+
+|`+femalePValueLowVsNormalHigh+`
+|`+Number+`
+|P-value for female low versus normal/high comparison.
+
+|`+femalePValueLowNormalVsHigh+`
+|`+Number+`
+|P-value for female low/normal versus high comparison.
+
+|`+femaleEffectSizeLowVsNormalHigh+`
+|`+Number+`
+|Effect size for female low versus normal/high comparison.
+
+|`+femaleEffectSizeLowNormalVsHigh+`
+|`+Number+`
+|Effect size for female low/normal versus high comparison.
+
+|`+malePValueLowVsNormalHigh+`
+|`+Number+`
+|P-value for male low versus normal/high comparison.
+
+|`+malePValueLowNormalVsHigh+`
+|`+Number+`
+|P-value for male low/normal versus high comparison.
+
+|`+maleEffectSizeLowVsNormalHigh+`
+|`+Number+`
+|Effect size for male low versus normal/high comparison.
+
+|`+maleEffectSizeLowNormalVsHigh+`
+|`+Number+`
+|Effect size for male low/normal versus high comparison.
+
+|`+categories[]+`
+|`+Array+`
+|Categories used in the statistical analysis.
+
+|`+categoricalPValue+`
+|`+Number+`
+|P-value for the categorical analysis.
+
+|`+categoricalEffectSize+`
+|`+Number+`
+|Effect size for the categorical analysis.
+
+|`+batchSignificant+`
+|`+Boolean+`
+|Indicates if batch effects are significant.
+
+|`+varianceSignificant+`
+|`+Boolean+`
+|Indicates if variance is significant.
+
+|`+nullTestPValue+`
+|`+Number+`
+|P-value for the null hypothesis test.
+
+|`+genotypeEffectPValue+`
+|`+Number+`
+|P-value for the genotype effect.
+
+|`+genotypeEffectStderrEstimate+`
+|`+Number+`
+|Standard error estimate for the genotype effect.
+
+|`+genotypeEffectParameterEstimate+`
+|`+Number+`
+|Parameter estimate for the genotype effect.
+
+|`+malePercentageChange+`
+|`+String+`
+|Percentage change for males.
+
+|`+femalePercentageChange+`
+|`+String+`
+|Percentage change for females.
+
+|`+sexEffectPValue+`
+|`+Number+`
+|P-value for the sex effect.
+
+|`+sexEffectStderrEstimate+`
+|`+Number+`
+|Standard error estimate for the sex effect.
+
+|`+sexEffectParameterEstimate+`
+|`+Number+`
+|Parameter estimate for the sex effect.
+
+|`+weightEffectPValue+`
+|`+Number+`
+|P-value for the weight effect.
+
+|`+weightEffectStderrEstimate+`
+|`+Number+`
+|Standard error estimate for the weight effect.
+
+|`+weightEffectParameterEstimate+`
+|`+Number+`
+|Parameter estimate for the weight effect.
+
+|`+group1Genotype+`
+|`+String+`
+|Genotype for group 1.
+
+|`+group1ResidualsNormalityTest+`
+|`+Number+`
+|Results of the residuals normality test for group 1.
+
+|`+group2Genotype+`
+|`+String+`
+|Genotype for group 2.
+
+|`+group2ResidualsNormalityTest+`
+|`+Number+`
+|Results of the residuals normality test for group 2.
+
+|`+blupsTest+`
+|`+Number+`
+|Results of the BLUPs test.
+
+|`+rotatedResidualsTest+`
+|`+Number+`
+|Results of the rotated residuals test.
+
+|`+interceptEstimate+`
+|`+Number+`
+|Estimate of the intercept.
+
+|`+interceptEstimateStderrEstimate+`
+|`+Number+`
+|Standard error estimate of the intercept estimate.
+
+|`+interactionSignificant+`
+|`+Boolean+`
+|Indicates if interaction effects are significant.
+
+|`+interactionEffectPValue+`
+|`+Number+`
+|P-value for the interaction effect.
+
+|`+softWindowingBandwidth+`
+|`+String+`
+|Bandwidth used in soft windowing.
+
+|`+softWindowingShape+`
+|`+String+`
+|Shape used in soft windowing.
+
+|`+softWindowingPeaks+`
+|`+String+`
+|Peaks identified in soft windowing.
+
+|`+softWindowingMinObsRequired+`
+|`+String+`
+|Minimum observations required for soft windowing.
+
+|`+softWindowingTotalObsOrWeight+`
+|`+String+`
+|Total observations or weight for soft windowing.
+
+|`+softWindowingThreshold+`
+|`+String+`
+|Threshold used in soft windowing.
+
+|`+softWindowingNumberOfDoe+`
+|`+String+`
+|Number of degrees of freedom in soft windowing.
+
+|`+softWindowingDoeNote+`
+|`+String+`
+|Notes on the degree of evidence in soft windowing.
+
+|`+metadata[]+`
+|`+Array+`
+|List of metadata associated with the dataset.
+
+|`+resourceName+`
+|`+String+`
+|The name of the resource.
+
+|`+resourceFullname+`
+|`+String+`
+|The full name of the resource.
+
+|`+resourceId+`
+|`+Number+`
+|The unique identifier for the resource.
+
+|`+projectName[]+`
+|`+Array+`
+|List of names of projects associated with the dataset.
+
+|`+phenotypingCenter+`
+|`+String+`
+|The name of the phenotyping center where the data was generated.
+
+|`+pipelineStableId+`
+|`+String+`
+|The stable identifier for the pipeline.
+
+|`+pipelineStableKey+`
+|`+Number+`
+|The stable key for the pipeline.
+
+|`+pipelineName+`
+|`+String+`
+|The name of the pipeline.
+
+|`+pipelineId+`
+|`+Number+`
+|The unique identifier for the pipeline.
+
+|`+procedureStableId[]+`
+|`+Array+`
+|List of stable identifiers for the procedures.
+
+|`+procedureStableKey[]+`
+|`+Array+`
+|List of stable keys for the procedures.
+
+|`+procedureName+`
+|`+String+`
+|The name of the procedure.
+
+|`+procedureId+`
+|`+Number+`
+|The unique identifier for the procedure.
+
+|`+parameterStableId+`
+|`+String+`
+|The stable identifier for the parameter.
+
+|`+parameterStableKey[]+`
+|`+Array+`
+|List of stable keys for the parameter.
+
+|`+parameterName+`
+|`+String+`
+|The name of the parameter.
+
+|`+parameterId+`
+|`+Number+`
+|The unique identifier for the parameter.
+
+|`+colonyId+`
+|`+String+`
+|The identifier for the colony.
+
+|`+markerSymbol+`
+|`+String+`
+|The symbol for the genetic marker.
+
+|`+markerAccessionId+`
+|`+String+`
+|The accession ID for the genetic marker.
+
+|`+alleleSymbol+`
+|`+String+`
+|The symbol for the allele.
+
+|`+alleleName+`
+|`+String+`
+|The name of the allele.
+
+|`+alleleAccessionId+`
+|`+String+`
+|The accession ID for the allele.
+
+|`+strainName+`
+|`+String+`
+|The name of the strain.
+
+|`+strainAccessionId+`
+|`+String+`
+|The accession ID for the strain.
+
+|`+sex+`
+|`+String+`
+|The sex of the organism.
+
+|`+zygosity+`
+|`+String+`
+|The zygosity of the organism.
+
+|`+controlSelectionMethod+`
+|`+String+`
+|The method used for control selection.
+
+|`+dependentVariable+`
+|`+String+`
+|The dependent variable being measured.
+
+|`+metadataGroup+`
+|`+String+`
+|The group classification of the metadata.
+
+|`+dataFrame+`
+|`+String+`
+|The frame of data being referred to.
+
+|`+femaleKoEffectPValue+`
+|`+Number+`
+|The P-value for the knockout effect in females.
+
+|`+femaleKoEffectStderrEstimate+`
+|`+Number+`
+|The standard error estimate for the knockout effect in females.
+
+|`+femaleKoParameterEstimate+`
+|`+Number+`
+|The parameter estimate for the knockout effect in females.
+
+|`+femaleEffectSize+`
+|`+Number+`
+|The effect size for females.
+
+|`+maleKoEffectPValue+`
+|`+Number+`
+|The P-value for the knockout effect in males.
+
+|`+maleKoEffectStderrEstimate+`
+|`+Number+`
+|The standard error estimate for the knockout effect in males.
+
+|`+maleKoParameterEstimate+`
+|`+Number+`
+|The parameter estimate for the knockout effect in males.
+
+|`+maleEffectSize+`
+|`+Number+`
+|The effect size for males.
+
+|`+classificationTag+`
+|`+String+`
+|A classification tag for the dataset.
+
+|`+phenotypeSex[]+`
+|`+Array+`
+|List indicating the sex(es) for which phenotype data is available.
+
+|`+lifeStageAcc+`
+|`+String+`
+|The accession code for the life stage.
+
+|`+lifeStageName+`
+|`+String+`
+|The name of the life stage.
+
+|`+significant+`
+|`+Boolean+`
+|Indicates whether the findings are statistically significant.
+
+|===

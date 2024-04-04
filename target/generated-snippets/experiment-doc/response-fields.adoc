@@ -1,0 +1,596 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+String+`
+|The unique identifier for the experiment.
+
+|`+observationId+`
+|`+String+`
+|The observation's unique identifier.
+
+|`+specimenId+`
+|`+String+`
+|The specimen's unique identifier.
+
+|`+phenotypingCenterId+`
+|`+Number+`
+|The unique identifier of the phenotyping center.
+
+|`+phenotypingCenter+`
+|`+String+`
+|The name of the phenotyping center.
+
+|`+productionCenterId+`
+|`+Number+`
+|The unique identifier of the production center.
+
+|`+productionCenter+`
+|`+String+`
+|The name of the production center.
+
+|`+specimenProjectId+`
+|`+Number+`
+|The unique identifier for the specimen project.
+
+|`+specimenProjectName+`
+|`+String+`
+|The name of the specimen project.
+
+|`+geneAccessionId+`
+|`+String+`
+|The accession ID of the gene.
+
+|`+geneSymbol+`
+|`+String+`
+|The symbol of the gene.
+
+|`+alleleAccessionId+`
+|`+String+`
+|The accession ID of the allele.
+
+|`+alleleSymbol+`
+|`+String+`
+|The symbol of the allele.
+
+|`+zygosity+`
+|`+String+`
+|The zygosity of the specimen.
+
+|`+sex+`
+|`+String+`
+|The sex of the specimen.
+
+|`+biologicalModelId+`
+|`+Number+`
+|The unique identifier for the biological model.
+
+|`+biologicalSampleId+`
+|`+Number+`
+|The unique identifier for the biological sample.
+
+|`+biologicalSampleGroup+`
+|`+String+`
+|The group of the biological sample.
+
+|`+strainAccessionId+`
+|`+String+`
+|The accession ID of the strain.
+
+|`+strainName+`
+|`+String+`
+|The name of the strain.
+
+|`+geneticBackground+`
+|`+String+`
+|The genetic background of the specimen.
+
+|`+allelicComposition+`
+|`+String+`
+|The allelic composition of the specimen.
+
+|`+colonyId+`
+|`+String+`
+|The unique identifier of the colony.
+
+|`+litterId+`
+|`+String+`
+|The unique identifier of the litter.
+
+|`+dateOfBirth+`
+|`+String+`
+|The date of birth of the specimen.
+
+|`+externalSampleId+`
+|`+String+`
+|The external sample identifier.
+
+|`+lifeStageName+`
+|`+String+`
+|The name of the life stage of the specimen.
+
+|`+lifeStageAcc+`
+|`+String+`
+|The accession code for the life stage.
+
+|`+datasourceId+`
+|`+Number+`
+|The unique identifier for the data source.
+
+|`+datasourceName+`
+|`+String+`
+|The name of the data source.
+
+|`+projectId+`
+|`+Number+`
+|The unique identifier for the project.
+
+|`+projectName+`
+|`+String+`
+|The name of the project.
+
+|`+pipelineId+`
+|`+Number+`
+|The unique identifier for the pipeline.
+
+|`+pipelineName+`
+|`+String+`
+|The name of the pipeline.
+
+|`+pipelineStableId+`
+|`+String+`
+|The stable identifier for the pipeline.
+
+|`+procedureId+`
+|`+Number+`
+|The unique identifier for the procedure.
+
+|`+procedureName+`
+|`+String+`
+|The name of the procedure.
+
+|`+procedureStableId+`
+|`+String+`
+|The stable identifier for the procedure.
+
+|`+procedureGroup+`
+|`+String+`
+|The group of the procedure.
+
+|`+parameterId+`
+|`+Number+`
+|The unique identifier for the parameter.
+
+|`+parameterName+`
+|`+String+`
+|The name of the parameter.
+
+|`+parameterStableId+`
+|`+String+`
+|The stable identifier for the parameter.
+
+|`+procedureSequenceId+`
+|`+String+`
+|The sequence identifier for the procedure.
+
+|`+experimentId+`
+|`+String+`
+|The unique identifier for the experiment.
+
+|`+observationType+`
+|`+String+`
+|The type of observation.
+
+|`+dataType+`
+|`+String+`
+|Defines the general category or type of the data, such as gene, allele, etc.
+
+|`+dateOfExperiment+`
+|`+String+`
+|The date when the experiment was conducted.
+
+|`+weightParameterStableId+`
+|`+String+`
+|The stable identifier for the weight parameter.
+
+|`+weightDate+`
+|`+String+`
+|The date corresponding to the weight measurement.
+
+|`+weightDaysOld+`
+|`+Number+`
+|The age in days of the specimen at the time of the weight measurement.
+
+|`+weight+`
+|`+Number+`
+|The weight of the specimen.
+
+|`+dataPoint+`
+|`+Number+`
+|A specific data point from the experiment.
+
+|`+orderIndex+`
+|`+Number+`
+|The index ordering of the data point.
+
+|`+dimension+`
+|`+String+`
+|The dimension to which the data point relates.
+
+|`+timePoint+`
+|`+String+`
+|The specific time point at which the data was collected.
+
+|`+discretePoint+`
+|`+Number+`
+|A discrete point measurement from the experiment.
+
+|`+category+`
+|`+String+`
+|The category of the data point.
+
+|`+rawCategory+`
+|`+String+`
+|The raw category data before processing.
+
+|`+metadata+`
+|`+Array+`
+|A list of metadata entries associated with the experiment.
+
+|`+metadataGroup+`
+|`+Null+`
+|The grouping for the metadata entries.
+
+|`+anatomyId+`
+|`+Array+`
+|A list of anatomy IDs relevant to the experiment.
+
+|`+anatomyTerm+`
+|`+Array+`
+|A list of anatomy terms relevant to the experiment.
+
+|`+anatomyIdTerm+`
+|`+Array+`
+|A list combining anatomy IDs and terms.
+
+|`+anatomyTermSynonym+`
+|`+Array+`
+|A list of synonyms for the anatomy terms.
+
+|`+topLevelAnatomyId+`
+|`+Array+`
+|A list of top-level anatomy IDs.
+
+|`+topLevelAnatomyTerm+`
+|`+Array+`
+|A list of top-level anatomy terms.
+
+|`+topLevelAnatomyTermSynonym+`
+|`+Array+`
+|A list of synonyms for the top-level anatomy terms.
+
+|`+selectedTopLevelAnatomyId+`
+|`+Array+`
+|A list of selected top-level anatomy IDs.
+
+|`+selectedTopLevelAnatomyTerm+`
+|`+Array+`
+|A list of selected top-level anatomy terms.
+
+|`+selectedTopLevelAnatomyTermSynonym+`
+|`+Array+`
+|A list of synonyms for the selected top-level anatomy terms.
+
+|`+intermediateAnatomyId+`
+|`+Array+`
+|A list of intermediate anatomy IDs.
+
+|`+intermediateAnatomyTerm+`
+|`+Array+`
+|A list of intermediate anatomy terms.
+
+|`+intermediateAnatomyTermSynonym+`
+|`+Array+`
+|A list of synonyms for the intermediate anatomy terms.
+
+|`+parentAnatomyId+`
+|`+Array+`
+|A list of parent anatomy IDs.
+
+|`+parentAnatomyTerm+`
+|`+Array+`
+|A list of parent anatomy terms.
+
+|`+parentAnatomyTermSynonym+`
+|`+Array+`
+|A list of synonyms for the parent anatomy terms.
+
+|`+childAnatomyId+`
+|`+Array+`
+|A list of child anatomy IDs.
+
+|`+childAnatomyTerm+`
+|`+Array+`
+|A list of child anatomy terms.
+
+|`+childAnatomyTermSynonym+`
+|`+Array+`
+|A list of synonyms for the child anatomy terms.
+
+|`+downloadFilePath+`
+|`+String+`
+|The file path for downloading associated data.
+
+|`+imageLink+`
+|`+String+`
+|A link to an associated image.
+
+|`+fileType+`
+|`+String+`
+|The file type of the associated data.
+
+|`+incrementValue+`
+|`+String+`
+|An increment value associated with the data.
+
+|`+parameterAssociationStableId+`
+|`+Array+`
+|A list of stable IDs for parameter associations.
+
+|`+parameterAssociationSequenceId+`
+|`+Array+`
+|A list of sequence IDs for parameter associations.
+
+|`+parameterAssociationDimId+`
+|`+Array+`
+|A list of dimension IDs for parameter associations.
+
+|`+parameterAssociationName+`
+|`+Array+`
+|A list of names for parameter associations.
+
+|`+parameterAssociationValue+`
+|`+Array+`
+|A list of values for parameter associations.
+
+|`+developmentalStageAcc+`
+|`+String+`
+|The accession code for the developmental stage.
+
+|`+developmentalStageName+`
+|`+String+`
+|The name of the developmental stage.
+
+|`+textValue+`
+|`+String+`
+|A text value associated with the experiment.
+
+|`+subTermId+`
+|`+Array+`
+|A list of sub-term IDs.
+
+|`+subTermName+`
+|`+Array+`
+|A list of sub-term names.
+
+|`+subTermDescription+`
+|`+Array+`
+|A list of descriptions for the sub-terms.
+
+|`+ageInDays+`
+|`+Number+`
+|The age in days of the specimen at the time of the experiment.
+
+|`+ageInWeeks+`
+|`+Number+`
+|The age in weeks of the specimen at the time of the experiment.
+
+|`+dataType+`
+|`+String+`
+|Defines the general category or type of the data, such as gene, allele, etc.
+
+|`+experimentSourceId+`
+|`+String+`
+|The unique identifier for the source of the experiment data.
+
+|`+dateOfExperiment+`
+|`+String+`
+|The date on which the experiment was conducted.
+
+|`+weightParameterStableId+`
+|`+String+`
+|The stable identifier for the weight parameter associated with the experiment.
+
+|`+weightDate+`
+|`+String+`
+|The date when the weight measurement was taken.
+
+|`+weightDaysOld+`
+|`+Number+`
+|The age of the specimen in days at the time of the weight measurement.
+
+|`+weight+`
+|`+Number+`
+|The weight of the specimen in grams.
+
+|`+dataPoint+`
+|`+Number+`
+|A data point from the experiment, applicable to various measurements.
+
+|`+orderIndex+`
+|`+Number+`
+|An index order for multidimensional data points.
+
+|`+dimension+`
+|`+String+`
+|The dimension associated with the data point, if applicable.
+
+|`+timePoint+`
+|`+String+`
+|The time point at which the measurement was taken during the experiment.
+
+|`+discretePoint+`
+|`+Number+`
+|A discrete measurement point in the context of the experiment.
+
+|`+category+`
+|`+String+`
+|A categorical designation for the data, if applicable.
+
+|`+rawCategory+`
+|`+String+`
+|The raw categorical data before any processing or categorization.
+
+|`+metadata+`
+|`+Array+`
+|A collection of metadata related to the experiment.
+
+|`+metadataGroup+`
+|`+Null+`
+|A grouping identifier for the metadata, organizing it into logical groups.
+
+|`+anatomyId+`
+|`+Array+`
+|List of anatomy identifiers relevant to the experiment.
+
+|`+anatomyTerm+`
+|`+Array+`
+|List of anatomical terms associated with the anatomy IDs.
+
+|`+anatomyIdTerm+`
+|`+Array+`
+|Combined list of anatomy IDs and their corresponding terms.
+
+|`+anatomyTermSynonym+`
+|`+Array+`
+|List of synonyms for the anatomical terms.
+
+|`+topLevelAnatomyId+`
+|`+Array+`
+|List of top-level anatomy identifiers.
+
+|`+topLevelAnatomyTerm+`
+|`+Array+`
+|List of top-level anatomical terms.
+
+|`+topLevelAnatomyTermSynonym+`
+|`+Array+`
+|List of synonyms for the top-level anatomical terms.
+
+|`+selectedTopLevelAnatomyId+`
+|`+Array+`
+|List of selected top-level anatomy identifiers, highlighting specific areas of interest.
+
+|`+selectedTopLevelAnatomyTerm+`
+|`+Array+`
+|List of selected top-level anatomical terms, indicating areas of particular relevance.
+
+|`+selectedTopLevelAnatomyTermSynonym+`
+|`+Array+`
+|List of synonyms for the selected top-level anatomical terms.
+
+|`+intermediateAnatomyId+`
+|`+Array+`
+|List of intermediate anatomy identifiers, bridging top-level and more specific anatomical structures.
+
+|`+intermediateAnatomyTerm+`
+|`+Array+`
+|List of intermediate anatomical terms.
+
+|`+intermediateAnatomyTermSynonym+`
+|`+Array+`
+|List of synonyms for the intermediate anatomical terms.
+
+|`+parentAnatomyId+`
+|`+Array+`
+|List of parent anatomy identifiers, indicating hierarchical relationships.
+
+|`+parentAnatomyTerm+`
+|`+Array+`
+|List of parent anatomical terms.
+
+|`+parentAnatomyTermSynonym+`
+|`+Array+`
+|List of synonyms for the parent anatomical terms.
+
+|`+childAnatomyId+`
+|`+Array+`
+|List of child anatomy identifiers, indicating specific derivations within the anatomical hierarchy.
+
+|`+childAnatomyTerm+`
+|`+Array+`
+|List of child anatomical terms.
+
+|`+childAnatomyTermSynonym+`
+|`+Array+`
+|List of synonyms for the child anatomical terms.
+
+|`+downloadFilePath+`
+|`+String+`
+|The file path from which associated data or files can be downloaded.
+
+|`+imageLink+`
+|`+String+`
+|A direct link to an image associated with the experiment.
+
+|`+fileType+`
+|`+String+`
+|The type of file available for download, indicating the format such as 'PDF', 'JPEG', etc.
+
+|`+incrementValue+`
+|`+String+`
+|An incremental value associated with the experiment, used in various contexts such as versioning.
+
+|`+parameterAssociationStableId+`
+|`+Array+`
+|A list of stable identifiers for parameters associated with the experiment.
+
+|`+parameterAssociationSequenceId+`
+|`+Array+`
+|A list of sequence identifiers for parameter associations, indicating order or hierarchy.
+
+|`+parameterAssociationDimId+`
+|`+Array+`
+|A list of dimension identifiers for parameter associations, used for multidimensional data.
+
+|`+parameterAssociationName+`
+|`+Array+`
+|A list of names for parameter associations, providing a descriptive label for each.
+
+|`+parameterAssociationValue+`
+|`+Array+`
+|A list of values for parameter associations, corresponding to each parameter association name.
+
+|`+developmentalStageAcc+`
+|`+String+`
+|The accession code for the developmental stage of the specimen involved in the experiment.
+
+|`+developmentalStageName+`
+|`+String+`
+|The name of the developmental stage, providing a clear description of the specimen's development phase.
+
+|`+textValue+`
+|`+String+`
+|A text value related to the experiment, which could represent various types of descriptive data.
+
+|`+subTermId+`
+|`+Array+`
+|A list of identifiers for sub-terms related to the experiment, used for detailed categorization.
+
+|`+subTermName+`
+|`+Array+`
+|A list of names for the sub-terms, providing descriptive labels for each sub-term identifier.
+
+|`+subTermDescription+`
+|`+Array+`
+|A list of descriptions for the sub-terms, offering detailed explanations for each.
+
+|`+ageInDays+`
+|`+Number+`
+|The age of the specimen in days at the time of the experiment, providing a precise measure of developmental stage.
+
+|`+ageInWeeks+`
+|`+Number+`
+|The age of the specimen in weeks at the time of the experiment, used for broader age categorization.
+
+|===

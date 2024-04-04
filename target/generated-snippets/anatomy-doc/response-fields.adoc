@@ -1,0 +1,288 @@
+|===
+|Path|Type|Description
+
+|`+dataType+`
+|`+String+`
+|Defines the general category or type of the data, such as gene, allele, etc.
+
+|`+anatomyId+`
+|`+Array+`
+|A unique identifier for an anatomical structure.
+
+|`+anatomyTerm+`
+|`+String+`
+|The official name of the anatomical structure.
+
+|`+anatomyTermSynonym+`
+|`+Array+`
+|Alternate names or synonyms for the anatomical structure.
+
+|`+anatomyNodeId+`
+|`+Array+`
+|Identifiers for nodes within an anatomical structure's hierarchical organization.
+
+|`+altAnatomyId+`
+|`+Array+`
+|Alternative identifiers for the anatomical structure.
+
+|`+stage+`
+|`+String+`
+|Developmental stage, distinguishing between adult and embryonic structures.
+
+|`+efoId+`
+|`+Array+`
+|Experimental Factor Ontology (EFO) ID for anatomical structures, used for mapping.
+
+|`+allAeMappedEfoId+`
+|`+Array+`
+|All EFO IDs mapped to anatomical structures for extended annotations.
+
+|`+uberonId+`
+|`+Array+`
+|Uberon ID, a cross-species ontology identifier for anatomical structures.
+
+|`+allAeMappedUberonId+`
+|`+Array+`
+|All Uberon IDs mapped to anatomical structures for extended annotations.
+
+|`+parentAnatomyId+`
+|`+Array+`
+|IDs of parent anatomical structures in a hierarchical organization.
+
+|`+parentAnatomyTerm+`
+|`+Array+`
+|Names of parent anatomical structures.
+
+|`+parentAnatomyTermSynonym+`
+|`+Array+`
+|Synonyms for parent anatomical structures.
+
+|`+childAnatomyId+`
+|`+Array+`
+|IDs of child anatomical structures in a hierarchical organization.
+
+|`+childAnatomyTerm+`
+|`+Array+`
+|Names of child anatomical structures.
+
+|`+childAnatomyTermSynonym+`
+|`+Array+`
+|Synonyms for child anatomical structures.
+
+|`+intermediateAnatomyId+`
+|`+Array+`
+|IDs of intermediate anatomical structures within the hierarchy.
+
+|`+intermediateAnatomyTerm+`
+|`+Array+`
+|Names of intermediate anatomical structures.
+
+|`+intermediateAnatomyTermSynonym+`
+|`+Array+`
+|Synonyms for intermediate anatomical structures.
+
+|`+topLevelAnatomyId+`
+|`+Array+`
+|IDs of top-level anatomical structures within the hierarchy.
+
+|`+topLevelAnatomyTerm+`
+|`+Array+`
+|Names of top-level anatomical structures.
+
+|`+topLevelAnatomyTermSynonym+`
+|`+Array+`
+|Synonyms for top-level anatomical structures.
+
+|`+selectedTopLevelAnatomyId+`
+|`+Array+`
+|IDs of selected top-level anatomical structures for focused research.
+
+|`+selectedTopLevelAnatomyTerm+`
+|`+Array+`
+|Names of selected top-level anatomical structures.
+
+|`+selectedTopLevelAnatomyTermSynonym+`
+|`+Array+`
+|Synonyms for selected top-level anatomical structures.
+
+|`+mpId+`
+|`+Array+`
+|Mammalian Phenotype (MP) ontology IDs associated with the anatomical structure.
+
+|`+mpTerm+`
+|`+Array+`
+|Names of the mammalian phenotypes associated.
+
+|`+mpTermSynonym+`
+|`+Array+`
+|Synonyms for the mammalian phenotypes.
+
+|`+topLevelMpId+`
+|`+Array+`
+|IDs of top-level mammalian phenotypes within the MP ontology hierarchy.
+
+|`+topLevelMpTerm+`
+|`+Array+`
+|Names of top-level mammalian phenotypes.
+
+|`+topLevelMpTermSynonym+`
+|`+Array+`
+|Synonyms for top-level mammalian phenotypes.
+
+|`+intermediateMpId+`
+|`+Array+`
+|IDs of intermediate mammalian phenotypes within the MP ontology hierarchy.
+
+|`+intermediateMpTerm+`
+|`+Array+`
+|Names of intermediate mammalian phenotypes.
+
+|`+intermediateMpTermSynonym+`
+|`+Array+`
+|Synonyms for intermediate mammalian phenotypes.
+
+|`+childMpId+`
+|`+Array+`
+|IDs of child mammalian phenotypes within the MP ontology hierarchy.
+
+|`+childMpTerm+`
+|`+Array+`
+|Names of child mammalian phenotypes.
+
+|`+childMpTermSynonym+`
+|`+Array+`
+|Synonyms for child mammalian phenotypes.
+
+|`+annotationTermId+`
+|`+Array+`
+|Generic field for IDs of terms used in annotations.
+
+|`+annotationTermName+`
+|`+Array+`
+|Generic field for names of terms used in annotations.
+
+|`+name+`
+|`+Array+`
+|A general name field, applicable to various contexts.
+
+|`+accession+`
+|`+Array+`
+|Accession numbers or identifiers for database entries.
+
+|`+expName+`
+|`+Array+`
+|Names associated with specific experiments or experimental data.
+
+|`+largeThumbnailFilePath+`
+|`+String+`
+|File path to the large version of a thumbnail image.
+
+|`+smallThumbnailFilePath+`
+|`+String+`
+|File path to the small version of a thumbnail image.
+
+|`+inferredMaTermId+`
+|`+Array+`
+|Mouse Anatomy (MA) Term IDs inferred from annotations.
+
+|`+inferredMaTermName+`
+|`+Array+`
+|Names of mouse anatomy terms inferred from annotations.
+
+|`+annotatedHigherLevelMaTermId+`
+|`+Array+`
+|IDs of higher-level mouse anatomy terms that have been directly annotated.
+
+|`+annotatedHigherLevelMaTermName+`
+|`+Array+`
+|Names of higher-level mouse anatomy terms that have been directly annotated.
+
+|`+annotatedHigherLevelMpTermId+`
+|`+Array+`
+|IDs of higher-level mammalian phenotype (MP) terms that have been directly annotated.
+
+|`+annotatedHigherLevelMpTermName+`
+|`+Array+`
+|Names of higher-level mammalian phenotype (MP) terms that have been directly annotated.
+
+|`+inferredHigherLevelMaTermId+`
+|`+Array+`
+|IDs of higher-level mouse anatomy terms inferred from other data.
+
+|`+inferredHigherLevelMaTermName+`
+|`+Array+`
+|Names of higher-level mouse anatomy terms inferred from other data.
+
+|`+annotatedOrInferredHigherLevelMaTermName+`
+|`+Array+`
+|Names of higher-level mouse anatomy terms, either annotated directly or inferred.
+
+|`+annotatedOrInferredHigherLevelMaTermId+`
+|`+Array+`
+|IDs of higher-level mouse anatomy terms, either annotated directly or inferred.
+
+|`+symbol+`
+|`+Array+`
+|Gene symbols or other relevant symbols associated with the data.
+
+|`+sangerSymbol+`
+|`+Array+`
+|Sanger Institute-specific symbols associated with the gene.
+
+|`+geneName+`
+|`+Array+`
+|The full name of the gene associated with the data.
+
+|`+subtype+`
+|`+Array+`
+|A subtype classification for the data, providing further contextual details.
+
+|`+geneSynonyms+`
+|`+Array+`
+|Synonyms or alternative names for the gene.
+
+|`+maTermId+`
+|`+Array+`
+|Mouse Anatomy (MA) Term IDs associated with the data.
+
+|`+maTermName+`
+|`+Array+`
+|The actual mouse anatomy terms associated with the MA IDs.
+
+|`+expNameExp+`
+|`+Array+`
+|Experimental names or designations, potentially a more specific or experimental context.
+
+|`+symbolGene+`
+|`+Array+`
+|Gene symbols, potentially used in a specific or alternative context.
+
+|`+topLevel+`
+|`+Array+`
+|Indicates whether the data pertains to a top-level classification or categorization.
+
+|`+text+`
+|`+Array+`
+|A catch-all text field containing searchable text from various other fields.
+
+|`+autoSuggest+`
+|`+Array+`
+|A field optimized for auto-suggestion functionality, containing n-grams for improved partial match searches.
+
+|`+anatomyQf+`
+|`+Array+`
+|A field specifically designed for anatomical query functions, supporting n-gram based searches.
+
+|`+searchTermJson+`
+|`+String+`
+|A JSON representation of search terms, possibly used for advanced search or filter functionalities.
+
+|`+childrenJson+`
+|`+String+`
+|A JSON representation of child elements or structures, used for hierarchical data representation.
+
+|`+scrollNode+`
+|`+String+`
+|An identifier used to maintain scroll position or context, especially in hierarchical or tree-structured data.
+
+|===

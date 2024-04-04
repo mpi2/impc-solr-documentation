@@ -1,0 +1,47 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 1834
+
+{
+  "alleleDesignProject" : "Design Project Example",
+  "alleleHasIssues" : false,
+  "alleleId" : "Allele123",
+  "alleleName" : "Allele Name Example",
+  "alleleDescription" : "Allele Description Example",
+  "alleleType" : "Allele Type Example",
+  "associatedProductColonyName" : "Colony Name Example",
+  "associatedProductEsCellName" : "ES Cell Name Example",
+  "associatedProductVectorName" : "Vector Name Example",
+  "associatedProductsColonyNames" : [ "Colony1", "Colony2" ],
+  "associatedProductsEsCellNames" : [ "ES Cell1", "ES Cell2" ],
+  "associatedProductsVectorNames" : [ "Vector1", "Vector2" ],
+  "cassette" : "Cassette Example",
+  "contactLinks" : [ "http://contact1.example.com", "http://contact2.example.com" ],
+  "contactNames" : [ "Contact Name 1", "Contact Name 2" ],
+  "designId" : "Design123",
+  "geneticInfo" : [ "Genetic Info 1", "Genetic Info 2" ],
+  "ikmcProjectId" : "IKMC123",
+  "loaAssays" : [ "Assay1", "Assay2" ],
+  "markerSymbol" : "Marker Symbol Example",
+  "mgiAccessionId" : "MGI:123456",
+  "name" : "Name Example",
+  "orderLinks" : [ "http://order1.example.com", "http://order2.example.com" ],
+  "orderNames" : [ "Order Name 1", "Order Name 2" ],
+  "otherLinks" : [ "http://other1.example.com", "http://other2.example.com" ],
+  "tissueEnquiryLinks" : [ "http://tissue1.example.com", "http://tissue2.example.com" ],
+  "tissueEnquiryTypes" : [ "Type 1", "Type 2" ],
+  "tissueDistributionCentres" : [ "Centre 1", "Centre 2" ],
+  "productId" : "Product123",
+  "productIndex" : "Index123",
+  "productionCentre" : "Centre Example",
+  "productionCompleted" : true,
+  "productionInfo" : [ "Production Info 1", "Production Info 2" ],
+  "productionPipeline" : "Pipeline Example",
+  "qcData" : [ "QC Data 1", "QC Data 2" ],
+  "status" : "Status Example",
+  "statusDate" : "2023-01-01",
+  "type" : "Type Example"
+}
+----

@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`+docId+`
+|`+String+`
+|Statistical Raw data Doc Id.
+
+|`+rawData+`
+|`+String+`
+|Statistical Raw data .
+
+|===

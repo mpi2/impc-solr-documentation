@@ -1,0 +1,100 @@
+|===
+|Path|Type|Description
+
+|`+hgHgncAccId+`
+|`+String+`
+|The HGNC accession ID.
+
+|`+hgSymbol+`
+|`+String+`
+|The HGNC symbol.
+
+|`+hmfCategoryForThreshold+`
+|`+String+`
+|The category for threshold.
+
+|`+hmfHumanGeneId+`
+|`+Number+`
+|The human gene ID.
+
+|`+hmfId+`
+|`+Number+`
+|The HMF ID.
+
+|`+hmfOrthologsAboveThreshold+`
+|`+Number+`
+|The number of orthologs above threshold.
+
+|`+hmfSupportCountThreshold+`
+|`+Number+`
+|The support count threshold.
+
+|`+id+`
+|`+String+`
+|The unique identifier for the gene ortholog.
+
+|`+mgMgiGeneAccId+`
+|`+String+`
+|The MGI gene accession ID.
+
+|`+mgSymbol+`
+|`+String+`
+|The MGI symbol.
+
+|`+mmfCategoryForThreshold+`
+|`+String+`
+|The category for threshold.
+
+|`+mmfId+`
+|`+Number+`
+|The MMF ID.
+
+|`+mmfMouseGeneId+`
+|`+Number+`
+|The mouse gene ID.
+
+|`+mmfOrthologsAboveThreshold+`
+|`+Number+`
+|The number of orthologs above threshold.
+
+|`+mmfSupportCountThreshold+`
+|`+Number+`
+|The support count threshold.
+
+|`+ocategory+`
+|`+String+`
+|The category.
+
+|`+ohumanGeneId+`
+|`+Number+`
+|The human gene ID.
+
+|`+oid+`
+|`+Number+`
+|The O ID.
+
+|`+oisMaxHumanToMouse+`
+|`+String+`
+|Indicates if it is max human to mouse.
+
+|`+oisMaxMouseToHuman+`
+|`+String+`
+|Indicates if it is max mouse to human.
+
+|`+omouseGeneId+`
+|`+Number+`
+|The mouse gene ID.
+
+|`+osupport+`
+|`+String+`
+|The support.
+
+|`+osupportCount+`
+|`+Number+`
+|The support count.
+
+|`+osupportRaw+`
+|`+String+`
+|The raw support.
+
+|===

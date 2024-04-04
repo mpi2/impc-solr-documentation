@@ -1,0 +1,296 @@
+|===
+|Path|Type|Description
+
+|`+fullyQualifiedName+`
+|`+String+`
+|The fully qualified name associated with the experiment.
+
+|`+dataType+`
+|`+String+`
+|The data type of the experiment.
+
+|`+version+`
+|`+Number+`
+|The version of the experiment data.
+
+|`+parameterId+`
+|`+Number+`
+|The unique identifier for the parameter.
+
+|`+parameterStableId+`
+|`+String+`
+|The stable identifier for the parameter.
+
+|`+parameterName+`
+|`+String+`
+|The name of the parameter.
+
+|`+parameterStableKey+`
+|`+Number+`
+|The stable key of the parameter.
+
+|`+procedureId+`
+|`+Number+`
+|The unique identifier for the procedure.
+
+|`+procedureStableId+`
+|`+String+`
+|The stable identifier for the procedure.
+
+|`+procedureName+`
+|`+String+`
+|The name of the procedure.
+
+|`+procedureStableKey+`
+|`+Number+`
+|The stable key of the procedure.
+
+|`+pipelineId+`
+|`+Number+`
+|The unique identifier for the pipeline.
+
+|`+pipelineStableId+`
+|`+String+`
+|The stable identifier for the pipeline.
+
+|`+pipelineName+`
+|`+String+`
+|The name of the pipeline.
+
+|`+pipelineStableKey+`
+|`+Number+`
+|The stable key of the pipeline.
+
+|`+required+`
+|`+Boolean+`
+|Indicates whether the parameter is required.
+
+|`+observationType+`
+|`+String+`
+|The type of observation made in the experiment.
+
+|`+mpTerms[]+`
+|`+Array+`
+|List of Mammalian Phenotype (MP) Ontology terms associated with the experiment.
+
+|`+description+`
+|`+String+`
+|The description of the experiment.
+
+|`+unitX+`
+|`+String+`
+|The unit of measurement for the X-axis.
+
+|`+unitY+`
+|`+String+`
+|The unit of measurement for the Y-axis.
+
+|`+metadata+`
+|`+Boolean+`
+|Indicates whether the experiment includes metadata.
+
+|`+increment+`
+|`+Boolean+`
+|Indicates whether the parameter value increments.
+
+|`+categories[]+`
+|`+Array+`
+|The categories associated with the experiment.
+
+|`+hasOptions+`
+|`+Boolean+`
+|Indicates whether the experiment has options.
+
+|`+derived+`
+|`+Boolean+`
+|Indicates whether the experiment data is derived.
+
+|`+media+`
+|`+Boolean+`
+|Indicates whether the experiment includes media content.
+
+|`+annotate+`
+|`+Boolean+`
+|Indicates whether the experiment is annotated.
+
+|`+comparableParameterGroup+`
+|`+String+`
+|The group of comparable parameters.
+
+|`+experimentLevel+`
+|`+String+`
+|The level of the experiment.
+
+|`+stage+`
+|`+String+`
+|The stage of the experiment.
+
+|`+stageLabel+`
+|`+String+`
+|The label for the stage of the experiment.
+
+|`+scheduleKey+`
+|`+Number+`
+|The schedule key for the experiment.
+
+|`+mpId[]+`
+|`+Array+`
+|List of Mammalian Phenotype (MP) Ontology IDs.
+
+|`+mpId[]+`
+|`+Array+`
+|List of Mammalian Phenotype (MP) Ontology IDs.
+
+|`+mpTerm[]+`
+|`+Array+`
+|List of Mammalian Phenotype (MP) Ontology terms.
+
+|`+mpTermSynonym[]+`
+|`+Array+`
+|List of synonyms for Mammalian Phenotype (MP) Ontology terms.
+
+|`+topLevelMpId[]+`
+|`+Array+`
+|List of top-level MP Ontology IDs.
+
+|`+topLevelMpTerm[]+`
+|`+Array+`
+|List of top-level MP Ontology terms.
+
+|`+topLevelMpTermSynonym[]+`
+|`+Array+`
+|List of synonyms for top-level MP Ontology terms.
+
+|`+intermediateMpId[]+`
+|`+Array+`
+|List of intermediate MP Ontology IDs.
+
+|`+intermediateMpTerm[]+`
+|`+Array+`
+|List of intermediate MP Ontology terms.
+
+|`+intermediateMpTermSynonym[]+`
+|`+Array+`
+|List of synonyms for intermediate MP Ontology terms.
+
+|`+abnormalMpId[]+`
+|`+Array+`
+|List of IDs for abnormal MP Ontology terms.
+
+|`+increasedMpId[]+`
+|`+Array+`
+|List of IDs for increased MP Ontology terms.
+
+|`+decreasedMpId[]+`
+|`+Array+`
+|List of IDs for decreased MP Ontology terms.
+
+|`+abnormalMpTerm[]+`
+|`+Array+`
+|List of abnormal MP Ontology terms.
+
+|`+increasedMpTerm[]+`
+|`+Array+`
+|List of increased MP Ontology terms.
+
+|`+decreasedMpTerm[]+`
+|`+Array+`
+|List of decreased MP Ontology terms.
+
+|`+hpId[]+`
+|`+Array+`
+|List of Human Phenotype Ontology (HPO) IDs.
+
+|`+hpTerm[]+`
+|`+Array+`
+|List of Human Phenotype Ontology (HPO) terms.
+
+|`+inferredMaId+`
+|`+String+`
+|The inferred Mouse Anatomy (MA) ID.
+
+|`+inferredSelectedTopLevelMaId+`
+|`+String+`
+|The inferred selected top-level Mouse Anatomy (MA) ID.
+
+|`+inferredSelectedTopLevelMaTerm+`
+|`+String+`
+|The inferred selected top-level Mouse Anatomy (MA) term.
+
+|`+maId+`
+|`+String+`
+|The Mouse Anatomy (MA) ID.
+
+|`+maTerm+`
+|`+String+`
+|The Mouse Anatomy (MA) term.
+
+|`+maTermSynonym[]+`
+|`+Array+`
+|List of synonyms for the Mouse Anatomy (MA) term.
+
+|`+emapId+`
+|`+String+`
+|The EMAP ID for the embryonic mouse anatomy.
+
+|`+emapTerm+`
+|`+String+`
+|The EMAP term for the embryonic mouse anatomy.
+
+|`+anatomyId+`
+|`+String+`
+|The anatomy ID.
+
+|`+anatomyTerm+`
+|`+String+`
+|The anatomy term.
+
+|`+anatomyTermSynonym[]+`
+|`+Array+`
+|List of synonyms for the anatomy term.
+
+|`+embryoAnatomyId+`
+|`+String+`
+|The embryo anatomy ID.
+
+|`+embryoAnatomyTerm+`
+|`+String+`
+|The embryo anatomy term.
+
+|`+topLevelEmbryoAnatomyId[]+`
+|`+Array+`
+|List of top-level embryo anatomy IDs.
+
+|`+topLevelEmbryoAnatomyTerm[]+`
+|`+Array+`
+|List of top-level embryo anatomy terms.
+
+|`+mouseAnatomyId+`
+|`+String+`
+|The mouse anatomy ID.
+
+|`+mouseAnatomyTerm+`
+|`+String+`
+|The mouse anatomy term.
+
+|`+topLevelMouseAnatomyId[]+`
+|`+Array+`
+|List of top-level mouse anatomy IDs.
+
+|`+topLevelMouseAnatomyTerm[]+`
+|`+Array+`
+|List of top-level mouse anatomy terms.
+
+|`+imitsPhenotypeStarted[]+`
+|`+Array+`
+|List indicating the start of phenotype analysis.
+
+|`+imitsPhenotypeComplete[]+`
+|`+Array+`
+|List indicating the completion of phenotype analysis.
+
+|`+imitsPhenotypeStatus[]+`
+|`+Array+`
+|List describing the status of phenotype analysis.
+
+|===

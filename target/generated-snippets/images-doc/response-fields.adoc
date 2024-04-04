@@ -1,0 +1,484 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+String+`
+|The unique identifier for the experiment.
+
+|`+dataType+`
+|`+String+`
+|The type of data for the experiment.
+
+|`+mouseId+`
+|`+Number+`
+|The unique identifier of the mouse involved in the experiment.
+
+|`+gender+`
+|`+String+`
+|The gender of the mouse.
+
+|`+colonyName+`
+|`+String+`
+|The name of the colony from which the mouse originates.
+
+|`+genotype+`
+|`+String+`
+|The genotype of the mouse.
+
+|`+tagName+`
+|`+Array+`
+|A list of tags associated with the experiment.
+
+|`+tagValue+`
+|`+Array+`
+|A list of values corresponding to each tag associated with the experiment.
+
+|`+xstart+`
+|`+Array+`
+|A list of start positions on the x-axis for the experiment measurements.
+
+|`+xend+`
+|`+Array+`
+|A list of end positions on the x-axis for the experiment measurements.
+
+|`+ystart+`
+|`+Array+`
+|A list of start positions on the y-axis for the experiment measurements.
+
+|`+yend+`
+|`+Array+`
+|A list of end positions on the y-axis for the experiment measurements.
+
+|`+annotationTermId+`
+|`+Array+`
+|A list of term IDs for annotations applied to the experiment data.
+
+|`+annotationTermName+`
+|`+Array+`
+|A list of term names for annotations applied to the experiment data.
+
+|`+name+`
+|`+String+`
+|The name of the experiment.
+
+|`+accession+`
+|`+String+`
+|The accession number associated with the experiment.
+
+|`+alleleAccession+`
+|`+String+`
+|The accession number for the allele involved in the experiment.
+
+|`+expName+`
+|`+Array+`
+|A list of names for the experiment.
+
+|`+procedureName+`
+|`+Array+`
+|A list of names of procedures involved in the experiment.
+
+|`+expDescription+`
+|`+Array+`
+|A list of descriptions for the experiment.
+
+|`+liveSampleGroup+`
+|`+Array+`
+|A list of live sample groups involved in the experiment.
+
+|`+fullResolutionFilePath+`
+|`+String+`
+|The file path for the full resolution image associated with the experiment.
+
+|`+largeThumbnailFilePath+`
+|`+String+`
+|The file path for the large thumbnail image associated with the experiment.
+
+|`+originalFileName+`
+|`+String+`
+|The original file name of the image associated with the experiment.
+
+|`+smallThumbnailFilePath+`
+|`+String+`
+|The file path for the small thumbnail image associated with the experiment.
+
+|`+ageInWeeks+`
+|`+String+`
+|The age of the mouse in weeks at the time of the experiment.
+
+|`+symbol+`
+|`+Array+`
+|A list of symbols associated with the gene involved in the experiment.
+
+|`+institute+`
+|`+String+`
+|The name of the institute where the experiment was conducted.
+
+|`+sangerSymbol+`
+|`+Array+`
+|A list of Sanger symbols associated with the gene involved in the experiment.
+
+|`+geneName+`
+|`+Array+`
+|A list of names for the gene involved in the experiment.
+
+|`+subtype+`
+|`+Array+`
+|A list of subtypes for the data involved in the experiment.
+
+|`+geneSynonyms+`
+|`+Array+`
+|A list of synonyms for the gene involved in the experiment.
+
+|`+alleleName+`
+|`+Array+`
+|A list of names for the allele involved in the experiment.
+
+|`+maTermName+`
+|`+Array+`
+|A list of Mouse Anatomy (MA) term names involved in the experiment.
+
+|`+mpTermId+`
+|`+Array+`
+|A list of Mouse Phenotype (MP) term IDs involved in the experiment.
+
+|`+mpTermName+`
+|`+Array+`
+|A list of Mouse Phenotype (MP) term names involved in the experiment.
+
+|`+expNameExp+`
+|`+Array+`
+|A list of experiment names associated with the experiment.
+
+|`+symbolGene+`
+|`+Array+`
+|A list of gene symbols associated with the experiment.
+
+|`+topLevel+`
+|`+Array+`
+|A list of top-level annotations or classifications.
+
+|`+liveSampleId+`
+|`+Array+`
+|A list of live sample identifiers associated with the experiment.
+
+|`+dcfId+`
+|`+String+`
+|The unique identifier for the data capture format.
+
+|`+dcfExpId+`
+|`+String+`
+|The unique identifier for the experiment within the data capture format context.
+
+|`+sangerProcedureName+`
+|`+String+`
+|The name of the procedure as defined by Sanger institute.
+
+|`+sangerProcedureId+`
+|`+Number+`
+|The unique identifier for the Sanger procedure.
+
+|`+genotypeString+`
+|`+String+`
+|The genotype of the subject in string format.
+
+|`+embryoDataAvailable+`
+|`+Boolean+`
+|Indicator if data for embryos are available.
+
+|`+phenotypingCenterId+`
+|`+Number+`
+|The unique identifier for the phenotyping center.
+
+|`+phenotypingCenter+`
+|`+String+`
+|The name of the phenotyping center where the experiment was conducted.
+
+|`+geneAccession+`
+|`+String+`
+|The accession number for the gene involved in the experiment.
+
+|`+geneSymbol+`
+|`+String+`
+|The symbol for the gene involved in the experiment.
+
+|`+zygosity+`
+|`+String+`
+|The zygosity of the subject involved in the experiment.
+
+|`+sex+`
+|`+String+`
+|The sex of the subject involved in the experiment.
+
+|`+biologicalModelId+`
+|`+Number+`
+|The unique identifier for the biological model used in the experiment.
+
+|`+biologicalSampleId+`
+|`+Number+`
+|The unique identifier for the biological sample used in the experiment.
+
+|`+biologicalSampleGroup+`
+|`+String+`
+|The group classification for the biological sample.
+
+|`+colonyId+`
+|`+Number+`
+|The unique identifier for the colony from which the subject originated.
+
+|`+dateOfBirth+`
+|`+String+`
+|The date of birth of the subject.
+
+|`+externalSampleId+`
+|`+String+`
+|The external identifier for the sample used in the experiment.
+
+|`+pipelineId+`
+|`+Number+`
+|The unique identifier for the pipeline used in the experiment.
+
+|`+pipelineName+`
+|`+String+`
+|The name of the pipeline used in the experiment.
+
+|`+pipelineStableId+`
+|`+String+`
+|The stable identifier for the pipeline.
+
+|`+procedureId+`
+|`+Number+`
+|The unique identifier for the procedure used in the experiment.
+
+|`+procedureStableId+`
+|`+String+`
+|The stable identifier for the procedure.
+
+|`+parameterId+`
+|`+Number+`
+|The unique identifier for the parameter measured in the experiment.
+
+|`+parameterName+`
+|`+String+`
+|The name of the parameter measured.
+
+|`+parameterStableId+`
+|`+String+`
+|The stable identifier for the parameter.
+
+|`+experimentId+`
+|`+Number+`
+|The unique identifier for the experiment.
+
+|`+experimentSourceId+`
+|`+String+`
+|The source identifier for the experiment.
+
+|`+dateOfExperiment+`
+|`+String+`
+|The date on which the experiment was conducted.
+
+|`+pvalue+`
+|`+Array+`
+|A list of p-values calculated in the experiment.
+
+|`+mgiAccessionId+`
+|`+Array+`
+|A list of MGI accession IDs associated with the gene involved in the experiment.
+
+|`+markerSymbol+`
+|`+Array+`
+|A list of marker symbols associated with the gene.
+
+|`+markerName+`
+|`+Array+`
+|A list of marker names associated with the gene.
+
+|`+markerSynonym+`
+|`+Array+`
+|A list of synonyms for the marker.
+
+|`+markerType+`
+|`+Array+`
+|A list of marker types.
+
+|`+humanGeneSymbol+`
+|`+Array+`
+|A list of human gene symbols associated with the experiment.
+
+|`+status+`
+|`+Array+`
+|A list of statuses reflecting the current state of the experiment or subject.
+
+|`+latestProductionCentre+`
+|`+Array+`
+|A list of names for the latest production centres involved.
+
+|`+latestPhenotypingCentre+`
+|`+Array+`
+|A list of names for the latest phenotyping centres involved.
+
+|`+latestPhenotypeStatus+`
+|`+Array+`
+|A list of latest phenotype statuses.
+
+|`+legacyPhenotypeStatus+`
+|`+Number+`
+|The legacy phenotype status code.
+
+|`+diseaseId+`
+|`+Array+`
+|A list of disease IDs associated with the experiment.
+
+|`+diseaseSource+`
+|`+Array+`
+|A list of sources for the disease data.
+
+|`+diseaseTerm+`
+|`+Array+`
+|A list of disease terms associated with the experiment.
+
+|`+diseaseAlts+`
+|`+Array+`
+|A list of alternative names for the diseases.
+
+|`+diseaseClasses+`
+|`+Array+`
+|A list of disease classifications.
+
+|`+humanCurated+`
+|`+Array+`
+|Indicators for whether the association was human-curated.
+
+|`+mouseCurated+`
+|`+Array+`
+|Indicators for whether the association was curated based on mouse data.
+
+|`+mgiPredicted+`
+|`+Array+`
+|Indicators for whether the gene association was predicted by MGI.
+
+|`+impcPredicted+`
+|`+Array+`
+|Indicators for whether the gene association was predicted by IMPC.
+
+|`+mgiPredictedKnownGene+`
+|`+Array+`
+|Indicators for whether the association with a known gene was predicted by MGI.
+
+|`+impcPredictedKnownGene+`
+|`+Array+`
+|Indicators for whether the association with a known gene was predicted by IMPC.
+
+|`+mgiNovelPredictedInLocus+`
+|`+Array+`
+|Indicators for novel genes predicted in the locus by MGI.
+
+|`+impcNovelPredictedInLocus+`
+|`+Array+`
+|Indicators for novel genes predicted in the locus by IMPC.
+
+|`+mpId+`
+|`+Array+`
+|A list of Mouse Phenotype (MP) IDs.
+
+|`+mpTerm+`
+|`+Array+`
+|A list of MP terms.
+
+|`+mpTermSynonym+`
+|`+Array+`
+|A list of synonyms for the MP terms.
+
+|`+topLevelMpId+`
+|`+Array+`
+|A list of top-level MP IDs.
+
+|`+topLevelMpTerm+`
+|`+Array+`
+|A list of top-level MP terms.
+
+|`+topLevelMpTermSynonym+`
+|`+Array+`
+|A list of synonyms for the top-level MP terms.
+
+|`+intermediateMpId+`
+|`+Array+`
+|A list of intermediate MP IDs.
+
+|`+intermediateMpTerm+`
+|`+Array+`
+|A list of intermediate MP terms.
+
+|`+intermediateMpTermSynonym+`
+|`+Array+`
+|A list of synonyms for the intermediate MP terms.
+
+|`+childMpId+`
+|`+Array+`
+|A list of child MP IDs.
+
+|`+childMpTerm+`
+|`+Array+`
+|A list of child MP terms.
+
+|`+childMpTermSynonym+`
+|`+Array+`
+|A list of synonyms for the child MP terms.
+
+|`+annotatedHigherLevelMpTermId+`
+|`+Array+`
+|A list of IDs for MP terms annotated at a higher level.
+
+|`+annotatedHigherLevelMpTermName+`
+|`+Array+`
+|A list of names for MP terms annotated at a higher level.
+
+|`+maId+`
+|`+Array+`
+|A list of Mouse Anatomy (MA) IDs.
+
+|`+maTerm+`
+|`+Array+`
+|A list of MA terms.
+
+|`+maTermSynonym+`
+|`+Array+`
+|A list of synonyms for the MA terms.
+
+|`+selectedTopLevelMaId+`
+|`+Array+`
+|A list of selected top-level MA IDs.
+
+|`+selectedTopLevelMaTerm+`
+|`+Array+`
+|A list of selected top-level MA terms.
+
+|`+selectedTopLevelMaTermSynonym+`
+|`+Array+`
+|A list of synonyms for the selected top-level MA terms.
+
+|`+childMaId+`
+|`+Array+`
+|A list of child MA IDs.
+
+|`+childMaTerm+`
+|`+Array+`
+|A list of child MA terms.
+
+|`+childMaTermSynonym+`
+|`+Array+`
+|A list of synonyms for the child MA terms.
+
+|`+hpId+`
+|`+Array+`
+|A list of Human Phenotype Ontology (HPO) IDs.
+
+|`+hpTerm+`
+|`+Array+`
+|A list of HPO terms.
+
+|`+text+`
+|`+Array+`
+|A list of text fields for full-text search.
+
+|===

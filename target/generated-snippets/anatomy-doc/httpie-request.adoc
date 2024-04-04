@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http GET 'http://localhost:8080/getAnatomyDoc' \
+    'Content-Type:application/json'
+----

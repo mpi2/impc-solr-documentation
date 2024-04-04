@@ -1,0 +1,432 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+String+`
+|The unique identifier for the experiment.
+
+|`+observationId+`
+|`+String+`
+|The observation ID associated with this experiment.
+
+|`+specimenId+`
+|`+String+`
+|The specimen ID related to this experiment.
+
+|`+phenotypingCenterId+`
+|`+Number+`
+|The ID of the phenotyping center where the experiment was conducted.
+
+|`+phenotypingCenter+`
+|`+String+`
+|The name of the phenotyping center.
+
+|`+productionCenterId+`
+|`+Number+`
+|The ID of the production center related to the specimen.
+
+|`+productionCenter+`
+|`+String+`
+|The name of the production center.
+
+|`+specimenProjectId+`
+|`+Number+`
+|The project ID associated with the specimen.
+
+|`+specimenProjectName+`
+|`+String+`
+|The name of the project associated with the specimen.
+
+|`+geneAccessionId+`
+|`+String+`
+|The accession ID for the gene of interest.
+
+|`+geneSymbol+`
+|`+String+`
+|The symbol representing the gene of interest.
+
+|`+alleleAccessionId+`
+|`+String+`
+|The accession ID for the allele of interest.
+
+|`+alleleSymbol+`
+|`+String+`
+|The symbol for the allele of interest.
+
+|`+zygosity+`
+|`+String+`
+|The zygosity of the specimen.
+
+|`+sex+`
+|`+String+`
+|The sex of the specimen.
+
+|`+biologicalModelId+`
+|`+Number+`
+|The ID of the biological model used.
+
+|`+biologicalSampleId+`
+|`+Number+`
+|The ID of the biological sample.
+
+|`+biologicalSampleGroup+`
+|`+String+`
+|The group classification of the biological sample.
+
+|`+strainAccessionId+`
+|`+String+`
+|The accession ID for the strain.
+
+|`+strainName+`
+|`+String+`
+|The name of the strain.
+
+|`+geneticBackground+`
+|`+String+`
+|The genetic background of the specimen.
+
+|`+allelicComposition+`
+|`+String+`
+|The allelic composition of the specimen.
+
+|`+colonyId+`
+|`+String+`
+|The ID of the colony from which the specimen originates.
+
+|`+litterId+`
+|`+String+`
+|The ID of the litter from which the specimen originates.
+
+|`+dateOfBirth+`
+|`+String+`
+|The date of birth of the specimen.
+
+|`+externalSampleId+`
+|`+String+`
+|An external identifier for the sample.
+
+|`+lifeStageName+`
+|`+String+`
+|The life stage of the specimen.
+
+|`+lifeStageAcc+`
+|`+String+`
+|The accession number associated with the life stage.
+
+|`+datasourceId+`
+|`+Number+`
+|The ID of the data source.
+
+|`+datasourceName+`
+|`+String+`
+|The name of the data source.
+
+|`+projectId+`
+|`+Number+`
+|The project ID.
+
+|`+projectName+`
+|`+String+`
+|The name of the project.
+
+|`+pipelineId+`
+|`+Number+`
+|The pipeline ID.
+
+|`+pipelineName+`
+|`+String+`
+|The name of the pipeline.
+
+|`+pipelineStableId+`
+|`+String+`
+|The stable ID of the pipeline.
+
+|`+procedureId+`
+|`+Number+`
+|The procedure ID.
+
+|`+procedureName+`
+|`+String+`
+|The name of the procedure.
+
+|`+procedureStableId+`
+|`+String+`
+|The stable ID of the procedure.
+
+|`+procedureGroup+`
+|`+String+`
+|The procedure group.
+
+|`+parameterId+`
+|`+Number+`
+|The parameter ID.
+
+|`+parameterName+`
+|`+String+`
+|The name of the parameter.
+
+|`+parameterStableId+`
+|`+String+`
+|The stable ID of the parameter.
+
+|`+procedureSequenceId+`
+|`+String+`
+|The procedure sequence ID.
+
+|`+experimentId+`
+|`+String+`
+|The experiment ID.
+
+|`+observationType+`
+|`+String+`
+|The type of observation.
+
+|`+dataType+`
+|`+String+`
+|The type of data.
+
+|`+experimentSourceId+`
+|`+String+`
+|The source ID of the experiment.
+
+|`+dateOfExperiment+`
+|`+String+`
+|The date the experiment was conducted.
+
+|`+weightParameterStableId+`
+|`+String+`
+|The stable ID for the weight parameter.
+
+|`+weightDate+`
+|`+String+`
+|The date of the weight measurement.
+
+|`+weightDaysOld+`
+|`+Number+`
+|The age of the specimen in days at the time of the weight measurement.
+
+|`+weight+`
+|`+Number+`
+|The weight of the specimen.
+
+|`+dataPoint+`
+|`+Number+`
+|A data point associated with the experiment.
+
+|`+orderIndex+`
+|`+Number+`
+|The order index.
+
+|`+dimension+`
+|`+String+`
+|The dimension of the data point.
+
+|`+timePoint+`
+|`+String+`
+|The time point at which the data was collected.
+
+|`+discretePoint+`
+|`+Number+`
+|A discrete data point.
+
+|`+category+`
+|`+String+`
+|The category of the data.
+
+|`+rawCategory+`
+|`+String+`
+|The raw category of the data.
+
+|`+metadata+`
+|`+Array+`
+|Metadata associated with the experiment.
+
+|`+metadataGroup+`
+|`+String+`
+|The group of the metadata.
+
+|`+mpId[]+`
+|`+Array+`
+|The MP IDs associated with the experiment.
+
+|`+mpTerm[]+`
+|`+Array+`
+|The MP terms associated with the experiment.
+
+|`+anatomyId[]+`
+|`+Array+`
+|The anatomy IDs related to the experiment.
+
+|`+anatomyTerm[]+`
+|`+Array+`
+|The anatomy terms related to the experiment.
+
+|`+anatomyIdTerm[]+`
+|`+Array+`
+|Combined anatomy ID and term related to the experiment.
+
+|`+anatomyTermSynonym[]+`
+|`+Array+`
+|Synonyms for the anatomy terms.
+
+|`+topLevelAnatomyId[]+`
+|`+Array+`
+|Top-level anatomy IDs related to the experiment.
+
+|`+topLevelAnatomyTerm[]+`
+|`+Array+`
+|Top-level anatomy terms related to the experiment.
+
+|`+selectedTopLevelAnatomyId[]+`
+|`+Array+`
+|Selected top-level anatomy IDs.
+
+|`+selectedTopLevelAnatomyTerm[]+`
+|`+Array+`
+|Selected top-level anatomy terms.
+
+|`+intermediateAnatomyId[]+`
+|`+Array+`
+|Intermediate anatomy IDs.
+
+|`+intermediateAnatomyTerm[]+`
+|`+Array+`
+|Intermediate anatomy terms.
+
+|`+parentAnatomyId[]+`
+|`+Array+`
+|Parent anatomy IDs.
+
+|`+parentAnatomyTerm[]+`
+|`+Array+`
+|Parent anatomy terms.
+
+|`+childAnatomyId[]+`
+|`+Array+`
+|Child anatomy IDs.
+
+|`+childAnatomyTerm[]+`
+|`+Array+`
+|Child anatomy terms.
+
+|`+downloadFilePath+`
+|`+String+`
+|Path to download the file associated with the experiment.
+
+|`+imageLink+`
+|`+String+`
+|Link to the image associated with the experiment.
+
+|`+fileType+`
+|`+String+`
+|The type of file.
+
+|`+parameterAssociationStableId[]+`
+|`+Array+`
+|Stable IDs for the parameter associations.
+
+|`+parameterAssociationSequenceId[]+`
+|`+Array+`
+|Sequence IDs for the parameter associations.
+
+|`+parameterAssociationDimId[]+`
+|`+Array+`
+|Dimension IDs for the parameter associations.
+
+|`+parameterAssociationName[]+`
+|`+Array+`
+|Names of the parameter associations.
+
+|`+parameterAssociationValue[]+`
+|`+Array+`
+|Values of the parameter associations.
+
+|`+developmentalStageAcc+`
+|`+String+`
+|Accession number for the developmental stage.
+
+|`+developmentalStageName+`
+|`+String+`
+|Name of the developmental stage.
+
+|`+textValue+`
+|`+String+`
+|Text value associated with the experiment.
+
+|`+subTermId[]+`
+|`+Array+`
+|Sub-term IDs related to the experiment.
+
+|`+subTermName[]+`
+|`+Array+`
+|Sub-term names related to the experiment.
+
+|`+subTermDescription[]+`
+|`+Array+`
+|Descriptions of the sub-terms.
+
+|`+sequenceId+`
+|`+Number+`
+|The sequence ID related to the experiment.
+
+|`+ageInDays+`
+|`+Number+`
+|Age of the specimen in days.
+
+|`+ageInWeeks+`
+|`+Number+`
+|Age of the specimen in weeks.
+
+|`+downloadUrl+`
+|`+String+`
+|URL to download data or resources associated with the experiment.
+
+|`+jpegUrl+`
+|`+String+`
+|URL to a JPEG image related to the experiment.
+
+|`+thumbnailUrl+`
+|`+String+`
+|URL to a thumbnail image related to the experiment.
+
+|`+omeroId+`
+|`+String+`
+|OMERO database ID for the image.
+
+|`+topLevelMpId[]+`
+|`+Array+`
+|The top-level MP (Mouse Phenotype) IDs associated with the experiment.
+
+|`+topLevelMpTerm[]+`
+|`+Array+`
+|The top-level MP terms associated with the experiment.
+
+|`+intermediateMpId[]+`
+|`+Array+`
+|The intermediate MP IDs associated with the experiment.
+
+|`+intermediateMpTerm[]+`
+|`+Array+`
+|The intermediate MP terms associated with the experiment.
+
+|`+topLevelAnatomyTermSynonym+`
+|`+Null+`
+|Synonyms for the top-level anatomy terms.
+
+|`+selectedTopLevelAnatomyTermSynonym+`
+|`+Null+`
+|Synonyms for the selected top-level anatomy terms.
+
+|`+intermediateAnatomyTermSynonym+`
+|`+Null+`
+|Synonyms for the intermediate anatomy terms.
+
+|`+parentAnatomyTermSynonym+`
+|`+Null+`
+|Synonyms for the parent anatomy terms.
+
+|`+childAnatomyTermSynonym+`
+|`+Null+`
+|Synonyms for the child anatomy terms.
+
+|===
