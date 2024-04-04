@@ -1,0 +1,25 @@
+= Solr Images Model
+:date:
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 3
+:sectlinks:
+:sectnums:
+
+== Introduction
+
+
+== Images
+
+=== Fields
+include::{snippets}/images-doc/response-fields.adoc[]
+
+=== Example Json
+include::{snippets}/images-doc/http-response.adoc[]
+
+== Latest updates
+
+* 2022-07-21: Documentation Added

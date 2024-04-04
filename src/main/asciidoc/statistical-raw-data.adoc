@@ -1,0 +1,25 @@
+= Solr Statistical Raw Data Model
+:date:
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 3
+:sectlinks:
+:sectnums:
+
+== Introduction
+
+
+== Statistical Raw Data
+
+=== Fields
+include::{snippets}/statistical-raw-data-doc/response-fields.adoc[]
+
+=== Example Json
+include::{snippets}/statistical-raw-data-doc/http-response.adoc[]
+
+== Latest updates
+
+* 2022-07-21: Documentation Added

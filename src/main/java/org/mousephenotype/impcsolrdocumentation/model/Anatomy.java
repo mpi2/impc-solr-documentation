@@ -1,0 +1,82 @@
+package org.mousephenotype.impcsolrdocumentation.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
+
+@Setter
+@Getter
+public class Anatomy {
+    private String dataType;
+    private List<String> anatomyId;
+    private String anatomyTerm;
+    private List<String> anatomyTermSynonym;
+    private List<Integer> anatomyNodeId;
+    private List<String> altAnatomyId;
+    private String stage;
+    private List<String> efoId;
+    private List<String> allAeMappedEfoId;
+    private List<String> uberonId;
+    private List<String> allAeMappedUberonId;
+    private List<String> parentAnatomyId;
+    private List<String> parentAnatomyTerm;
+    private List<String> parentAnatomyTermSynonym;
+    private List<String> childAnatomyId;
+    private List<String> childAnatomyTerm;
+    private List<String> childAnatomyTermSynonym;
+    private List<String> intermediateAnatomyId;
+    private List<String> intermediateAnatomyTerm;
+    private List<String> intermediateAnatomyTermSynonym;
+    private List<String> topLevelAnatomyId;
+    private List<String> topLevelAnatomyTerm;
+    private List<String> topLevelAnatomyTermSynonym;
+    private List<String> selectedTopLevelAnatomyId;
+    private List<String> selectedTopLevelAnatomyTerm;
+    private List<String> selectedTopLevelAnatomyTermSynonym;
+    private List<String> mpId;
+    private List<String> mpTerm;
+    private List<String> mpTermSynonym;
+    private List<String> topLevelMpId;
+    private List<String> topLevelMpTerm;
+    private List<String> topLevelMpTermSynonym;
+    private List<String> intermediateMpId;
+    private List<String> intermediateMpTerm;
+    private List<String> intermediateMpTermSynonym;
+    private List<String> childMpId;
+    private List<String> childMpTerm;
+    private List<String> childMpTermSynonym;
+    private List<String> annotationTermId;
+    private List<String> annotationTermName;
+    private List<String> name;
+    private List<String> accession;
+    private List<String> expName;
+    private String largeThumbnailFilePath;
+    private String smallThumbnailFilePath;
+    private List<String> inferredMaTermId;
+    private List<String> inferredMaTermName;
+    private List<String> annotatedHigherLevelMaTermId;
+    private List<String> annotatedHigherLevelMaTermName;
+    private List<String> annotatedHigherLevelMpTermId;
+    private List<String> annotatedHigherLevelMpTermName;
+    private List<String> inferredHigherLevelMaTermId;
+    private List<String> inferredHigherLevelMaTermName;
+    private List<String> annotatedOrInferredHigherLevelMaTermName;
+    private List<String> annotatedOrInferredHigherLevelMaTermId;
+    private List<String> symbol;
+    private List<String> sangerSymbol;
+    private List<String> geneName;
+    private List<String> subtype;
+    private List<String> geneSynonyms;
+    private List<String> maTermId;
+    private List<String> maTermName;
+    private List<String> expNameExp;
+    private List<String> symbolGene;
+    private List<String> topLevel;
+    private List<String> text;
+    private List<String> autoSuggest;
+    private List<String> anatomyQf;
+    private String searchTermJson;
+    private String childrenJson;
+    private String scrollNode;
+}

@@ -1,0 +1,124 @@
+package org.mousephenotype.impcsolrdocumentation.generator;
+
+import org.mousephenotype.impcsolrdocumentation.model.Gene;
+
+import java.util.List;
+
+public class GeneGenerator {
+
+
+    public static Gene generateExampleGeneResponse() {
+        Gene gene = new Gene();
+        gene.setAlleleAccessionId(List.of("MGI:123456"));
+        gene.setAlleleName(List.of("Allele Name 1", "Allele Name 2"));
+        gene.setAltMpId(List.of("MP:0000001", "MP:0000002"));
+        gene.setAnnotatedHigherLevelMaTermName(List.of("Term 1", "Term 2"));
+        gene.setAnnotatedHigherLevelMpTermName(List.of("Term 3", "Term 4"));
+        gene.setCcdsId(List.of("CCDS:1234", "CCDS:5678"));
+        gene.setChildMaId(List.of("MA:0000001", "MA:0000002"));
+        gene.setChildMaTerm(List.of("Child MA Term 1", "Child MA Term 2"));
+        gene.setChildMaTermSynonym(List.of("Synonym 1", "Synonym 2"));
+        gene.setChildMpId(List.of("MP:0000003", "MP:0000004"));
+        gene.setChildMpTerm(List.of("Child MP Term 1", "Child MP Term 2"));
+        gene.setChildMpTermSynonym(List.of("Child Synonym 1", "Child Synonym 2"));
+        gene.setClanAcc(List.of("Clan 1", "Clan 2"));
+        gene.setClanDesc(List.of("Clan Desc 1", "Clan Desc 2"));
+        gene.setClanId(List.of("Clan ID 1", "Clan ID 2"));
+        gene.setDiseaseAlts(List.of("Disease Alt 1", "Disease Alt 2"));
+        gene.setDiseaseClasses(List.of("Disease Class 1", "Disease Class 2"));
+        gene.setDiseaseId(List.of("Disease ID 1", "Disease ID 2"));
+        gene.setDiseaseSource(List.of("Source 1", "Source 2"));
+        gene.setDiseaseTerm(List.of("Disease Term 1", "Disease Term 2"));
+        gene.setEmbryoModalities(List.of("Modality 1", "Modality 2"));
+        gene.setEnsemblGeneId(List.of("ENSG00000123456", "ENSG00000123457"));
+        gene.setExpName(List.of("Experiment 1", "Experiment 2"));
+        gene.setGoTermDef(List.of("GO Definition 1", "GO Definition 2"));
+        gene.setGoTermDomain(List.of("Domain 1", "Domain 2"));
+        gene.setGoTermEvid(List.of("Evidence 1", "Evidence 2"));
+        gene.setGoTermId(List.of("GO:0000001", "GO:0000002"));
+        gene.setGoTermName(List.of("GO Name 1", "GO Name 2"));
+        gene.setGoUniprot(List.of("UniProt 1", "UniProt 2"));
+        gene.setHpId(List.of("HP:0000001", "HP:0000002"));
+        gene.setHpTerm(List.of("HP Term 1", "HP Term 2"));
+        gene.setHumanCurated(List.of(true, false));
+        gene.setHumanGeneSymbol(List.of("Gene Symbol 1", "Gene Symbol 2"));
+        gene.setImpcNovelPredictedInLocus(List.of(true, false));
+        gene.setImpcPredicted(List.of(true, true));
+        gene.setInferredChildMaId(List.of("MA:0000003", "MA:0000004"));
+        gene.setInferredChildMaTerm(List.of("Inferred Child MA Term 1", "Inferred Child MA Term 2"));
+        gene.setInferredChildMaTermSynonym(List.of("Inferred Synonym 1", "Inferred Synonym 2"));
+        gene.setInferredMaId(List.of("MA:0000005", "MA:0000006"));
+        gene.setInferredMaTerm(List.of("Inferred MA Term 1", "Inferred MA Term 2"));
+        gene.setInferredMaTermSynonym(List.of("Inferred Term Synonym 1", "Inferred Term Synonym 2"));
+        gene.setInferredSelectedTopLevelMaId(List.of("MA:0000007", "MA:0000008"));
+        gene.setInferredSelectedTopLevelMaTerm(List.of("Selected MA Term 1", "Selected MA Term 2"));
+        gene.setInferredSelectedTopLevelMaTermSynonym(List.of("Selected Term Synonym 1", "Selected Term Synonym 2"));
+        gene.setIntermediateMpId(List.of("MP:0000005", "MP:0000006"));
+        gene.setIntermediateMpTerm(List.of("Intermediate MP Term 1", "Intermediate MP Term 2"));
+        gene.setIntermediateMpTermSynonym(List.of("Intermediate MP Synonym 1", "Intermediate MP Synonym 2"));
+        gene.setIsIdgGene(true);
+        gene.setIsUmassGene(false);
+        gene.setMaId(List.of("MA:0000009", "MA:0000010"));
+        gene.setMaTerm(List.of("MA Term 1", "MA Term 2"));
+        gene.setMaTermDefinition(List.of("MA Definition 1", "MA Definition 2"));
+        gene.setMaTermSynonym(List.of("MA Synonym 1", "MA Synonym 2"));
+        gene.setMarkerName("Marker Name Example");
+        gene.setMarkerSymbol("MkSym");
+        gene.setMarkerSynonym(List.of("Marker Synonym 1", "Marker Synonym 2"));
+        gene.setMarkerType("Marker Type Example");
+        gene.setMgiAccessionId("MGI:0000001");
+        gene.setMgiNovelPredictedInLocus(List.of(true, false));
+        gene.setMgiPredicted(List.of(false, true));
+        gene.setMgiPredictedInLocus("In Locus Example");
+        gene.setMgiPredictedKnownGene(List.of(true, true));
+        gene.setMouseCurated(List.of(true, false));
+        gene.setMouseProductionStatus("Production Status Example");
+        gene.setMpId(List.of("MP:0000007", "MP:0000008"));
+        gene.setMpTerm(List.of("MP Term 1", "MP Term 2"));
+        gene.setMpTermDefinition(List.of("MP Definition 1", "MP Definition 2"));
+        gene.setMpTermSynonym(List.of("MP Synonym 1", "MP Synonym 2"));
+        gene.setNcbiId(List.of("NCBI:0000001", "NCBI:0000002"));
+        gene.setNotSignificantTopLevelMpTerms(List.of("Not Significant MP Term 1", "Not Significant MP Term 2"));
+        gene.setNullAlleleProductionStatus("Null Production Status Example");
+        gene.setPValue(List.of(0.01f, 0.05f));
+        gene.setParameterName(List.of("Parameter Name 1", "Parameter Name 2"));
+        gene.setParameterStableId(List.of("Stable ID 1", "Stable ID 2"));
+        gene.setPfamaAcc(List.of("Pfam Acc 1", "Pfam Acc 2"));
+        gene.setPfamaGoCat(List.of("GO Category 1", "GO Category 2"));
+        gene.setPfamaGoId(List.of("GO:0000003", "GO:0000004"));
+        gene.setPfamaGoTerm(List.of("GO Term 1", "GO Term 2"));
+        gene.setPfamaId(List.of("Pfam ID 1", "Pfam ID 2"));
+        gene.setPfamaJson(List.of("{\"key\": \"value\"}", "{\"key\": \"value2\"}"));
+        gene.setPhenotypeStatus("Phenotype Status Example");
+        gene.setPhenotypingCentre(List.of("Centre 1", "Centre 2"));
+        gene.setPhenotypingDataAvailable(true);
+        gene.setPipelineName(List.of("Pipeline Name 1", "Pipeline Name 2"));
+        gene.setPipelineStableId(List.of("Pipeline Stable ID 1", "Pipeline Stable ID 2"));
+        gene.setProcParamName(List.of("Param Name 1", "Param Name 2"));
+        gene.setProcParamStableId(List.of("Param Stable ID 1", "Param Stable ID 2"));
+        gene.setProcedureName(List.of("Procedure Name 1", "Procedure Name 2"));
+        gene.setProcedureStableId(List.of("Procedure Stable ID 1", "Procedure Stable ID 2"));
+        gene.setProductionCentre(List.of("Production Centre 1", "Production Centre 2"));
+        gene.setScdbId(List.of("SCDB ID 1", "SCDB ID 2"));
+        gene.setScdbLink(List.of("http://example.com/scdb1", "http://example.com/scdb2"));
+        gene.setSelectedTopLevelMaId(List.of("Selected MA ID 1", "Selected MA ID 2"));
+        gene.setSelectedTopLevelMaTerm(List.of("Selected MA Term 1", "Selected MA Term 2"));
+        gene.setSelectedTopLevelMaTermId("Selected MA Term ID Example");
+        gene.setSelectedTopLevelMaTermSynonym(List.of("Selected MA Term Synonym 1", "Selected MA Term Synonym 2"));
+        gene.setSeqRegionEnd(123456789);
+        gene.setSeqRegionId("Region ID Example");
+        gene.setSeqRegionStart(987654321);
+        gene.setSignificantTopLevelMpTerms(List.of("Significant MP Term 1", "Significant MP Term 2"));
+        gene.setSubtype(List.of("Subtype 1", "Subtype 2"));
+        gene.setTopLevelMpDefinition("Top Level MP Definition Example");
+        gene.setTopLevelMpId(List.of("Top MP ID 1", "Top MP ID 2"));
+        gene.setTopLevelMpTerm(List.of("Top MP Term 1", "Top MP Term 2"));
+        gene.setTopLevelMpTermSynonym(List.of("Top MP Term Synonym 1", "Top MP Term Synonym 2"));
+        gene.setType("Type Example");
+        gene.setVegaId(List.of("Vega ID 1", "Vega ID 2"));
+        gene.setXref(List.of("Xref 1", "Xref 2"));
+
+        return gene;
+    }
+
+}

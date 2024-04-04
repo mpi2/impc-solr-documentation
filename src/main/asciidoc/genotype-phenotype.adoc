@@ -1,0 +1,25 @@
+= Solr Genotype Phenotype Model
+:date
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 3
+:sectlinks:
+:sectnums:
+
+== Introduction
+
+
+== Genotype Phenotype
+
+=== Fields
+include::{snippets}/genotype-phenotype-doc/response-fields.adoc[]
+
+=== Example Json
+include::{snippets}/genotype-phenotype-doc/http-response.adoc[]
+
+== Latest updates
+
+* 2022-07-21: Documentation Added

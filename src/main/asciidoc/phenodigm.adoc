@@ -1,0 +1,25 @@
+= Solr Phenodigm Model
+:date:
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 3
+:sectlinks:
+:sectnums:
+
+== Introduction
+
+
+== Phenodigm
+
+=== Fields
+include::{snippets}/phenodigm-doc/response-fields.adoc[]
+
+=== Example Json
+include::{snippets}/phenodigm-doc/http-response.adoc[]
+
+== Latest updates
+
+* 2022-07-21: Documentation Added
