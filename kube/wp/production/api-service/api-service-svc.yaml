@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: api-service-production
+  name: api-service-production
+  namespace: mi-impc-solr-documentation
+spec:
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 31037
+  selector:
+    app: api-service-production
+  type: NodePort

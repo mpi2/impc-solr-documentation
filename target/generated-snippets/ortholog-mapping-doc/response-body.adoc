@@ -16,14 +16,14 @@
   "mmfMouseGeneId" : 654,
   "mmfOrthologsAboveThreshold" : 5,
   "mmfSupportCountThreshold" : 8,
-  "oid" : 654,
-  "ocategory" : "Category",
-  "osupport" : "Support",
-  "osupportRaw" : "Raw Support",
   "ohumanGeneId" : 321,
   "oisMaxHumanToMouse" : "Yes",
   "oisMaxMouseToHuman" : "No",
   "omouseGeneId" : 987,
-  "osupportCount" : 12
+  "osupportCount" : 12,
+  "oid" : 654,
+  "ocategory" : "Category",
+  "osupport" : "Support",
+  "osupportRaw" : "Raw Support"
 }
 ----
