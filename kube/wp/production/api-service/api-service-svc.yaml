@@ -10,7 +10,7 @@ spec:
     - protocol: TCP
       port: 8080
       targetPort: 8080
-      nodePort: 31037
+      nodePort: 31038
   selector:
     app: api-service-production
   type: NodePort

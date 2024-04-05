@@ -3,12 +3,18 @@ package org.mousephenotype.impcsolrdocumentation.conroller;
 
 import org.mousephenotype.impcsolrdocumentation.generator.*;
 import org.mousephenotype.impcsolrdocumentation.model.*;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 @RestController
 public class DocumentController {
 
@@ -106,5 +112,19 @@ public class DocumentController {
     @ResponseStatus(HttpStatus.OK)
     public StatisticalResult getStatisticalResult() {
         return StatisticalResultGenerator.generateExampleStatisticalResultResponse();
+    }
+
+
+    @GetMapping(value = "/index", produces = MediaType.TEXT_HTML_VALUE)
+    public ResponseEntity<String> getIndexHtml() {
+        Resource resource = new ClassPathResource("static/index.html");
+        try {
+            Path indexPath = resource.getFile().toPath();
+            String htmlContent = Files.readString(indexPath);
+            return ResponseEntity.ok(htmlContent);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body("Error reading HTML file");
+        }
     }
 }
