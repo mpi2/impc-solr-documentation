@@ -124,7 +124,6 @@ public class DocumentController {
             return ResponseEntity.ok(htmlContent);
         } catch (IOException e) {
             e.printStackTrace();
-
             return ResponseEntity.status(500).body("Error reading HTML file");
         }
     }
