@@ -2,26 +2,26 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: api-service-production
-  name: api-service-production
+    app: impc-solr-documentation-production
+  name: impc-solr-documentation-production
   namespace: mi-impc-solr-documentation
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: api-service-production
+      app: impc-solr-documentation-production
   strategy:
     type: Recreate
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: api-service-production
+        app: impc-solr-documentation-production
     spec:
       containers:
         - image: rwilsonebi/impc-solr-documentation:latest
           imagePullPolicy: Always
-          name: api-service-production
+          name: impc-solr-documentation-production
           env:
             - name: REDEPLOY_KEY
               value: "STRING_REPLACED_DURING_REDEPLOY"
