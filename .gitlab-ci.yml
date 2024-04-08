@@ -96,8 +96,8 @@ hh-prod:
         kubectl config set-cluster local --server="${HH_KUBERNETES_ENDPOINT}"
         kubectl config set clusters.local.certificate-authority-data "${HH_KUBERNETES_CERTIFICATE_AUTHORITY_DATA}"
         kubectl config set-credentials ${HH_KUBERNETES_USER} --token="${HH_KUBERNETESkube_USER_TOKEN}"
-        kubectl config set-context "${HH_KUBERNETESkube_NAMESPACE}" --cluster=local --user=${HH_KUBERNETESkube_USER} --namespace="${HH_KUBERNETESkube_NAMESPACE}"
-        kubectl config use-context "${HH_KUBERNETESkube_NAMESPACE}"
+        kubectl config set-context "${HH_KUBERNETES_NAMESPACE}" --cluster=local --user=${HH_KUBERNETES_USER} --namespace="${HH_KUBERNETES_NAMESPACE}"
+        kubectl config use-context "${HH_KUBERNETES_NAMESPACE}"
         kubectl version
 
         sed -i "s/STRING_REPLACED_DURING_REDEPLOY/$(date)/g" kube/prod/impc-solr-documentation-deployment.yaml
@@ -125,9 +125,9 @@ hx-prod:
 
         kubectl config set-cluster local --server="${HX_KUBERNETES_ENDPOINT}"
         kubectl config set clusters.local.certificate-authority-data "${HX_KUBERNETES_CERTIFICATE_AUTHORITY_DATA}"
-        kubectl config set-credentials ${HX_KUBERNETESkube_USER} --token="${HX_KUBERNETESkube_USER_TOKEN}"
-        kubectl config set-context "${HX_KUBERNETESkube_NAMESPACE}" --cluster=local --user=${HX_KUBERNETESkube_USER} --namespace="${HX_KUBERNETESkube_NAMESPACE}"
-        kubectl config use-context "${HX_KUBERNETESkube_NAMESPACE}"
+        kubectl config set-credentials ${HX_KUBERNETES_USER} --token="${HX_KUBERNETES_USER_TOKEN}"
+        kubectl config set-context "${HX_KUBERNETES_NAMESPACE}" --cluster=local --user=${HX_KUBERNETES_USER} --namespace="${HX_KUBERNETES_NAMESPACE}"
+        kubectl config use-context "${HX_KUBERNETES_NAMESPACE}"
         kubectl version
 
         sed -i "s/STRING_REPLACED_DURING_REDEPLOY/$(date)/g" kube/prod/impc-solr-documentation-deployment.yaml
