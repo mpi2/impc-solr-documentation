@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: impc-solr-documentation
+  name: impc-solr-documentation
+  namespace: mi-pa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: impc-solr-documentation
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: impc-solr-documentation
+    spec:
+      imagePullSecrets:
+        - name: impcapiregistrycredentialsallele
+        - name: alpineregistrycredentials
+      volumes:
+        - name: tomcatlog
+          emptyDir: {}
+      containers:
+        - image: dockerhub.ebi.ac.uk/mouse-informatics/impc-solr-documentation-mirror-repo:latest
+          imagePullPolicy: Always
+          name: impc-solr-documentation
+          env:
+            - name: REDEPLOY_KEY
+              value: "STRING_REPLACED_DURING_REDEPLOY"
+            - name: SERVER_SERVLET_CONTEXT_PATH
+              value: /mi/impc/solr-documentation/
+            - name: SERVER_TOMCAT_BASEDIR
+              value: /tomcat
+            - name: SERVER_TOMCAT_ACCESSLOG_ENABLED
+              value: 'true'
+            - name: SERVER_TOMCAT_ACCESSLOG_DIRECTORY
+              value: logs
+            - name: SERVER_TOMCAT_ACCESSLOG_ROTATE
+              value: 'false'
+            - name: SERVER_TOMCAT_ACCESSLOG_FILE-DATE-FORMAT
+              value: ''
+            - name: SERVER_TOMCAT_ACCESSLOG_PATTERN
+              value: "%t %{X-Original-Forwarded-For}i %{X-Forwarded-For}i %s \"%r\" %b (%D ms) %{User-Agent}i %a %{Referer}i"
+            - name: SOLR_DOCUMENTATION_PORT
+              value: "8091"
+            - name: EBI_PROXY
+              value: 'True'
+            - name: HL_PROXY
+              value: 'True'
+          ports:
+            - containerPort: 8091
+              protocol: TCP
+          livenessProbe:
+            tcpSocket:
+              port: 8091
+            initialDelaySeconds: 120
+            periodSeconds: 60
+          resources: {}
+          volumeMounts:
+            - name: tomcatlog
+              mountPath: /tomcat/logs
+        - image: dockerhub.ebi.ac.uk/mouse-informatics/alpine:latest
+          imagePullPolicy: Always
+          name: api-accesslog
+          args: [/bin/sh, -c, 'tail -n+1 -f /tomcat/logs/access_log.log']
+          readinessProbe:
+            exec:
+              command:
+                - ls
+                - /tomcat/logs/access_log.log
+            failureThreshold: 30
+            periodSeconds: 10
+          volumeMounts:
+            - name: tomcatlog
+              mountPath: /tomcat/logs
