@@ -95,7 +95,7 @@ hh-prod:
 
         kubectl config set-cluster local --server="${HH_KUBERNETES_ENDPOINT}"
         kubectl config set clusters.local.certificate-authority-data "${HH_KUBERNETES_CERTIFICATE_AUTHORITY_DATA}"
-        kubectl config set-credentials ${HH_KUBERNETES_USER} --token="${HH_KUBERNETESkube_USER_TOKEN}"
+        kubectl config set-credentials ${HH_KUBERNETES_USER} --token="${HH_KUBERNETES_USER_TOKEN}"
         kubectl config set-context "${HH_KUBERNETES_NAMESPACE}" --cluster=local --user=${HH_KUBERNETES_USER} --namespace="${HH_KUBERNETES_NAMESPACE}"
         kubectl config use-context "${HH_KUBERNETES_NAMESPACE}"
         kubectl version
