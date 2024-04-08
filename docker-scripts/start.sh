@@ -6,7 +6,7 @@ profile="docker"
 
 if [ -z "${EBI_PROXY}" ]; then
   java -Djava.security.egd=file:/dev/./urandom -jar app.jar \
-    --server.port="${port}" --spring.profiles.active="$profile"
+    --server.port="${port}"
 else
   if [ -z "${HX_PROXY}" ]; then
 
@@ -20,7 +20,7 @@ else
       -Dftp.proxyPort=3128 \
       -Dftp.nonProxyHosts=*.ebi.ac.uk\|localhost\|127.0.0.1 \
       -jar /home/impc-solr-documentation/impc-solr-documentation-*.jar \
-      --server.port="${port}" --spring.profiles.active=internal
+      --server.port="${port}"
 
   else
 
@@ -34,6 +34,6 @@ else
       -Dftp.proxyPort=3128 \
       -Dftp.nonProxyHosts=*.ebi.ac.uk\|localhost\|127.0.0.1 \
       -jar /home/impc-solr-documentation/impc-solr-documentation-*.jar \
-      --server.port="${port}" --spring.profiles.active=internal
+      --server.port="${port}"
   fi
 fi

@@ -19,7 +19,7 @@ spec:
         app: impc-solr-documentation
     spec:
       imagePullSecrets:
-        - name: impcapiregistrycredentialsallele
+        - name: impcapiregistrycredentialssolrdocumentation
         - name: alpineregistrycredentials
       volumes:
         - name: tomcatlog
