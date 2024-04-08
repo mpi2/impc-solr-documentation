@@ -25,7 +25,7 @@ spec:
         - name: tomcatlog
           emptyDir: {}
       containers:
-        - image: dockerhub.ebi.ac.uk/mouse-informatics/impc-solr-documentation-mirror-repo:latest
+        - image: dockerhub.ebi.ac.uk/mouse-informatics/impc-solr-documentation:latest
           imagePullPolicy: Always
           name: impc-solr-documentation
           env:
