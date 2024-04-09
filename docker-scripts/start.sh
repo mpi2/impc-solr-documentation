@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-[[ -z "${PORT}" ]] && port=8080 || port="${PORT}"
+[[ -z "${PORT}" ]] && port=8090 || port="${PORT}"
 
 profile="docker"
 
