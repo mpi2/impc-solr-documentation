@@ -26,5 +26,5 @@ else
     -Dftp.proxyPort=3128 \
     -Dftp.nonProxyHosts=*.ebi.ac.uk\|localhost\|127.0.0.1 \
     -jar /home/impc-solr-documentation/impc-solr-documentation-*.jar \
-    --server.port="${port}" --spring.profiles.active="docker
+    --server.port="${port}" --spring.profiles.active=docker
 fi
