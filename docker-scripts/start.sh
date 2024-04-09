@@ -1,7 +1,5 @@
 #!/bin/bash
 set -e
-[[ -z "${PORT}" ]] && port=8080 || port="${PORT}"
-
 
 if [ -z "${HX_PROXY}" ]; then
   java -Djava.security.egd=file:/dev/./urandom \
@@ -14,7 +12,7 @@ if [ -z "${HX_PROXY}" ]; then
     -Dftp.proxyPort=3128 \
     -Dftp.nonProxyHosts=*.ebi.ac.uk\|localhost\|127.0.0.1 \
     -jar /home/impc-solr-documentation/impc-solr-documentation-*.jar \
-    --server.port="${port}" --spring.profiles.active=docker
+    --server.port=8091 --spring.profiles.active=docker
 else
   java -Djava.security.egd=file:/dev/./urandom \
     -Dhttps.proxyHost=hx-wwwcache.ebi.ac.uk \
@@ -26,5 +24,5 @@ else
     -Dftp.proxyPort=3128 \
     -Dftp.nonProxyHosts=*.ebi.ac.uk\|localhost\|127.0.0.1 \
     -jar /home/impc-solr-documentation/impc-solr-documentation-*.jar \
-    --server.port="${port}" --spring.profiles.active=docker
+    --server.port=8091 --spring.profiles.active=docker
 fi
