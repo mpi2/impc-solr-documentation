@@ -25,7 +25,7 @@ spec:
           - path: /mi/impc/solr-documentation(/|$)(.*)
             backend:
               serviceName: impc-solr-documentation
-              servicePort: 8080
+              servicePort: 8091
   tls:
     - hosts:
         - gentar.org
