@@ -47,6 +47,8 @@ spec:
               value: "%t %{X-Original-Forwarded-For}i %{X-Forwarded-For}i %s \"%r\" %b (%D ms) %{User-Agent}i %a %{Referer}i"
             - name: SOLR_DOCUMENTATION_PORT
               value: "8091"
+            - name: SERVER_PORT
+              value: "8091"
             - name: EBI_PROXY
               value: 'True'
             - name: HL_PROXY
