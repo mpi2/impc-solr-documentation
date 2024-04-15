@@ -8,7 +8,7 @@ metadata:
 spec:
   ports:
     - protocol: TCP
-      port: 8091
+      port: 8080
   selector:
     app: impc-solr-documentation
   type: ClusterIP
