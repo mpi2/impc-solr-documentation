@@ -20,3 +20,5 @@ include::{snippets}/allele-doc/response-fields.adoc[]
 include::{snippets}/allele-doc/http-response.adoc[]
 
 == Latest updates
+
+* 2024-04-15: Documentation Added

@@ -22,7 +22,7 @@
 |List of annotated higher level Mouse Phenotype (MP) term names.
 
 |`+assignmentStatus+`
-|`+Null+`
+|`+String+`
 |The assignment status.
 
 |`+ccdsId+`
@@ -54,19 +54,19 @@
 |List of synonyms for child MP terms.
 
 |`+chrEnd+`
-|`+Null+`
+|`+Number+`
 |Chromosome end position.
 
 |`+chrName+`
-|`+Null+`
+|`+String+`
 |Name of the chromosome.
 
 |`+chrStart+`
-|`+Null+`
+|`+Number+`
 |Chromosome start position.
 
 |`+chrStrand+`
-|`+Null+`
+|`+String+`
 |Chromosome strand.
 
 |`+clanAcc+`
@@ -82,19 +82,19 @@
 |List of clan IDs.
 
 |`+conditionalAlleleProductionStatus+`
-|`+Null+`
+|`+String+`
 |Production status of the conditional allele.
 
 |`+crisprAlleleProductionStatus+`
-|`+Null+`
+|`+String+`
 |Production status of the CRISPR allele.
 
 |`+dataType+`
-|`+Null+`
+|`+String+`
 |The type of data.
 
 |`+datasetsRawData+`
-|`+Null+`
+|`+String+`
 |Raw data from datasets.
 
 |`+diseaseAlts+`
@@ -106,7 +106,7 @@
 |List of disease classes.
 
 |`+diseaseHumanPhenotypes+`
-|`+Null+`
+|`+String+`
 |Human phenotypes related to the disease.
 
 |`+diseaseId+`
@@ -122,23 +122,23 @@
 |List of disease terms.
 
 |`+dmddImageDataAvailable+`
-|`+Null+`
+|`+Boolean+`
 |Indicates if DMDD image data is available.
 
 |`+dmddLethalDataAvailable+`
-|`+Null+`
+|`+Boolean+`
 |Indicates if DMDD lethal data is available.
 
 |`+embryoAnalysisViewName+`
-|`+Null+`
+|`+String+`
 |Name of the embryo analysis view.
 
 |`+embryoAnalysisViewUrl+`
-|`+Null+`
+|`+String+`
 |URL for the embryo analysis view.
 
 |`+embryoDataAvailable+`
-|`+Null+`
+|`+Boolean+`
 |Indicates if embryo data is available.
 
 |`+embryoModalities+`
@@ -150,11 +150,11 @@
 |List of Ensembl gene IDs.
 
 |`+esCellProductionStatus+`
-|`+Null+`
+|`+String+`
 |Production status of the ES cell.
 
 |`+evidCodeRank+`
-|`+Null+`
+|`+Number+`
 |Evidence code rank.
 
 |`+expName+`
@@ -162,7 +162,7 @@
 |List of experiment names.
 
 |`+goCount+`
-|`+Null+`
+|`+Number+`
 |Count of Gene Ontology (GO) terms associated.
 
 |`+goTermDef+`
@@ -190,7 +190,7 @@
 |List of UniProt IDs associated with GO terms.
 
 |`+hasQc+`
-|`+Null+`
+|`+Number+`
 |Indicates if quality control (QC) has been performed.
 
 |`+hpId+`
@@ -210,7 +210,7 @@
 |List of human gene symbols associated with the gene.
 
 |`+humanSymbolSynonym+`
-|`+Null+`
+|`+Array+`
 |List of human gene Synonym associated with the gene.
 
 |`+impcNovelPredictedInLocus+`
@@ -222,11 +222,11 @@
 |Indicates if there are IMPC predictions for the gene.
 
 |`+impcPredictedInLocus+`
-|`+Null+`
+|`+String+`
 |Specific locus for the IMPC predicted gene.
 
 |`+impcPredictedKnownGene+`
-|`+Null+`
+|`+Array+`
 |Indicates if known genes are predicted by IMPC within the locus.
 
 |`+inferredChildMaId+`

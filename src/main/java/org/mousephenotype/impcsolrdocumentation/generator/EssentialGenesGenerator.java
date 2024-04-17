@@ -31,6 +31,7 @@ public class EssentialGenesGenerator {
         essentialGenes.setFId(7000000L);
         essentialGenes.setFOrthologId(8000000L);
         essentialGenes.setGnpBrainExpression("High");
+        essentialGenes.setGnpObsLof(100L);
         essentialGenes.setGnpCdsLength(9000000L);
         essentialGenes.setGnpChromosome("X");
         essentialGenes.setGnpClassicCaf(0.01);

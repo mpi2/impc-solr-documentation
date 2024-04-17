@@ -238,7 +238,7 @@
 |Observed homozygous loss of function variants.
 
 |`+gnpObsLof+`
-|`+Null+`
+|`+Number+`
 |Total observed loss of function variants.
 
 |`+gnpObsMis+`

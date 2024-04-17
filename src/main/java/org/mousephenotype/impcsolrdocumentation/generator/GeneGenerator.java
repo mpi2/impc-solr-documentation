@@ -14,6 +14,7 @@ public class GeneGenerator {
         gene.setAltMpId(List.of("MP:0000001", "MP:0000002"));
         gene.setAnnotatedHigherLevelMaTermName(List.of("Term 1", "Term 2"));
         gene.setAnnotatedHigherLevelMpTermName(List.of("Term 3", "Term 4"));
+
         gene.setCcdsId(List.of("CCDS:1234", "CCDS:5678"));
         gene.setChildMaId(List.of("MA:0000001", "MA:0000002"));
         gene.setChildMaTerm(List.of("Child MA Term 1", "Child MA Term 2"));
@@ -117,6 +118,28 @@ public class GeneGenerator {
         gene.setType("Type Example");
         gene.setVegaId(List.of("Vega ID 1", "Vega ID 2"));
         gene.setXref(List.of("Xref 1", "Xref 2"));
+        gene.setAssignmentStatus("Assigned");
+        gene.setChrEnd(10000);
+        gene.setChrName("Chr1");
+        gene.setChrStart(5000);
+        gene.setChrStrand("+");
+        gene.setConditionalAlleleProductionStatus("Complete");
+        gene.setCrisprAlleleProductionStatus("Pending");
+        gene.setDataType("Genomic");
+        gene.setDatasetsRawData("RawData123");
+        gene.setDiseaseHumanPhenotypes("None");
+        gene.setDmddImageDataAvailable(true);
+        gene.setDmddLethalDataAvailable(false);
+        gene.setEmbryoAnalysisViewName("EmbryoView1");
+        gene.setEmbryoAnalysisViewUrl("http://example.com/embryo");
+        gene.setEmbryoDataAvailable(true);
+        gene.setEsCellProductionStatus("In Progress");
+        gene.setEvidCodeRank(1);
+        gene.setGoCount(5);
+        gene.setHasQc(1);
+        gene.setHumanSymbolSynonym(List.of("Synonym1", "Synonym2"));
+        gene.setImpcPredictedInLocus("Locus1");
+        gene.setImpcPredictedKnownGene(List.of(true, false));
 
         return gene;
     }

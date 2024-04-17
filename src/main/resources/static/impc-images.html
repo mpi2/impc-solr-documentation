@@ -2658,27 +2658,27 @@ table.tableblock.grid-all {
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>topLevelAnatomyTermSynonym</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Null</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Synonyms for the top-level anatomy terms.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>selectedTopLevelAnatomyTermSynonym</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Null</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Synonyms for the selected top-level anatomy terms.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>intermediateAnatomyTermSynonym</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Null</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Synonyms for the intermediate anatomy terms.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>parentAnatomyTermSynonym</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Null</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Synonyms for the parent anatomy terms.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>childAnatomyTermSynonym</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Null</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Synonyms for the child anatomy terms.</p></td>
 </tr>
 </tbody>
@@ -2690,7 +2690,7 @@ table.tableblock.grid-all {
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4352
+Content-Length: 4604
 
 {
   "id" : "1",
@@ -2740,7 +2740,7 @@ Content-Length: 4352
   "observationType" : "Type 1",
   "dataType" : "Data Type 1",
   "experimentSourceId" : "Source-001",
-  "dateOfExperiment" : "2024-04-09",
+  "dateOfExperiment" : "2024-04-17",
   "weightParameterStableId" : "WPID-001",
   "weightDate" : "2020-06-15",
   "weightDaysOld" : 100,
@@ -2766,19 +2766,19 @@ Content-Length: 4352
   "anatomyTermSynonym" : [ "Synonym 1", "Synonym 2" ],
   "topLevelAnatomyId" : [ "TLAnatomyID-1", "TLAnatomyID-2" ],
   "topLevelAnatomyTerm" : [ "TL Anatomy Term 1", "TL Anatomy Term 2" ],
-  "topLevelAnatomyTermSynonym" : null,
+  "topLevelAnatomyTermSynonym" : [ "TL Anatomy Term 1", "TL Anatomy Term 2" ],
   "selectedTopLevelAnatomyId" : [ "STLAnatomyID-1", "STLAnatomyID-2" ],
   "selectedTopLevelAnatomyTerm" : [ "Selected TL Anatomy Term 1", "Selected TL Anatomy Term 2" ],
-  "selectedTopLevelAnatomyTermSynonym" : null,
+  "selectedTopLevelAnatomyTermSynonym" : [ "Selected TL Anatomy Term 1", "Selected TL Anatomy Term 2" ],
   "intermediateAnatomyId" : [ "IAnatomyID-1", "IAnatomyID-2" ],
   "intermediateAnatomyTerm" : [ "Intermediate Anatomy Term 1", "Intermediate Anatomy Term 2" ],
-  "intermediateAnatomyTermSynonym" : null,
+  "intermediateAnatomyTermSynonym" : [ "Intermediate Anatomy Term 1", "Intermediate Anatomy Term 2" ],
   "parentAnatomyId" : [ "ParentAnatomyID-1", "ParentAnatomyID-2" ],
   "parentAnatomyTerm" : [ "Parent Anatomy Term 1", "Parent Anatomy Term 2" ],
-  "parentAnatomyTermSynonym" : null,
+  "parentAnatomyTermSynonym" : [ "Parent Anatomy Term 1", "Parent Anatomy Term 2" ],
   "childAnatomyId" : [ "ChildAnatomyID-1", "ChildAnatomyID-2" ],
   "childAnatomyTerm" : [ "Child Anatomy Term 1", "Child Anatomy Term 2" ],
-  "childAnatomyTermSynonym" : null,
+  "childAnatomyTermSynonym" : [ "Child Anatomy Term 1", "Child Anatomy Term 2" ],
   "downloadFilePath" : "/path/to/download",
   "imageLink" : "http://example.com/image",
   "fileType" : "jpeg",
@@ -2812,7 +2812,7 @@ Content-Length: 4352
 <div class="ulist">
 <ul>
 <li>
-<p>2022-07-21: Documentation Added</p>
+<p>2024-04-15: Documentation Added</p>
 </li>
 </ul>
 </div>
@@ -2821,7 +2821,7 @@ Content-Length: 4352
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-04-03 10:23:29 +0100
+Last updated 2024-04-17 15:28:54 +0100
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">

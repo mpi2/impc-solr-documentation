@@ -23,6 +23,7 @@ public class ExperimentGenerator {
         experiment.setGeneSymbol("GeneX");
         experiment.setAlleleAccessionId("ALLELE123");
         experiment.setAlleleSymbol("AlleleX");
+        experiment.setMetadataGroup("MetadataGroup1");
         experiment.setZygosity("Heterozygous");
         experiment.setSex("Female");
         experiment.setBiologicalModelId(401L);

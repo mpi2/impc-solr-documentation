@@ -21,4 +21,4 @@ include::{snippets}/essential-genes-doc/http-response.adoc[]
 
 == Latest updates
 
-* 2022-07-21: Documentation Added
+* 2024-04-15: Documentation Added

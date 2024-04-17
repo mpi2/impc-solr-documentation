@@ -1,5 +1,5 @@
 = Solr Genotype Phenotype Model
-:date
+:date:
 :doctype: book
 :icons: font
 :source-highlighter: highlightjs
@@ -22,4 +22,4 @@ include::{snippets}/genotype-phenotype-doc/http-response.adoc[]
 
 == Latest updates
 
-* 2022-07-21: Documentation Added
+* 2024-04-15: Documentation Added

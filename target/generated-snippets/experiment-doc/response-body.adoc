@@ -61,7 +61,7 @@
   "category" : "Category 1",
   "rawCategory" : "Raw Category 1",
   "metadata" : [ "Item 1", "Item 2" ],
-  "metadataGroup" : null,
+  "metadataGroup" : "MetadataGroup1",
   "anatomyId" : [ "Item 1", "Item 2" ],
   "anatomyTerm" : [ "Item 1", "Item 2" ],
   "anatomyIdTerm" : [ "Item 1", "Item 2" ],

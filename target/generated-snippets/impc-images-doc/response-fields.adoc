@@ -410,23 +410,23 @@
 |The intermediate MP terms associated with the experiment.
 
 |`+topLevelAnatomyTermSynonym+`
-|`+Null+`
+|`+Array+`
 |Synonyms for the top-level anatomy terms.
 
 |`+selectedTopLevelAnatomyTermSynonym+`
-|`+Null+`
+|`+Array+`
 |Synonyms for the selected top-level anatomy terms.
 
 |`+intermediateAnatomyTermSynonym+`
-|`+Null+`
+|`+Array+`
 |Synonyms for the intermediate anatomy terms.
 
 |`+parentAnatomyTermSynonym+`
-|`+Null+`
+|`+Array+`
 |Synonyms for the parent anatomy terms.
 
 |`+childAnatomyTermSynonym+`
-|`+Null+`
+|`+Array+`
 |Synonyms for the child anatomy terms.
 
 |===
