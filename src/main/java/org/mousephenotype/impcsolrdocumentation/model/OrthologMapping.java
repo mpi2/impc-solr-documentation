@@ -7,28 +7,29 @@ import lombok.Setter;
 @Getter
 public class OrthologMapping {
 
-    private String hgHgncAccId;
-    private String hgSymbol;
-    private String hmfCategoryForThreshold;
-    private Long hmfHumanGeneId;
-    private Long hmfId;
-    private Long hmfOrthologsAboveThreshold;
-    private Long hmfSupportCountThreshold;
+    private String hg_hgnc_acc_id;
+    private String hg_symbol;
+    private String hmf_category_for_threshold;
+    private Long hmf_human_gene_id;
+    private Long hmf_id;
+    private Long hmf_orthologs_above_threshold;
+    private Long hmf_support_count_threshold;
     private String id;
-    private String mgMgiGeneAccId;
-    private String mgSymbol;
-    private String mmfCategoryForThreshold;
-    private Long mmfId;
-    private Long mmfMouseGeneId;
-    private Long mmfOrthologsAboveThreshold;
-    private Long mmfSupportCountThreshold;
-    private String oCategory;
-    private Long oHumanGeneId;
-    private Long oId;
-    private String oIsMaxHumanToMouse;
-    private String oIsMaxMouseToHuman;
-    private Long oMouseGeneId;
-    private String oSupport;
-    private Long oSupportCount;
-    private String oSupportRaw;
+    private String mg_mgi_gene_acc_id;
+    private String mg_symbol;
+    private String mmf_category_for_threshold;
+    private Long mmf_id;
+    private Long mmf_mouse_gene_id;
+    private Long mmf_orthologs_above_threshold;
+    private Long mmf_support_count_threshold;
+    private String o_category;
+    private Long o_human_gene_id;
+    private Long o_id;
+    private String o_is_max_human_to_mouse;
+    private String o_is_max_mouse_to_human;
+    private Long o_mouse_gene_id;
+    private String o_support;
+    private Long o_support_count;
+    private String o_support_raw;
+
 }

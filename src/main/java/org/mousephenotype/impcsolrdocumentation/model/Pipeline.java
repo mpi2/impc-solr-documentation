@@ -8,93 +8,94 @@ import java.util.List;
 @Setter
 @Getter
 public class Pipeline {
-    private String fullyQualifiedName;
-    private String dataType;
+    private String fully_qualified_name;
+    private String data_type;
     private Long version;
 
-    private Long parameterId;
-    private String parameterStableId;
-    private String parameterName;
-    private Long parameterStableKey;
+    private Long parameter_id;
+    private String parameter_stable_id;
+    private String parameter_name;
+    private Long parameter_stable_key;
 
-    private Long procedureId;
-    private String procedureStableId;
-    private String procedureName;
-    private Long procedureStableKey;
+    private Long procedure_id;
+    private String procedure_stable_id;
+    private String procedure_name;
+    private Long procedure_stable_key;
 
-    private Long pipelineId;
-    private String pipelineStableId;
-    private String pipelineName;
-    private Long pipelineStableKey;
+    private Long pipeline_id;
+    private String pipeline_stable_id;
+    private String pipeline_name;
+    private Long pipeline_stable_key;
 
     private boolean required;
-    private String observationType;
-    private List<String> mpTerms;
+    private String observation_type;
+    private List<String> mp_terms;
     private String description;
-    private String unitX;
-    private String unitY;
+    private String unit_x;
+    private String unit_y;
     private boolean metadata;
     private boolean increment;
     private List<String> categories;
-    private boolean hasOptions;
+    private boolean has_options;
     private boolean derived;
     private boolean media;
     private boolean annotate;
-    private String comparableParameterGroup;
+    private String comparable_parameter_group;
 
-    private String experimentLevel;
+    private String experiment_level;
     private String stage;
-    private String stageLabel;
-    private Long scheduleKey;
+    private String stage_label;
+    private Long schedule_key;
 
-    private List<String> mpId;
-    private List<String> mpTerm;
-    private List<String> mpTermSynonym;
+    private List<String> mp_id;
+    private List<String> mp_term;
+    private List<String> mp_term_synonym;
 
-    private List<String> topLevelMpId;
-    private List<String> topLevelMpTerm;
-    private List<String> topLevelMpTermSynonym;
+    private List<String> top_level_mp_id;
+    private List<String> top_level_mp_term;
+    private List<String> top_level_mp_term_synonym;
 
-    private List<String> intermediateMpId;
-    private List<String> intermediateMpTerm;
-    private List<String> intermediateMpTermSynonym;
+    private List<String> intermediate_mp_id;
+    private List<String> intermediate_mp_term;
+    private List<String> intermediate_mp_term_synonym;
 
-    private List<String> abnormalMpId;
-    private List<String> increasedMpId;
-    private List<String> decreasedMpId;
-    private List<String> abnormalMpTerm;
-    private List<String> increasedMpTerm;
-    private List<String> decreasedMpTerm;
+    private List<String> abnormal_mp_id;
+    private List<String> increased_mp_id;
+    private List<String> decreased_mp_id;
+    private List<String> abnormal_mp_term;
+    private List<String> increased_mp_term;
+    private List<String> decreased_mp_term;
 
-    private List<String> hpId;
-    private List<String> hpTerm;
+    private List<String> hp_id;
+    private List<String> hp_term;
 
-    private String inferredMaId;
-    private String inferredSelectedTopLevelMaId;
-    private String inferredSelectedTopLevelMaTerm;
+    private String inferred_ma_id;
+    private String inferred_selected_top_level_ma_id;
+    private String inferred_selected_top_level_ma_term;
 
-    private String maId;
-    private String maTerm;
-    private List<String> maTermSynonym;
+    private String ma_id;
+    private String ma_term;
+    private List<String> ma_term_synonym;
 
-    private String emapId;
-    private String emapTerm;
+    private String emap_id;
+    private String emap_term;
 
-    private String anatomyId;
-    private String anatomyTerm;
-    private List<String> anatomyTermSynonym;
+    private String anatomy_id;
+    private String anatomy_term;
+    private List<String> anatomy_term_synonym;
 
-    private String embryoAnatomyId;
-    private String embryoAnatomyTerm;
-    private List<String> topLevelEmbryoAnatomyId;
-    private List<String> topLevelEmbryoAnatomyTerm;
+    private String embryo_anatomy_id;
+    private String embryo_anatomy_term;
+    private List<String> top_level_embryo_anatomy_id;
+    private List<String> top_level_embryo_anatomy_term;
 
-    private String mouseAnatomyId;
-    private String mouseAnatomyTerm;
-    private List<String> topLevelMouseAnatomyId;
-    private List<String> topLevelMouseAnatomyTerm;
+    private String mouse_anatomy_id;
+    private String mouse_anatomy_term;
+    private List<String> top_level_mouse_anatomy_id;
+    private List<String> top_level_mouse_anatomy_term;
 
-    private List<String> imitsPhenotypeStarted;
-    private List<String> imitsPhenotypeComplete;
-    private List<String> imitsPhenotypeStatus;
+    private List<String> imits_phenotype_started;
+    private List<String> imits_phenotype_complete;
+    private List<String> imits_phenotype_status;
+
 }

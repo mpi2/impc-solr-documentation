@@ -7,31 +7,33 @@ public class OrthologMappingGenerator {
 
     public static OrthologMapping generateExampleOrthologMappingResponse() {
         OrthologMapping orthologMapping = new OrthologMapping();
-        orthologMapping.setHgHgncAccId("hg123");
-        orthologMapping.setHgSymbol("HG");
-        orthologMapping.setHmfCategoryForThreshold("Category");
-        orthologMapping.setHmfHumanGeneId(456L);
-        orthologMapping.setHmfId(789L);
-        orthologMapping.setHmfOrthologsAboveThreshold(3L);
-        orthologMapping.setHmfSupportCountThreshold(10L);
+        orthologMapping.setHg_hgnc_acc_id("hg123");
+        orthologMapping.setHg_symbol("HG");
+        orthologMapping.setHmf_category_for_threshold("Category");
+        orthologMapping.setHmf_human_gene_id(456L);
+        orthologMapping.setHmf_id(789L);
+        orthologMapping.setHmf_orthologs_above_threshold(3L);
+        orthologMapping.setHmf_support_count_threshold(10L);
         orthologMapping.setId("exampleId");
-        orthologMapping.setMgMgiGeneAccId("mg123");
-        orthologMapping.setMgSymbol("MG");
-        orthologMapping.setMmfCategoryForThreshold("Category");
-        orthologMapping.setMmfId(987L);
-        orthologMapping.setMmfMouseGeneId(654L);
-        orthologMapping.setMmfOrthologsAboveThreshold(5L);
-        orthologMapping.setMmfSupportCountThreshold(8L);
-        orthologMapping.setOCategory("Category");
-        orthologMapping.setOHumanGeneId(321L);
-        orthologMapping.setOId(654L);
-        orthologMapping.setOIsMaxHumanToMouse("Yes");
-        orthologMapping.setOIsMaxMouseToHuman("No");
-        orthologMapping.setOMouseGeneId(987L);
-        orthologMapping.setOSupport("Support");
-        orthologMapping.setOSupportCount(12L);
-        orthologMapping.setOSupportRaw("Raw Support");
+        orthologMapping.setMg_mgi_gene_acc_id("mg123");
+        orthologMapping.setMg_symbol("MG");
+        orthologMapping.setMmf_category_for_threshold("Category");
+        orthologMapping.setMmf_id(987L);
+        orthologMapping.setMmf_mouse_gene_id(654L);
+        orthologMapping.setMmf_orthologs_above_threshold(5L);
+        orthologMapping.setMmf_support_count_threshold(8L);
+        orthologMapping.setO_category("Category");
+        orthologMapping.setO_human_gene_id(321L);
+        orthologMapping.setO_id(654L);
+        orthologMapping.setO_is_max_human_to_mouse("Yes");
+        orthologMapping.setO_is_max_mouse_to_human("No");
+        orthologMapping.setO_mouse_gene_id(987L);
+        orthologMapping.setO_support("Support");
+        orthologMapping.setO_support_count(12L);
+        orthologMapping.setO_support_raw("Raw Support");
+
         return orthologMapping;
+
     }
 
 }

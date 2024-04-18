@@ -9,61 +9,62 @@ import java.util.List;
 @Getter
 public class Phenodigm {
     private String type;
-    private String diseaseId;
-    private String diseaseSource;
-    private String diseaseTerm;
-    private List<String> diseaseAlts;
-    private String diseaseLocus;
-    private List<String> diseaseClasses;
-    private List<String> diseasePhenotypes;
+    private String disease_id;
+    private String disease_source;
+    private String disease_term;
+    private List<String> disease_alts;
+    private String disease_locus;
+    private List<String> disease_classes;
+    private List<String> disease_phenotypes;
 
-    private String geneId;
-    private String geneSymbol;
-    private List<String> geneSymbolsWithdrawn;
-    private String geneLocus;
-    private String hgncGeneId;
-    private String hgncGeneSymbol;
-    private List<String> hgncGeneSymbolsWithdrawn;
-    private String hgncGeneLocus;
+    private String gene_id;
+    private String gene_symbol;
+    private List<String> gene_symbols_withdrawn;
+    private String gene_locus;
+    private String hgnc_gene_id;
+    private String hgnc_gene_symbol;
+    private List<String> hgnc_gene_symbols_withdrawn;
+    private String hgnc_gene_locus;
 
-    private boolean mouseModel;
-    private boolean impcModel;
+    private boolean mouse_model;
+    private boolean impc_model;
 
-    private String modelId;
-    private String modelSource;
-    private String modelDescription;
-    private String modelGeneticBackground;
-    private String markerId;
-    private String markerSymbol;
-    private String markerLocus;
-    private int markerNumModels;
-    private List<String> modelPhenotypes;
+    private String model_id;
+    private String model_source;
+    private String model_description;
+    private String model_genetic_background;
+    private String marker_id;
+    private String marker_symbol;
+    private String marker_locus;
+    private int marker_num_models;
+    private List<String> model_phenotypes;
 
     private String ontology;
-    private String phenotypeId;
-    private String phenotypeTerm;
-    private List<String> phenotypeSynonym;
+    private String phenotype_id;
+    private String phenotype_term;
+    private List<String> phenotype_synonym;
 
-    private String hpId;
-    private String hpTerm;
-    private String mpId;
-    private String mpTerm;
+    private String hp_id;
+    private String hp_term;
+    private String mp_id;
+    private String mp_term;
 
-    private boolean associationCurated;
-    private boolean associationOrtholog;
-    private List<String> markerSymbolsWithdrawn;
+    private boolean association_curated;
+    private boolean association_ortholog;
+    private List<String> marker_symbols_withdrawn;
 
-    private List<String> diseaseMatchedPhenotypes;
-    private List<String> modelMatchedPhenotypes;
-    private double diseaseModelAvgRaw;
-    private double diseaseModelAvgNorm;
-    private double diseaseModelMaxRaw;
-    private double diseaseModelMaxNorm;
+    private List<String> disease_matched_phenotypes;
+    private List<String> model_matched_phenotypes;
+    private double disease_model_avg_raw;
+    private double disease_model_avg_norm;
+    private double disease_model_max_raw;
+    private double disease_model_max_norm;
 
-    private List<String> searchQf;
-    private boolean humanCuratedGene;
-    private boolean impcModelWithCuratedGene;
-    private boolean mgiModelWithCuratedGene;
-    private boolean impcModelWithComputedAssociation;
-    private boolean mgiModelWithComputedAssociation;
+    private List<String> search_qf;
+    private boolean human_curated_gene;
+    private boolean impc_model_with_curated_gene;
+    private boolean mgi_model_with_curated_gene;
+    private boolean impc_model_with_computed_association;
+    private boolean mgi_model_with_computed_association;
+
 }

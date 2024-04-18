@@ -55,8 +55,8 @@ public class StatisticalRawDataDocumentationTest {
                         preprocessRequest(prettyPrint()),
                         preprocessResponse(prettyPrint()),
                         responseFields(
-                                fieldWithPath("docId").description("Statistical Raw data Doc Id."),
-                                fieldWithPath("rawData").description("Statistical Raw data .")
+                                fieldWithPath("doc_id").description("Statistical Raw data Doc Id."),
+                                fieldWithPath("raw_data").description("Statistical Raw data .")
 
                         )
 

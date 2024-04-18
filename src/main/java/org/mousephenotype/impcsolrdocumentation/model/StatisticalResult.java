@@ -8,168 +8,137 @@ import java.util.List;
 @Setter
 @Getter
 public class StatisticalResult {
-    private String docId;
-    private Long dbId;
-    private String dataType;
-
-    private List<String> anatomyTermId;
-    private List<String> anatomyTermName;
-    private List<String> intermediateAnatomyTermId;
-    private List<String> intermediateAnatomyTermName;
-    private List<String> topLevelAnatomyTermId;
-    private List<String> topLevelAnatomyTermName;
-
-    private List<String> mpTermIdOptions;
-    private List<String> mpTermNameOptions;
-    private String mpTermId;
-    private String mpTermName;
-    private List<String> topLevelMpTermId;
-    private List<String> topLevelMpTermName;
-    private List<String> intermediateMpTermId;
-    private List<String> intermediateMpTermName;
-
-    private String maleMpTermId;
-    private String maleMpTermName;
-    private List<String> maleTopLevelMpTermId;
-    private List<String> maleTopLevelMpTermName;
-    private List<String> maleIntermediateMpTermId;
-    private List<String> maleIntermediateMpTermName;
-
-    private String femaleMpTermId;
-    private String femaleMpTermName;
-    private List<String> femaleTopLevelMpTermId;
-    private List<String> femaleTopLevelMpTermName;
-    private List<String> femaleIntermediateMpTermId;
-    private List<String> femaleIntermediateMpTermName;
-
-    private String resourceName;
-    private String resourceFullname;
-    private Long resourceId;
-    private List<String> projectName;
-    private String phenotypingCenter;
-
-    private String pipelineStableId;
-    private Long pipelineStableKey;
-    private String pipelineName;
-    private Long pipelineId;
-
-    private List<String> procedureStableId;
-    private List<Long> procedureStableKey;
-    private String procedureName;
-    private Long procedureId;
-
-    private String parameterStableId;
-    private List<Long> parameterStableKey;
-    private String parameterName;
-    private Long parameterId;
-
-    private String colonyId;
-    private String markerSymbol;
-    private String markerAccessionId;
-    private String alleleSymbol;
-    private String alleleName;
-    private String alleleAccessionId;
-    private String strainName;
-    private String strainAccessionId;
+    private String doc_id;
+    private Long db_id;
+    private String data_type;
+    private List<String> anatomy_term_id;
+    private List<String> anatomy_term_name;
+    private List<String> intermediate_anatomy_term_id;
+    private List<String> intermediate_anatomy_term_name;
+    private List<String> top_level_anatomy_term_id;
+    private List<String> top_level_anatomy_term_name;
+    private List<String> mp_term_id_options;
+    private List<String> mp_term_name_options;
+    private String mp_term_id;
+    private String mp_term_name;
+    private List<String> top_level_mp_term_id;
+    private List<String> top_level_mp_term_name;
+    private List<String> intermediate_mp_term_id;
+    private List<String> intermediate_mp_term_name;
+    private String male_mp_term_id;
+    private String male_mp_term_name;
+    private List<String> male_top_level_mp_term_id;
+    private List<String> male_top_level_mp_term_name;
+    private List<String> male_intermediate_mp_term_id;
+    private List<String> male_intermediate_mp_term_name;
+    private String female_mp_term_id;
+    private String female_mp_term_name;
+    private List<String> female_top_level_mp_term_id;
+    private List<String> female_top_level_mp_term_name;
+    private List<String> female_intermediate_mp_term_id;
+    private List<String> female_intermediate_mp_term_name;
+    private String resource_name;
+    private String resource_fullname;
+    private Long resource_id;
+    private List<String> project_name;
+    private String phenotyping_center;
+    private String pipeline_stable_id;
+    private Long pipeline_stable_key;
+    private String pipeline_name;
+    private Long pipeline_id;
+    private List<String> procedure_stable_id;
+    private List<Long> procedure_stable_key;
+    private String procedure_name;
+    private Long procedure_id;
+    private String parameter_stable_id;
+    private List<Long> parameter_stable_key;
+    private String parameter_name;
+    private Long parameter_id;
+    private String colony_id;
+    private String marker_symbol;
+    private String marker_accession_id;
+    private String allele_symbol;
+    private String allele_name;
+    private String allele_accession_id;
+    private String strain_name;
+    private String strain_accession_id;
     private String sex;
     private String zygosity;
-    private String controlSelectionMethod;
-    private String dependentVariable;
-    private String metadataGroup;
-    private String dataFrame;
-
-    private String geneticBackground;
-    private String productionCenter;
-
-    private Long externalDbId;
+    private String control_selection_method;
+    private String dependent_variable;
+    private String metadata_group;
+    private String data_frame;
+    private String genetic_background;
+    private String production_center;
+    private Long external_db_id;
     private Long id;
-    private Long organisationId;
-    private Long phenotypingCenterId;
-    private Long projectId;
-    private Double maleControlMean;
-    private Double maleMutantMean;
-    private Double femaleControlMean;
-    private Double femaleMutantMean;
-
-    private Double genotypePValueLowVsNormalHigh;
-    private Double genotypePValueLowNormalVsHigh;
-    private Double genotypeEffectSizeLowVsNormalHigh;
-    private Double genotypeEffectSizeLowNormalVsHigh;
-
-    private Double femalePValueLowVsNormalHigh;
-    private Double femalePValueLowNormalVsHigh;
-    private Double femaleEffectSizeLowVsNormalHigh;
-    private Double femaleEffectSizeLowNormalVsHigh;
-
-    private Double malePValueLowVsNormalHigh;
-    private Double malePValueLowNormalVsHigh;
-    private Double maleEffectSizeLowVsNormalHigh;
-    private Double maleEffectSizeLowNormalVsHigh;
-
+    private Long organisation_id;
+    private Long phenotyping_center_id;
+    private Long project_id;
+    private Double male_control_mean;
+    private Double male_mutant_mean;
+    private Double female_control_mean;
+    private Double female_mutant_mean;
+    private Double genotype_p_value_low_vs_normal_high;
+    private Double genotype_p_value_low_normal_vs_high;
+    private Double genotype_effect_size_low_vs_normal_high;
+    private Double genotype_effect_size_low_normal_vs_high;
+    private Double female_p_value_low_vs_normal_high;
+    private Double female_p_value_low_normal_vs_high;
+    private Double female_effect_size_low_vs_normal_high;
+    private Double female_effect_size_low_normal_vs_high;
+    private Double male_p_value_low_vs_normal_high;
+    private Double male_p_value_low_normal_vs_high;
+    private Double male_effect_size_low_vs_normal_high;
+    private Double male_effect_size_low_normal_vs_high;
     private List<String> categories;
-    private Double categoricalPValue;
-    private Double categoricalEffectSize;
-
-    private Boolean batchSignificant;
-    private Boolean varianceSignificant;
-    private Double nullTestPValue;
-    private Double genotypeEffectPValue;
-    private Double genotypeEffectStderrEstimate;
-    private Double genotypeEffectParameterEstimate;
-
-    private String malePercentageChange;
-    private String femalePercentageChange;
-
-    private Double sexEffectPValue;
-    private Double sexEffectStderrEstimate;
-    private Double sexEffectParameterEstimate;
-
-    private Double weightEffectPValue;
-    private Double weightEffectStderrEstimate;
-    private Double weightEffectParameterEstimate;
-
-    private String group1Genotype;
-    private Double group1ResidualsNormalityTest;
-    private String group2Genotype;
-    private Double group2ResidualsNormalityTest;
-
-    private Double blupsTest;
-    private Double rotatedResidualsTest;
-
-    private Double interceptEstimate;
-    private Double interceptEstimateStderrEstimate;
-
-    private Boolean interactionSignificant;
-    private Double interactionEffectPValue;
-
-    private Double femaleKoEffectPValue;
-    private Double femaleKoEffectStderrEstimate;
-    private Double femaleKoParameterEstimate;
-    private Double femaleEffectSize;
-
-    private Double maleKoEffectPValue;
-    private Double maleKoEffectStderrEstimate;
-    private Double maleKoParameterEstimate;
-    private Double maleEffectSize;
-
-    private String classificationTag;
-    private List<String> phenotypeSex;
-
-    private String lifeStageAcc;
-    private String lifeStageName;
+    private Double categorical_p_value;
+    private Double categorical_effect_size;
+    private Boolean batch_significant;
+    private Boolean variance_significant;
+    private Double null_test_p_value;
+    private Double genotype_effect_p_value;
+    private Double genotype_effect_stderr_estimate;
+    private Double genotype_effect_parameter_estimate;
+    private String male_percentage_change;
+    private String female_percentage_change;
+    private Double sex_effect_p_value;
+    private Double sex_effect_stderr_estimate;
+    private Double sex_effect_parameter_estimate;
+    private Double weight_effect_p_value;
+    private Double weight_effect_stderr_estimate;
+    private Double weight_effect_parameter_estimate;
+    private String group1_genotype;
+    private Double group1_residuals_normality_test;
+    private String group2_genotype;
+    private Double group2_residuals_normality_test;
+    private Double blups_test;
+    private Double rotated_residuals_test;
+    private Double intercept_estimate;
+    private Double intercept_estimate_stderr_estimate;
+    private Boolean interaction_significant;
+    private Double interaction_effect_p_value;
+    private Double female_ko_effect_p_value;
+    private Double female_ko_effect_stderr_estimate;
+    private Double female_ko_parameter_estimate;
+    private Double female_effect_size;
+    private Double male_ko_effect_p_value;
+    private Double male_ko_effect_stderr_estimate;
+    private Double male_ko_parameter_estimate;
+    private Double male_effect_size;
+    private String classification_tag;
+    private List<String> phenotype_sex;
+    private String life_stage_acc;
+    private String life_stage_name;
     private Boolean significant;
-
-    // Soft windowing parameters
-    private String softWindowingBandwidth;
-    private String softWindowingShape;
-    private String softWindowingPeaks;
-    private String softWindowingMinObsRequired;
-    private String softWindowingTotalObsOrWeight;
-    private String softWindowingThreshold;
-    private String softWindowingNumberOfDoe;
-    private String softWindowingDoeNote;
-
-    // Metadata and dynamic fields
+    private String soft_windowing_bandwidth;
+    private String soft_windowing_shape;
+    private String soft_windowing_peaks;
+    private String soft_windowing_min_obs_required;
+    private String soft_windowing_total_obs_or_weight;
+    private String soft_windowing_threshold;
+    private String soft_windowing_number_of_doe;
+    private String soft_windowing_doe_note;
     private List<String> metadata;
 
 }

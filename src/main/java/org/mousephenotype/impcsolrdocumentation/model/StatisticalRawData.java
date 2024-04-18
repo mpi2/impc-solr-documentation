@@ -6,7 +6,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class StatisticalRawData {
-    private String docId;
-    private String rawData;
+    private String doc_id;
+    private String raw_data;
 
 }
