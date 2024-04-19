@@ -12,7 +12,7 @@ VOLUME /tmp
 
 COPY  --from=build /usr/src/impc-solr-documentation/target/*.jar /home/impc-solr-documentation/impc-solr-documentation-*.jar
 
-COPY docker/scripts/start.sh /
+COPY docker-scripts/start.sh /
 
 RUN ["chmod", "+x", "/start.sh"]
 
