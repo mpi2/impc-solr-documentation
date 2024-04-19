@@ -3,9 +3,9 @@ services:
   impc-solr-documentation:
     # build: ./
     image: mousephenotype/impc-solr-documentation
-    command: ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "app.jar", "--server.port=8080", "--spring.profiles.active=docker"]
+    command: ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "impc-solr-documentation.jar", "--server.port=8080", "--spring.profiles.active=docker"]
     environment:
-      - PORT=8902
+      - PORT=8080
     networks:
       - production
 
