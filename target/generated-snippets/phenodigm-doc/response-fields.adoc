@@ -5,91 +5,91 @@
 |`+String+`
 |The ontology classification the experiment is associated with.
 
-|`+phenotypeId+`
+|`+phenotype_id+`
 |`+String+`
 |Unique identifier for the phenotype.
 
-|`+phenotypeTerm+`
+|`+phenotype_term+`
 |`+String+`
 |The term or description of the phenotype.
 
-|`+phenotypeSynonym+`
+|`+phenotype_synonym+`
 |`+Array+`
 |List of synonyms or alternate terms for the phenotype.
 
-|`+hpId+`
+|`+hp_id+`
 |`+String+`
 |Unique identifier for the human phenotype ontology (HPO) term.
 
-|`+hpTerm+`
+|`+hp_term+`
 |`+String+`
 |The term or description of the human phenotype (HP).
 
-|`+mpId+`
+|`+mp_id+`
 |`+String+`
 |Unique identifier for the mouse phenotype ontology (MPO) term.
 
-|`+mpTerm+`
+|`+mp_term+`
 |`+String+`
 |The term or description of the mouse phenotype (MP).
 
-|`+associationCurated+`
+|`+association_curated+`
 |`+Boolean+`
 |Boolean indicating if the gene-disease association was curated.
 
-|`+associationOrtholog+`
+|`+association_ortholog+`
 |`+Boolean+`
 |Boolean indicating if the gene-disease association is based on orthology.
 
-|`+markerSymbolsWithdrawn+`
+|`+marker_symbols_withdrawn+`
 |`+Array+`
 |List of withdrawn or obsolete marker symbols.
 
-|`+diseaseMatchedPhenotypes+`
+|`+disease_matched_phenotypes+`
 |`+Array+`
 |List of phenotypes matched between the disease and the model.
 
-|`+modelMatchedPhenotypes+`
+|`+model_matched_phenotypes+`
 |`+Array+`
 |List of phenotypes matched within the model.
 
-|`+diseaseModelAvgRaw+`
+|`+disease_model_avg_raw+`
 |`+Number+`
 |The average raw score of the disease-model match.
 
-|`+diseaseModelAvgNorm+`
+|`+disease_model_avg_norm+`
 |`+Number+`
 |The average normalized score of the disease-model match.
 
-|`+diseaseModelMaxRaw+`
+|`+disease_model_max_raw+`
 |`+Number+`
 |The maximum raw score of the disease-model match.
 
-|`+diseaseModelMaxNorm+`
+|`+disease_model_max_norm+`
 |`+Number+`
 |The maximum normalized score of the disease-model match.
 
-|`+searchQf+`
+|`+search_qf+`
 |`+Array+`
 |List of fields considered when performing a search query.
 
-|`+humanCuratedGene+`
+|`+human_curated_gene+`
 |`+Boolean+`
 |Boolean indicating if the gene has been curated by human effort.
 
-|`+impcModelWithCuratedGene+`
+|`+impc_model_with_curated_gene+`
 |`+Boolean+`
 |Boolean indicating if the IMPC model includes genes curated by human effort.
 
-|`+mgiModelWithCuratedGene+`
+|`+mgi_model_with_curated_gene+`
 |`+Boolean+`
 |Boolean indicating if the MGI model includes genes curated by human effort.
 
-|`+impcModelWithComputedAssociation+`
+|`+impc_model_with_computed_association+`
 |`+Boolean+`
 |Boolean indicating if the IMPC model includes computed gene-disease associations.
 
-|`+mgiModelWithComputedAssociation+`
+|`+mgi_model_with_computed_association+`
 |`+Boolean+`
 |Boolean indicating if the MGI model includes computed gene-disease associations.
 
@@ -97,107 +97,107 @@
 |`+String+`
 |The type classification of the experiment.
 
-|`+diseaseId+`
+|`+disease_id+`
 |`+String+`
 |Unique identifier for the associated disease.
 
-|`+diseaseSource+`
+|`+disease_source+`
 |`+String+`
 |The source of the disease information.
 
-|`+diseaseTerm+`
+|`+disease_term+`
 |`+String+`
 |The term or name of the disease.
 
-|`+diseaseAlts+`
+|`+disease_alts+`
 |`+Array+`
 |Alternative names or identifiers for the disease.
 
-|`+diseaseLocus+`
+|`+disease_locus+`
 |`+String+`
 |The locus associated with the disease.
 
-|`+diseaseClasses+`
+|`+disease_classes+`
 |`+Array+`
 |Classification categories for the disease.
 
-|`+diseasePhenotypes+`
+|`+disease_phenotypes+`
 |`+Array+`
 |Phenotypic descriptions or identifiers associated with the disease.
 
-|`+geneId+`
+|`+gene_id+`
 |`+String+`
 |Unique identifier for the gene.
 
-|`+geneSymbol+`
+|`+gene_symbol+`
 |`+String+`
 |The symbol representing the gene.
 
-|`+geneSymbolsWithdrawn+`
+|`+gene_symbols_withdrawn+`
 |`+Array+`
 |List of withdrawn or obsolete gene symbols.
 
-|`+geneLocus+`
+|`+gene_locus+`
 |`+String+`
 |The locus associated with the gene.
 
-|`+hgncGeneId+`
+|`+hgnc_gene_id+`
 |`+String+`
 |HGNC (HUGO Gene Nomenclature Committee) identifier for the gene.
 
-|`+hgncGeneSymbol+`
+|`+hgnc_gene_symbol+`
 |`+String+`
 |HGNC symbol for the gene.
 
-|`+hgncGeneSymbolsWithdrawn+`
+|`+hgnc_gene_symbols_withdrawn+`
 |`+Array+`
 |List of withdrawn or obsolete HGNC gene symbols.
 
-|`+hgncGeneLocus+`
+|`+hgnc_gene_locus+`
 |`+String+`
 |The locus associated with the HGNC gene.
 
-|`+mouseModel+`
+|`+mouse_model+`
 |`+Boolean+`
 |Boolean indicating if a mouse model is used.
 
-|`+impcModel+`
+|`+impc_model+`
 |`+Boolean+`
 |Boolean indicating if an IMPC (International Mouse Phenotyping Consortium) model is used.
 
-|`+modelId+`
+|`+model_id+`
 |`+String+`
 |Unique identifier for the model.
 
-|`+modelSource+`
+|`+model_source+`
 |`+String+`
 |The source of the model.
 
-|`+modelDescription+`
+|`+model_description+`
 |`+String+`
 |A description of the model.
 
-|`+modelGeneticBackground+`
+|`+model_genetic_background+`
 |`+String+`
 |The genetic background of the model.
 
-|`+markerId+`
+|`+marker_id+`
 |`+String+`
 |Unique identifier for the marker.
 
-|`+markerSymbol+`
+|`+marker_symbol+`
 |`+String+`
 |The symbol representing the marker.
 
-|`+markerLocus+`
+|`+marker_locus+`
 |`+String+`
 |The locus associated with the marker.
 
-|`+markerNumModels+`
+|`+marker_num_models+`
 |`+Number+`
 |The number of models associated with the marker.
 
-|`+modelPhenotypes+`
+|`+model_phenotypes+`
 |`+Array+`
 |Phenotypic descriptions or identifiers associated with the model.
 

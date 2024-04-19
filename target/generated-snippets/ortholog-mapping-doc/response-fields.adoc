@@ -1,31 +1,31 @@
 |===
 |Path|Type|Description
 
-|`+hgHgncAccId+`
+|`+hg_hgnc_acc_id+`
 |`+String+`
 |The HGNC accession ID.
 
-|`+hgSymbol+`
+|`+hg_symbol+`
 |`+String+`
 |The HGNC symbol.
 
-|`+hmfCategoryForThreshold+`
+|`+hmf_category_for_threshold+`
 |`+String+`
 |The category for threshold.
 
-|`+hmfHumanGeneId+`
+|`+hmf_human_gene_id+`
 |`+Number+`
 |The human gene ID.
 
-|`+hmfId+`
+|`+hmf_id+`
 |`+Number+`
 |The HMF ID.
 
-|`+hmfOrthologsAboveThreshold+`
+|`+hmf_orthologs_above_threshold+`
 |`+Number+`
 |The number of orthologs above threshold.
 
-|`+hmfSupportCountThreshold+`
+|`+hmf_support_count_threshold+`
 |`+Number+`
 |The support count threshold.
 
@@ -33,67 +33,67 @@
 |`+String+`
 |The unique identifier for the gene ortholog.
 
-|`+mgMgiGeneAccId+`
+|`+mg_mgi_gene_acc_id+`
 |`+String+`
 |The MGI gene accession ID.
 
-|`+mgSymbol+`
+|`+mg_symbol+`
 |`+String+`
 |The MGI symbol.
 
-|`+mmfCategoryForThreshold+`
+|`+mmf_category_for_threshold+`
 |`+String+`
 |The category for threshold.
 
-|`+mmfId+`
+|`+mmf_id+`
 |`+Number+`
 |The MMF ID.
 
-|`+mmfMouseGeneId+`
+|`+mmf_mouse_gene_id+`
 |`+Number+`
 |The mouse gene ID.
 
-|`+mmfOrthologsAboveThreshold+`
+|`+mmf_orthologs_above_threshold+`
 |`+Number+`
 |The number of orthologs above threshold.
 
-|`+mmfSupportCountThreshold+`
+|`+mmf_support_count_threshold+`
 |`+Number+`
 |The support count threshold.
 
-|`+ocategory+`
+|`+o_category+`
 |`+String+`
 |The category.
 
-|`+ohumanGeneId+`
+|`+o_human_gene_id+`
 |`+Number+`
 |The human gene ID.
 
-|`+oid+`
+|`+o_id+`
 |`+Number+`
 |The O ID.
 
-|`+oisMaxHumanToMouse+`
+|`+o_is_max_human_to_mouse+`
 |`+String+`
 |Indicates if it is max human to mouse.
 
-|`+oisMaxMouseToHuman+`
+|`+o_is_max_mouse_to_human+`
 |`+String+`
 |Indicates if it is max mouse to human.
 
-|`+omouseGeneId+`
+|`+o_mouse_gene_id+`
 |`+Number+`
 |The mouse gene ID.
 
-|`+osupport+`
+|`+o_support+`
 |`+String+`
 |The support.
 
-|`+osupportCount+`
+|`+o_support_count+`
 |`+Number+`
 |The support count.
 
-|`+osupportRaw+`
+|`+o_support_raw+`
 |`+String+`
 |The raw support.
 

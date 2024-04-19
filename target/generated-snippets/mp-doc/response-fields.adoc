@@ -5,179 +5,179 @@
 |`+Array+`
 |A list of general text related to the document.
 
-|`+autoSuggest[]+`
+|`+auto_suggest[]+`
 |`+Array+`
 |Suggestions for auto-complete features.
 
-|`+mixSynQf[]+`
+|`+mix_syn_qf[]+`
 |`+Array+`
 |A mix of synonyms and quality factors for search optimization.
 
-|`+searchTermJson+`
+|`+search_term_json+`
 |`+String+`
 |JSON representation of search terms.
 
-|`+childrenJson+`
+|`+children_json+`
 |`+String+`
 |JSON representation of child elements related to the document.
 
-|`+scrollNode+`
+|`+scroll_node+`
 |`+String+`
 |An identifier for a scroll node, possibly used in UI elements.
 
-|`+geneVariantMaleCount+`
+|`+gene_variant_male_count+`
 |`+Number+`
 |The count of male gene variants.
 
-|`+geneVariantFemaleCount+`
+|`+gene_variant_female_count+`
 |`+Number+`
 |The count of female gene variants.
 
-|`+geneVariantCount+`
+|`+gene_variant_count+`
 |`+Number+`
 |The total count of gene variants.
 
-|`+mpId+`
+|`+mp_id+`
 |`+String+`
 |The unique identifier for the MP term.
 
-|`+mpTerm+`
+|`+mp_term+`
 |`+String+`
 |The name of the MP term.
 
-|`+mpDefinition+`
+|`+mp_definition+`
 |`+String+`
 |The definition of the MP term.
 
-|`+mpTermSynonym[]+`
+|`+mp_term_synonym[]+`
 |`+Array+`
 |A list of synonyms for the MP term.
 
-|`+altMpId[]+`
+|`+alt_mp_id[]+`
 |`+Array+`
 |Alternative identifiers for MP terms.
 
-|`+childMpId[]+`
+|`+child_mp_id[]+`
 |`+Array+`
 |Identifiers for child MP terms.
 
-|`+childMpTerm[]+`
+|`+child_mp_term[]+`
 |`+Array+`
 |Names of child MP terms.
 
-|`+parentMpId[]+`
+|`+parent_mp_id[]+`
 |`+Array+`
 |Identifiers for parent MP terms.
 
-|`+parentMpTerm[]+`
+|`+parent_mp_term[]+`
 |`+Array+`
 |Names of parent MP terms.
 
-|`+intermediateMpId[]+`
+|`+intermediate_mp_id[]+`
 |`+Array+`
 |Identifiers for intermediate MP terms.
 
-|`+intermediateMpTerm[]+`
+|`+intermediate_mp_term[]+`
 |`+Array+`
 |Names of intermediate MP terms.
 
-|`+topLevelMpId[]+`
+|`+top_level_mp_id[]+`
 |`+Array+`
 |Identifiers for top-level MP terms.
 
-|`+topLevelMpTerm[]+`
+|`+top_level_mp_term[]+`
 |`+Array+`
 |Names of top-level MP terms.
 
-|`+topLevelMpTermSynonym[]+`
+|`+top_level_mp_term_synonym[]+`
 |`+Array+`
 |Synonyms for top-level MP terms.
 
-|`+topLevelMpTermId[]+`
+|`+top_level_mp_term_id[]+`
 |`+Array+`
 |Unique identifiers for top-level MP terms.
 
-|`+hpId[]+`
+|`+hp_id[]+`
 |`+Array+`
 |A list of Human Phenotype Ontology (HPO) identifiers related to the gene.
 
-|`+hpTerm[]+`
+|`+hp_term[]+`
 |`+Array+`
 |Names of the human phenotypes associated with the HPO identifiers.
 
-|`+hpTermSynonym[]+`
+|`+hp_term_synonym[]+`
 |`+Array+`
 |Synonyms for the HPO terms.
 
-|`+dataType+`
+|`+data_type+`
 |`+String+`
 |The type of data contained in the document.
 
-|`+inferredMaId[]+`
+|`+inferred_ma_id[]+`
 |`+Array+`
 |A list of inferred Mouse Anatomy (MA) term identifiers.
 
-|`+inferredMaTerm[]+`
+|`+inferred_ma_term[]+`
 |`+Array+`
 |Names of the inferred MA terms.
 
-|`+inferredIntermediateMaId[]+`
+|`+inferred_intermediate_ma_id[]+`
 |`+Array+`
 |Identifiers for intermediate MA terms that are inferred.
 
-|`+inferredIntermediateMaTerm[]+`
+|`+inferred_intermediate_ma_term[]+`
 |`+Array+`
 |Names of the inferred intermediate MA terms.
 
-|`+inferredSelectedTopLevelMaId[]+`
+|`+inferred_selected_top_level_ma_id[]+`
 |`+Array+`
 |Identifiers for selected top-level MA terms that are inferred.
 
-|`+inferredSelectedTopLevelMaTerm[]+`
+|`+inferred_selected_top_level_ma_term[]+`
 |`+Array+`
 |Names of the inferred selected top-level MA terms.
 
-|`+goId[]+`
+|`+go_id[]+`
 |`+Array+`
 |A list of Gene Ontology (GO) identifiers related to the gene.
 
-|`+pvalue[]+`
+|`+p_value+`
 |`+Array+`
 |A list of p-values associated with the statistical analysis of the gene.
 
-|`+mgiAccessionId[]+`
+|`+mgi_accession_id[]+`
 |`+Array+`
 |A list of Mouse Genome Informatics (MGI) accession identifiers.
 
-|`+markerSymbol[]+`
+|`+marker_symbol[]+`
 |`+Array+`
 |Symbols representing the gene markers.
 
-|`+markerAccessionId+`
+|`+marker_accession_id+`
 |`+String+`
 |The accession ID for the gene marker.
 
-|`+phenoCalls+`
+|`+pheno_calls+`
 |`+Number+`
 |The number of phenotype calls made for the gene.
 
-|`+preqcGeneId[]+`
+|`+preqc_gene_id[]+`
 |`+Array+`
 |Pre-QC gene identifiers.
 
-|`+markerName[]+`
+|`+marker_name[]+`
 |`+Array+`
 |Full names of the gene markers.
 
-|`+markerSynonym[]+`
+|`+marker_synonym[]+`
 |`+Array+`
 |Synonyms for the gene markers.
 
-|`+markerType[]+`
+|`+marker_type[]+`
 |`+Array+`
 |Types of gene markers.
 
-|`+humanGeneSymbol[]+`
+|`+human_gene_symbol[]+`
 |`+Array+`
 |Symbols for human genes that are orthologous to the mouse gene.
 
@@ -185,39 +185,39 @@
 |`+Array+`
 |Statuses related to the gene.
 
-|`+imitsPhenotypeStarted[]+`
+|`+imits_phenotype_started[]+`
 |`+Array+`
 |Information on whether phenotyping has started for the gene, by center.
 
-|`+imitsPhenotypeComplete[]+`
+|`+imits_phenotype_complete[]+`
 |`+Array+`
 |Information on whether phenotyping is complete for the gene, by center.
 
-|`+imitsPhenotypeStatus[]+`
+|`+imits_phenotype_status[]+`
 |`+Array+`
 |The phenotyping status for the gene, by center.
 
-|`+latestProductionCentre[]+`
+|`+latest_production_centre[]+`
 |`+Array+`
 |The latest centers to produce the gene.
 
-|`+latestPhenotypingCentre[]+`
+|`+latest_phenotyping_centre[]+`
 |`+Array+`
 |The latest centers to phenotype the gene.
 
-|`+latestPhenotypeStatus[]+`
+|`+latest_phenotype_status[]+`
 |`+Array+`
 |The latest phenotyping statuses for the gene.
 
-|`+legacyPhenotypeStatus+`
+|`+legacy_phenotype_status+`
 |`+Number+`
 |Legacy phenotype status for the gene.
 
-|`+alleleName[]+`
+|`+allele_name[]+`
 |`+Array+`
 |Names of alleles for the gene.
 
-|`+embryoDataAvailable+`
+|`+embryo_data_available+`
 |`+Boolean+`
 |Indicates if embryo data is available for the gene.
 
@@ -225,63 +225,63 @@
 |`+Array+`
 |Types of data or entities related to the gene.
 
-|`+diseaseId[]+`
+|`+disease_id[]+`
 |`+Array+`
 |Identifiers for diseases related to the gene.
 
-|`+diseaseSource[]+`
+|`+disease_source[]+`
 |`+Array+`
 |Sources of the disease information.
 
-|`+diseaseTerm[]+`
+|`+disease_term[]+`
 |`+Array+`
 |Names of the diseases related to the gene.
 
-|`+diseaseAlts[]+`
+|`+disease_alts[]+`
 |`+Array+`
 |Alternative names or identifiers for the diseases.
 
-|`+diseaseClasses[]+`
+|`+disease_classes[]+`
 |`+Array+`
 |Classification of the diseases related to the gene.
 
-|`+humanCurated[]+`
+|`+human_curated[]+`
 |`+Array+`
 |Indicates if the disease-gene association was curated by humans.
 
-|`+mouseCurated[]+`
+|`+mouse_curated[]+`
 |`+Array+`
 |Indicates if the disease-gene association was curated based on mouse models.
 
-|`+mgiPredicted[]+`
+|`+mgi_predicted[]+`
 |`+Array+`
 |Indicates if the disease-gene association is predicted by MGI.
 
-|`+impcPredicted[]+`
+|`+impc_predicted[]+`
 |`+Array+`
 |Indicates if the disease-gene association is predicted by IMPC.
 
-|`+mgiPredictedKnownGene[]+`
+|`+mgi_predicted_known_gene[]+`
 |`+Array+`
 |Indicates if the prediction by MGI involves known genes.
 
-|`+impcPredictedKnownGene[]+`
+|`+impc_predicted_known_gene[]+`
 |`+Array+`
 |Indicates if the prediction by IMPC involves known genes.
 
-|`+mgiNovelPredictedInLocus[]+`
+|`+mgi_novel_predicted_in_locus[]+`
 |`+Array+`
 |Indicates if there are novel predictions by MGI within a specific locus.
 
-|`+impcNovelPredictedInLocus[]+`
+|`+impc_novel_predicted_in_locus[]+`
 |`+Array+`
 |Indicates if there are novel predictions by IMPC within a specific locus.
 
-|`+annotationTermId[]+`
+|`+annotation_term_id[]+`
 |`+Array+`
 |A list of annotation term identifiers.
 
-|`+annotationTermName[]+`
+|`+annotation_term_name[]+`
 |`+Array+`
 |Names corresponding to the annotation term identifiers.
 
@@ -293,15 +293,15 @@
 |`+Array+`
 |A list of accession numbers related to the entity.
 
-|`+expName[]+`
+|`+exp_name[]+`
 |`+Array+`
 |A list of experiment names related to the entity.
 
-|`+largeThumbnailFilePath+`
+|`+large_thumbnail_file_path+`
 |`+String+`
 |File path for the large thumbnail image.
 
-|`+smallThumbnailFilePath+`
+|`+small_thumbnail_file_path+`
 |`+String+`
 |File path for the small thumbnail image.
 
@@ -309,11 +309,11 @@
 |`+Array+`
 |A list of symbols related to the entity.
 
-|`+sangerSymbol[]+`
+|`+sanger_symbol[]+`
 |`+Array+`
 |A list of Sanger symbols related to the entity.
 
-|`+geneName[]+`
+|`+gene_name[]+`
 |`+Array+`
 |A list of gene names.
 
@@ -321,71 +321,71 @@
 |`+Array+`
 |A list of subtypes for the entity.
 
-|`+geneSynonyms[]+`
+|`+gene_synonyms[]+`
 |`+Array+`
 |A list of synonyms for the gene.
 
-|`+expNameExp[]+`
+|`+exp_name_exp[]+`
 |`+Array+`
 |A list of expanded experiment names related to the entity.
 
-|`+symbolGene[]+`
+|`+symbol_gene[]+`
 |`+Array+`
 |A list of gene symbols.
 
-|`+topLevel[]+`
+|`+top_level[]+`
 |`+Array+`
 |A list indicating if the entity is at the top level.
 
-|`+alleleSymbol[]+`
+|`+allele_symbol[]+`
 |`+Array+`
 |A list of allele symbols.
 
-|`+alleleId[]+`
+|`+allele_id[]+`
 |`+Array+`
 |A list of allele identifiers.
 
-|`+strainName[]+`
+|`+strain_name[]+`
 |`+Array+`
 |A list of strain names.
 
-|`+strainAccessionId[]+`
+|`+strain_accession_id[]+`
 |`+Array+`
 |A list of strain accession IDs.
 
-|`+pipelineName[]+`
+|`+pipeline_name[]+`
 |`+Array+`
 |A list of pipeline names.
 
-|`+pipelineStableId[]+`
+|`+pipeline_stable_id[]+`
 |`+Array+`
 |A list of pipeline stable identifiers.
 
-|`+pipelineStableKey[]+`
+|`+pipeline_stable_key[]+`
 |`+Array+`
 |A list of pipeline stable keys.
 
-|`+procedureName[]+`
+|`+procedure_name[]+`
 |`+Array+`
 |A list of procedure names.
 
-|`+procedureStableId[]+`
+|`+procedure_stable_id[]+`
 |`+Array+`
 |A list of procedure stable identifiers.
 
-|`+procedureStableKey[]+`
+|`+procedure_stable_key[]+`
 |`+Array+`
 |A list of procedure stable keys.
 
-|`+parameterName[]+`
+|`+parameter_name[]+`
 |`+Array+`
 |A list of parameter names.
 
-|`+parameterStableId[]+`
+|`+parameter_stable_id[]+`
 |`+Array+`
 |A list of parameter stable identifiers.
 
-|`+parameterStableKey[]+`
+|`+parameter_stable_key[]+`
 |`+Array+`
 |A list of parameter stable keys.
 
@@ -393,35 +393,35 @@
 |`+Array+`
 |A catchall fifeld containing all searchable text fields.
 
-|`+autoSuggest[]+`
+|`+auto_suggest[]+`
 |`+Array+`
 |Fields intended for use in auto-suggestion features.
 
-|`+mixSynQf[]+`
+|`+mix_syn_qf[]+`
 |`+Array+`
 |Fields that mix synonyms and quality factors for search optimization.
 
-|`+searchTermJson+`
+|`+search_term_json+`
 |`+String+`
 |JSON representation of search terms for ontology browser.
 
-|`+childrenJson+`
+|`+children_json+`
 |`+String+`
 |JSON representation of child terms for ontology browser.
 
-|`+scrollNode+`
+|`+scroll_node+`
 |`+String+`
 |Identifier for scrolling functionality in UI components.
 
-|`+geneVariantMaleCount+`
+|`+gene_variant_male_count+`
 |`+Number+`
 |Count of male variants of the gene.
 
-|`+geneVariantFemaleCount+`
+|`+gene_variant_female_count+`
 |`+Number+`
 |Count of female variants of the gene.
 
-|`+geneVariantCount+`
+|`+gene_variant_count+`
 |`+Number+`
 |Total count of gene variants.
 

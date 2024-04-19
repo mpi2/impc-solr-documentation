@@ -1,51 +1,51 @@
 |===
 |Path|Type|Description
 
-|`+alleleDesignProject+`
+|`+allele_design_project+`
 |`+String+`
 |The design project associated with the allele.
 
-|`+alleleHasIssues+`
+|`+allele_has_issues+`
 |`+Boolean+`
 |Indicates whether the allele has any issues.
 
-|`+alleleId+`
+|`+allele_id+`
 |`+String+`
 |The unique identifier for the allele.
 
-|`+alleleName+`
+|`+allele_name+`
 |`+String+`
 |The name of the allele.
 
-|`+alleleDescription+`
+|`+allele_description+`
 |`+String+`
 |A description of the allele.
 
-|`+alleleType+`
+|`+allele_type+`
 |`+String+`
 |The type of allele.
 
-|`+associatedProductColonyName+`
+|`+associated_product_colony_name+`
 |`+String+`
 |The colony name associated with the product.
 
-|`+associatedProductEsCellName+`
+|`+associated_product_es_cell_name+`
 |`+String+`
 |The ES cell name associated with the product.
 
-|`+associatedProductVectorName+`
+|`+associated_product_vector_name+`
 |`+String+`
 |The vector name associated with the product.
 
-|`+associatedProductsColonyNames[]+`
+|`+associated_products_colony_names[]+`
 |`+Array+`
 |List of colony names associated with the product.
 
-|`+associatedProductsEsCellNames[]+`
+|`+associated_products_es_cell_names[]+`
 |`+Array+`
 |List of ES cell names associated with the product.
 
-|`+associatedProductsVectorNames[]+`
+|`+associated_products_vector_names[]+`
 |`+Array+`
 |List of vector names associated with the product.
 
@@ -53,35 +53,35 @@
 |`+String+`
 |The cassette associated with the allele.
 
-|`+contactLinks[]+`
+|`+contact_links[]+`
 |`+Array+`
 |List of contact links.
 
-|`+contactNames[]+`
+|`+contact_names[]+`
 |`+Array+`
 |List of contact names.
 
-|`+designId+`
+|`+design_id+`
 |`+String+`
 |The design ID associated with the allele.
 
-|`+geneticInfo[]+`
+|`+genetic_info[]+`
 |`+Array+`
 |List of genetic information associated with the allele.
 
-|`+ikmcProjectId+`
+|`+ikmc_project_id+`
 |`+String+`
 |The IKMC project ID associated with the allele.
 
-|`+loaAssays[]+`
+|`+loa_assays[]+`
 |`+Array+`
 |List of LOA assays associated with the allele.
 
-|`+markerSymbol+`
+|`+marker_symbol+`
 |`+String+`
 |The marker symbol associated with the allele.
 
-|`+mgiAccessionId+`
+|`+mgi_accession_id+`
 |`+String+`
 |The MGI accession ID associated with the allele.
 
@@ -89,55 +89,55 @@
 |`+String+`
 |The name associated with the allele product.
 
-|`+orderLinks[]+`
+|`+order_links[]+`
 |`+Array+`
 |List of order links.
 
-|`+orderNames[]+`
+|`+order_names[]+`
 |`+Array+`
 |List of order names.
 
-|`+otherLinks[]+`
+|`+other_links[]+`
 |`+Array+`
 |List of other links.
 
-|`+tissueEnquiryLinks[]+`
+|`+tissue_enquiry_links[]+`
 |`+Array+`
 |List of tissue enquiry links.
 
-|`+tissueEnquiryTypes[]+`
+|`+tissue_enquiry_types[]+`
 |`+Array+`
 |List of tissue enquiry types.
 
-|`+tissueDistributionCentres[]+`
+|`+tissue_distribution_centres[]+`
 |`+Array+`
 |List of tissue distribution centres.
 
-|`+productId+`
+|`+product_id+`
 |`+String+`
 |The product ID.
 
-|`+productIndex+`
+|`+product_index+`
 |`+String+`
 |The product index.
 
-|`+productionCentre+`
+|`+production_centre+`
 |`+String+`
 |The production centre.
 
-|`+productionCompleted+`
+|`+production_completed+`
 |`+Boolean+`
 |Indicates whether production is completed.
 
-|`+productionInfo[]+`
+|`+production_info[]+`
 |`+Array+`
 |List of production information.
 
-|`+productionPipeline+`
+|`+production_pipeline+`
 |`+String+`
 |The production pipeline.
 
-|`+qcData[]+`
+|`+qc_data[]+`
 |`+Array+`
 |List of QC data.
 
@@ -145,7 +145,7 @@
 |`+String+`
 |The status of the allele product.
 
-|`+statusDate+`
+|`+status_date+`
 |`+String+`
 |The date of the status.
 

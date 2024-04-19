@@ -1,135 +1,135 @@
 |===
 |Path|Type|Description
 
-|`+docId+`
+|`+doc_id+`
 |`+String+`
 |The unique identifier for the document.
 
-|`+ontologyDbId+`
+|`+ontology_db_id+`
 |`+Number+`
 |The database ID associated with the ontology entry.
 
-|`+assertionType+`
+|`+assertion_type+`
 |`+String+`
 |The type of assertion made in the document.
 
-|`+assertionTypeId+`
+|`+assertion_type_id+`
 |`+String+`
 |The unique identifier for the assertion type.
 
-|`+mpathTermId+`
+|`+mpath_term_id+`
 |`+String+`
 |The identifier for the pathology (MPATH) term.
 
-|`+mpathTermName+`
+|`+mpath_term_name+`
 |`+String+`
 |The name of the pathology (MPATH) term.
 
-|`+anatomyTermId+`
+|`+anatomy_term_id+`
 |`+Array+`
 |List of anatomy term identifiers.
 
-|`+anatomyTermName+`
+|`+anatomy_term_name+`
 |`+Array+`
 |List of anatomy term names.
 
-|`+intermediateAnatomyTermId+`
+|`+intermediate_anatomy_term_id+`
 |`+Array+`
 |List of intermediate anatomy term identifiers.
 
-|`+intermediateAnatomyTermName+`
+|`+intermediate_anatomy_term_name+`
 |`+Array+`
 |List of intermediate anatomy term names.
 
-|`+topLevelAnatomyTermId+`
+|`+top_level_anatomy_term_id+`
 |`+Array+`
 |List of top-level anatomy term identifiers.
 
-|`+topLevelAnatomyTermName+`
+|`+top_level_anatomy_term_name+`
 |`+Array+`
 |List of top-level anatomy term names.
 
-|`+mpTermId+`
+|`+mp_term_id+`
 |`+String+`
 |The identifier for the mouse phenotype (MP) term.
 
-|`+mpTermName+`
+|`+mp_term_name+`
 |`+String+`
 |The name of the mouse phenotype (MP) term.
 
-|`+altMpTermId+`
+|`+alt_mp_term_id+`
 |`+Array+`
 |List of alternative mouse phenotype (MP) term identifiers.
 
-|`+topLevelMpTermId+`
+|`+top_level_mp_term_id+`
 |`+Array+`
 |List of top-level mouse phenotype (MP) term identifiers.
 
-|`+topLevelMpTermName+`
+|`+top_level_mp_term_name+`
 |`+Array+`
 |List of top-level mouse phenotype (MP) term names.
 
-|`+intermediateMpTermId+`
+|`+intermediate_mp_term_id+`
 |`+Array+`
 |List of intermediate mouse phenotype (MP) term identifiers.
 
-|`+intermediateMpTermName+`
+|`+intermediate_mp_term_name+`
 |`+Array+`
 |List of intermediate mouse phenotype (MP) term names.
 
-|`+markerSymbol+`
+|`+marker_symbol+`
 |`+String+`
 |The symbol for the genetic marker.
 
-|`+markerAccessionId+`
+|`+marker_accession_id+`
 |`+String+`
 |The accession ID for the genetic marker.
 
-|`+colonyId+`
+|`+colony_id+`
 |`+String+`
 |The identifier for the colony.
 
-|`+alleleName+`
+|`+allele_name+`
 |`+String+`
 |The name of the allele.
 
-|`+alleleSymbol+`
+|`+allele_symbol+`
 |`+String+`
 |The symbol of the allele.
 
-|`+alleleAccessionId+`
+|`+allele_accession_id+`
 |`+String+`
 |The accession ID of the allele.
 
-|`+strainName+`
+|`+strain_name+`
 |`+String+`
 |The name of the strain.
 
-|`+strainAccessionId+`
+|`+strain_accession_id+`
 |`+String+`
 |The accession ID of the strain.
 
-|`+phenotypingCenter+`
+|`+phenotyping_center+`
 |`+String+`
 |The name of the phenotyping center.
 
-|`+projectExternalId+`
+|`+project_external_id+`
 |`+String+`
 |The external ID of the project.
 
-|`+projectName+`
+|`+project_name+`
 |`+Array+`
 |List of names for the project.
 
-|`+projectFullname+`
+|`+project_fullname+`
 |`+String+`
 |The full name of the project.
 
-|`+resourceName+`
+|`+resource_name+`
 |`+String+`
 |The name of the resource.
 
-|`+resourceFullname+`
+|`+resource_fullname+`
 |`+String+`
 |The full name of the resource.
 
@@ -141,67 +141,67 @@
 |`+String+`
 |The zygosity of the subject.
 
-|`+pipelineName+`
+|`+pipeline_name+`
 |`+String+`
 |The name of the pipeline.
 
-|`+pipelineStableId+`
+|`+pipeline_stable_id+`
 |`+String+`
 |The stable ID of the pipeline.
 
-|`+pipelineStableKey+`
+|`+pipeline_stable_key+`
 |`+String+`
 |The stable key of the pipeline.
 
-|`+procedureName+`
+|`+procedure_name+`
 |`+String+`
 |The name of the procedure.
 
-|`+procedureStableId+`
+|`+procedure_stable_id+`
 |`+Array+`
 |List of stable IDs for the procedures.
 
-|`+procedureStableKey+`
+|`+procedure_stable_key+`
 |`+Array+`
 |List of stable keys for the procedures.
 
-|`+parameterName+`
+|`+parameter_name+`
 |`+String+`
 |The name of the parameter.
 
-|`+parameterStableId+`
+|`+parameter_stable_id+`
 |`+String+`
 |The stable ID of the parameter.
 
-|`+parameterStableKey+`
+|`+parameter_stable_key+`
 |`+Array+`
 |List of stable keys for the parameter.
 
-|`+statisticalMethod+`
+|`+statistical_method+`
 |`+String+`
 |The statistical method used.
 
-|`+percentageChange+`
+|`+percentage_change+`
 |`+String+`
 |The percentage change observed.
 
-|`+pvalue+`
+|`+p_value+`
 |`+Number+`
 |The p-value resulting from statistical tests.
 
-|`+effectSize+`
+|`+effect_size+`
 |`+Number+`
 |The effect size measured.
 
-|`+externalId+`
+|`+external_id+`
 |`+String+`
 |The external identifier for the document.
 
-|`+lifeStageAcc+`
+|`+life_stage_acc+`
 |`+String+`
 |The accession code for the life stage.
 
-|`+lifeStageName+`
+|`+life_stage_name+`
 |`+String+`
 |The name of the life stage.
 

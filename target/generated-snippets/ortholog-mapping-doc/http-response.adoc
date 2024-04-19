@@ -2,32 +2,32 @@
 ----
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 671
+Content-Length: 729
 
 {
-  "hgHgncAccId" : "hg123",
-  "hgSymbol" : "HG",
-  "hmfCategoryForThreshold" : "Category",
-  "hmfHumanGeneId" : 456,
-  "hmfId" : 789,
-  "hmfOrthologsAboveThreshold" : 3,
-  "hmfSupportCountThreshold" : 10,
+  "hg_hgnc_acc_id" : "hg123",
+  "hg_symbol" : "HG",
+  "hmf_category_for_threshold" : "Category",
+  "hmf_human_gene_id" : 456,
+  "hmf_id" : 789,
+  "hmf_orthologs_above_threshold" : 3,
+  "hmf_support_count_threshold" : 10,
   "id" : "exampleId",
-  "mgMgiGeneAccId" : "mg123",
-  "mgSymbol" : "MG",
-  "mmfCategoryForThreshold" : "Category",
-  "mmfId" : 987,
-  "mmfMouseGeneId" : 654,
-  "mmfOrthologsAboveThreshold" : 5,
-  "mmfSupportCountThreshold" : 8,
-  "ocategory" : "Category",
-  "osupport" : "Support",
-  "osupportRaw" : "Raw Support",
-  "oid" : 654,
-  "ohumanGeneId" : 321,
-  "oisMaxHumanToMouse" : "Yes",
-  "oisMaxMouseToHuman" : "No",
-  "omouseGeneId" : 987,
-  "osupportCount" : 12
+  "mg_mgi_gene_acc_id" : "mg123",
+  "mg_symbol" : "MG",
+  "mmf_category_for_threshold" : "Category",
+  "mmf_id" : 987,
+  "mmf_mouse_gene_id" : 654,
+  "mmf_orthologs_above_threshold" : 5,
+  "mmf_support_count_threshold" : 8,
+  "o_category" : "Category",
+  "o_human_gene_id" : 321,
+  "o_id" : 654,
+  "o_is_max_human_to_mouse" : "Yes",
+  "o_is_max_mouse_to_human" : "No",
+  "o_mouse_gene_id" : 987,
+  "o_support" : "Support",
+  "o_support_count" : 12,
+  "o_support_raw" : "Raw Support"
 }
 ----

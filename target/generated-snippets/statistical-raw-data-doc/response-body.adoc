@@ -1,7 +1,7 @@
 [source,json,options="nowrap"]
 ----
 {
-  "docId" : "80420cdf24801626767c4944fa",
-  "rawData" : "iSmUC/8Wd3c5lSY2m7"
+  "doc_id" : "80420cdf24801626767c4944fa",
+  "raw_data" : "iSmUC/8Wd3c5lSY2m7"
 }
 ----

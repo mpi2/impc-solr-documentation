@@ -1,131 +1,131 @@
 |===
 |Path|Type|Description
 
-|`+docId+`
+|`+doc_id+`
 |`+String+`
 |The unique identifier for the document.
 
-|`+assertionType+`
+|`+assertion_type+`
 |`+String+`
 |The type of assertion made in the document.
 
-|`+assertionTypeId+`
+|`+assertion_type_id+`
 |`+String+`
 |The unique identifier for the assertion type.
 
-|`+mpathTermId+`
+|`+mpath_term_id+`
 |`+String+`
 |The identifier for the MPATH term.
 
-|`+mpathTermName+`
+|`+mpath_term_name+`
 |`+String+`
 |The name of the MPATH term.
 
-|`+emapTermId+`
+|`+emap_term_id+`
 |`+String+`
 |The identifier for the EMAP term.
 
-|`+emapTermName+`
+|`+emap_term_name+`
 |`+String+`
 |The name of the EMAP term.
 
-|`+mpTermId+`
+|`+mp_term_id+`
 |`+String+`
 |The identifier for the MP term.
 
-|`+mpTermName+`
+|`+mp_term_name+`
 |`+String+`
 |The name of the MP term.
 
-|`+altMpTermId[]+`
+|`+alt_mp_term_id[]+`
 |`+Array+`
 |Alternative MP term identifiers.
 
-|`+topLevelMpTermId[]+`
+|`+top_level_mp_term_id[]+`
 |`+Array+`
 |Identifiers for top-level MP terms.
 
-|`+topLevelMpTermName[]+`
+|`+top_level_mp_term_name[]+`
 |`+Array+`
 |Names of top-level MP terms.
 
-|`+topLevelMpTermDefinition[]+`
+|`+top_level_mp_term_definition[]+`
 |`+Array+`
 |Definitions of top-level MP terms.
 
-|`+topLevelMpTermSynonym[]+`
+|`+top_level_mp_term_synonym[]+`
 |`+Array+`
 |Synonyms for top-level MP terms.
 
-|`+intermediateMpTermId[]+`
+|`+intermediate_mp_term_id[]+`
 |`+Array+`
 |Identifiers for intermediate MP terms.
 
-|`+intermediateMpTermName[]+`
+|`+intermediate_mp_term_name[]+`
 |`+Array+`
 |Names of intermediate MP terms.
 
-|`+intermediateMpTermDefinition[]+`
+|`+intermediate_mp_term_definition[]+`
 |`+Array+`
 |Definitions of intermediate MP terms.
 
-|`+intermediateMpTermSynonym[]+`
+|`+intermediate_mp_term_synonym[]+`
 |`+Array+`
 |Synonyms for intermediate MP terms.
 
-|`+markerSymbol+`
+|`+marker_symbol+`
 |`+String+`
 |The symbol for the marker.
 
-|`+markerAccessionId+`
+|`+marker_accession_id+`
 |`+String+`
 |The accession ID for the marker.
 
-|`+colonyId+`
+|`+colony_id+`
 |`+String+`
 |The identifier for the colony.
 
-|`+alleleName+`
+|`+allele_name+`
 |`+String+`
 |The name of the allele.
 
-|`+alleleSymbol+`
+|`+allele_symbol+`
 |`+String+`
 |The symbol for the allele.
 
-|`+alleleAccessionId+`
+|`+allele_accession_id+`
 |`+String+`
 |The accession ID for the allele.
 
-|`+strainName+`
+|`+strain_name+`
 |`+String+`
 |The name of the strain.
 
-|`+strainAccessionId+`
+|`+strain_accession_id+`
 |`+String+`
 |The accession ID for the strain.
 
-|`+phenotypingCenter+`
+|`+phenotyping_center+`
 |`+String+`
 |The name of the phenotyping center.
 
-|`+projectExternalId+`
+|`+project_external_id+`
 |`+String+`
 |The external identifier for the project.
 
-|`+projectName+`
+|`+project_name+`
 |`+String+`
 |The name of the project.
 
-|`+projectFullname+`
+|`+project_fullname+`
 |`+String+`
 |The full name of the project.
 
-|`+resourceName+`
+|`+resource_name+`
 |`+String+`
 |The name of the resource.
 
-|`+resourceFullname+`
+|`+resource_fullname+`
 |`+String+`
 |The full name of the resource.
 
@@ -137,67 +137,67 @@
 |`+String+`
 |The zygosity of the subjects in the experiment.
 
-|`+pipelineName+`
+|`+pipeline_name+`
 |`+String+`
 |The name of the pipeline used.
 
-|`+pipelineStableId+`
+|`+pipeline_stable_id+`
 |`+String+`
 |The stable identifier for the pipeline.
 
-|`+pipelineStableKey+`
+|`+pipeline_stable_key+`
 |`+String+`
 |The stable key for the pipeline.
 
-|`+procedureName+`
+|`+procedure_name+`
 |`+String+`
 |The name of the procedure used.
 
-|`+procedureStableId+`
+|`+procedure_stable_id+`
 |`+String+`
 |The stable identifier for the procedure.
 
-|`+procedureStableKey+`
+|`+procedure_stable_key+`
 |`+String+`
 |The stable key for the procedure.
 
-|`+parameterName+`
+|`+parameter_name+`
 |`+String+`
 |The name of the parameter measured.
 
-|`+parameterStableId+`
+|`+parameter_stable_id+`
 |`+String+`
 |The stable identifier for the parameter.
 
-|`+parameterStableKey+`
+|`+parameter_stable_key+`
 |`+String+`
 |The stable key for the parameter.
 
-|`+statisticalMethod+`
+|`+statistical_method+`
 |`+String+`
 |The statistical method used in the analysis.
 
-|`+percentageChange+`
+|`+percentage_change+`
 |`+String+`
 |The percentage change measured in the experiment.
 
-|`+pvalue+`
+|`+p_value+`
 |`+Number+`
 |The p-value resulting from the statistical analysis.
 
-|`+effectSize+`
+|`+effect_size+`
 |`+Number+`
 |The effect size measured in the experiment.
 
-|`+externalId+`
+|`+external_id+`
 |`+String+`
 |An external identifier associated with the document.
 
-|`+lifeStageAcc+`
+|`+life_stage_acc+`
 |`+String+`
 |The accession code for the life stage.
 
-|`+lifeStageName+`
+|`+life_stage_name+`
 |`+String+`
 |The name of the life stage of the subjects.
 

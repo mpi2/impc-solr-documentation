@@ -1,47 +1,47 @@
 |===
 |Path|Type|Description
 
-|`+mgiAccessionId+`
+|`+mgi_accession_id+`
 |`+String+`
 |The Mouse Genome Informatics (MGI) accession ID uniquely identifying the gene.
 
-|`+dataType+`
+|`+data_type+`
 |`+String+`
 |The type of data, indicating the nature of the information (e.g., 'gene', 'allele').
 
-|`+markerType+`
+|`+marker_type+`
 |`+String+`
 |The type of genetic marker, such as 'protein coding gene', 'non-coding RNA'.
 
-|`+markerSymbol+`
+|`+marker_symbol+`
 |`+String+`
 |The official symbol of the genetic marker.
 
-|`+markerSynonym+`
+|`+marker_synonym+`
 |`+Array+`
 |A list of alternative names or symbols for the genetic marker.
 
-|`+markerName+`
+|`+marker_name+`
 |`+String+`
 |The full name of the genetic marker.
 
-|`+humanGeneSymbol+`
+|`+human_gene_symbol+`
 |`+Array+`
 |A list of human gene symbols that are orthologous to the mouse gene.
 
-|`+ensemblGeneId+`
+|`+ensembl_gene_id+`
 |`+Array+`
 |A list of Ensembl gene IDs associated with the marker.
 
-|`+imitsPhenotypeStarted+`
+|`+imits_phenotype_started+`
 |`+String+`
 |Indicates whether phenotyping has started for the marker ('true' or 'false').
 
-|`+imitsPhenotypeComplete+`
+|`+imits_phenotype_complete+`
 |`+String+`
 |Indicates whether phenotyping has been completed for the marker ('true' or 'false').
 
-|`+imitsPhenotypeStatus+`
+|`+imits_phenotype_status+`
 |`+String+`
 |The current status of the phenotyping effort.
 
@@ -49,191 +49,191 @@
 |`+String+`
 |The current status of the gene or allele.
 
-|`+latestProductionStatus+`
+|`+latest_production_status+`
 |`+String+`
 |The most recent production status of the gene or allele.
 
-|`+geneLatestEsCellStatus+`
+|`+gene_latest_es_cell_status+`
 |`+String+`
 |The latest status of ES cell production for the gene.
 
-|`+latestEsCellStatus+`
+|`+latest_es_cell_status+`
 |`+String+`
 |The latest status of ES cell production.
 
-|`+geneLatestMouseStatus+`
+|`+gene_latest_mouse_status+`
 |`+String+`
 |The latest status of mouse production for the gene.
 
-|`+latestMouseStatus+`
+|`+latest_mouse_status+`
 |`+String+`
 |The latest status of mouse production.
 
-|`+legacyPhenotypeStatus+`
+|`+legacy_phenotype_status+`
 |`+Number+`
 |A status indicating the legacy phenotype information.
 
-|`+latestPhenotypeStatus+`
+|`+latest_phenotype_status+`
 |`+String+`
 |The most recent phenotype status.
 
-|`+latestProjectStatus+`
+|`+latest_project_status+`
 |`+String+`
 |The most recent status of the project involving the gene or allele.
 
-|`+latestProductionCentre+`
+|`+latest_production_centre+`
 |`+Array+`
 |A list of centers where the latest production occurred.
 
-|`+latestPhenotypingCentre+`
+|`+latest_phenotyping_centre+`
 |`+Array+`
 |A list of centers where the latest phenotyping occurred.
 
-|`+chrName+`
+|`+chr_name+`
 |`+String+`
 |The name of the chromosome where the marker is located.
 
-|`+chrStart+`
+|`+chr_start+`
 |`+Number+`
 |The start position of the marker on the chromosome.
 
-|`+chrEnd+`
+|`+chr_end+`
 |`+Number+`
 |The end position of the marker on the chromosome.
 
-|`+chrStrand+`
+|`+chr_strand+`
 |`+String+`
 |The strand of the chromosome where the marker is located ('+' or '-').
 
-|`+alleleName+`
+|`+allele_name+`
 |`+Array+`
 |A list of names for alleles associated with the gene.
 
-|`+alleleAccessionId+`
+|`+allele_accession_id+`
 |`+Array+`
 |A list of accession IDs for alleles associated with the gene.
 
-|`+esCellStatus+`
+|`+es_cell_status+`
 |`+Array+`
 |A list of statuses for ES cell production for the gene.
 
-|`+imitsMouseStatus+`
+|`+imits_mouse_status+`
 |`+String+`
 |The IMPC status of mouse production.
 
-|`+mouseStatus+`
+|`+mouse_status+`
 |`+Array+`
 |A list of statuses for mouse production.
 
-|`+phenotypeStatus+`
+|`+phenotype_status+`
 |`+Array+`
 |A list of phenotype statuses for the gene or allele.
 
-|`+productionCentre+`
+|`+production_centre+`
 |`+Array+`
 |A list of centers involved in the production of the gene or allele.
 
-|`+phenotypingCentre+`
+|`+phenotyping_centre+`
 |`+Array+`
 |A list of centers involved in the phenotyping of the gene or allele.
 
-|`+goTermId+`
+|`+go_term_id+`
 |`+Array+`
 |A list of Gene Ontology (GO) term IDs associated with the gene.
 
-|`+goTermName+`
+|`+go_term_name+`
 |`+Array+`
 |A list of names for the Gene Ontology (GO) terms associated with the gene.
 
-|`+goTermDef+`
+|`+go_term_def+`
 |`+Array+`
 |A list of definitions for the Gene Ontology (GO) terms associated with the gene.
 
-|`+goTermEvid+`
+|`+go_term_evid+`
 |`+Array+`
 |A list of evidence codes for the Gene Ontology (GO) terms associated with the gene.
 
-|`+goTermDomain+`
+|`+go_term_domain+`
 |`+Array+`
 |A list of domains (e.g., biological process, cellular component) for the GO terms associated with the gene.
 
-|`+goCount+`
+|`+go_count+`
 |`+Number+`
 |The count of Gene Ontology (GO) terms associated with the gene.
 
-|`+goUniprot+`
+|`+go_uniprot+`
 |`+Array+`
 |A list of UniProt identifiers linked to the GO terms.
 
-|`+evidCodeRank+`
+|`+evid_code_rank+`
 |`+Number+`
 |A ranking of the evidence code for the Gene Ontology (GO) terms, indicating the strength of the evidence.
 
-|`+pfamaJson+`
+|`+pfama_json+`
 |`+Array+`
 |A JSON string or list of strings containing Pfam-A domain information.
 
-|`+scdbId+`
+|`+scdb_id+`
 |`+Array+`
 |A list of secondary database IDs related to the gene, providing external references.
 
-|`+scdbLink+`
+|`+scdb_link+`
 |`+Array+`
 |A list of links to secondary databases that provide additional information about the gene.
 
-|`+clanId+`
+|`+clan_id+`
 |`+Array+`
 |A list of Pfam clan IDs associated with the gene, grouping similar protein families.
 
-|`+clanAcc+`
+|`+clan_acc+`
 |`+Array+`
 |A list of accession numbers for Pfam clans associated with the gene.
 
-|`+clanDesc+`
+|`+clan_desc+`
 |`+Array+`
 |A list of descriptions for the Pfam clans associated with the gene.
 
-|`+pfamaId+`
+|`+pfama_id+`
 |`+Array+`
 |A list of Pfam-A IDs associated with the gene, identifying protein families.
 
-|`+pfamaAcc+`
+|`+pfama_acc+`
 |`+Array+`
 |A list of accession numbers for Pfam-A families associated with the gene.
 
-|`+pfamaGoId+`
+|`+pfama_go_id+`
 |`+Array+`
 |A list of Gene Ontology (GO) IDs related to Pfam-A families.
 
-|`+pfamaGoTerm+`
+|`+pfama_go_term+`
 |`+Array+`
 |A list of Gene Ontology (GO) terms related to Pfam-A families.
 
-|`+pfamaGoCat+`
+|`+pfama_go_cat+`
 |`+Array+`
 |A list of categories for the GO terms related to Pfam-A families.
 
-|`+gfAcc+`
+|`+gf_acc+`
 |`+String+`
 |A unique accession ID for the gene family to which the gene belongs.
 
-|`+alleleMgiAccessionId+`
+|`+allele_mgi_accession_id+`
 |`+String+`
 |The MGI accession ID specifically for the allele of the gene.
 
-|`+imitsEsCellStatus+`
+|`+imits_es_cell_status+`
 |`+Array+`
 |A list of statuses regarding the production of ES cells for the allele.
 
-|`+ikmcProject+`
+|`+ikmc_project+`
 |`+String+`
 |The ID of the International Knockout Mouse Consortium project associated with the gene.
 
-|`+geneAllele+`
+|`+gene_allele+`
 |`+String+`
 |The specific allele of the gene.
 
-|`+diseaseHumanPhenotypes+`
+|`+disease_human_phenotypes+`
 |`+Array+`
 |A list of human phenotypes associated with the gene.
 
@@ -241,67 +241,67 @@
 |`+String+`
 |The type of entity described, such as 'gene', 'allele', or 'disease'.
 
-|`+diseaseId+`
+|`+disease_id+`
 |`+Array+`
 |A list of IDs for diseases associated with the gene.
 
-|`+diseaseSource+`
+|`+disease_source+`
 |`+Array+`
 |A list of sources providing information about the diseases associated with the gene.
 
-|`+diseaseTerm+`
+|`+disease_term+`
 |`+Array+`
 |A list of disease terms or names associated with the gene.
 
-|`+diseaseAlts+`
+|`+disease_alts+`
 |`+Array+`
 |A list of alternative names or synonyms for the diseases associated with the gene.
 
-|`+diseaseClasses+`
+|`+disease_classes+`
 |`+Array+`
 |A list of classifications for the diseases associated with the gene.
 
-|`+humanCurated+`
+|`+human_curated+`
 |`+Array+`
 |Indicators of whether the disease association was curated by human experts.
 
-|`+mouseCurated+`
+|`+mouse_curated+`
 |`+Array+`
 |Indicators of whether the disease association was curated based on mouse models.
 
-|`+mgiPredicted+`
+|`+mgi_predicted+`
 |`+Array+`
 |Indicators of whether the disease association is predicted by MGI.
 
-|`+impcPredicted+`
+|`+impc_predicted+`
 |`+Array+`
 |Indicators of whether the disease association is predicted by IMPC.
 
-|`+mgiPredictedKnownGene+`
+|`+mgi_predicted_known_gene+`
 |`+Array+`
 |Indicators of whether the known gene's disease association is predicted by MGI.
 
-|`+impcPredictedKnownGene+`
+|`+impc_predicted_known_gene+`
 |`+Array+`
 |Indicators of whether the known gene's disease association is predicted by IMPC.
 
-|`+mgiNovelPredictedInLocus+`
+|`+mgi_novel_predicted_in_locus+`
 |`+Array+`
 |Indicators of whether there is a novel prediction in the locus by MGI.
 
-|`+impcNovelPredictedInLocus+`
+|`+impc_novel_predicted_in_locus+`
 |`+Array+`
 |Indicators of whether there is a novel prediction in the locus by IMPC.
 
-|`+markerSymbolBf+`
+|`+marker_symbol_bf+`
 |`+Array+`
 |A list of marker symbols used for Bloom filter indexing.
 
-|`+markerSymbolLowercase+`
+|`+marker_symbol_lowercase+`
 |`+Array+`
 |A list of marker symbols in lowercase for case-insensitive searches.
 
-|`+markerSynonymLowercase+`
+|`+marker_synonym_lowercase+`
 |`+Array+`
 |A list of marker synonyms in lowercase for case-insensitive searches.
 
@@ -309,7 +309,7 @@
 |`+Array+`
 |A general text field used for full-text search across multiple fields.
 
-|`+autoSuggest+`
+|`+auto_suggest+`
 |`+Array+`
 |A text field optimized for auto-suggestion functionality.
 

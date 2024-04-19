@@ -1,643 +1,643 @@
 |===
 |Path|Type|Description
 
-|`+ageEntrezAccId+`
+|`+age_entrez_acc_id+`
 |`+Number+`
 |The Entrez accession ID related to age studies.
 
-|`+ageHumanGeneId+`
+|`+age_human_gene_id+`
 |`+Number+`
 |The human gene ID associated with age studies.
 
-|`+ageId+`
+|`+age_id+`
 |`+Number+`
 |Unique identifier for the age-related study entry.
 
-|`+ageMeanGeneEffect+`
+|`+age_mean_gene_effect+`
 |`+Number+`
 |The mean gene effect observed in the age study.
 
-|`+ageRawDataId+`
+|`+age_raw_data_id+`
 |`+Number+`
 |Raw data identifier associated with age studies.
 
-|`+cavAlleleAccessionId+`
+|`+cav_allele_accession_id+`
 |`+String+`
 |Allele accession ID in CAV repository.
 
-|`+cavAlleleSymbol+`
+|`+cav_allele_symbol+`
 |`+String+`
 |Symbol of the allele in the CAV repository.
 
-|`+cavCategory+`
+|`+cav_category+`
 |`+Array+`
 |Categories associated with the CAV allele.
 
-|`+clinDate+`
+|`+clin_date+`
 |`+String+`
 |Date associated with clinical data entry.
 
-|`+clinHaploinsufficiency+`
+|`+clin_haploinsufficiency+`
 |`+String+`
 |Clinical haploinsufficiency score.
 
-|`+clinHumanGeneId+`
+|`+clin_human_gene_id+`
 |`+Number+`
 |Human gene ID related to clinical data.
 
-|`+clinId+`
+|`+clin_id+`
 |`+Number+`
 |Unique identifier for the clinical data entry.
 
-|`+clinReport+`
+|`+clin_report+`
 |`+String+`
 |Textual report associated with clinical data.
 
-|`+clinTriplosensitivity+`
+|`+clin_triplosensitivity+`
 |`+String+`
 |Clinical triplosensitivity score.
 
-|`+fbin+`
+|`+f_bin+`
 |`+String+`
 |Functional binning data.
 
-|`+fbinCode+`
+|`+f_bin_code+`
 |`+String+`
 |Code representing a functional bin.
 
-|`+fid+`
+|`+f_id+`
 |`+Number+`
 |Unique identifier for functional data entry.
 
-|`+forthologId+`
+|`+f_ortholog_id+`
 |`+Number+`
 |Ortholog ID associated with functional data.
 
-|`+gnpBrainExpression+`
+|`+gnp_brain_expression+`
 |`+String+`
 |Genomic data pertaining to brain expression.
 
-|`+gnpCdsLength+`
+|`+gnp_cds_length+`
 |`+Number+`
 |Length of the coding sequence in genomic data.
 
-|`+gnpChromosome+`
+|`+gnp_chromosome+`
 |`+String+`
 |Chromosome location in genomic data.
 
-|`+gnpClassicCaf+`
+|`+gnp_classic_caf+`
 |`+Number+`
 |General Combined Annotation Dependent Depletion score for all populations.
 
-|`+gnpClassicCafAfr+`
+|`+gnp_classic_caf_afr+`
 |`+Number+`
 |CADD score for African population.
 
-|`+gnpClassicCafAmr+`
+|`+gnp_classic_caf_amr+`
 |`+Number+`
 |CADD score for American population.
 
-|`+gnpClassicCafAsj+`
+|`+gnp_classic_caf_asj+`
 |`+Number+`
 |CADD score for Ashkenazi Jewish population.
 
-|`+gnpClassicCafEas+`
+|`+gnp_classic_caf_eas+`
 |`+Number+`
 |CADD score for East Asian population.
 
-|`+gnpClassicCafFin+`
+|`+gnp_classic_caf_fin+`
 |`+Number+`
 |CADD score for Finnish population.
 
-|`+gnpClassicCafNfe+`
+|`+gnp_classic_caf_nfe+`
 |`+Number+`
 |CADD score for Non-Finnish European population.
 
-|`+gnpClassicCafOth+`
+|`+gnp_classic_caf_oth+`
 |`+Number+`
 |CADD score for Other populations.
 
-|`+gnpClassicCafSas+`
+|`+gnp_classic_caf_sas+`
 |`+Number+`
 |CADD score for South Asian population.
 
-|`+gnpConstraintFlag+`
+|`+gnp_constraint_flag+`
 |`+String+`
 |Flag indicating genomic constraint.
 
-|`+gnpDefined+`
+|`+gnp_defined+`
 |`+Number+`
 |Indicator if genomic data is defined.
 
-|`+gnpEndPosition+`
+|`+gnp_end_position+`
 |`+Number+`
 |End position of the gene in the genome.
 
-|`+gnpExacExpLof+`
+|`+gnp_exac_exp_lof+`
 |`+Number+`
 |Expected loss of function based on ExAC database.
 
-|`+gnpExacObsLof+`
+|`+gnp_exac_obs_lof+`
 |`+Number+`
 |Observed loss of function based on ExAC database.
 
-|`+gnpExacOeLof+`
+|`+gnp_exac_oe_lof+`
 |`+Number+`
 |Observed/Expected loss of function ratio based on ExAC database.
 
-|`+gnpExacPli+`
+|`+gnp_exac_pli+`
 |`+Number+`
 |Probability of being loss-of-function intolerant (pLI) based on ExAC database.
 
-|`+gnpExpHomLof+`
+|`+gnp_exp_hom_lof+`
 |`+Number+`
 |Expected homozygous loss of function.
 
-|`+gnpExpLof+`
+|`+gnp_exp_lof+`
 |`+Number+`
 |Expected loss of function.
 
-|`+gnpExpMis+`
+|`+gnp_exp_mis+`
 |`+Number+`
 |Expected missense mutation.
 
-|`+gnpExpMisPphen+`
+|`+gnp_exp_mis_pphen+`
 |`+Number+`
 |Expected missense mutation with probably damaging phenotype.
 
-|`+gnpExpSyn+`
+|`+gnp_exp_syn+`
 |`+Number+`
 |Expected synonymous mutation.
 
-|`+gnpGeneId+`
+|`+gnp_gene_id+`
 |`+String+`
 |Gene ID in the Genomics England PanelApp.
 
-|`+gnpGeneLength+`
+|`+gnp_gene_length+`
 |`+Number+`
 |Length of the gene in the genome.
 
-|`+gnpGeneSymbol+`
+|`+gnp_gene_symbol+`
 |`+String+`
 |Symbol of the gene in the genomic data.
 
-|`+gnpGeneType+`
+|`+gnp_gene_type+`
 |`+String+`
 |Type of the gene in genomic data.
 
-|`+gnpHumanGeneId+`
+|`+gnp_human_gene_id+`
 |`+Number+`
 |Human gene ID associated with the genomic data.
 
-|`+gnpId+`
+|`+gnp_id+`
 |`+Number+`
 |Unique identifier for the genomic data entry.
 
-|`+gnpLofZ+`
+|`+gnp_lof_z+`
 |`+Number+`
 |Z-score for the loss of function (LoF) variant.
 
-|`+gnpMaxAf+`
+|`+gnp_max_af+`
 |`+Number+`
 |Maximum allele frequency across all populations.
 
-|`+gnpMisZ+`
+|`+gnp_mis_z+`
 |`+Number+`
 |Z-score for missense variants.
 
-|`+gnpMuLof+`
+|`+gnp_mu_lof+`
 |`+Number+`
 |Mutation rate for loss of function.
 
-|`+gnpMuMis+`
+|`+gnp_mu_mis+`
 |`+Number+`
 |Mutation rate for missense variants.
 
-|`+gnpMuSyn+`
+|`+gnp_mu_syn+`
 |`+Number+`
 |Mutation rate for synonymous variants.
 
-|`+gnpNSites+`
+|`+gnp_n_sites+`
 |`+Number+`
 |Number of sites evaluated.
 
-|`+gnpNoLofs+`
+|`+gnp_no_lofs+`
 |`+Number+`
 |Number of observed loss-of-function variants.
 
-|`+gnpNumCodingExons+`
+|`+gnp_num_coding_exons+`
 |`+Number+`
 |Number of coding exons.
 
-|`+gnpObsHetLof+`
+|`+gnp_obs_het_lof+`
 |`+Number+`
 |Observed heterozygous loss of function variants.
 
-|`+gnpObsHomLof+`
+|`+gnp_obs_hom_lof+`
 |`+Number+`
 |Observed homozygous loss of function variants.
 
-|`+gnpObsLof+`
+|`+gnp_obs_lof+`
 |`+Number+`
 |Total observed loss of function variants.
 
-|`+gnpObsMis+`
+|`+gnp_obs_mis+`
 |`+Number+`
 |Observed missense variants.
 
-|`+gnpObsMisPphen+`
+|`+gnp_obs_mis_pphen+`
 |`+Number+`
 |Observed missense variants predicted to be probably damaging.
 
-|`+gnpObsSyn+`
+|`+gnp_obs_syn+`
 |`+Number+`
 |Observed synonymous variants.
 
-|`+gnpOeLof+`
+|`+gnp_oe_lof+`
 |`+Number+`
 |Observed/Expected ratio for loss of function variants.
 
-|`+gnpOeLofLower+`
+|`+gnp_oe_lof_lower+`
 |`+Number+`
 |Lower bound of the 95% confidence interval for the O/E ratio for LoF variants.
 
-|`+gnpOeLofUpper+`
+|`+gnp_oe_lof_upper+`
 |`+Number+`
 |Upper bound of the 95% confidence interval for the O/E ratio for LoF variants.
 
-|`+gnpOeLofUpperBin+`
+|`+gnp_oe_lof_upper_bin+`
 |`+Number+`
 |Bin value for the upper bound of O/E ratio for LoF variants.
 
-|`+gnpOeLofUpperBin6+`
+|`+gnp_oe_lof_upper_bin6+`
 |`+Number+`
 |Bin value for the upper bound of O/E ratio for LoF variants, using a different binning strategy.
 
-|`+gnpOeLofUpperRank+`
+|`+gnp_oe_lof_upper_rank+`
 |`+Number+`
 |Rank of the gene based on the upper bound of O/E ratio for LoF variants.
 
-|`+gnpOeMis+`
+|`+gnp_oe_mis+`
 |`+Number+`
 |Observed/Expected ratio for missense variants.
 
-|`+gnpOeMisLower+`
+|`+gnp_oe_mis_lower+`
 |`+Number+`
 |Lower bound of the 95% confidence interval for the O/E ratio for missense variants.
 
-|`+gnpOeMisPphen+`
+|`+gnp_oe_mis_pphen+`
 |`+Number+`
 |Observed/Expected ratio for probably damaging missense variants.
 
-|`+gnpOeMisUpper+`
+|`+gnp_oe_mis_upper+`
 |`+Number+`
 |Upper bound of the 95% confidence interval for the O/E ratio for missense variants.
 
-|`+gnpOeSyn+`
+|`+gnp_oe_syn+`
 |`+Number+`
 |Observed/Expected ratio for synonymous variants.
 
-|`+gnpOeSynLower+`
+|`+gnp_oe_syn_lower+`
 |`+Number+`
 |Lower bound of the 95% confidence interval for the O/E ratio for synonymous variants.
 
-|`+gnpOeSynUpper+`
+|`+gnp_oe_syn_upper+`
 |`+Number+`
 |Upper bound of the 95% confidence interval for the O/E ratio for synonymous variants.
 
-|`+gnpP+`
+|`+gnp_p+`
 |`+Number+`
 |P-value for statistical tests.
 
-|`+gnpPAfr+`
+|`+gnp_p_afr+`
 |`+Number+`
 |P-value for the African population.
 
-|`+gnpPAmr+`
+|`+gnp_p_amr+`
 |`+Number+`
 |P-value for the American population.
 
-|`+gnpPAsj+`
+|`+gnp_p_asj+`
 |`+Number+`
 |P-value for the Ashkenazi Jewish population.
 
-|`+gnpPEas+`
+|`+gnp_p_eas+`
 |`+Number+`
 |P-value for the East Asian population.
 
-|`+gnpPFin+`
+|`+gnp_p_fin+`
 |`+Number+`
 |P-value for the Finnish population.
 
-|`+gnpPNfe+`
+|`+gnp_p_nfe+`
 |`+Number+`
 |P-value for the Non-Finnish European population.
 
-|`+gnpPOth+`
+|`+gnp_p_oth+`
 |`+Number+`
 |P-value for other populations.
 
-|`+gnpPSas+`
+|`+gnp_p_sas+`
 |`+Number+`
 |P-value for the South Asian population.
 
-|`+gnpPli+`
+|`+gnp_pli+`
 |`+Number+`
 |pLI score indicating the probability of being loss-of-function intolerant.
 
-|`+gnpPnull+`
+|`+gnp_pnull+`
 |`+Number+`
 |Probability of being functionally neutral.
 
-|`+gnpPossibleLof+`
+|`+gnp_possible_lof+`
 |`+Number+`
 |Possible loss-of-function variants.
 
-|`+gnpPossibleMis+`
+|`+gnp_possible_mis+`
 |`+Number+`
 |Possible missense variants.
 
-|`+gnpPossibleMisPphen+`
+|`+gnp_possible_mis_pphen+`
 |`+Number+`
 |Possible probably damaging missense variants.
 
-|`+gnpPossibleSyn+`
+|`+gnp_possible_syn+`
 |`+Number+`
 |Possible synonymous variants.
 
-|`+gnpPrec+`
+|`+gnp_prec+`
 |`+Number+`
 |Precision of the genomic data.
 
-|`+gnpStartPosition+`
+|`+gnp_start_position+`
 |`+Number+`
 |Start position of the gene in the genome.
 
-|`+gnpSynZ+`
+|`+gnp_syn_z+`
 |`+Number+`
 |Z-score for the synonymous variants.
 
-|`+gnpTranscript+`
+|`+gnp_transcript+`
 |`+String+`
 |Transcript ID associated with the genomic data.
 
-|`+gnpTranscriptLevel+`
+|`+gnp_transcript_level+`
 |`+Number+`
 |Level of the transcript associated with the genomic data.
 
-|`+gnpTranscriptType+`
+|`+gnp_transcript_type+`
 |`+String+`
 |Type of transcript recorded in the genomic data.
 
-|`+hgEnsemblGeneAccId+`
+|`+hg_ensembl_gene_acc_id+`
 |`+String+`
 |Ensembl gene accession ID for the human gene.
 
-|`+hgEntrezGeneAccId+`
+|`+hg_entrez_gene_acc_id+`
 |`+Number+`
 |Entrez gene accession ID for the human gene.
 
-|`+hgHgncAccId+`
+|`+hg_hgnc_acc_id+`
 |`+String+`
 |HGNC accession ID for the human gene.
 
-|`+hgId+`
+|`+hg_id+`
 |`+Number+`
 |Unique identifier for the human gene entry.
 
-|`+hgName+`
+|`+hg_name+`
 |`+String+`
 |Name of the human gene.
 
-|`+hgSymbol+`
+|`+hg_symbol+`
 |`+String+`
 |Symbol representing the human gene.
 
-|`+hgncAgrAccId+`
+|`+hgnc_agr_acc_id+`
 |`+String+`
 |Agronomy accession ID related to the human gene.
 
-|`+hgncAliasName+`
+|`+hgnc_alias_name+`
 |`+String+`
 |Alias name(s) for the human gene.
 
-|`+hgncAliasSymbol+`
+|`+hgnc_alias_symbol+`
 |`+String+`
 |Alias symbol(s) for the human gene.
 
-|`+hgncBioparadigmsSlc+`
+|`+hgnc_bioparadigms_slc+`
 |`+String+`
 |Bioparadigms SLC code for the human gene.
 
-|`+hgncCcdsAccId+`
+|`+hgnc_ccds_acc_id+`
 |`+String+`
 |CCDS accession ID for the human gene.
 
-|`+hgncCd+`
+|`+hgnc_cd+`
 |`+String+`
 |CD marker for the human gene.
 
-|`+hgncCosmic+`
+|`+hgnc_cosmic+`
 |`+String+`
 |COSMIC ID for the human gene.
 
-|`+hgncDateApprovedReserved+`
+|`+hgnc_date_approved_reserved+`
 |`+String+`
 |Date the gene was approved or reserved in HGNC.
 
-|`+hgncDateModified+`
+|`+hgnc_date_modified+`
 |`+String+`
 |Date the gene information was last modified in HGNC.
 
-|`+hgncDateNameChanged+`
+|`+hgnc_date_name_changed+`
 |`+String+`
 |Date the gene name was changed in HGNC.
 
-|`+hgncDateSymbolChanged+`
+|`+hgnc_date_symbol_changed+`
 |`+String+`
 |Date the gene symbol was changed in HGNC.
 
-|`+hgncEna+`
+|`+hgnc_ena+`
 |`+String+`
 |European Nucleotide Archive ID for the human gene.
 
-|`+hgncEnsemblGeneAccId+`
+|`+hgnc_ensembl_gene_acc_id+`
 |`+String+`
 |Ensembl gene accession ID associated with the HGNC entry.
 
-|`+hgncEntrezAccId+`
+|`+hgnc_entrez_acc_id+`
 |`+Number+`
 |Entrez accession ID associated with the HGNC entry.
 
-|`+hgncEnzymeAccId+`
+|`+hgnc_enzyme_acc_id+`
 |`+String+`
 |Enzyme accession ID associated with the human gene.
 
-|`+hgncGencc+`
+|`+hgnc_gencc+`
 |`+String+`
 |GenCC ID for the human gene.
 
-|`+hgncGeneGroup+`
+|`+hgnc_gene_group+`
 |`+String+`
 |Gene group classification in HGNC.
 
-|`+hgncGeneGroupAccId+`
+|`+hgnc_gene_group_acc_id+`
 |`+String+`
 |Gene group accession ID in HGNC.
 
-|`+hgncGtrnadb+`
+|`+hgnc_gtrnadb+`
 |`+String+`
 |tRNA database ID for the human gene.
 
-|`+hgncHgncAccId+`
+|`+hgnc_hgnc_acc_id+`
 |`+String+`
 |HGNC accession ID for the human gene.
 
-|`+hgncHomeodb+`
+|`+hgnc_homeodb+`
 |`+Number+`
 |Homeobox database ID for the human gene.
 
-|`+hgncHordeAccId+`
+|`+hgnc_horde_acc_id+`
 |`+String+`
 |Horde ID for the human gene (related to olfactory receptors).
 
-|`+hgncHumanGeneId+`
+|`+hgnc_human_gene_id+`
 |`+Number+`
 |Human gene ID associated with HGNC.
 
-|`+hgncId+`
+|`+hgnc_id+`
 |`+Number+`
 |Unique identifier for the HGNC entry.
 
-|`+hgncImgt+`
+|`+hgnc_imgt+`
 |`+String+`
 |Immunogenetics (IMGT) ID for the human gene.
 
-|`+hgncIntermediateFilamentDb+`
+|`+hgnc_intermediate_filament_db+`
 |`+String+`
 |Intermediate filament database ID for the human gene.
 
-|`+hgncIuphar+`
+|`+hgnc_iuphar+`
 |`+String+`
 |International Union of Pharmacology (IUPHAR) ID for the human gene.
 
-|`+hgncKznfGeneCatalog+`
+|`+hgnc_kznf_gene_catalog+`
 |`+Number+`
 |KZNF gene catalog ID for the human gene.
 
-|`+hgncLncipedia+`
+|`+hgnc_lncipedia+`
 |`+String+`
 |Lncipedia ID for the human gene.
 
-|`+hgncLncrnadb+`
+|`+hgnc_lncrnadb+`
 |`+String+`
 |lncRNA database ID for the human gene.
 
-|`+hgncLocation+`
+|`+hgnc_location+`
 |`+String+`
 |Chromosomal location of the human gene.
 
-|`+hgncLocationSortable+`
+|`+hgnc_location_sortable+`
 |`+String+`
 |Sortable format of the chromosomal location of the human gene.
 
-|`+hgncLocusGroup+`
+|`+hgnc_locus_group+`
 |`+String+`
 |Locus group classification of the human gene.
 
-|`+hgncLocusType+`
+|`+hgnc_locus_type+`
 |`+String+`
 |Locus type classification of the human gene.
 
-|`+hgncLsdb+`
+|`+hgnc_lsdb+`
 |`+String+`
 |Locus-specific database ID for the human gene.
 
-|`+hgncMamitTrnadb+`
+|`+hgnc_mamit_trnadb+`
 |`+Number+`
 |Mamit-tRNA database ID for the human gene.
 
-|`+hgncManeSelect+`
+|`+hgnc_mane_select+`
 |`+String+`
 |MANE Select ID for the human gene.
 
-|`+hgncMerops+`
+|`+hgnc_merops+`
 |`+String+`
 |MEROPS database ID for the human gene related to proteases.
 
-|`+hgncMgiGeneAccId+`
+|`+hgnc_mgi_gene_acc_id+`
 |`+String+`
 |MGI gene accession ID for the mouse ortholog of the human gene.
 
-|`+hgncMirbase+`
+|`+hgnc_mirbase+`
 |`+String+`
 |miRBase ID for the human gene.
 
-|`+hgncName+`
+|`+hgnc_name+`
 |`+String+`
 |Official name of the human gene.
 
-|`+hgncOmimAccId+`
+|`+hgnc_omim_acc_id+`
 |`+String+`
 |OMIM accession ID for the human gene, linking to the Online Mendelian Inheritance in Man database.
 
-|`+hgncOrphanet+`
+|`+hgnc_orphanet+`
 |`+Number+`
 |Orphanet ID for the human gene, relevant for rare diseases.
 
-|`+hgncPrevName+`
+|`+hgnc_prev_name+`
 |`+String+`
 |Previous name(s) of the human gene.
 
-|`+hgncPrevSymbol+`
+|`+hgnc_prev_symbol+`
 |`+String+`
 |Previous symbol(s) of the human gene.
 
-|`+hgncPseudogeneOrg+`
+|`+hgnc_pseudogene_org+`
 |`+String+`
 |Pseudogene.org identifier for the human gene if applicable.
 
-|`+hgncPubmedAccId+`
+|`+hgnc_pubmed_acc_id+`
 |`+String+`
 |PubMed accession ID(s) associated with the human gene.
 
-|`+hgncRefseqAccession+`
+|`+hgnc_refseq_accession+`
 |`+String+`
 |RefSeq accession number for the human gene.
 
-|`+hgncRgdAccId+`
+|`+hgnc_rgd_acc_id+`
 |`+String+`
 |Rat Genome Database (RGD) ID for the rat ortholog of the human gene.
 
-|`+hgncRnaCentralAccIds+`
+|`+hgnc_rna_central_acc_ids+`
 |`+String+`
 |RNAcentral IDs for the human gene, representing non-coding RNA sequences.
 
-|`+hgncSnornabase+`
+|`+hgnc_snornabase+`
 |`+String+`
 |snoRNABase ID for the human gene if it encodes a small nucleolar RNA (snoRNA).
 
-|`+hgncStatus+`
+|`+hgnc_status+`
 |`+String+`
 |The status of the human gene in the HGNC database.
 
-|`+hgncSymbol+`
+|`+hgnc_symbol+`
 |`+String+`
 |The official symbol of the human gene as designated by HGNC.
 
-|`+hgncUcscAccId+`
+|`+hgnc_ucsc_acc_id+`
 |`+String+`
 |UCSC Genome Browser accession ID for the human gene.
 
-|`+hgncUniprotAccIds+`
+|`+hgnc_uniprot_acc_ids+`
 |`+String+`
 |UniProt accession IDs for the protein products of the human gene.
 
-|`+hgncVegaAccId+`
+|`+hgnc_vega_acc_id+`
 |`+String+`
 |VEGA database ID for the human gene.
 
-|`+hgsSynonyms+`
+|`+hgs_synonyms+`
 |`+Array+`
 |List of synonyms for the human gene symbol.
 
@@ -645,175 +645,175 @@
 |`+String+`
 |The primary identifier for the essential gene entry.
 
-|`+idgFamily+`
+|`+idg_family+`
 |`+String+`
 |The Integrative Genomics Viewer (IDG) family the gene belongs to.
 
-|`+idgHumanGeneId+`
+|`+idg_human_gene_id+`
 |`+Number+`
 |The human gene ID according to IDG.
 
-|`+idgId+`
+|`+idg_id+`
 |`+Number+`
 |The IDG unique identifier for the gene.
 
-|`+mgEnsemblChromosome+`
+|`+mg_ensembl_chromosome+`
 |`+String+`
 |The chromosome number from the Ensembl database for the mouse gene.
 
-|`+mgEnsemblGeneAccId+`
+|`+mg_ensembl_gene_acc_id+`
 |`+String+`
 |Ensembl gene accession ID for the mouse gene.
 
-|`+mgEnsemblStart+`
+|`+mg_ensembl_start+`
 |`+Number+`
 |Start position of the mouse gene in the Ensembl database.
 
-|`+mgEnsemblStop+`
+|`+mg_ensembl_stop+`
 |`+Number+`
 |Stop position of the mouse gene in the Ensembl database.
 
-|`+mgEnsemblStrand+`
+|`+mg_ensembl_strand+`
 |`+String+`
 |Strand orientation of the mouse gene in the Ensembl database.
 
-|`+mgEntrezGeneAccId+`
+|`+mg_entrez_gene_acc_id+`
 |`+Number+`
 |Entrez gene accession ID for the mouse gene.
 
-|`+mgGenomeBuild+`
+|`+mg_genome_build+`
 |`+String+`
 |The genome build used for the mouse gene.
 
-|`+mgId+`
+|`+mg_id+`
 |`+Number+`
 |Unique identifier for the mouse gene entry.
 
-|`+mgMgiChromosome+`
+|`+mg_mgi_chromosome+`
 |`+String+`
 |MGI chromosome number for the mouse gene.
 
-|`+mgMgiCm+`
+|`+mg_mgi_cm+`
 |`+String+`
 |Centimorgan position on the MGI database for the mouse gene.
 
-|`+mgMgiGeneAccId+`
+|`+mg_mgi_gene_acc_id+`
 |`+String+`
 |MGI gene accession ID for the mouse gene.
 
-|`+mgMgiStart+`
+|`+mg_mgi_start+`
 |`+Number+`
 |Start position of the mouse gene in the MGI database.
 
-|`+mgMgiStop+`
+|`+mg_mgi_stop+`
 |`+Number+`
 |Stop position of the mouse gene in the MGI database.
 
-|`+mgMgiStrand+`
+|`+mg_mgi_strand+`
 |`+String+`
 |Strand orientation of the mouse gene in the MGI database.
 
-|`+mgName+`
+|`+mg_name+`
 |`+String+`
 |Name of the mouse gene.
 
-|`+mgNcbiChromosome+`
+|`+mg_ncbi_chromosome+`
 |`+String+`
 |NCBI chromosome location for the mouse gene.
 
-|`+mgNcbiStart+`
+|`+mg_ncbi_start+`
 |`+Number+`
 |NCBI start position of the mouse gene.
 
-|`+mgNcbiStop+`
+|`+mg_ncbi_stop+`
 |`+Number+`
 |NCBI stop position of the mouse gene.
 
-|`+mgNcbiStrand+`
+|`+mg_ncbi_strand+`
 |`+String+`
 |NCBI strand orientation of the mouse gene.
 
-|`+mgSubtype+`
+|`+mg_subtype+`
 |`+String+`
 |Subtype classification of the mouse gene.
 
-|`+mgSymbol+`
+|`+mg_symbol+`
 |`+String+`
 |Symbol representing the mouse gene.
 
-|`+mgType+`
+|`+mg_type+`
 |`+String+`
 |Type classification of the mouse gene.
 
-|`+mgsSynonyms+`
+|`+mgs_synonyms+`
 |`+Array+`
 |List of synonyms for the mouse gene.
 
-|`+ocategory+`
+|`+o_category+`
 |`+String+`
 |Orthology category for gene comparison.
 
-|`+ohumanGeneId+`
+|`+o_human_gene_id+`
 |`+Number+`
 |Human gene ID used in ortholog comparison.
 
-|`+oid+`
+|`+o_id+`
 |`+Number+`
 |Unique identifier for the orthology data entry.
 
-|`+oisMaxHumanToMouse+`
+|`+o_is_max_human_to_mouse+`
 |`+String+`
 |Indicates if this is the maximum score from human to mouse.
 
-|`+oisMaxMouseToHuman+`
+|`+o_is_max_mouse_to_human+`
 |`+String+`
 |Indicates if this is the maximum score from mouse to human.
 
-|`+omouseGeneId+`
+|`+o_mouse_gene_id+`
 |`+Number+`
 |Mouse gene ID used in ortholog comparison.
 
-|`+osupport+`
+|`+o_support+`
 |`+String+`
 |Support level for the orthology assertion, indicating the strength of evidence.
 
-|`+osupportCount+`
+|`+o_support_count+`
 |`+Number+`
 |Numerical support count for the orthology assertion, quantifying the evidence.
 
-|`+osupportRaw+`
+|`+o_support_raw+`
 |`+String+`
 |Raw support data for the orthology assertion, providing detailed evidence.
 
-|`+pharosChr+`
+|`+pharos_chr+`
 |`+String+`
 |Pharos chromosome information for the human gene.
 
-|`+pharosFamily+`
+|`+pharos_family+`
 |`+String+`
 |Pharos family classification of the human gene.
 
-|`+pharosHumanGeneId+`
+|`+pharos_human_gene_id+`
 |`+Number+`
 |Human gene ID according to Pharos.
 
-|`+pharosId+`
+|`+pharos_id+`
 |`+Number+`
 |Unique identifier for the Pharos data entry.
 
-|`+pharosName+`
+|`+pharos_name+`
 |`+String+`
 |Gene name as listed in Pharos.
 
-|`+pharosSymbol+`
+|`+pharos_symbol+`
 |`+String+`
 |Gene symbol as listed in Pharos.
 
-|`+pharosTdl+`
+|`+pharos_tdl+`
 |`+String+`
 |Target Development Level in Pharos, indicating the gene's research and development status.
 
-|`+pharosUniprotAccId+`
+|`+pharos_uniprot_acc_id+`
 |`+String+`
 |UniProt accession ID as recorded in Pharos for the human gene.
 

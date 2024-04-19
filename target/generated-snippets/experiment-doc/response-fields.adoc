@@ -2,54 +2,54 @@
 |Path|Type|Description
 
 |`+id+`
-|`+String+`
+|`+Null+`
 |The unique identifier for the experiment.
 
-|`+observationId+`
+|`+observation_id+`
 |`+String+`
 |The observation's unique identifier.
 
-|`+specimenId+`
+|`+specimen_id+`
 |`+String+`
 |The specimen's unique identifier.
 
-|`+phenotypingCenterId+`
+|`+phenotyping_center_id+`
 |`+Number+`
 |The unique identifier of the phenotyping center.
 
-|`+phenotypingCenter+`
+|`+phenotyping_center+`
 |`+String+`
 |The name of the phenotyping center.
 
-|`+productionCenterId+`
+|`+production_center_id+`
 |`+Number+`
 |The unique identifier of the production center.
 
-|`+productionCenter+`
+|`+production_center+`
 |`+String+`
 |The name of the production center.
 
-|`+specimenProjectId+`
+|`+specimen_project_id+`
 |`+Number+`
 |The unique identifier for the specimen project.
 
-|`+specimenProjectName+`
+|`+specimen_project_name+`
 |`+String+`
 |The name of the specimen project.
 
-|`+geneAccessionId+`
+|`+gene_accession_id+`
 |`+String+`
 |The accession ID of the gene.
 
-|`+geneSymbol+`
+|`+gene_symbol+`
 |`+String+`
 |The symbol of the gene.
 
-|`+alleleAccessionId+`
+|`+allele_accession_id+`
 |`+String+`
 |The accession ID of the allele.
 
-|`+alleleSymbol+`
+|`+allele_symbol+`
 |`+String+`
 |The symbol of the allele.
 
@@ -61,143 +61,143 @@
 |`+String+`
 |The sex of the specimen.
 
-|`+biologicalModelId+`
+|`+biological_model_id+`
 |`+Number+`
 |The unique identifier for the biological model.
 
-|`+biologicalSampleId+`
+|`+biological_sample_id+`
 |`+Number+`
 |The unique identifier for the biological sample.
 
-|`+biologicalSampleGroup+`
+|`+biological_sample_group+`
 |`+String+`
 |The group of the biological sample.
 
-|`+strainAccessionId+`
+|`+strain_accession_id+`
 |`+String+`
 |The accession ID of the strain.
 
-|`+strainName+`
+|`+strain_name+`
 |`+String+`
 |The name of the strain.
 
-|`+geneticBackground+`
+|`+genetic_background+`
 |`+String+`
 |The genetic background of the specimen.
 
-|`+allelicComposition+`
+|`+allelic_composition+`
 |`+String+`
 |The allelic composition of the specimen.
 
-|`+colonyId+`
+|`+colony_id+`
 |`+String+`
 |The unique identifier of the colony.
 
-|`+litterId+`
+|`+litter_id+`
 |`+String+`
 |The unique identifier of the litter.
 
-|`+dateOfBirth+`
+|`+date_of_birth+`
 |`+String+`
 |The date of birth of the specimen.
 
-|`+externalSampleId+`
+|`+external_sample_id+`
 |`+String+`
 |The external sample identifier.
 
-|`+lifeStageName+`
+|`+life_stage_name+`
 |`+String+`
 |The name of the life stage of the specimen.
 
-|`+lifeStageAcc+`
+|`+life_stage_acc+`
 |`+String+`
 |The accession code for the life stage.
 
-|`+datasourceId+`
+|`+datasource_id+`
 |`+Number+`
 |The unique identifier for the data source.
 
-|`+datasourceName+`
+|`+datasource_name+`
 |`+String+`
 |The name of the data source.
 
-|`+projectId+`
+|`+project_id+`
 |`+Number+`
 |The unique identifier for the project.
 
-|`+projectName+`
+|`+project_name+`
 |`+String+`
 |The name of the project.
 
-|`+pipelineId+`
+|`+pipeline_id+`
 |`+Number+`
 |The unique identifier for the pipeline.
 
-|`+pipelineName+`
+|`+pipeline_name+`
 |`+String+`
 |The name of the pipeline.
 
-|`+pipelineStableId+`
+|`+pipeline_stable_id+`
 |`+String+`
 |The stable identifier for the pipeline.
 
-|`+procedureId+`
+|`+procedure_id+`
 |`+Number+`
 |The unique identifier for the procedure.
 
-|`+procedureName+`
+|`+procedure_name+`
 |`+String+`
 |The name of the procedure.
 
-|`+procedureStableId+`
+|`+procedure_stable_id+`
 |`+String+`
 |The stable identifier for the procedure.
 
-|`+procedureGroup+`
+|`+procedure_group+`
 |`+String+`
 |The group of the procedure.
 
-|`+parameterId+`
+|`+parameter_id+`
 |`+Number+`
 |The unique identifier for the parameter.
 
-|`+parameterName+`
+|`+parameter_name+`
 |`+String+`
 |The name of the parameter.
 
-|`+parameterStableId+`
+|`+parameter_stable_id+`
 |`+String+`
 |The stable identifier for the parameter.
 
-|`+procedureSequenceId+`
+|`+procedure_sequence_id+`
 |`+String+`
 |The sequence identifier for the procedure.
 
-|`+experimentId+`
+|`+experiment_id+`
 |`+String+`
 |The unique identifier for the experiment.
 
-|`+observationType+`
+|`+observation_type+`
 |`+String+`
 |The type of observation.
 
-|`+dataType+`
+|`+data_type+`
 |`+String+`
 |Defines the general category or type of the data, such as gene, allele, etc.
 
-|`+dateOfExperiment+`
+|`+date_of_experiment+`
 |`+String+`
 |The date when the experiment was conducted.
 
-|`+weightParameterStableId+`
+|`+weight_parameter_stable_id+`
 |`+String+`
 |The stable identifier for the weight parameter.
 
-|`+weightDate+`
+|`+weight_date+`
 |`+String+`
 |The date corresponding to the weight measurement.
 
-|`+weightDaysOld+`
+|`+weight_days_old+`
 |`+Number+`
 |The age in days of the specimen at the time of the weight measurement.
 
@@ -205,11 +205,11 @@
 |`+Number+`
 |The weight of the specimen.
 
-|`+dataPoint+`
+|`+data_point+`
 |`+Number+`
 |A specific data point from the experiment.
 
-|`+orderIndex+`
+|`+order_index+`
 |`+Number+`
 |The index ordering of the data point.
 
@@ -217,11 +217,11 @@
 |`+String+`
 |The dimension to which the data point relates.
 
-|`+timePoint+`
+|`+time_point+`
 |`+String+`
 |The specific time point at which the data was collected.
 
-|`+discretePoint+`
+|`+discrete_point+`
 |`+Number+`
 |A discrete point measurement from the experiment.
 
@@ -229,7 +229,7 @@
 |`+String+`
 |The category of the data point.
 
-|`+rawCategory+`
+|`+raw_category+`
 |`+String+`
 |The raw category data before processing.
 
@@ -237,155 +237,155 @@
 |`+Array+`
 |A list of metadata entries associated with the experiment.
 
-|`+anatomyId+`
+|`+anatomy_id+`
 |`+Array+`
 |A list of anatomy IDs relevant to the experiment.
 
-|`+anatomyTerm+`
+|`+anatomy_term+`
 |`+Array+`
 |A list of anatomy terms relevant to the experiment.
 
-|`+anatomyIdTerm+`
+|`+anatomy_id_term+`
 |`+Array+`
 |A list combining anatomy IDs and terms.
 
-|`+anatomyTermSynonym+`
+|`+anatomy_term_synonym+`
 |`+Array+`
 |A list of synonyms for the anatomy terms.
 
-|`+topLevelAnatomyId+`
+|`+top_level_anatomy_id+`
 |`+Array+`
 |A list of top-level anatomy IDs.
 
-|`+topLevelAnatomyTerm+`
+|`+top_level_anatomy_term+`
 |`+Array+`
 |A list of top-level anatomy terms.
 
-|`+topLevelAnatomyTermSynonym+`
+|`+top_level_anatomy_term_synonym+`
 |`+Array+`
 |A list of synonyms for the top-level anatomy terms.
 
-|`+selectedTopLevelAnatomyId+`
+|`+selected_top_level_anatomy_id+`
 |`+Array+`
 |A list of selected top-level anatomy IDs.
 
-|`+selectedTopLevelAnatomyTerm+`
+|`+selected_top_level_anatomy_term+`
 |`+Array+`
 |A list of selected top-level anatomy terms.
 
-|`+selectedTopLevelAnatomyTermSynonym+`
+|`+selected_top_level_anatomy_term_synonym+`
 |`+Array+`
 |A list of synonyms for the selected top-level anatomy terms.
 
-|`+intermediateAnatomyId+`
+|`+intermediate_anatomy_id+`
 |`+Array+`
 |A list of intermediate anatomy IDs.
 
-|`+intermediateAnatomyTerm+`
+|`+intermediate_anatomy_term+`
 |`+Array+`
 |A list of intermediate anatomy terms.
 
-|`+intermediateAnatomyTermSynonym+`
+|`+intermediate_anatomy_term_synonym+`
 |`+Array+`
 |A list of synonyms for the intermediate anatomy terms.
 
-|`+parentAnatomyId+`
+|`+parent_anatomy_id+`
 |`+Array+`
 |A list of parent anatomy IDs.
 
-|`+parentAnatomyTerm+`
+|`+parent_anatomy_term+`
 |`+Array+`
 |A list of parent anatomy terms.
 
-|`+parentAnatomyTermSynonym+`
+|`+parent_anatomy_term_synonym+`
 |`+Array+`
 |A list of synonyms for the parent anatomy terms.
 
-|`+childAnatomyId+`
+|`+child_anatomy_id+`
 |`+Array+`
 |A list of child anatomy IDs.
 
-|`+childAnatomyTerm+`
+|`+child_anatomy_term+`
 |`+Array+`
 |A list of child anatomy terms.
 
-|`+childAnatomyTermSynonym+`
+|`+child_anatomy_term_synonym+`
 |`+Array+`
 |A list of synonyms for the child anatomy terms.
 
-|`+downloadFilePath+`
+|`+download_file_path+`
 |`+String+`
 |The file path for downloading associated data.
 
-|`+imageLink+`
+|`+image_link+`
 |`+String+`
 |A link to an associated image.
 
-|`+fileType+`
+|`+file_type+`
 |`+String+`
 |The file type of the associated data.
 
-|`+incrementValue+`
+|`+increment_value+`
 |`+String+`
 |An increment value associated with the data.
 
-|`+parameterAssociationStableId+`
+|`+parameter_association_stable_id+`
 |`+Array+`
 |A list of stable IDs for parameter associations.
 
-|`+parameterAssociationSequenceId+`
+|`+parameter_association_sequence_id+`
 |`+Array+`
 |A list of sequence IDs for parameter associations.
 
-|`+parameterAssociationDimId+`
+|`+parameter_association_dim_id+`
 |`+Array+`
 |A list of dimension IDs for parameter associations.
 
-|`+parameterAssociationName+`
+|`+parameter_association_name+`
 |`+Array+`
 |A list of names for parameter associations.
 
-|`+parameterAssociationValue+`
+|`+parameter_association_value+`
 |`+Array+`
 |A list of values for parameter associations.
 
-|`+developmentalStageAcc+`
+|`+developmental_stage_acc+`
 |`+String+`
 |The accession code for the developmental stage.
 
-|`+developmentalStageName+`
+|`+developmental_stage_name+`
 |`+String+`
 |The name of the developmental stage.
 
-|`+textValue+`
+|`+text_value+`
 |`+String+`
 |A text value associated with the experiment.
 
-|`+subTermId+`
+|`+sub_term_id+`
 |`+Array+`
 |A list of sub-term IDs.
 
-|`+subTermName+`
+|`+sub_term_name+`
 |`+Array+`
 |A list of sub-term names.
 
-|`+subTermDescription+`
+|`+sub_term_description+`
 |`+Array+`
 |A list of descriptions for the sub-terms.
 
-|`+ageInDays+`
+|`+age_in_days+`
 |`+Number+`
 |The age in days of the specimen at the time of the experiment.
 
-|`+ageInWeeks+`
+|`+age_in_weeks+`
 |`+Number+`
 |The age in weeks of the specimen at the time of the experiment.
 
-|`+metadataGroup+`
+|`+metadata_group+`
 |`+String+`
 |A grouping identifier for the metadata, organizing it into logical groups.
 
-|`+experimentSourceId+`
+|`+experiment_source_id+`
 |`+String+`
 |The unique identifier for the source of the experiment data.
 
