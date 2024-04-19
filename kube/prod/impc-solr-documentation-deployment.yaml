@@ -48,7 +48,7 @@ spec:
             - name: SOLR_DOCUMENTATION_PORT
               value: "8080"
             - name: SERVER_PORT
-              value: "8080"
+              value: "8091"
             - name: EBI_PROXY
               value: 'True'
             - name: HL_PROXY
@@ -58,7 +58,7 @@ spec:
               protocol: TCP
           livenessProbe:
             tcpSocket:
-              port: 8080
+              port: 8091
             initialDelaySeconds: 120
             periodSeconds: 60
           resources: {}
