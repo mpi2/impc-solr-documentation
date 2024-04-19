@@ -3,7 +3,7 @@ FROM maven:3-amazoncorretto-17 as build
 COPY pom.xml /usr/src/impc-solr-documentation/
 COPY src /usr/src/impc-solr-documentation/src
 
-RUN mvn -f /usr/src/impc-allele-service/pom.xml clean package -DskipTests
+RUN mvn -f /usr/src/impc-solr-documentation/pom.xml clean package -DskipTests
 
 # The final image should have a minimal number of layers
 FROM amazoncorretto:17
