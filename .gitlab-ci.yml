@@ -38,7 +38,7 @@ build_main_image:
 
 
           echo "Pushing to docker hub"
-          echo "${DOCKER_HUB_PWD}" | docker login --username "${DOCKER_HUB_USER}" --password-stdin
+          echo "${DOCKER_HUB_PSWD}" | docker login --username "${DOCKER_HUB_USER}" --password-stdin
           echo "Pushing to docker hub1"
          
           docker tag "${CI_REGISTRY_IMAGE}":latest "${DOCKER_HUB_USER}"/"${DOCKER_HUB_REPO}":latest
