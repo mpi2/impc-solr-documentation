@@ -88,7 +88,6 @@ public class AlleleGenerator {
         allele.setText(List.of("text1", "text2"));
         allele.setAuto_suggest(List.of("suggest1", "suggest2"));
         return allele;
-
     }
 
 }
