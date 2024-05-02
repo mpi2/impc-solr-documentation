@@ -32,7 +32,7 @@ spec:
             - name: REDEPLOY_KEY
               value: "STRING_REPLACED_DURING_REDEPLOY"
             - name: SERVER_SERVLET_CONTEXT_PATH
-              value: /mi/impc/solr-documentation
+              value: /mi/impc/solrdoc
             - name: SERVER_TOMCAT_BASEDIR
               value: /tomcat
             - name: SERVER_TOMCAT_ACCESSLOG_ENABLED
