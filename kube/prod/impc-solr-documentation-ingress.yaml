@@ -9,12 +9,12 @@ metadata:
     nginx.ingress.kubernetes.io/enable-cors: "true"
     nginx.ingress.kubernetes.io/cors-allow-origin: "https://www.mousephenotype.org, https://dev.mousephenotype.org, https://beta.mousephenotype.org"
     nginx.ingress.kubernetes.io/cors-allow-methods: "GET, OPTIONS"
-    nginx.ingress.kubernetes.io/rewrite-target: /mi/impc/solr-documentation/$2
+    nginx.ingress.kubernetes.io/rewrite-target: /mi/impc/solrdoc/$2
     nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
     # adds 301 redirect with trailing slash
     # see: https://github.com/kubernetes/ingress-nginx/issues/646
     nginx.ingress.kubernetes.io/configuration-snippet: |
-      rewrite ^(/mi/impc/solr-documentation)$ $1/ permanent;
+      rewrite ^(/mi/impc/solrdoc)$ $1/ permanent;
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
 
 spec:
@@ -22,7 +22,7 @@ spec:
     - host: www.gentar.org
       http:
         paths:
-          - path: /mi/impc/solr-documentation(/|$)(.*)
+          - path: /mi/impc/solrdoc(/|$)(.*)
             backend:
               serviceName: impc-solr-documentation
               servicePort: 8080
