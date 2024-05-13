@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Gene
+== gene
 
 === Fields
 include::{snippets}/gene-doc/response-fields.adoc[]

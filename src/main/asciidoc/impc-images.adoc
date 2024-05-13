@@ -12,7 +12,7 @@
 == Introduction
 
 
-== IMPC Images
+== impc_images
 
 === Fields
 include::{snippets}/impc-images-doc/response-fields.adoc[]

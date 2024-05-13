@@ -128,4 +128,18 @@ public class DocumentController {
 
         }
     }
+
+    @GetMapping(value = "/internal_index", produces = MediaType.TEXT_HTML_VALUE)
+    public ResponseEntity<String> getInternalIndexHtml() {
+        Resource resource = new ClassPathResource("static/internal_index.html");
+        try {
+            Path indexPath = resource.getFile().toPath();
+            String htmlContent = Files.readString(indexPath);
+            return ResponseEntity.ok(htmlContent);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body("Error reading HTML file");
+
+        }
+    }
 }

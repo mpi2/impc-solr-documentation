@@ -12,7 +12,7 @@
 == Introduction
 
 
-== MP
+== mp
 
 === Fields
 include::{snippets}/mp-doc/response-fields.adoc[]

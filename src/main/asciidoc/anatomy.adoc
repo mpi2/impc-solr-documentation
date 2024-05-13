@@ -11,7 +11,7 @@
 
 == Introduction
 
-== Anatomy
+== anatomy
 
 === Fields
 include::{snippets}/anatomy-doc/response-fields.adoc[]

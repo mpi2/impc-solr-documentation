@@ -11,7 +11,7 @@
 
 == Introduction
 
-== Essential Genes
+== essentialgenes
 
 === Fields
 include::{snippets}/essential-genes-doc/response-fields.adoc[]

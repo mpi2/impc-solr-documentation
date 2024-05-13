@@ -9,7 +9,7 @@
   "cav_allele_accession_id" : "CAV:123456",
   "cav_allele_symbol" : "Cav1",
   "cav_category" : [ "Category1", "Category2" ],
-  "clin_date" : "2024-04-18T13:19:12.213+00:00",
+  "clin_date" : "2024-05-13T13:41:51.186+00:00",
   "clin_haploinsufficiency" : "Low",
   "clin_human_gene_id" : 5000000,
   "clin_id" : 6000000,

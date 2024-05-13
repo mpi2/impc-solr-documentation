@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Experiment
+== experiment
 
 === Fields
 include::{snippets}/experiment-doc/response-fields.adoc[]

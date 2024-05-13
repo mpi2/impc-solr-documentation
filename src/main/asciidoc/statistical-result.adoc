@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Statistical Result
+== statistical-result
 
 === Fields
 include::{snippets}/statistical-result-doc/response-fields.adoc[]

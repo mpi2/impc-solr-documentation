@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Ortholog Mapping
+== ortholog_mapping
 
 === Fields
 include::{snippets}/ortholog-mapping-doc/response-fields.adoc[]

@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Product
+== product
 
 === Fields
 include::{snippets}/product-doc/response-fields.adoc[]

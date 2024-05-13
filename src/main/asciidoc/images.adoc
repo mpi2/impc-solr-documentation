@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Images
+== images
 
 === Fields
 include::{snippets}/images-doc/response-fields.adoc[]

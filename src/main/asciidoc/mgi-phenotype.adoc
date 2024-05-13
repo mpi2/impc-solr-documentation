@@ -12,7 +12,7 @@
 == Introduction
 
 
-== MGI Phenotype
+==  mgi-phenotype
 
 === Fields
 include::{snippets}/mgi-phenotype-doc/response-fields.adoc[]

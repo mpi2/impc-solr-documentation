@@ -11,7 +11,7 @@
 
 == Introduction
 
-== Allele
+== allele
 
 === Fields
 include::{snippets}/allele-doc/response-fields.adoc[]

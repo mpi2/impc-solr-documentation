@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Phenodigm
+== phenodigm
 
 === Fields
 include::{snippets}/phenodigm-doc/response-fields.adoc[]

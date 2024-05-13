@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Pipeline
+== pipeline
 
 === Fields
 include::{snippets}/pipeline-doc/response-fields.adoc[]

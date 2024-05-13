@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Genotype Phenotype
+== genotype-phenotype
 
 === Fields
 include::{snippets}/genotype-phenotype-doc/response-fields.adoc[]

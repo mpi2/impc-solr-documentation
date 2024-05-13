@@ -12,7 +12,7 @@
 == Introduction
 
 
-== Statistical Raw Data
+== statistical-raw-data
 
 === Fields
 include::{snippets}/statistical-raw-data-doc/response-fields.adoc[]

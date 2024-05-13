@@ -48,7 +48,7 @@
   "observation_type" : "Type 1",
   "data_type" : "Data Type 1",
   "experiment_source_id" : "Source-001",
-  "date_of_experiment" : "2024-04-18",
+  "date_of_experiment" : "2024-05-13",
   "weight_parameter_stable_id" : "WPID-001",
   "weight_date" : "2020-06-15",
   "weight_days_old" : 100,
