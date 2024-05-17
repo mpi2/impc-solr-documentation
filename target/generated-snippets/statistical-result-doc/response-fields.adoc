@@ -13,35 +13,35 @@
 |`+String+`
 |The type of data represented in this dataset.
 
-|`+anatomy_term_id[]+`
+|`+anatomy_term_id+`
 |`+Array+`
 |List of anatomy term identifiers related to the dataset.
 
-|`+anatomy_term_name[]+`
+|`+anatomy_term_name+`
 |`+Array+`
 |List of anatomy term names related to the dataset.
 
-|`+intermediate_anatomy_term_id[]+`
+|`+intermediate_anatomy_term_id+`
 |`+Array+`
 |List of intermediate anatomy term identifiers.
 
-|`+intermediate_anatomy_term_name[]+`
+|`+intermediate_anatomy_term_name+`
 |`+Array+`
 |List of intermediate anatomy term names.
 
-|`+top_level_anatomy_term_id[]+`
+|`+top_level_anatomy_term_id+`
 |`+Array+`
 |List of top-level anatomy term identifiers.
 
-|`+top_level_anatomy_term_name[]+`
+|`+top_level_anatomy_term_name+`
 |`+Array+`
 |List of top-level anatomy term names.
 
-|`+mp_term_id_options[]+`
+|`+mp_term_id_options+`
 |`+Array+`
 |List of optional MP term identifiers.
 
-|`+mp_term_name_options[]+`
+|`+mp_term_name_options+`
 |`+Array+`
 |List of optional MP term names.
 
@@ -53,19 +53,19 @@
 |`+String+`
 |The name of the MP term.
 
-|`+top_level_mp_term_id[]+`
+|`+top_level_mp_term_id+`
 |`+Array+`
 |List of top-level MP term identifiers.
 
-|`+top_level_mp_term_name[]+`
+|`+top_level_mp_term_name+`
 |`+Array+`
 |List of top-level MP term names.
 
-|`+intermediate_mp_term_id[]+`
+|`+intermediate_mp_term_id+`
 |`+Array+`
 |List of intermediate MP term identifiers.
 
-|`+intermediate_mp_term_name[]+`
+|`+intermediate_mp_term_name+`
 |`+Array+`
 |List of intermediate MP term names.
 
@@ -77,19 +77,19 @@
 |`+String+`
 |The name of the male MP term.
 
-|`+male_top_level_mp_term_id[]+`
+|`+male_top_level_mp_term_id+`
 |`+Array+`
 |List of male top-level MP term identifiers.
 
-|`+male_top_level_mp_term_name[]+`
+|`+male_top_level_mp_term_name+`
 |`+Array+`
 |List of male top-level MP term names.
 
-|`+male_intermediate_mp_term_id[]+`
+|`+male_intermediate_mp_term_id+`
 |`+Array+`
 |List of male intermediate MP term identifiers.
 
-|`+male_intermediate_mp_term_name[]+`
+|`+male_intermediate_mp_term_name+`
 |`+Array+`
 |List of male intermediate MP term names.
 
@@ -101,19 +101,19 @@
 |`+String+`
 |The name of the female MP term.
 
-|`+female_top_level_mp_term_id[]+`
+|`+female_top_level_mp_term_id+`
 |`+Array+`
 |List of female top-level MP term identifiers.
 
-|`+female_top_level_mp_term_name[]+`
+|`+female_top_level_mp_term_name+`
 |`+Array+`
 |List of female top-level MP term names.
 
-|`+female_intermediate_mp_term_id[]+`
+|`+female_intermediate_mp_term_id+`
 |`+Array+`
 |List of female intermediate MP term identifiers.
 
-|`+female_intermediate_mp_term_name[]+`
+|`+female_intermediate_mp_term_name+`
 |`+Array+`
 |List of female intermediate MP term names.
 
@@ -209,7 +209,7 @@
 |`+Number+`
 |Effect size for male low/normal versus high comparison.
 
-|`+categories[]+`
+|`+categories+`
 |`+Array+`
 |Categories used in the statistical analysis.
 
@@ -349,7 +349,7 @@
 |`+String+`
 |Notes on the degree of evidence in soft windowing.
 
-|`+metadata[]+`
+|`+metadata+`
 |`+Array+`
 |List of metadata associated with the dataset.
 
@@ -365,7 +365,7 @@
 |`+Number+`
 |The unique identifier for the resource.
 
-|`+project_name[]+`
+|`+project_name+`
 |`+Array+`
 |List of names of projects associated with the dataset.
 
@@ -389,11 +389,11 @@
 |`+Number+`
 |The unique identifier for the pipeline.
 
-|`+procedure_stable_id[]+`
+|`+procedure_stable_id+`
 |`+Array+`
 |List of stable identifiers for the procedures.
 
-|`+procedure_stable_key[]+`
+|`+procedure_stable_key+`
 |`+Array+`
 |List of stable keys for the procedures.
 
@@ -409,7 +409,7 @@
 |`+String+`
 |The stable identifier for the parameter.
 
-|`+parameter_stable_key[]+`
+|`+parameter_stable_key+`
 |`+Array+`
 |List of stable keys for the parameter.
 
@@ -513,7 +513,7 @@
 |`+String+`
 |A classification tag for the dataset.
 
-|`+phenotype_sex[]+`
+|`+phenotype_sex+`
 |`+Array+`
 |List indicating the sex(es) for which phenotype data is available.
 

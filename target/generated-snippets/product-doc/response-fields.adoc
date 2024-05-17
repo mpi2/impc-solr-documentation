@@ -37,15 +37,15 @@
 |`+String+`
 |The vector name associated with the product.
 
-|`+associated_products_colony_names[]+`
+|`+associated_products_colony_names+`
 |`+Array+`
 |List of colony names associated with the product.
 
-|`+associated_products_es_cell_names[]+`
+|`+associated_products_es_cell_names+`
 |`+Array+`
 |List of ES cell names associated with the product.
 
-|`+associated_products_vector_names[]+`
+|`+associated_products_vector_names+`
 |`+Array+`
 |List of vector names associated with the product.
 
@@ -53,11 +53,11 @@
 |`+String+`
 |The cassette associated with the allele.
 
-|`+contact_links[]+`
+|`+contact_links+`
 |`+Array+`
 |List of contact links.
 
-|`+contact_names[]+`
+|`+contact_names+`
 |`+Array+`
 |List of contact names.
 
@@ -65,7 +65,7 @@
 |`+String+`
 |The design ID associated with the allele.
 
-|`+genetic_info[]+`
+|`+genetic_info+`
 |`+Array+`
 |List of genetic information associated with the allele.
 
@@ -73,7 +73,7 @@
 |`+String+`
 |The IKMC project ID associated with the allele.
 
-|`+loa_assays[]+`
+|`+loa_assays+`
 |`+Array+`
 |List of LOA assays associated with the allele.
 
@@ -89,27 +89,27 @@
 |`+String+`
 |The name associated with the allele product.
 
-|`+order_links[]+`
+|`+order_links+`
 |`+Array+`
 |List of order links.
 
-|`+order_names[]+`
+|`+order_names+`
 |`+Array+`
 |List of order names.
 
-|`+other_links[]+`
+|`+other_links+`
 |`+Array+`
 |List of other links.
 
-|`+tissue_enquiry_links[]+`
+|`+tissue_enquiry_links+`
 |`+Array+`
 |List of tissue enquiry links.
 
-|`+tissue_enquiry_types[]+`
+|`+tissue_enquiry_types+`
 |`+Array+`
 |List of tissue enquiry types.
 
-|`+tissue_distribution_centres[]+`
+|`+tissue_distribution_centres+`
 |`+Array+`
 |List of tissue distribution centres.
 
@@ -129,7 +129,7 @@
 |`+Boolean+`
 |Indicates whether production is completed.
 
-|`+production_info[]+`
+|`+production_info+`
 |`+Array+`
 |List of production information.
 
@@ -137,7 +137,7 @@
 |`+String+`
 |The production pipeline.
 
-|`+qc_data[]+`
+|`+qc_data+`
 |`+Array+`
 |List of QC data.
 

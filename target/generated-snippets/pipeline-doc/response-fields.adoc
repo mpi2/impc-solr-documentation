@@ -69,7 +69,7 @@
 |`+String+`
 |The type of observation made in the experiment.
 
-|`+mp_terms[]+`
+|`+mp_terms+`
 |`+Array+`
 |List of Mammalian Phenotype (MP) Ontology terms associated with the experiment.
 
@@ -93,7 +93,7 @@
 |`+Boolean+`
 |Indicates whether the parameter value increments.
 
-|`+categories[]+`
+|`+categories+`
 |`+Array+`
 |The categories associated with the experiment.
 
@@ -133,75 +133,75 @@
 |`+Number+`
 |The schedule key for the experiment.
 
-|`+mp_id[]+`
+|`+mp_id+`
 |`+Array+`
 |List of Mammalian Phenotype (MP) Ontology IDs.
 
-|`+mp_id[]+`
+|`+mp_id+`
 |`+Array+`
 |List of Mammalian Phenotype (MP) Ontology IDs.
 
-|`+mp_term[]+`
+|`+mp_term+`
 |`+Array+`
 |List of Mammalian Phenotype (MP) Ontology terms.
 
-|`+mp_term_synonym[]+`
+|`+mp_term_synonym+`
 |`+Array+`
 |List of synonyms for Mammalian Phenotype (MP) Ontology terms.
 
-|`+top_level_mp_id[]+`
+|`+top_level_mp_id+`
 |`+Array+`
 |List of top-level MP Ontology IDs.
 
-|`+top_level_mp_term[]+`
+|`+top_level_mp_term+`
 |`+Array+`
 |List of top-level MP Ontology terms.
 
-|`+top_level_mp_term_synonym[]+`
+|`+top_level_mp_term_synonym+`
 |`+Array+`
 |List of synonyms for top-level MP Ontology terms.
 
-|`+intermediate_mp_id[]+`
+|`+intermediate_mp_id+`
 |`+Array+`
 |List of intermediate MP Ontology IDs.
 
-|`+intermediate_mp_term[]+`
+|`+intermediate_mp_term+`
 |`+Array+`
 |List of intermediate MP Ontology terms.
 
-|`+intermediate_mp_term_synonym[]+`
+|`+intermediate_mp_term_synonym+`
 |`+Array+`
 |List of synonyms for intermediate MP Ontology terms.
 
-|`+abnormal_mp_id[]+`
+|`+abnormal_mp_id+`
 |`+Array+`
 |List of IDs for abnormal MP Ontology terms.
 
-|`+increased_mp_id[]+`
+|`+increased_mp_id+`
 |`+Array+`
 |List of IDs for increased MP Ontology terms.
 
-|`+decreased_mp_id[]+`
+|`+decreased_mp_id+`
 |`+Array+`
 |List of IDs for decreased MP Ontology terms.
 
-|`+abnormal_mp_term[]+`
+|`+abnormal_mp_term+`
 |`+Array+`
 |List of abnormal MP Ontology terms.
 
-|`+increased_mp_term[]+`
+|`+increased_mp_term+`
 |`+Array+`
 |List of increased MP Ontology terms.
 
-|`+decreased_mp_term[]+`
+|`+decreased_mp_term+`
 |`+Array+`
 |List of decreased MP Ontology terms.
 
-|`+hp_id[]+`
+|`+hp_id+`
 |`+Array+`
 |List of Human Phenotype Ontology (HPO) IDs.
 
-|`+hp_term[]+`
+|`+hp_term+`
 |`+Array+`
 |List of Human Phenotype Ontology (HPO) terms.
 
@@ -225,7 +225,7 @@
 |`+String+`
 |The Mouse Anatomy (MA) term.
 
-|`+ma_term_synonym[]+`
+|`+ma_term_synonym+`
 |`+Array+`
 |List of synonyms for the Mouse Anatomy (MA) term.
 
@@ -245,7 +245,7 @@
 |`+String+`
 |The anatomy term.
 
-|`+anatomy_term_synonym[]+`
+|`+anatomy_term_synonym+`
 |`+Array+`
 |List of synonyms for the anatomy term.
 
@@ -257,11 +257,11 @@
 |`+String+`
 |The embryo anatomy term.
 
-|`+top_level_embryo_anatomy_id[]+`
+|`+top_level_embryo_anatomy_id+`
 |`+Array+`
 |List of top-level embryo anatomy IDs.
 
-|`+top_level_embryo_anatomy_term[]+`
+|`+top_level_embryo_anatomy_term+`
 |`+Array+`
 |List of top-level embryo anatomy terms.
 
@@ -273,23 +273,23 @@
 |`+String+`
 |The mouse anatomy term.
 
-|`+top_level_mouse_anatomy_id[]+`
+|`+top_level_mouse_anatomy_id+`
 |`+Array+`
 |List of top-level mouse anatomy IDs.
 
-|`+top_level_mouse_anatomy_term[]+`
+|`+top_level_mouse_anatomy_term+`
 |`+Array+`
 |List of top-level mouse anatomy terms.
 
-|`+imits_phenotype_started[]+`
+|`+imits_phenotype_started+`
 |`+Array+`
 |List indicating the start of phenotype analysis.
 
-|`+imits_phenotype_complete[]+`
+|`+imits_phenotype_complete+`
 |`+Array+`
 |List indicating the completion of phenotype analysis.
 
-|`+imits_phenotype_status[]+`
+|`+imits_phenotype_status+`
 |`+Array+`
 |List describing the status of phenotype analysis.
 

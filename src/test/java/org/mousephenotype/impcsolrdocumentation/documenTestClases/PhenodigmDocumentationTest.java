@@ -96,7 +96,7 @@ public class PhenodigmDocumentationTest {
                                 fieldWithPath("hgnc_gene_locus").description("The locus associated with the HGNC gene."),
                                 fieldWithPath("mouse_model").description("Boolean indicating if a mouse model is used."),
                                 fieldWithPath("impc_model").description("Boolean indicating if an IMPC (International Mouse Phenotyping Consortium) model is used."),
-                                fieldWithPath("model_id").description("Unique identifier for the model."),
+                                fieldWithPath("model_id").description("Unique identifier for the mouse model (MGI gene identifier)."),
                                 fieldWithPath("model_source").description("The source of the model."),
                                 fieldWithPath("model_description").description("A description of the model."),
                                 fieldWithPath("model_genetic_background").description("The genetic background of the model."),

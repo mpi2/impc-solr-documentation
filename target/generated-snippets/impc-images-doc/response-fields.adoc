@@ -245,67 +245,67 @@
 |`+String+`
 |The group of the metadata.
 
-|`+mp_id[]+`
+|`+mp_id+`
 |`+Array+`
 |The MP IDs associated with the experiment.
 
-|`+mp_term[]+`
+|`+mp_term+`
 |`+Array+`
 |The MP terms associated with the experiment.
 
-|`+anatomy_id[]+`
+|`+anatomy_id+`
 |`+Array+`
 |The anatomy IDs related to the experiment.
 
-|`+anatomy_term[]+`
+|`+anatomy_term+`
 |`+Array+`
 |The anatomy terms related to the experiment.
 
-|`+anatomy_id_term[]+`
+|`+anatomy_id_term+`
 |`+Array+`
 |Combined anatomy ID and term related to the experiment.
 
-|`+anatomy_term_synonym[]+`
+|`+anatomy_term_synonym+`
 |`+Array+`
 |Synonyms for the anatomy terms.
 
-|`+top_level_anatomy_id[]+`
+|`+top_level_anatomy_id+`
 |`+Array+`
 |Top-level anatomy IDs related to the experiment.
 
-|`+top_level_anatomy_term[]+`
+|`+top_level_anatomy_term+`
 |`+Array+`
 |Top-level anatomy terms related to the experiment.
 
-|`+selected_top_level_anatomy_id[]+`
+|`+selected_top_level_anatomy_id+`
 |`+Array+`
 |Selected top-level anatomy IDs.
 
-|`+selected_top_level_anatomy_term[]+`
+|`+selected_top_level_anatomy_term+`
 |`+Array+`
 |Selected top-level anatomy terms.
 
-|`+intermediate_anatomy_id[]+`
+|`+intermediate_anatomy_id+`
 |`+Array+`
 |Intermediate anatomy IDs.
 
-|`+intermediate_anatomy_term[]+`
+|`+intermediate_anatomy_term+`
 |`+Array+`
 |Intermediate anatomy terms.
 
-|`+parent_anatomy_id[]+`
+|`+parent_anatomy_id+`
 |`+Array+`
 |Parent anatomy IDs.
 
-|`+parent_anatomy_term[]+`
+|`+parent_anatomy_term+`
 |`+Array+`
 |Parent anatomy terms.
 
-|`+child_anatomy_id[]+`
+|`+child_anatomy_id+`
 |`+Array+`
 |Child anatomy IDs.
 
-|`+child_anatomy_term[]+`
+|`+child_anatomy_term+`
 |`+Array+`
 |Child anatomy terms.
 
@@ -321,23 +321,23 @@
 |`+String+`
 |The type of file.
 
-|`+parameter_association_stable_id[]+`
+|`+parameter_association_stable_id+`
 |`+Array+`
 |Stable IDs for the parameter associations.
 
-|`+parameter_association_sequence_id[]+`
+|`+parameter_association_sequence_id+`
 |`+Array+`
 |Sequence IDs for the parameter associations.
 
-|`+parameter_association_dim_id[]+`
+|`+parameter_association_dim_id+`
 |`+Array+`
 |Dimension IDs for the parameter associations.
 
-|`+parameter_association_name[]+`
+|`+parameter_association_name+`
 |`+Array+`
 |Names of the parameter associations.
 
-|`+parameter_association_value[]+`
+|`+parameter_association_value+`
 |`+Array+`
 |Values of the parameter associations.
 
@@ -353,15 +353,15 @@
 |`+String+`
 |Text value associated with the experiment.
 
-|`+sub_term_id[]+`
+|`+sub_term_id+`
 |`+Array+`
 |Sub-term IDs related to the experiment.
 
-|`+sub_term_name[]+`
+|`+sub_term_name+`
 |`+Array+`
 |Sub-term names related to the experiment.
 
-|`+sub_term_description[]+`
+|`+sub_term_description+`
 |`+Array+`
 |Descriptions of the sub-terms.
 
@@ -393,19 +393,19 @@
 |`+String+`
 |OMERO database ID for the image.
 
-|`+top_level_mp_id[]+`
+|`+top_level_mp_id+`
 |`+Array+`
 |The top-level MP (Mouse Phenotype) IDs associated with the experiment.
 
-|`+top_level_mp_term[]+`
+|`+top_level_mp_term+`
 |`+Array+`
 |The top-level MP terms associated with the experiment.
 
-|`+intermediate_mp_id[]+`
+|`+intermediate_mp_id+`
 |`+Array+`
 |The intermediate MP IDs associated with the experiment.
 
-|`+intermediate_mp_term[]+`
+|`+intermediate_mp_term+`
 |`+Array+`
 |The intermediate MP terms associated with the experiment.
 

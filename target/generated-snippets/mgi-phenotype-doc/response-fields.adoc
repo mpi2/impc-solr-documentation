@@ -37,39 +37,39 @@
 |`+String+`
 |The name of the MP term.
 
-|`+alt_mp_term_id[]+`
+|`+alt_mp_term_id+`
 |`+Array+`
 |Alternative MP term identifiers.
 
-|`+top_level_mp_term_id[]+`
+|`+top_level_mp_term_id+`
 |`+Array+`
 |Identifiers for top-level MP terms.
 
-|`+top_level_mp_term_name[]+`
+|`+top_level_mp_term_name+`
 |`+Array+`
 |Names of top-level MP terms.
 
-|`+top_level_mp_term_definition[]+`
+|`+top_level_mp_term_definition+`
 |`+Array+`
 |Definitions of top-level MP terms.
 
-|`+top_level_mp_term_synonym[]+`
+|`+top_level_mp_term_synonym+`
 |`+Array+`
 |Synonyms for top-level MP terms.
 
-|`+intermediate_mp_term_id[]+`
+|`+intermediate_mp_term_id+`
 |`+Array+`
 |Identifiers for intermediate MP terms.
 
-|`+intermediate_mp_term_name[]+`
+|`+intermediate_mp_term_name+`
 |`+Array+`
 |Names of intermediate MP terms.
 
-|`+intermediate_mp_term_definition[]+`
+|`+intermediate_mp_term_definition+`
 |`+Array+`
 |Definitions of intermediate MP terms.
 
-|`+intermediate_mp_term_synonym[]+`
+|`+intermediate_mp_term_synonym+`
 |`+Array+`
 |Synonyms for intermediate MP terms.
 
