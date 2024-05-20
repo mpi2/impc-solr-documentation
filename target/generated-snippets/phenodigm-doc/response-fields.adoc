@@ -167,7 +167,7 @@
 
 |`+model_id+`
 |`+String+`
-|Unique identifier for the model.
+|Unique identifier for the mouse model (MGI gene identifier).
 
 |`+model_source+`
 |`+String+`
