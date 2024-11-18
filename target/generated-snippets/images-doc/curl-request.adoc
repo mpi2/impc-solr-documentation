@@ -1,5 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:8080/getImagesDoc' -i -X GET \
-    -H 'Content-Type: application/json'
-----

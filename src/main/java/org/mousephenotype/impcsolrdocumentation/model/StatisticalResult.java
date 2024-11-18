@@ -79,16 +79,10 @@ public class StatisticalResult {
     private Double male_mutant_mean;
     private Double female_control_mean;
     private Double female_mutant_mean;
-    private Double genotype_p_value_low_vs_normal_high;
-    private Double genotype_p_value_low_normal_vs_high;
     private Double genotype_effect_size_low_vs_normal_high;
     private Double genotype_effect_size_low_normal_vs_high;
-    private Double female_p_value_low_vs_normal_high;
-    private Double female_p_value_low_normal_vs_high;
     private Double female_effect_size_low_vs_normal_high;
     private Double female_effect_size_low_normal_vs_high;
-    private Double male_p_value_low_vs_normal_high;
-    private Double male_p_value_low_normal_vs_high;
     private Double male_effect_size_low_vs_normal_high;
     private Double male_effect_size_low_normal_vs_high;
     private List<String> categories;
@@ -108,10 +102,6 @@ public class StatisticalResult {
     private Double weight_effect_p_value;
     private Double weight_effect_stderr_estimate;
     private Double weight_effect_parameter_estimate;
-    private String group1_genotype;
-    private Double group1_residuals_normality_test;
-    private String group2_genotype;
-    private Double group2_residuals_normality_test;
     private Double blups_test;
     private Double rotated_residuals_test;
     private Double intercept_estimate;
@@ -140,5 +130,24 @@ public class StatisticalResult {
     private String soft_windowing_number_of_doe;
     private String soft_windowing_doe_note;
     private List<String> metadata;
+    private Double effect_size;
+    private Integer female_control_count;
+    private Integer female_mutant_count;
+    private Double female_pvalue_low_normal_vs_high;
+    private Double female_pvalue_low_vs_normal_high;
+    private Double genotype_pvalue_low_normal_vs_high;
+    private Double genotype_pvalue_low_vs_normal_high;
+    private String group_1_genotype;
+    private Double group_1_residuals_normality_test;
+    private String group_2_genotype;
+    private Double group_2_residuals_normality_test;
+    private Integer male_control_count;
+    private Integer male_mutant_count;
+    private Double male_pvalue_low_normal_vs_high;
+    private Double male_pvalue_low_vs_normal_high;
+    private Double p_value;
+    private String statistical_method;
+    private String status;
+
 
 }

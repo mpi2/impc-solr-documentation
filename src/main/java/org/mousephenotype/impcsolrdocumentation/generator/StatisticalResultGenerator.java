@@ -101,18 +101,13 @@ public class StatisticalResultGenerator {
         statisticalResult.setFemale_control_mean(0.4);
         statisticalResult.setFemale_mutant_mean(1.4);
 
-        statisticalResult.setGenotype_p_value_low_vs_normal_high(0.01);
-        statisticalResult.setGenotype_p_value_low_normal_vs_high(0.02);
         statisticalResult.setGenotype_effect_size_low_vs_normal_high(0.5);
         statisticalResult.setGenotype_effect_size_low_normal_vs_high(0.6);
 
-        statisticalResult.setFemale_p_value_low_vs_normal_high(0.03);
-        statisticalResult.setFemale_p_value_low_normal_vs_high(0.04);
         statisticalResult.setFemale_effect_size_low_vs_normal_high(0.7);
         statisticalResult.setFemale_effect_size_low_normal_vs_high(0.8);
 
-        statisticalResult.setMale_p_value_low_vs_normal_high(0.05);
-        statisticalResult.setMale_p_value_low_normal_vs_high(0.06);
+
         statisticalResult.setMale_effect_size_low_vs_normal_high(0.9);
         statisticalResult.setMale_effect_size_low_normal_vs_high(1.0);
 
@@ -138,10 +133,24 @@ public class StatisticalResultGenerator {
         statisticalResult.setWeight_effect_stderr_estimate(0.16);
         statisticalResult.setWeight_effect_parameter_estimate(0.17);
 
-        statisticalResult.setGroup1_genotype("WT");
-        statisticalResult.setGroup1_residuals_normality_test(0.18);
-        statisticalResult.setGroup2_genotype("Mutant");
-        statisticalResult.setGroup2_residuals_normality_test(0.19);
+        statisticalResult.setEffect_size(8.3);
+        statisticalResult.setFemale_control_count(79);
+        statisticalResult.setFemale_mutant_count(7);
+        statisticalResult.setFemale_pvalue_low_normal_vs_high(6.3);
+        statisticalResult.setFemale_pvalue_low_vs_normal_high(8.5);
+        statisticalResult.setGenotype_pvalue_low_normal_vs_high(9.2);
+        statisticalResult.setGenotype_pvalue_low_vs_normal_high(4.1);
+        statisticalResult.setGroup_1_genotype("control");
+        statisticalResult.setGroup_1_residuals_normality_test(4.3);
+        statisticalResult.setGroup_2_genotype("experimental");
+        statisticalResult.setGroup_2_residuals_normality_test(4.3);
+        statisticalResult.setMale_control_count(23);
+        statisticalResult.setMale_mutant_count(21);
+        statisticalResult.setMale_pvalue_low_normal_vs_high(9.2);
+        statisticalResult.setMale_pvalue_low_vs_normal_high(9.2);
+        statisticalResult.setP_value(0.6);
+        statisticalResult.setStatistical_method("Linear Mixed Model framework, LME, including Weight");
+        statisticalResult.setStatus("Successful");
 
         statisticalResult.setBlups_test(0.20);
         statisticalResult.setRotated_residuals_test(0.21);

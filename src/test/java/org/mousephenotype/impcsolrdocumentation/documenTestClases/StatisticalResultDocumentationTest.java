@@ -95,16 +95,10 @@ public class StatisticalResultDocumentationTest {
                                 fieldWithPath("male_mutant_mean").description("The mean value for male mutants."),
                                 fieldWithPath("female_control_mean").description("The mean value for female controls."),
                                 fieldWithPath("female_mutant_mean").description("The mean value for female mutants."),
-                                fieldWithPath("genotype_p_value_low_vs_normal_high").description("P-value for genotype low versus normal/high comparison."),
-                                fieldWithPath("genotype_p_value_low_normal_vs_high").description("P-value for genotype low/normal versus high comparison."),
                                 fieldWithPath("genotype_effect_size_low_vs_normal_high").description("Effect size for genotype low versus normal/high comparison."),
                                 fieldWithPath("genotype_effect_size_low_normal_vs_high").description("Effect size for genotype low/normal versus high comparison."),
-                                fieldWithPath("female_p_value_low_vs_normal_high").description("P-value for female low versus normal/high comparison."),
-                                fieldWithPath("female_p_value_low_normal_vs_high").description("P-value for female low/normal versus high comparison."),
                                 fieldWithPath("female_effect_size_low_vs_normal_high").description("Effect size for female low versus normal/high comparison."),
                                 fieldWithPath("female_effect_size_low_normal_vs_high").description("Effect size for female low/normal versus high comparison."),
-                                fieldWithPath("male_p_value_low_vs_normal_high").description("P-value for male low versus normal/high comparison."),
-                                fieldWithPath("male_p_value_low_normal_vs_high").description("P-value for male low/normal versus high comparison."),
                                 fieldWithPath("male_effect_size_low_vs_normal_high").description("Effect size for male low versus normal/high comparison."),
                                 fieldWithPath("male_effect_size_low_normal_vs_high").description("Effect size for male low/normal versus high comparison."),
                                 fieldWithPath("categories").description("Categories used in the statistical analysis."),
@@ -124,10 +118,6 @@ public class StatisticalResultDocumentationTest {
                                 fieldWithPath("weight_effect_p_value").description("P-value for the weight effect."),
                                 fieldWithPath("weight_effect_stderr_estimate").description("Standard error estimate for the weight effect."),
                                 fieldWithPath("weight_effect_parameter_estimate").description("Parameter estimate for the weight effect."),
-                                fieldWithPath("group1_genotype").description("Genotype for group 1."),
-                                fieldWithPath("group1_residuals_normality_test").description("Results of the residuals normality test for group 1."),
-                                fieldWithPath("group2_genotype").description("Genotype for group 2."),
-                                fieldWithPath("group2_residuals_normality_test").description("Results of the residuals normality test for group 2."),
                                 fieldWithPath("blups_test").description("Results of the BLUPs test."),
                                 fieldWithPath("rotated_residuals_test").description("Results of the rotated residuals test."),
                                 fieldWithPath("intercept_estimate").description("Estimate of the intercept."),
@@ -186,9 +176,27 @@ public class StatisticalResultDocumentationTest {
                                 fieldWithPath("phenotype_sex").description("List indicating the sex(es) for which phenotype data is available."),
                                 fieldWithPath("life_stage_acc").description("The accession code for the life stage."),
                                 fieldWithPath("life_stage_name").description("The name of the life stage."),
-                                fieldWithPath("significant").description("Indicates whether the findings are statistically significant.")
+                                fieldWithPath("significant").description("Indicates whether the findings are statistically significant."),
+                                fieldWithPath("effect_size").description("The measured effect size in the dataset."),
+                                fieldWithPath("female_control_count").description("The number of female controls in the dataset."),
+                                fieldWithPath("female_mutant_count").description("The number of female mutants in the dataset."),
+                                fieldWithPath("female_pvalue_low_normal_vs_high").description("The P-value for females comparing low/normal versus high categories."),
+                                fieldWithPath("female_pvalue_low_vs_normal_high").description("The P-value for females comparing low versus normal/high categories."),
+                                fieldWithPath("genotype_pvalue_low_normal_vs_high").description("The P-value for genotype comparison between low/normal versus high categories."),
+                                fieldWithPath("genotype_pvalue_low_vs_normal_high").description("The P-value for genotype comparison between low versus normal/high categories."),
+                                fieldWithPath("group_1_genotype").description("The genotype information for group 1."),
+                                fieldWithPath("group_1_residuals_normality_test").description("Results of the residuals normality test for group 1."),
+                                fieldWithPath("group_2_genotype").description("The genotype information for group 2."),
+                                fieldWithPath("group_2_residuals_normality_test").description("Results of the residuals normality test for group 2."),
+                                fieldWithPath("male_control_count").description("The number of male controls in the dataset."),
+                                fieldWithPath("male_mutant_count").description("The number of male mutants in the dataset."),
+                                fieldWithPath("male_pvalue_low_normal_vs_high").description("The P-value for males comparing low/normal versus high categories."),
+                                fieldWithPath("male_pvalue_low_vs_normal_high").description("The P-value for males comparing low versus normal/high categories."),
+                                fieldWithPath("p_value").description("The general P-value associated with the statistical test."),
+                                fieldWithPath("statistical_method").description("The statistical method applied in the analysis."),
+                                fieldWithPath("status").description("The status of the dataset or analysis.")
 
-                        )
+                                )
 
                 ));
     }
