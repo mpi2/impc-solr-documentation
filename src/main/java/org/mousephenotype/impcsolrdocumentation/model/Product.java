@@ -1,50 +1,44 @@
 package org.mousephenotype.impcsolrdocumentation.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.List;
 
-@Setter
-@Getter
-public class Product {
-    private String allele_design_project;
-    private Boolean allele_has_issues;
-    private String allele_id;
-    private String allele_name;
-    private String allele_description;
-    private String allele_type;
-    private String associated_product_colony_name;
-    private String associated_product_es_cell_name;
-    private String associated_product_vector_name;
-    private List<String> associated_products_colony_names;
-    private List<String> associated_products_es_cell_names;
-    private List<String> associated_products_vector_names;
-    private String cassette;
-    private List<String> contact_links;
-    private List<String> contact_names;
-    private String design_id;
-    private List<String> genetic_info;
-    private String ikmc_project_id;
-    private List<String> loa_assays;
-    private String marker_symbol;
-    private String mgi_accession_id;
-    private String name;
-    private List<String> order_links;
-    private List<String> order_names;
-    private List<String> other_links;
-    private List<String> tissue_enquiry_links;
-    private List<String> tissue_enquiry_types;
-    private List<String> tissue_distribution_centres;
-    private String product_id;
-    private String product_index;
-    private String production_centre;
-    private Boolean production_completed;
-    private List<String> production_info;
-    private String production_pipeline;
-    private List<String> qc_data;
-    private String status;
-    private String status_date;
-    private String type;
-
-}
+public record Product(
+    String allele_design_project,
+    Boolean allele_has_issues,
+    String allele_id,
+    String allele_name,
+    String allele_description,
+    String allele_type,
+    String associated_product_colony_name,
+    String associated_product_es_cell_name,
+    String associated_product_vector_name,
+    List<String> associated_products_colony_names,
+    List<String> associated_products_es_cell_names,
+    List<String> associated_products_vector_names,
+    String cassette,
+    List<String> contact_links,
+    List<String> contact_names,
+    String design_id,
+    List<String> genetic_info,
+    String ikmc_project_id,
+    List<String> loa_assays,
+    String marker_symbol,
+    String mgi_accession_id,
+    String name,
+    List<String> order_links,
+    List<String> order_names,
+    List<String> other_links,
+    List<String> tissue_enquiry_links,
+    List<String> tissue_enquiry_types,
+    List<String> tissue_distribution_centres,
+    String product_id,
+    String product_index,
+    String production_centre,
+    Boolean production_completed,
+    List<String> production_info,
+    String production_pipeline,
+    List<String> qc_data,
+    String status,
+    String status_date,
+    String type
+) {}

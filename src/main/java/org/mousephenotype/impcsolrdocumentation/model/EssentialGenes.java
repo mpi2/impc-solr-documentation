@@ -1,216 +1,211 @@
 package org.mousephenotype.impcsolrdocumentation.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.Date;
 import java.util.List;
 
-@Setter
-@Getter
-public class EssentialGenes {
-    private Long age_entrez_acc_id;
-    private Long age_human_gene_id;
-    private Long age_id;
-    private Double age_mean_gene_effect;
-    private Long age_raw_data_id;
-    private String cav_allele_accession_id;
-    private String cav_allele_symbol;
-    private List<String> cav_category;
-    private Date clin_date;
-    private String clin_haploinsufficiency;
-    private Long clin_human_gene_id;
-    private Long clin_id;
-    private String clin_report;
-    private String clin_triplosensitivity;
-    private String f_bin;
-    private String f_bin_code;
-    private Long f_id;
-    private Long f_ortholog_id;
-    private String gnp_brain_expression;
-    private Long gnp_cds_length;
-    private String gnp_chromosome;
-    private Double gnp_classic_caf;
-    private Double gnp_classic_caf_afr;
-    private Double gnp_classic_caf_amr;
-    private Double gnp_classic_caf_asj;
-    private Double gnp_classic_caf_eas;
-    private Double gnp_classic_caf_fin;
-    private Double gnp_classic_caf_nfe;
-    private Double gnp_classic_caf_oth;
-    private Double gnp_classic_caf_sas;
-    private String gnp_constraint_flag;
-    private Long gnp_defined;
-    private Long gnp_end_position;
-    private Double gnp_exac_exp_lof;
-    private Long gnp_exac_obs_lof;
-    private Double gnp_exac_oe_lof;
-    private Double gnp_exac_pli;
-    private Double gnp_exp_hom_lof;
-    private Double gnp_exp_lof;
-    private Double gnp_exp_mis;
-    private Double gnp_exp_mis_pphen;
-    private Double gnp_exp_syn;
-    private String gnp_gene_id;
-    private Long gnp_gene_length;
-    private String gnp_gene_symbol;
-    private String gnp_gene_type;
-    private Long gnp_human_gene_id;
-    private Long gnp_id;
-    private Double gnp_lof_z;
-    private Double gnp_max_af;
-    private Double gnp_mis_z;
-    private Double gnp_mu_lof;
-    private Double gnp_mu_mis;
-    private Double gnp_mu_syn;
-    private Long gnp_n_sites;
-    private Long gnp_no_lofs;
-    private Long gnp_num_coding_exons;
-    private Long gnp_obs_het_lof;
-    private Long gnp_obs_hom_lof;
-    private Long gnp_obs_lof;
-    private Long gnp_obs_mis;
-    private Long gnp_obs_mis_pphen;
-    private Long gnp_obs_syn;
-    private Double gnp_oe_lof;
-    private Double gnp_oe_lof_lower;
-    private Double gnp_oe_lof_upper;
-    private Long gnp_oe_lof_upper_bin;
-    private Long gnp_oe_lof_upper_bin6;
-    private Long gnp_oe_lof_upper_rank;
-    private Double gnp_oe_mis;
-    private Double gnp_oe_mis_lower;
-    private Double gnp_oe_mis_pphen;
-    private Double gnp_oe_mis_upper;
-    private Double gnp_oe_syn;
-    private Double gnp_oe_syn_lower;
-    private Double gnp_oe_syn_upper;
-    private Double gnp_p;
-    private Double gnp_p_afr;
-    private Double gnp_p_amr;
-    private Double gnp_p_asj;
-    private Double gnp_p_eas;
-    private Double gnp_p_fin;
-    private Double gnp_p_nfe;
-    private Double gnp_p_oth;
-    private Double gnp_p_sas;
-    private Double gnp_pli;
-    private Double gnp_pnull;
-    private Long gnp_possible_lof;
-    private Long gnp_possible_mis;
-    private Long gnp_possible_mis_pphen;
-    private Long gnp_possible_syn;
-    private Double gnp_prec;
-    private Long gnp_start_position;
-    private Double gnp_syn_z;
-    private String gnp_transcript;
-    private Long gnp_transcript_level;
-    private String gnp_transcript_type;
-    private String hg_ensembl_gene_acc_id;
-    private Long hg_entrez_gene_acc_id;
-    private String hg_hgnc_acc_id;
-    private Long hg_id;
-    private String hg_name;
-    private String hg_symbol;
-    private String hgnc_agr_acc_id;
-    private String hgnc_alias_name;
-    private String hgnc_alias_symbol;
-    private String hgnc_bioparadigms_slc;
-    private String hgnc_ccds_acc_id;
-    private String hgnc_cd;
-    private String hgnc_cosmic;
-    private Date hgnc_date_approved_reserved;
-    private Date hgnc_date_modified;
-    private Date hgnc_date_name_changed;
-    private Date hgnc_date_symbol_changed;
-    private String hgnc_ena;
-    private String hgnc_ensembl_gene_acc_id;
-    private Long hgnc_entrez_acc_id;
-    private String hgnc_enzyme_acc_id;
-    private String hgnc_gencc;
-    private String hgnc_gene_group;
-    private String hgnc_gene_group_acc_id;
-    private String hgnc_gtrnadb;
-    private String hgnc_hgnc_acc_id;
-    private Long hgnc_homeodb;
-    private String hgnc_horde_acc_id;
-    private Long hgnc_human_gene_id;
-    private Long hgnc_id;
-    private String hgnc_imgt;
-    private String hgnc_intermediate_filament_db;
-    private String hgnc_iuphar;
-    private Long hgnc_kznf_gene_catalog;
-    private String hgnc_lncipedia;
-    private String hgnc_lncrnadb;
-    private String hgnc_location;
-    private String hgnc_location_sortable;
-    private String hgnc_locus_group;
-    private String hgnc_locus_type;
-    private String hgnc_lsdb;
-    private Long hgnc_mamit_trnadb;
-    private String hgnc_mane_select;
-    private String hgnc_merops;
-    private String hgnc_mgi_gene_acc_id;
-    private String hgnc_mirbase;
-    private String hgnc_name;
-    private String hgnc_omim_acc_id;
-    private Long hgnc_orphanet;
-    private String hgnc_prev_name;
-    private String hgnc_prev_symbol;
-    private String hgnc_pseudogene_org;
-    private String hgnc_pubmed_acc_id;
-    private String hgnc_refseq_accession;
-    private String hgnc_rgd_acc_id;
-    private String hgnc_rna_central_acc_ids;
-    private String hgnc_snornabase;
-    private String hgnc_status;
-    private String hgnc_symbol;
-    private String hgnc_ucsc_acc_id;
-    private String hgnc_uniprot_acc_ids;
-    private String hgnc_vega_acc_id;
-    private List<String> hgs_synonyms;
-    private String id;
-    private String idg_family;
-    private Long idg_human_gene_id;
-    private Long idg_id;
-    private String mg_ensembl_chromosome;
-    private String mg_ensembl_gene_acc_id;
-    private Long mg_ensembl_start;
-    private Long mg_ensembl_stop;
-    private String mg_ensembl_strand;
-    private Long mg_entrez_gene_acc_id;
-    private String mg_genome_build;
-    private Long mg_id;
-    private String mg_mgi_chromosome;
-    private String mg_mgi_cm;
-    private String mg_mgi_gene_acc_id;
-    private Long mg_mgi_start;
-    private Long mg_mgi_stop;
-    private String mg_mgi_strand;
-    private String mg_name;
-    private String mg_ncbi_chromosome;
-    private Long mg_ncbi_start;
-    private Long mg_ncbi_stop;
-    private String mg_ncbi_strand;
-    private String mg_subtype;
-    private String mg_symbol;
-    private String mg_type;
-    private List<String> mgs_synonyms;
-    private String o_category;
-    private Long o_human_gene_id;
-    private Long o_id;
-    private String o_is_max_human_to_mouse;
-    private String o_is_max_mouse_to_human;
-    private Long o_mouse_gene_id;
-    private String o_support;
-    private Long o_support_count;
-    private String o_support_raw;
-    private String pharos_chr;
-    private String pharos_family;
-    private Long pharos_human_gene_id;
-    private Long pharos_id;
-    private String pharos_name;
-    private String pharos_symbol;
-    private String pharos_tdl;
-    private String pharos_uniprot_acc_id;
-}
+public record EssentialGenes(
+    Long age_entrez_acc_id,
+    Long age_human_gene_id,
+    Long age_id,
+    Double age_mean_gene_effect,
+    Long age_raw_data_id,
+    String cav_allele_accession_id,
+    String cav_allele_symbol,
+    List<String> cav_category,
+    Date clin_date,
+    String clin_haploinsufficiency,
+    Long clin_human_gene_id,
+    Long clin_id,
+    String clin_report,
+    String clin_triplosensitivity,
+    String f_bin,
+    String f_bin_code,
+    Long f_id,
+    Long f_ortholog_id,
+    String gnp_brain_expression,
+    Long gnp_cds_length,
+    String gnp_chromosome,
+    Double gnp_classic_caf,
+    Double gnp_classic_caf_afr,
+    Double gnp_classic_caf_amr,
+    Double gnp_classic_caf_asj,
+    Double gnp_classic_caf_eas,
+    Double gnp_classic_caf_fin,
+    Double gnp_classic_caf_nfe,
+    Double gnp_classic_caf_oth,
+    Double gnp_classic_caf_sas,
+    String gnp_constraint_flag,
+    Long gnp_defined,
+    Long gnp_end_position,
+    Double gnp_exac_exp_lof,
+    Long gnp_exac_obs_lof,
+    Double gnp_exac_oe_lof,
+    Double gnp_exac_pli,
+    Double gnp_exp_hom_lof,
+    Double gnp_exp_lof,
+    Double gnp_exp_mis,
+    Double gnp_exp_mis_pphen,
+    Double gnp_exp_syn,
+    String gnp_gene_id,
+    Long gnp_gene_length,
+    String gnp_gene_symbol,
+    String gnp_gene_type,
+    Long gnp_human_gene_id,
+    Long gnp_id,
+    Double gnp_lof_z,
+    Double gnp_max_af,
+    Double gnp_mis_z,
+    Double gnp_mu_lof,
+    Double gnp_mu_mis,
+    Double gnp_mu_syn,
+    Long gnp_n_sites,
+    Long gnp_no_lofs,
+    Long gnp_num_coding_exons,
+    Long gnp_obs_het_lof,
+    Long gnp_obs_hom_lof,
+    Long gnp_obs_lof,
+    Long gnp_obs_mis,
+    Long gnp_obs_mis_pphen,
+    Long gnp_obs_syn,
+    Double gnp_oe_lof,
+    Double gnp_oe_lof_lower,
+    Double gnp_oe_lof_upper,
+    Long gnp_oe_lof_upper_bin,
+    Long gnp_oe_lof_upper_bin6,
+    Long gnp_oe_lof_upper_rank,
+    Double gnp_oe_mis,
+    Double gnp_oe_mis_lower,
+    Double gnp_oe_mis_pphen,
+    Double gnp_oe_mis_upper,
+    Double gnp_oe_syn,
+    Double gnp_oe_syn_lower,
+    Double gnp_oe_syn_upper,
+    Double gnp_p,
+    Double gnp_p_afr,
+    Double gnp_p_amr,
+    Double gnp_p_asj,
+    Double gnp_p_eas,
+    Double gnp_p_fin,
+    Double gnp_p_nfe,
+    Double gnp_p_oth,
+    Double gnp_p_sas,
+    Double gnp_pli,
+    Double gnp_pnull,
+    Long gnp_possible_lof,
+    Long gnp_possible_mis,
+    Long gnp_possible_mis_pphen,
+    Long gnp_possible_syn,
+    Double gnp_prec,
+    Long gnp_start_position,
+    Double gnp_syn_z,
+    String gnp_transcript,
+    Long gnp_transcript_level,
+    String gnp_transcript_type,
+    String hg_ensembl_gene_acc_id,
+    Long hg_entrez_gene_acc_id,
+    String hg_hgnc_acc_id,
+    Long hg_id,
+    String hg_name,
+    String hg_symbol,
+    String hgnc_agr_acc_id,
+    String hgnc_alias_name,
+    String hgnc_alias_symbol,
+    String hgnc_bioparadigms_slc,
+    String hgnc_ccds_acc_id,
+    String hgnc_cd,
+    String hgnc_cosmic,
+    Date hgnc_date_approved_reserved,
+    Date hgnc_date_modified,
+    Date hgnc_date_name_changed,
+    Date hgnc_date_symbol_changed,
+    String hgnc_ena,
+    String hgnc_ensembl_gene_acc_id,
+    Long hgnc_entrez_acc_id,
+    String hgnc_enzyme_acc_id,
+    String hgnc_gencc,
+    String hgnc_gene_group,
+    String hgnc_gene_group_acc_id,
+    String hgnc_gtrnadb,
+    String hgnc_hgnc_acc_id,
+    Long hgnc_homeodb,
+    String hgnc_horde_acc_id,
+    Long hgnc_human_gene_id,
+    Long hgnc_id,
+    String hgnc_imgt,
+    String hgnc_intermediate_filament_db,
+    String hgnc_iuphar,
+    Long hgnc_kznf_gene_catalog,
+    String hgnc_lncipedia,
+    String hgnc_lncrnadb,
+    String hgnc_location,
+    String hgnc_location_sortable,
+    String hgnc_locus_group,
+    String hgnc_locus_type,
+    String hgnc_lsdb,
+    Long hgnc_mamit_trnadb,
+    String hgnc_mane_select,
+    String hgnc_merops,
+    String hgnc_mgi_gene_acc_id,
+    String hgnc_mirbase,
+    String hgnc_name,
+    String hgnc_omim_acc_id,
+    Long hgnc_orphanet,
+    String hgnc_prev_name,
+    String hgnc_prev_symbol,
+    String hgnc_pseudogene_org,
+    String hgnc_pubmed_acc_id,
+    String hgnc_refseq_accession,
+    String hgnc_rgd_acc_id,
+    String hgnc_rna_central_acc_ids,
+    String hgnc_snornabase,
+    String hgnc_status,
+    String hgnc_symbol,
+    String hgnc_ucsc_acc_id,
+    String hgnc_uniprot_acc_ids,
+    String hgnc_vega_acc_id,
+    List<String> hgs_synonyms,
+    String id,
+    String idg_family,
+    Long idg_human_gene_id,
+    Long idg_id,
+    String mg_ensembl_chromosome,
+    String mg_ensembl_gene_acc_id,
+    Long mg_ensembl_start,
+    Long mg_ensembl_stop,
+    String mg_ensembl_strand,
+    Long mg_entrez_gene_acc_id,
+    String mg_genome_build,
+    Long mg_id,
+    String mg_mgi_chromosome,
+    String mg_mgi_cm,
+    String mg_mgi_gene_acc_id,
+    Long mg_mgi_start,
+    Long mg_mgi_stop,
+    String mg_mgi_strand,
+    String mg_name,
+    String mg_ncbi_chromosome,
+    Long mg_ncbi_start,
+    Long mg_ncbi_stop,
+    String mg_ncbi_strand,
+    String mg_subtype,
+    String mg_symbol,
+    String mg_type,
+    List<String> mgs_synonyms,
+    String o_category,
+    Long o_human_gene_id,
+    Long o_id,
+    String o_is_max_human_to_mouse,
+    String o_is_max_mouse_to_human,
+    Long o_mouse_gene_id,
+    String o_support,
+    Long o_support_count,
+    String o_support_raw,
+    String pharos_chr,
+    String pharos_family,
+    Long pharos_human_gene_id,
+    Long pharos_id,
+    String pharos_name,
+    String pharos_symbol,
+    String pharos_tdl,
+    String pharos_uniprot_acc_id
+) {}

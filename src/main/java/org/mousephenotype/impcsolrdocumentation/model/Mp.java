@@ -1,109 +1,103 @@
 package org.mousephenotype.impcsolrdocumentation.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.List;
 
-@Setter
-@Getter
-public class Mp {
-    private String mp_id;
-    private String mp_term;
-    private String mp_definition;
-    private List<String> mp_term_synonym;
-    private List<String> alt_mp_id;
-    private List<String> child_mp_id;
-    private List<String> child_mp_term;
-    private List<String> parent_mp_id;
-    private List<String> parent_mp_term;
-    private List<String> intermediate_mp_id;
-    private List<String> intermediate_mp_term;
-    private List<String> top_level_mp_id;
-    private List<String> top_level_mp_term;
-    private List<String> top_level_mp_term_synonym;
-    private List<String> top_level_mp_term_id;
-    private List<String> hp_id;
-    private List<String> hp_term;
-    private List<String> hp_term_synonym;
-    private String data_type;
-    private List<String> inferred_ma_id;
-    private List<String> inferred_ma_term;
-    private List<String> inferred_intermediate_ma_id;
-    private List<String> inferred_intermediate_ma_term;
-    private List<String> inferred_selected_top_level_ma_id;
-    private List<String> inferred_selected_top_level_ma_term;
-    private List<String> go_id;
-    private List<Float> p_value;
-    private List<String> mgi_accession_id;
-    private List<String> marker_symbol;
-    private String marker_accession_id;
-    private Long pheno_calls;
-    private List<String> preqc_gene_id;
-    private List<String> marker_name;
-    private List<String> marker_synonym;
-    private List<String> marker_type;
-    private List<String> human_gene_symbol;
-    private List<String> status;
-    private List<String> imits_phenotype_started;
-    private List<String> imits_phenotype_complete;
-    private List<String> imits_phenotype_status;
-    private List<String> latest_production_centre;
-    private List<String> latest_phenotyping_centre;
-    private List<String> latest_phenotype_status;
-    private Integer legacy_phenotype_status;
-    private List<String> allele_name;
-    private Boolean embryo_data_available;
-    private List<String> type;
-    private List<String> disease_id;
-    private List<String> disease_source;
-    private List<String> disease_term;
-    private List<String> disease_alts;
-    private List<String> disease_classes;
-    private List<Boolean> human_curated;
-    private List<Boolean> mouse_curated;
-    private List<Boolean> mgi_predicted;
-    private List<Boolean> impc_predicted;
-    private List<Boolean> mgi_predicted_known_gene;
-    private List<Boolean> impc_predicted_known_gene;
-    private List<Boolean> mgi_novel_predicted_in_locus;
-    private List<Boolean> impc_novel_predicted_in_locus;
-    private List<String> annotation_term_id;
-    private List<String> annotation_term_name;
-    private List<String> name;
-    private List<String> accession;
-    private List<String> exp_name;
-    private String large_thumbnail_file_path;
-    private String small_thumbnail_file_path;
-    private List<String> symbol;
-    private List<String> sanger_symbol;
-    private List<String> gene_name;
-    private List<String> subtype;
-    private List<String> gene_synonyms;
-    private List<String> exp_name_exp;
-    private List<String> symbol_gene;
-    private List<String> top_level;
-    private List<String> allele_symbol;
-    private List<String> allele_id;
-    private List<String> strain_name;
-    private List<String> strain_accession_id;
-    private List<String> pipeline_name;
-    private List<String> pipeline_stable_id;
-    private List<String> pipeline_stable_key;
-    private List<String> procedure_name;
-    private List<String> procedure_stable_id;
-    private List<String> procedure_stable_key;
-    private List<String> parameter_name;
-    private List<String> parameter_stable_id;
-    private List<String> parameter_stable_key;
-    private List<String> text;
-    private List<String> auto_suggest;
-    private List<String> mix_syn_qf;
-    private String search_term_json;
-    private String children_json;
-    private String scroll_node;
-    private Integer gene_variant_male_count;
-    private Integer gene_variant_female_count;
-    private Integer gene_variant_count;
-
-}
+public record Mp(
+    String mp_id,
+    String mp_term,
+    String mp_definition,
+    List<String> mp_term_synonym,
+    List<String> alt_mp_id,
+    List<String> child_mp_id,
+    List<String> child_mp_term,
+    List<String> parent_mp_id,
+    List<String> parent_mp_term,
+    List<String> intermediate_mp_id,
+    List<String> intermediate_mp_term,
+    List<String> top_level_mp_id,
+    List<String> top_level_mp_term,
+    List<String> top_level_mp_term_synonym,
+    List<String> top_level_mp_term_id,
+    List<String> hp_id,
+    List<String> hp_term,
+    List<String> hp_term_synonym,
+    String data_type,
+    List<String> inferred_ma_id,
+    List<String> inferred_ma_term,
+    List<String> inferred_intermediate_ma_id,
+    List<String> inferred_intermediate_ma_term,
+    List<String> inferred_selected_top_level_ma_id,
+    List<String> inferred_selected_top_level_ma_term,
+    List<String> go_id,
+    List<Float> p_value,
+    List<String> mgi_accession_id,
+    List<String> marker_symbol,
+    String marker_accession_id,
+    Long pheno_calls,
+    List<String> preqc_gene_id,
+    List<String> marker_name,
+    List<String> marker_synonym,
+    List<String> marker_type,
+    List<String> human_gene_symbol,
+    List<String> status,
+    List<String> imits_phenotype_started,
+    List<String> imits_phenotype_complete,
+    List<String> imits_phenotype_status,
+    List<String> latest_production_centre,
+    List<String> latest_phenotyping_centre,
+    List<String> latest_phenotype_status,
+    Integer legacy_phenotype_status,
+    List<String> allele_name,
+    Boolean embryo_data_available,
+    List<String> type,
+    List<String> disease_id,
+    List<String> disease_source,
+    List<String> disease_term,
+    List<String> disease_alts,
+    List<String> disease_classes,
+    List<Boolean> human_curated,
+    List<Boolean> mouse_curated,
+    List<Boolean> mgi_predicted,
+    List<Boolean> impc_predicted,
+    List<Boolean> mgi_predicted_known_gene,
+    List<Boolean> impc_predicted_known_gene,
+    List<Boolean> mgi_novel_predicted_in_locus,
+    List<Boolean> impc_novel_predicted_in_locus,
+    List<String> annotation_term_id,
+    List<String> annotation_term_name,
+    List<String> name,
+    List<String> accession,
+    List<String> exp_name,
+    String large_thumbnail_file_path,
+    String small_thumbnail_file_path,
+    List<String> symbol,
+    List<String> sanger_symbol,
+    List<String> gene_name,
+    List<String> subtype,
+    List<String> gene_synonyms,
+    List<String> exp_name_exp,
+    List<String> symbol_gene,
+    List<String> top_level,
+    List<String> allele_symbol,
+    List<String> allele_id,
+    List<String> strain_name,
+    List<String> strain_accession_id,
+    List<String> pipeline_name,
+    List<String> pipeline_stable_id,
+    List<String> pipeline_stable_key,
+    List<String> procedure_name,
+    List<String> procedure_stable_id,
+    List<String> procedure_stable_key,
+    List<String> parameter_name,
+    List<String> parameter_stable_id,
+    List<String> parameter_stable_key,
+    List<String> text,
+    List<String> auto_suggest,
+    List<String> mix_syn_qf,
+    String search_term_json,
+    String children_json,
+    String scroll_node,
+    Integer gene_variant_male_count,
+    Integer gene_variant_female_count,
+    Integer gene_variant_count
+) {}

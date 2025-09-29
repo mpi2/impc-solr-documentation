@@ -11,213 +11,213 @@ public class EssentialGenesGenerator {
 
 
     public static EssentialGenes generateExampleEssentialGenesResponse() {
-        EssentialGenes essentialGenes = new EssentialGenes();
-        essentialGenes.setAge_entrez_acc_id(1000000L);
-        essentialGenes.setAge_human_gene_id(2000000L);
-        essentialGenes.setAge_id(3000000L);
-        essentialGenes.setAge_mean_gene_effect(1.2);
-        essentialGenes.setAge_raw_data_id(4000000L);
-        essentialGenes.setCav_allele_accession_id("CAV:123456");
-        essentialGenes.setCav_allele_symbol("Cav1");
-        essentialGenes.setCav_category(List.of("Category1", "Category2"));
-        essentialGenes.setClin_date(new Date());
-        essentialGenes.setClin_haploinsufficiency("Low");
-        essentialGenes.setClin_human_gene_id(5000000L);
-        essentialGenes.setClin_id(6000000L);
-        essentialGenes.setClin_report("ClinReport1");
-        essentialGenes.setClin_triplosensitivity("High");
-        essentialGenes.setF_bin("Fbin1");
-        essentialGenes.setF_bin_code("Fcode1");
-        essentialGenes.setF_id(7000000L);
-        essentialGenes.setF_ortholog_id(8000000L);
-        essentialGenes.setGnp_brain_expression("High");
-        essentialGenes.setGnp_obs_lof(100L);
-        essentialGenes.setGnp_cds_length(9000000L);
-        essentialGenes.setGnp_chromosome("X");
-        essentialGenes.setGnp_classic_caf(0.01);
-        essentialGenes.setGnp_classic_caf_afr(0.02);
-        essentialGenes.setGnp_classic_caf_amr(0.03);
-        essentialGenes.setGnp_classic_caf_asj(0.04);
-        essentialGenes.setGnp_classic_caf_eas(0.05);
-        essentialGenes.setGnp_classic_caf_fin(0.06);
-        essentialGenes.setGnp_classic_caf_nfe(0.07);
-        essentialGenes.setGnp_classic_caf_oth(0.08);
-        essentialGenes.setGnp_classic_caf_sas(0.09);
-        essentialGenes.setGnp_constraint_flag("None");
-        essentialGenes.setGnp_defined(1L);
-        essentialGenes.setGnp_end_position(1001000L);
-        essentialGenes.setGnp_exac_exp_lof(0.1);
-        essentialGenes.setGnp_exac_obs_lof(10L);
-        essentialGenes.setGnp_exac_oe_lof(0.2);
-        essentialGenes.setGnp_exac_pli(0.3);
-        essentialGenes.setGnp_exp_hom_lof(0.4);
-        essentialGenes.setGnp_exp_lof(0.5);
-        essentialGenes.setGnp_exp_mis(0.6);
-        essentialGenes.setGnp_exp_mis_pphen(0.7);
-        essentialGenes.setGnp_exp_syn(0.8);
-        essentialGenes.setGnp_gene_id("GNP:123456");
-        essentialGenes.setGnp_gene_length(10000L);
-        essentialGenes.setGnp_gene_symbol("Gnp1");
-        essentialGenes.setGnp_gene_type("Coding");
-        essentialGenes.setGnp_human_gene_id(1100000L);
-        essentialGenes.setGnp_id(1200000L);
-        essentialGenes.setGnp_lof_z(0.9);
-        essentialGenes.setGnp_max_af(0.01);
-        essentialGenes.setGnp_mis_z(1.0);
-        essentialGenes.setGnp_mu_lof(1.1);
-        essentialGenes.setGnp_mu_mis(1.2);
-        essentialGenes.setGnp_mu_syn(1.3);
-        essentialGenes.setGnp_n_sites(100L);
-        essentialGenes.setGnp_no_lofs(10L);
-        essentialGenes.setGnp_num_coding_exons(20L);
-        essentialGenes.setGnp_obs_het_lof(5L);
-        essentialGenes.setGnp_obs_hom_lof(2L);
-        essentialGenes.setGnp_obs_mis(30L);
-        essentialGenes.setGnp_obs_mis_pphen(15L);
-        essentialGenes.setGnp_obs_syn(25L);
-        essentialGenes.setGnp_oe_lof(1.4);
-        essentialGenes.setGnp_oe_lof_lower(1.2);
-        essentialGenes.setGnp_oe_lof_upper(1.6);
-        essentialGenes.setGnp_oe_lof_upper_bin(100L);
-        essentialGenes.setGnp_oe_lof_upper_bin6(60L);
-        essentialGenes.setGnp_oe_lof_upper_rank(50L);
-        essentialGenes.setGnp_oe_mis(1.5);
-        essentialGenes.setGnp_oe_mis_lower(1.3);
-        essentialGenes.setGnp_oe_mis_pphen(1.7);
-        essentialGenes.setGnp_oe_mis_upper(1.8);
-        essentialGenes.setGnp_oe_syn(1.9);
-        essentialGenes.setGnp_oe_syn_lower(1.7);
-        essentialGenes.setGnp_oe_syn_upper(2.0);
-        essentialGenes.setGnp_p(0.01);
-        essentialGenes.setGnp_p_afr(0.02);
-        essentialGenes.setGnp_p_amr(0.03);
-        essentialGenes.setGnp_p_asj(0.04);
-        essentialGenes.setGnp_p_eas(0.05);
-        essentialGenes.setGnp_p_fin(0.06);
-        essentialGenes.setGnp_p_nfe(0.07);
-        essentialGenes.setGnp_p_oth(0.08);
-        essentialGenes.setGnp_p_sas(0.09);
-        essentialGenes.setGnp_pli(2.1);
-        essentialGenes.setGnp_pnull(2.2);
-        essentialGenes.setGnp_possible_lof(40L);
-        essentialGenes.setGnp_possible_mis(50L);
-        essentialGenes.setGnp_possible_mis_pphen(25L);
-        essentialGenes.setGnp_possible_syn(35L);
-        essentialGenes.setGnp_prec(2.3);
-        essentialGenes.setGnp_start_position(999000L);
-        essentialGenes.setGnp_syn_z(2.4);
-        essentialGenes.setGnp_transcript("Transcript1");
-        essentialGenes.setGnp_transcript_level(1L);
-        essentialGenes.setGnp_transcript_type("mRNA");
-        essentialGenes.setHg_ensembl_gene_acc_id("ENSG00000123456");
-        essentialGenes.setHg_entrez_gene_acc_id(1000001L);
-        essentialGenes.setHg_hgnc_acc_id("HGNC:123");
-        essentialGenes.setHg_id(1000002L);
-        essentialGenes.setHg_name("Human Gene 1");
-        essentialGenes.setHg_symbol("HG1");
-        essentialGenes.setHgnc_agr_acc_id("AGR:123456789");
-        essentialGenes.setHgnc_alias_name("HG1 Alias");
-        essentialGenes.setHgnc_alias_symbol("HGA1");
-        essentialGenes.setHgnc_bioparadigms_slc("SLC:12345");
-        essentialGenes.setHgnc_ccds_acc_id("CCDS12345");
-        essentialGenes.setHgnc_cd("CD12345");
-        essentialGenes.setHgnc_cosmic("COSM123456");
-        essentialGenes.setHgnc_date_approved_reserved(new GregorianCalendar(2020, Calendar.JANUARY, 1).getTime());
-        essentialGenes.setHgnc_date_modified(new GregorianCalendar(2021, Calendar.JANUARY, 1).getTime());
-        essentialGenes.setHgnc_date_name_changed(new GregorianCalendar(2022, Calendar.JANUARY, 1).getTime());
-        essentialGenes.setHgnc_date_symbol_changed(new GregorianCalendar(2023, Calendar.JANUARY, 1).getTime());
-        essentialGenes.setHgnc_ena("ENA12345");
-        essentialGenes.setHgnc_ensembl_gene_acc_id("ENSG00000123457");
-        essentialGenes.setHgnc_entrez_acc_id(1000003L);
-        essentialGenes.setHgnc_enzyme_acc_id("EC:3.1.3.1");
-        essentialGenes.setHgnc_gencc("GenCC12345");
-        essentialGenes.setHgnc_gene_group("Gene Group 1");
-        essentialGenes.setHgnc_gene_group_acc_id("GGAI:12345");
-        essentialGenes.setHgnc_gtrnadb("gtrnaDB12345");
-        essentialGenes.setHgnc_hgnc_acc_id("HGNC:123");
-        essentialGenes.setHgnc_homeodb(1000004L);
-        essentialGenes.setHgnc_horde_acc_id("HordeID12345");
-        essentialGenes.setHgnc_human_gene_id(1000005L);
-        essentialGenes.setHgnc_id(1000006L);
-        essentialGenes.setHgnc_imgt("IMGT12345");
-        essentialGenes.setHgnc_intermediate_filament_db("IFDB12345");
-        essentialGenes.setHgnc_iuphar("IUPHAR12345");
-        essentialGenes.setHgnc_kznf_gene_catalog(1000007L);
-        essentialGenes.setHgnc_lncipedia("Lncipedia12345");
-        essentialGenes.setHgnc_lncrnadb("lncRNAdb12345");
-        essentialGenes.setHgnc_location("1q23.3");
-        essentialGenes.setHgnc_location_sortable("01q23.3");
-        essentialGenes.setHgnc_locus_group("protein-coding gene");
-        essentialGenes.setHgnc_locus_type("gene with protein product");
-        essentialGenes.setHgnc_lsdb("LSDB12345");
-        essentialGenes.setHgnc_mamit_trnadb(1000008L);
-        essentialGenes.setHgnc_mane_select("MANE.Select.v7.2");
-        essentialGenes.setHgnc_merops("MEROPS12345");
-        essentialGenes.setHgnc_mgi_gene_acc_id("MGI:1234567");
-        essentialGenes.setHgnc_mirbase("miRBase:MI0001234");
-        essentialGenes.setHgnc_name("Gene Name 1");
-        essentialGenes.setHgnc_omim_acc_id("OMIM:123456");
-        essentialGenes.setHgnc_orphanet(1000009L);
-        essentialGenes.setHgnc_prev_name("Previous Name 1");
-        essentialGenes.setHgnc_prev_symbol("PrevSym1");
-        essentialGenes.setHgnc_pseudogene_org("Pseudogene.org12345");
-        essentialGenes.setHgnc_pubmed_acc_id("PubMed:12345678");
-        essentialGenes.setHgnc_refseq_accession("RefSeq:NM_000123");
-        essentialGenes.setHgnc_rgd_acc_id("RGD:123456");
-        essentialGenes.setHgnc_rna_central_acc_ids("RNAcentral:URS000075B7B7_9606");
-        essentialGenes.setHgnc_snornabase("snoRNABase:SNORD1234");
-        essentialGenes.setHgnc_status("Approved");
-        essentialGenes.setHgnc_symbol("HGNC1");
-        essentialGenes.setHgnc_ucsc_acc_id("UCSC:uc001abc.123");
-        essentialGenes.setHgnc_uniprot_acc_ids("UniProt:P12345");
-        essentialGenes.setHgnc_vega_acc_id("VEGA:OTTHUMG00000123456");
-        essentialGenes.setHgs_synonyms(List.of("Synonym1", "Synonym2"));
-        essentialGenes.setId("ID1");
-        essentialGenes.setIdg_family("IDG Family 1");
-        essentialGenes.setIdg_human_gene_id(1000010L);
-        essentialGenes.setIdg_id(1000011L);
-        essentialGenes.setMg_ensembl_chromosome("1");
-        essentialGenes.setMg_ensembl_gene_acc_id("ENSMUSG00000012345");
-        essentialGenes.setMg_ensembl_start(100000L);
-        essentialGenes.setMg_ensembl_stop(200000L);
-        essentialGenes.setMg_ensembl_strand("+");
-        essentialGenes.setMg_entrez_gene_acc_id(1000012L);
-        essentialGenes.setMg_genome_build("GRCm38");
-        essentialGenes.setMg_id(1000013L);
-        essentialGenes.setMg_mgi_chromosome("1");
-        essentialGenes.setMg_mgi_cm("23.5");
-        essentialGenes.setMg_mgi_gene_acc_id("MGI:12345678");
-        essentialGenes.setMg_mgi_start(150000L);
-        essentialGenes.setMg_mgi_stop(250000L);
-        essentialGenes.setMg_mgi_strand("-");
-        essentialGenes.setMg_name("Mouse Gene 1");
-        essentialGenes.setMg_ncbi_chromosome("1");
-        essentialGenes.setMg_ncbi_start(110000L);
-        essentialGenes.setMg_ncbi_stop(210000L);
-        essentialGenes.setMg_ncbi_strand("+");
-        essentialGenes.setMg_subtype("Subtype1");
-        essentialGenes.setMg_symbol("Mg1");
-        essentialGenes.setMg_type("Protein-coding");
-        essentialGenes.setMgs_synonyms(List.of("MgsSyn1", "MgsSyn2"));
-        essentialGenes.setO_category("Orthology Category 1");
-        essentialGenes.setO_human_gene_id(2000010L);
-        essentialGenes.setO_id(3000010L);
-        essentialGenes.setO_is_max_human_to_mouse("Yes");
-        essentialGenes.setO_is_max_mouse_to_human("Yes");
-        essentialGenes.setO_mouse_gene_id(4000010L);
-        essentialGenes.setO_support("High");
-        essentialGenes.setO_support_count(5L);
-        essentialGenes.setO_support_raw("RawSupportData1");
-        essentialGenes.setPharos_chr("1");
-        essentialGenes.setPharos_family("Pharos Family 1");
-        essentialGenes.setPharos_human_gene_id(5000010L);
-        essentialGenes.setPharos_id(6000010L);
-        essentialGenes.setPharos_name("Pharos Gene 1");
-        essentialGenes.setPharos_symbol("Pharos1");
-        essentialGenes.setPharos_tdl("TDL1");
-        essentialGenes.setPharos_uniprot_acc_id("UniProt:P00001");
-        return essentialGenes;
+        return new EssentialGenes(
 
+                1000000L,
+                2000000L,
+                3000000L,
+                1.2,
+                4000000L,
+                "CAV:123456",
+                "Cav1",
+                List.of("Category1", "Category2"),
+                new Date(),
+                "Low",
+                5000000L,
+                6000000L,
+                "ClinReport1",
+                "High",
+                "Fbin1",
+                "Fcode1",
+                7000000L,
+                8000000L,
+                "High",
+                100L,
+                "X",
+                0.01,
+                0.01,
+                0.02,
+                0.03,
+                0.04,
+                0.05,
+                0.06,
+                0.07,
+                0.08,
+                "None",
+                1L,
+                1L,
+                0.1,
+                1001000L,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                "GNP:123456",
+                10000L,
+                "Gnp1",
+                "Coding",
+                1100000L,
+                1200000L,
+                0.9,
+                0.9,
+                0.01,
+                1.0,
+                1.1,
+                1.2,
+                100L,
+                100L,
+                10L,
+                20L,
+                5L,
+                2L,
+                30L,
+                15L,
+                25L,
+                1.4,
+                1.2,
+                1.6,
+                100L,
+                60L,
+                50L,
+                1.5,
+                1.3,
+                1.7,
+                1.8,
+                1.9,
+                1.7,
+                2.0,
+                0.01,
+                0.02,
+                0.03,
+                0.04,
+                0.05,
+                0.06,
+                0.07,
+                0.08,
+                0.09,
+                2.1,
+                2.2,
+                40L,
+                50L,
+                25L,
+                35L,
+                2.3,
+                999000L,
+                2.4,
+                "Transcript1",
+                1L,
+                "mRNA",
+                "ENSG00000123456",
+                1000001L,
+                "HGNC:123",
+                1000002L,
+                "Human Gene 1",
+                "HG1",
+                "AGR:123456789",
+                "HG1 Alias",
+                "HGA1",
+                "SLC:12345",
+                "CCDS12345",
+                "CD12345",
+                "COSM123456",
+                new GregorianCalendar(2020, Calendar.JANUARY, 1).getTime(),
+                new GregorianCalendar(2021, Calendar.JANUARY, 1).getTime(),
+                new GregorianCalendar(2022, Calendar.JANUARY, 1).getTime(),
+                new GregorianCalendar(2023, Calendar.JANUARY, 1).getTime(),
+                "ENA12345",
+                "ENSG00000123457",
+                1000003L,
+                "EC:3.1.3.1",
+                "GenCC12345",
+                "Gene Group 1",
+                "GGAI:12345",
+                "gtrnaDB12345",
+                "HGNC:123",
+                1000004L,
+                "HordeID12345",
+                1000005L,
+                1000006L,
+                "IMGT12345",
+                "IFDB12345",
+                "IUPHAR12345",
+                1000007L,
+                "Lncipedia12345",
+                "lncRNAdb12345",
+                "1q23.3",
+                "01q23.3",
+                "protein-coding gene",
+                "gene with protein product",
+                "LSDB12345",
+                1000008L,
+                "MANE.Select.v7.2",
+                "MEROPS12345",
+                "MGI:1234567",
+                "miRBase:MI0001234",
+                "Gene Name 1",
+                "OMIM:123456",
+                1000009L,
+                "Previous Name 1",
+                "PrevSym1",
+                "Pseudogene.org12345",
+                "PubMed:12345678",
+                "RefSeq:NM_000123",
+                "RGD:123456",
+                "RNAcentral:URS000075B7B7_9606",
+                "snoRNABase:SNORD1234",
+                "Approved",
+                "HGNC1",
+                "UCSC:uc001abc.123",
+                "UniProt:P12345",
+                "VEGA:OTTHUMG00000123456",
+                List.of("Synonym1", "Synonym2"),
+                "ID1",
+                "IDG Family 1",
+                1000010L,
+                1000011L,
+                "1",
+                "ENSMUSG00000012345",
+                100000L,
+                200000L,
+                "+",
+                1000012L,
+                "GRCm38",
+                1000013L,
+                "1",
+                "23.5",
+                "MGI:12345678",
+                150000L,
+                250000L,
+                "-",
+                "Mouse Gene 1",
+                "1",
+                110000L,
+                210000L,
+                "+",
+                "Subtype1",
+                "Mg1",
+                "Protein-coding",
+                List.of("MgsSyn1", "MgsSyn2"),
+                "Orthology Category 1",
+                2000010L,
+                3000010L,
+                "Yes",
+                "Yes",
+                4000010L,
+                "High",
+                5L,
+                "RawSupportData1",
+                "1",
+                "Pharos Family 1",
+                5000010L,
+                6000010L,
+                "Pharos Gene 1",
+                "Pharos1",
+                "TDL1",
+                "UniProt:P00001"
+        );
     }
 
 }

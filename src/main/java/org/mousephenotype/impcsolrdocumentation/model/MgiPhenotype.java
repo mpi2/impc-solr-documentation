@@ -1,62 +1,56 @@
 package org.mousephenotype.impcsolrdocumentation.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.List;
 
-@Setter
-@Getter
-public class MgiPhenotype {
-    private String doc_id;
-    private String assertion_type;
-    private String assertion_type_id;
-    private String mpath_term_id;
-    private String mpath_term_name;
-    private String emap_term_id;
-    private String emap_term_name;
-    private String mp_term_id;
-    private String mp_term_name;
-    private List<String> alt_mp_term_id;
-    private List<String> top_level_mp_term_id;
-    private List<String> top_level_mp_term_name;
-    private List<String> top_level_mp_term_definition;
-    private List<String> top_level_mp_term_synonym;
-    private List<String> intermediate_mp_term_id;
-    private List<String> intermediate_mp_term_name;
-    private List<String> intermediate_mp_term_definition;
-    private List<String> intermediate_mp_term_synonym;
-    private String marker_symbol;
-    private String marker_accession_id;
-    private String colony_id;
-    private String allele_name;
-    private String allele_symbol;
-    private String allele_accession_id;
-    private String strain_name;
-    private String strain_accession_id;
-    private String phenotyping_center;
-    private String project_external_id;
-    private String project_name;
-    private String project_fullname;
-    private String resource_name;
-    private String resource_fullname;
-    private String sex;
-    private String zygosity;
-    private String pipeline_name;
-    private String pipeline_stable_id;
-    private String pipeline_stable_key;
-    private String procedure_name;
-    private String procedure_stable_id;
-    private String procedure_stable_key;
-    private String parameter_name;
-    private String parameter_stable_id;
-    private String parameter_stable_key;
-    private String statistical_method;
-    private String percentage_change;
-    private Double p_value;
-    private Double effect_size;
-    private String external_id;
-    private String life_stage_acc;
-    private String life_stage_name;
-
-}
+public record MgiPhenotype(
+    String doc_id,
+    String assertion_type,
+    String assertion_type_id,
+    String mpath_term_id,
+    String mpath_term_name,
+    String emap_term_id,
+    String emap_term_name,
+    String mp_term_id,
+    String mp_term_name,
+    List<String> alt_mp_term_id,
+    List<String> top_level_mp_term_id,
+    List<String> top_level_mp_term_name,
+    List<String> top_level_mp_term_definition,
+    List<String> top_level_mp_term_synonym,
+    List<String> intermediate_mp_term_id,
+    List<String> intermediate_mp_term_name,
+    List<String> intermediate_mp_term_definition,
+    List<String> intermediate_mp_term_synonym,
+    String marker_symbol,
+    String marker_accession_id,
+    String colony_id,
+    String allele_name,
+    String allele_symbol,
+    String allele_accession_id,
+    String strain_name,
+    String strain_accession_id,
+    String phenotyping_center,
+    String project_external_id,
+    String project_name,
+    String project_fullname,
+    String resource_name,
+    String resource_fullname,
+    String sex,
+    String zygosity,
+    String pipeline_name,
+    String pipeline_stable_id,
+    String pipeline_stable_key,
+    String procedure_name,
+    String procedure_stable_id,
+    String procedure_stable_key,
+    String parameter_name,
+    String parameter_stable_id,
+    String parameter_stable_key,
+    String statistical_method,
+    String percentage_change,
+    Double p_value,
+    Double effect_size,
+    String external_id,
+    String life_stage_acc,
+    String life_stage_name
+) {}

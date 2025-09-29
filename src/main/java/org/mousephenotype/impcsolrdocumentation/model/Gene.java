@@ -1,143 +1,136 @@
 package org.mousephenotype.impcsolrdocumentation.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.List;
 
-@Setter
-@Getter
-public class Gene {
-    private List<String> allele_accession_id;
-    private List<String> allele_name;
-    private List<String> alt_mp_id;
-    private List<String> annotated_higher_level_ma_term_name;
-    private List<String> annotated_higher_level_mp_term_name;
-    private String assignment_status;
-    private List<String> ccds_id;
-    private List<String> child_ma_id;
-    private List<String> child_ma_term;
-    private List<String> child_ma_term_synonym;
-    private List<String> child_mp_id;
-    private List<String> child_mp_term;
-    private List<String> child_mp_term_synonym;
-    private Integer chr_end;
-    private String chr_name;
-    private Integer chr_start;
-    private String chr_strand;
-    private List<String> clan_acc;
-    private List<String> clan_desc;
-    private List<String> clan_id;
-    private String conditional_allele_production_status;
-    private String crispr_allele_production_status;
-    private String data_type;
-    private String datasets_raw_data;
-    private List<String> disease_alts;
-    private List<String> disease_classes;
-    private String disease_human_phenotypes;
-    private List<String> disease_id;
-    private List<String> disease_source;
-    private List<String> disease_term;
-    private Boolean dmdd_image_data_available;
-    private Boolean dmdd_lethal_data_available;
-    private String embryo_analysis_view_name;
-    private String embryo_analysis_view_url;
-    private Boolean embryo_data_available;
-    private List<String> embryo_modalities;
-    private List<String> ensembl_gene_id;
-    private String es_cell_production_status;
-    private Integer evid_code_rank;
-    private List<String> exp_name;
-    private Integer go_count;
-    private List<String> go_term_def;
-    private List<String> go_term_domain;
-    private List<String> go_term_evid;
-    private List<String> go_term_id;
-    private List<String> go_term_name;
-    private List<String> go_uniprot;
-    private Integer has_qc;
-    private List<String> hp_id;
-    private List<String> hp_term;
-    private List<Boolean> human_curated;
-    private List<String> human_gene_symbol;
-    private List<String> human_symbol_synonym;
-    private List<Boolean> impc_novel_predicted_in_locus;
-    private List<Boolean> impc_predicted;
-    private String impc_predicted_in_locus;
-    private List<Boolean> impc_predicted_known_gene;
-    private List<String> inferred_child_ma_id;
-    private List<String> inferred_child_ma_term;
-    private List<String> inferred_child_ma_term_synonym;
-    private List<String> inferred_ma_id;
-    private List<String> inferred_ma_term;
-    private List<String> inferred_ma_term_synonym;
-    private List<String> inferred_selected_top_level_ma_id;
-    private List<String> inferred_selected_top_level_ma_term;
-    private List<String> inferred_selected_top_level_ma_term_synonym;
-    private List<String> intermediate_mp_id;
-    private List<String> intermediate_mp_term;
-    private List<String> intermediate_mp_term_synonym;
-    private Boolean is_idg_gene;
-    private Boolean is_umass_gene;
-    private List<String> ma_id;
-    private List<String> ma_term;
-    private List<String> ma_term_definition;
-    private List<String> ma_term_synonym;
-    private String marker_name;
-    private String marker_symbol;
-    private List<String> marker_synonym;
-    private String marker_type;
-    private String mgi_accession_id;
-    private List<Boolean> mgi_novel_predicted_in_locus;
-    private List<Boolean> mgi_predicted;
-    private String mgi_predicted_in_locus;
-    private List<Boolean> mgi_predicted_known_gene;
-    private List<Boolean> mouse_curated;
-    private String mouse_production_status;
-    private List<String> mp_id;
-    private List<String> mp_term;
-    private List<String> mp_term_definition;
-    private List<String> mp_term_synonym;
-    private List<String> ncbi_id;
-    private List<String> not_significant_top_level_mp_terms;
-    private String null_allele_production_status;
-    private List<Float> p_value;
-    private List<String> parameter_name;
-    private List<String> parameter_stable_id;
-    private List<String> pfama_acc;
-    private List<String> pfama_go_cat;
-    private List<String> pfama_go_id;
-    private List<String> pfama_go_term;
-    private List<String> pfama_id;
-    private List<String> pfama_json;
-    private String phenotype_status;
-    private List<String> phenotyping_centre;
-    private Boolean phenotyping_data_available;
-    private List<String> pipeline_name;
-    private List<String> pipeline_stable_id;
-    private List<String> proc_param_name;
-    private List<String> proc_param_stable_id;
-    private List<String> procedure_name;
-    private List<String> procedure_stable_id;
-    private List<String> production_centre;
-    private List<String> scdb_id;
-    private List<String> scdb_link;
-    private List<String> selected_top_level_ma_id;
-    private List<String> selected_top_level_ma_term;
-    private String selected_top_level_ma_term_id;
-    private List<String> selected_top_level_ma_term_synonym;
-    private Integer seq_region_end;
-    private String seq_region_id;
-    private Integer seq_region_start;
-    private List<String> significant_top_level_mp_terms;
-    private List<String> subtype;
-    private String top_level_mp_definition;
-    private List<String> top_level_mp_id;
-    private List<String> top_level_mp_term;
-    private List<String> top_level_mp_term_synonym;
-    private String type;
-    private List<String> vega_id;
-    private List<String> xref;
-
-
-}
+public record Gene(
+    List<String> allele_accession_id,
+    List<String> allele_name,
+    List<String> alt_mp_id,
+    List<String> annotated_higher_level_ma_term_name,
+    List<String> annotated_higher_level_mp_term_name,
+    String assignment_status,
+    List<String> ccds_id,
+    List<String> child_ma_id,
+    List<String> child_ma_term,
+    List<String> child_ma_term_synonym,
+    List<String> child_mp_id,
+    List<String> child_mp_term,
+    List<String> child_mp_term_synonym,
+    Integer chr_end,
+    String chr_name,
+    Integer chr_start,
+    String chr_strand,
+    List<String> clan_acc,
+    List<String> clan_desc,
+    List<String> clan_id,
+    String conditional_allele_production_status,
+    String crispr_allele_production_status,
+    String data_type,
+    String datasets_raw_data,
+    List<String> disease_alts,
+    List<String> disease_classes,
+    String disease_human_phenotypes,
+    List<String> disease_id,
+    List<String> disease_source,
+    List<String> disease_term,
+    Boolean dmdd_image_data_available,
+    Boolean dmdd_lethal_data_available,
+    String embryo_analysis_view_name,
+    String embryo_analysis_view_url,
+    Boolean embryo_data_available,
+    List<String> embryo_modalities,
+    List<String> ensembl_gene_id,
+    String es_cell_production_status,
+    Integer evid_code_rank,
+    List<String> exp_name,
+    Integer go_count,
+    List<String> go_term_def,
+    List<String> go_term_domain,
+    List<String> go_term_evid,
+    List<String> go_term_id,
+    List<String> go_term_name,
+    List<String> go_uniprot,
+    Integer has_qc,
+    List<String> hp_id,
+    List<String> hp_term,
+    List<Boolean> human_curated,
+    List<String> human_gene_symbol,
+    List<String> human_symbol_synonym,
+    List<Boolean> impc_novel_predicted_in_locus,
+    List<Boolean> impc_predicted,
+    String impc_predicted_in_locus,
+    List<Boolean> impc_predicted_known_gene,
+    List<String> inferred_child_ma_id,
+    List<String> inferred_child_ma_term,
+    List<String> inferred_child_ma_term_synonym,
+    List<String> inferred_ma_id,
+    List<String> inferred_ma_term,
+    List<String> inferred_ma_term_synonym,
+    List<String> inferred_selected_top_level_ma_id,
+    List<String> inferred_selected_top_level_ma_term,
+    List<String> inferred_selected_top_level_ma_term_synonym,
+    List<String> intermediate_mp_id,
+    List<String> intermediate_mp_term,
+    List<String> intermediate_mp_term_synonym,
+    Boolean is_idg_gene,
+    Boolean is_umass_gene,
+    List<String> ma_id,
+    List<String> ma_term,
+    List<String> ma_term_definition,
+    List<String> ma_term_synonym,
+    String marker_name,
+    String marker_symbol,
+    List<String> marker_synonym,
+    String marker_type,
+    String mgi_accession_id,
+    List<Boolean> mgi_novel_predicted_in_locus,
+    List<Boolean> mgi_predicted,
+    String mgi_predicted_in_locus,
+    List<Boolean> mgi_predicted_known_gene,
+    List<Boolean> mouse_curated,
+    String mouse_production_status,
+    List<String> mp_id,
+    List<String> mp_term,
+    List<String> mp_term_definition,
+    List<String> mp_term_synonym,
+    List<String> ncbi_id,
+    List<String> not_significant_top_level_mp_terms,
+    String null_allele_production_status,
+    List<Float> p_value,
+    List<String> parameter_name,
+    List<String> parameter_stable_id,
+    List<String> pfama_acc,
+    List<String> pfama_go_cat,
+    List<String> pfama_go_id,
+    List<String> pfama_go_term,
+    List<String> pfama_id,
+    List<String> pfama_json,
+    String phenotype_status,
+    List<String> phenotyping_centre,
+    Boolean phenotyping_data_available,
+    List<String> pipeline_name,
+    List<String> pipeline_stable_id,
+    List<String> proc_param_name,
+    List<String> proc_param_stable_id,
+    List<String> procedure_name,
+    List<String> procedure_stable_id,
+    List<String> production_centre,
+    List<String> scdb_id,
+    List<String> scdb_link,
+    List<String> selected_top_level_ma_id,
+    List<String> selected_top_level_ma_term,
+    String selected_top_level_ma_term_id,
+    List<String> selected_top_level_ma_term_synonym,
+    Integer seq_region_end,
+    String seq_region_id,
+    Integer seq_region_start,
+    List<String> significant_top_level_mp_terms,
+    List<String> subtype,
+    String top_level_mp_definition,
+    List<String> top_level_mp_id,
+    List<String> top_level_mp_term,
+    List<String> top_level_mp_term_synonym,
+    String type,
+    List<String> vega_id,
+    List<String> xref
+) {}

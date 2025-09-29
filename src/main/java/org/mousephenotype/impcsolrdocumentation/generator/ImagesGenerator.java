@@ -8,136 +8,134 @@ public class ImagesGenerator {
 
 
     public static Images generateExampleImagesResponse() {
-        Images images = new Images();
-        images.setId("EXP001");
-        images.setData_type("Experiment Type");
-        images.setMouse_id(123);
-        images.setGender("Male");
-        images.setColony_name("Colony A");
-        images.setGenotype("Homozygous");
-        images.setTag_name(List.of("Tag1", "Tag2"));
-        images.setTag_value(List.of("Value1", "Value2"));
-        images.setX_start(List.of(1.0f));
-        images.setX_end(List.of(2.0f));
-        images.setY_start(List.of(1.0f));
-        images.setY_end(List.of(2.0f));
-        images.setAnnotation_term_id(List.of("Term1", "Term2"));
-        images.setAnnotation_term_name(List.of("Name1", "Name2"));
-        images.setName("Experiment Name");
-        images.setAccession("ACC001");
-        images.setAllele_accession("AlleleAcc001");
-        images.setExp_name(List.of("Exp1", "Exp2"));
-        images.setProcedure_name(List.of("Procedure1", "Procedure2"));
-        images.setExp_description(List.of("Description1", "Description2"));
-        images.setLive_sample_group(List.of("Group1", "Group2"));
-        images.setFull_resolution_file_path("/path/to/full/resolution/file");
-        images.setLarge_thumbnail_file_path("/path/to/large/thumbnail");
-        images.setOriginal_file_name("original_filename.jpg");
-        images.setSmall_thumbnail_file_path("/path/to/small/thumbnail");
-        images.setAge_in_weeks("5");
-        images.setSymbol(List.of("Symbol1", "Symbol2"));
-        images.setInstitute("Institute A");
-        images.setSanger_symbol(List.of("Sanger1", "Sanger2"));
-        images.setGene_name(List.of("Gene1", "Gene2"));
-        images.setSubtype(List.of("Subtype1", "Subtype2"));
-        images.setGene_synonyms(List.of("Synonym1", "Synonym2"));
-        images.setAllele_name(List.of("Allele1", "Allele2"));
-        images.setMa_term_name(List.of("MATerm1", "MATerm2"));
-        images.setMp_term_id(List.of("MPTermId1", "MPTermId2"));
-        images.setMp_term_name(List.of("MPTermName1", "MPTermName2"));
-        images.setExp_name_exp(List.of("ExpNameExp1", "ExpNameExp2"));
-        images.setSymbol_gene(List.of("SymbolGene1", "SymbolGene2"));
-        images.setTop_level(List.of("TopLevel1", "TopLevel2"));
-        images.setLive_sample_id(List.of("LiveSampleId1", "LiveSampleId2"));
-        images.setDcf_id("DCF001");
-        images.setDcf_exp_id("DCFExp001");
-        images.setSanger_procedure_name("SangerProcedure A");
-        images.setSanger_procedure_id(456);
-        images.setGenotype_string("Genotype A");
-        images.setEmbryo_data_available(true);
-        images.setPhenotyping_center_id(789L);
-        images.setPhenotyping_center("Phenotyping Center A");
-        images.setGene_accession("GeneAcc001");
-        images.setGene_symbol("GeneSymbol A");
-        images.setZygosity("Heterozygous");
-        images.setSex("Female");
-        images.setBiological_model_id(101112L);
-        images.setBiological_sample_id(131415L);
-        images.setBiological_sample_group("Sample Group A");
-        images.setColony_id(161718);
-        images.setDate_of_birth("2021-01-01");
-        images.setExternal_sample_id("ExternalSample001");
-        images.setPipeline_id(192021L);
-        images.setPipeline_name("Pipeline A");
-        images.setPipeline_stable_id("PipelineStable001");
-        images.setProcedure_id(222324L);
-        images.setProcedure_stable_id("ProcedureStable001");
-        images.setParameter_id(252627L);
-        images.setParameter_name("Parameter A");
-        images.setParameter_stable_id("ParameterStable001");
-        images.setExperiment_id(282930L);
-        images.setExperiment_source_id("ExperimentSource001");
-        images.setDate_of_experiment("2021-02-01");
-        images.setP_value(List.of(0.01f, 0.05f));
-        images.setMgi_accession_id(List.of("MGI:123456", "MGI:789012"));
-        images.setMarker_symbol(List.of("Symbol1", "Symbol2"));
-        images.setMarker_name(List.of("Marker Name 1", "Marker Name 2"));
-        images.setMarker_synonym(List.of("Synonym1", "Synonym2"));
-        images.setMarker_type(List.of("Type1", "Type2"));
-        images.setHuman_gene_symbol(List.of("Human Symbol 1", "Human Symbol 2"));
-        images.setStatus(List.of("Status1", "Status2"));
-        images.setLatest_production_centre(List.of("Centre1", "Centre2"));
-        images.setLatest_phenotyping_centre(List.of("Phenotyping Centre1", "Phenotyping Centre2"));
-        images.setLatest_phenotype_status(List.of("Status1", "Status2"));
-        images.setLegacy_phenotype_status(1); // Assuming an integer status code
-        images.setDisease_id(List.of("Disease1", "Disease2"));
-        images.setDisease_source(List.of("Source1", "Source2"));
-        images.setDisease_term(List.of("Term1", "Term2"));
-        images.setDisease_alts(List.of("Alt1", "Alt2"));
-        images.setDisease_classes(List.of("Class1", "Class2"));
-        images.setHuman_curated(List.of(true, false));
-        images.setMouse_curated(List.of(true, false));
-        images.setMgi_predicted(List.of(true, false));
-        images.setImpc_predicted(List.of(true, false));
-        images.setMgi_predicted_known_gene(List.of(true, false));
-        images.setImpc_predicted_known_gene(List.of(true, false));
-        images.setMgi_novel_predicted_in_locus(List.of(true, false));
-        images.setImpc_novel_predicted_in_locus(List.of(true, false));
-        images.setMp_id(List.of("MP:0000001", "MP:0000002"));
-        images.setMp_term(List.of("Term1", "Term2"));
-        images.setMp_term_synonym(List.of("Synonym1", "Synonym2"));
-        images.setTop_level_mp_id(List.of("MP:0000003", "MP:0000004"));
-        images.setTop_level_mp_term(List.of("Top Level Term1", "Top Level Term2"));
-        images.setTop_level_mp_term_synonym(List.of("Top Level Synonym1", "Top Level Synonym2"));
-        images.setIntermediate_mp_id(List.of("MP:0000005", "MP:0000006"));
-        images.setIntermediate_mp_term(List.of("Intermediate Term1", "Intermediate Term2"));
-        images.setIntermediate_mp_term_synonym(List.of("Intermediate Synonym1", "Intermediate Synonym2"));
-        images.setChild_mp_id(List.of("MP:0000007", "MP:0000008"));
-        images.setChild_mp_term(List.of("Child Term1", "Child Term2"));
-        images.setChild_mp_term_synonym(List.of("Child Synonym1", "Child Synonym2"));
-        images.setAnnotated_higher_level_mp_term_id(List.of("MP:0000009", "MP:0000010"));
-        images.setAnnotated_higher_level_mp_term_name(List.of("Annotated Term1", "Annotated Term2"));
-        images.setMa_id(List.of("MA:0000001", "MA:0000002"));
-        images.setMa_term(List.of("MATerm1", "MATerm2"));
-        images.setMa_term_synonym(List.of("MASynonym1", "MASynonym2"));
-        images.setSelected_top_level_ma_id(List.of("MA:0000003", "MA:0000004"));
-        images.setSelected_top_level_ma_term(List.of("Selected MA Term1", "Selected MA Term2"));
-        images.setSelected_top_level_ma_term_synonym(List.of("Selected MA Synonym1", "Selected MA Synonym2"));
-        images.setChild_ma_id(List.of("MA:0000005", "MA:0000006"));
-        images.setChild_ma_term(List.of("Child MATerm1", "Child MATerm2"));
-        images.setChild_ma_term_synonym(List.of("Child MASynonym1", "Child MASynonym2"));
-        images.setHp_id(List.of("HP:0000001", "HP:0000002"));
-        images.setHp_term(List.of("HPTerm1", "HPTerm2"));
-        images.setText(List.of("Text1", "Text2"));
-        images.setAuto_suggest(List.of("Suggest1", "Suggest2"));
-        images.setText_search(List.of("Search1", "Search2"));
-        images.setGene_qf(List.of("GeneQF1", "GeneQF2"));
-        images.setMp_qf(List.of("MPQF1", "MPQF2"));
-        images.setDisease_qf(List.of("DiseaseQF1", "DiseaseQF2"));
-        images.setMa_qf(List.of("MAQF1", "MAQF2"));
-        images.setEmbryo_data_available(true);
-
-        return images;
+        return new Images(
+            "EXP001",
+            "Experiment Type",
+            123,
+            "Male",
+            "Colony A",
+            "Homozygous",
+            List.of("Tag1", "Tag2"),
+            List.of("Value1", "Value2"),
+            List.of(1.0f),
+            List.of(2.0f),
+            List.of(1.0f),
+            List.of(2.0f),
+            List.of("Term1", "Term2"),
+            List.of("Name1", "Name2"),
+            "Experiment Name",
+            "ACC001",
+            "AlleleAcc001",
+            List.of("Exp1", "Exp2"),
+            List.of("Procedure1", "Procedure2"),
+            List.of("Description1", "Description2"),
+            List.of("Group1", "Group2"),
+            "/path/to/full/resolution/file",
+            "/path/to/large/thumbnail",
+            "original_filename.jpg",
+            "/path/to/small/thumbnail",
+            "5",
+            List.of("Symbol1", "Symbol2"),
+            "Institute A",
+            List.of("Sanger1", "Sanger2"),
+            List.of("Gene1", "Gene2"),
+            List.of("Subtype1", "Subtype2"),
+            List.of("Synonym1", "Synonym2"),
+            List.of("Allele1", "Allele2"),
+            List.of("MATerm1", "MATerm2"),
+            List.of("MPTermId1", "MPTermId2"),
+            List.of("MPTermName1", "MPTermName2"),
+            List.of("ExpNameExp1", "ExpNameExp2"),
+            List.of("SymbolGene1", "SymbolGene2"),
+            List.of("TopLevel1", "TopLevel2"),
+            List.of("LiveSampleId1", "LiveSampleId2"),
+            "DCF001",
+            "DCFExp001",
+            "SangerProcedure A",
+            456,
+            "Genotype A",
+            true,
+            789L,
+            "Phenotyping Center A",
+            "GeneAcc001",
+            "GeneSymbol A",
+            "Heterozygous",
+            "Female",
+            101112L,
+            131415L,
+            "Sample Group A",
+            161718,
+            "2021-01-01",
+            "ExternalSample001",
+            192021L,
+            "Pipeline A",
+            "PipelineStable001",
+            222324L,
+            "ProcedureStable001",
+            252627L,
+            "Parameter A",
+            "ParameterStable001",
+            282930L,
+            "ExperimentSource001",
+            "2021-02-01",
+            List.of(0.01f, 0.05f),
+            List.of("MGI:123456", "MGI:789012"),
+            List.of("Symbol1", "Symbol2"),
+            List.of("Marker Name 1", "Marker Name 2"),
+            List.of("Synonym1", "Synonym2"),
+            List.of("Type1", "Type2"),
+            List.of("Human Symbol 1", "Human Symbol 2"),
+            List.of("Status1", "Status2"),
+            List.of("Centre1", "Centre2"),
+            List.of("Phenotyping Centre1", "Phenotyping Centre2"),
+            List.of("Status1", "Status2"),
+            1,
+            List.of("Disease1", "Disease2"),
+            List.of("Source1", "Source2"),
+            List.of("Term1", "Term2"),
+            List.of("Alt1", "Alt2"),
+            List.of("Class1", "Class2"),
+            List.of(true, false),
+            List.of(true, false),
+            List.of(true, false),
+            List.of(true, false),
+            List.of(true, false),
+            List.of(true, false),
+            List.of(true, false),
+            List.of(true, false),
+            List.of("MP:0000001", "MP:0000002"),
+            List.of("Term1", "Term2"),
+            List.of("Synonym1", "Synonym2"),
+            List.of("MP:0000003", "MP:0000004"),
+            List.of("Top Level Term1", "Top Level Term2"),
+            List.of("Top Level Synonym1", "Top Level Synonym2"),
+            List.of("MP:0000005", "MP:0000006"),
+            List.of("Intermediate Term1", "Intermediate Term2"),
+            List.of("Intermediate Synonym1", "Intermediate Synonym2"),
+            List.of("MP:0000007", "MP:0000008"),
+            List.of("Child Term1", "Child Term2"),
+            List.of("Child Synonym1", "Child Synonym2"),
+            List.of("MP:0000009", "MP:0000010"),
+            List.of("Annotated Term1", "Annotated Term2"),
+            List.of("MA:0000001", "MA:0000002"),
+            List.of("MATerm1", "MATerm2"),
+            List.of("MASynonym1", "MASynonym2"),
+            List.of("MA:0000003", "MA:0000004"),
+            List.of("Selected MA Term1", "Selected MA Term2"),
+            List.of("Selected MA Synonym1", "Selected MA Synonym2"),
+            List.of("MA:0000005", "MA:0000006"),
+            List.of("Child MATerm1", "Child MATerm2"),
+            List.of("Child MASynonym1", "Child MASynonym2"),
+            List.of("HP:0000001", "HP:0000002"),
+            List.of("HPTerm1", "HPTerm2"),
+            List.of("Text1", "Text2"),
+            List.of("Suggest1", "Suggest2"),
+            List.of("Search1", "Search2"),
+            List.of("GeneQF1", "GeneQF2"),
+            List.of("MPQF1", "MPQF2"),
+            List.of("DiseaseQF1", "DiseaseQF2"),
+            List.of("MAQF1", "MAQF2")
+        );
     }
 
 }

@@ -8,189 +8,148 @@ public class StatisticalResultGenerator {
 
 
     public static StatisticalResult generateExampleStatisticalResultResponse() {
-        StatisticalResult statisticalResult = new StatisticalResult();
-        statisticalResult.setDoc_id("DOC123");
-        statisticalResult.setDb_id(100L);
-        statisticalResult.setData_type("Gene Expression");
-
-// Anatomy terms mapped from MP
-        statisticalResult.setAnatomy_term_id(List.of("AID123", "AID456"));
-        statisticalResult.setAnatomy_term_name(List.of("Heart", "Liver"));
-        statisticalResult.setIntermediate_anatomy_term_id(List.of("IAID789", "IAID101"));
-        statisticalResult.setIntermediate_anatomy_term_name(List.of("Ventricle", "Lobe"));
-        statisticalResult.setTop_level_anatomy_term_id(List.of("TAID112", "TAID113"));
-        statisticalResult.setTop_level_anatomy_term_name(List.of("Circulatory System", "Digestive System"));
-
-// Information about the MP term
-        statisticalResult.setMp_term_id_options(List.of("MPID123", "MPID456"));
-        statisticalResult.setMp_term_name_options(List.of("Hypertrophy", "Necrosis"));
-        statisticalResult.setMp_term_id("MPID789");
-        statisticalResult.setMp_term_name("Atrophy");
-        statisticalResult.setTop_level_mp_term_id(List.of("TMPID123", "TMPID456"));
-        statisticalResult.setTop_level_mp_term_name(List.of("Muscle Structure", "Cell Death"));
-        statisticalResult.setIntermediate_mp_term_id(List.of("IMPID789", "IMPID101"));
-        statisticalResult.setIntermediate_mp_term_name(List.of("Muscle Size", "Apoptosis"));
-
-// Information about the male MP term
-        statisticalResult.setMale_mp_term_id("MMPID123");
-        statisticalResult.setMale_mp_term_name("Male Hypertrophy");
-        statisticalResult.setMale_top_level_mp_term_id(List.of("MTMPID123", "MTMPID456"));
-        statisticalResult.setMale_top_level_mp_term_name(List.of("Male Muscle Structure", "Male Cell Death"));
-        statisticalResult.setMale_intermediate_mp_term_id(List.of("MIMPID789", "MIMPID101"));
-        statisticalResult.setMale_intermediate_mp_term_name(List.of("Male Muscle Size", "Male Apoptosis"));
-
-// Information about the female MP term
-        statisticalResult.setFemale_mp_term_id("FMPID123");
-        statisticalResult.setFemale_mp_term_name("Female Hypertrophy");
-        statisticalResult.setFemale_top_level_mp_term_id(List.of("FTMPID123", "FTMPID456"));
-        statisticalResult.setFemale_top_level_mp_term_name(List.of("Female Muscle Structure", "Female Cell Death"));
-        statisticalResult.setFemale_intermediate_mp_term_id(List.of("FIMPID789", "FIMPID101"));
-        statisticalResult.setFemale_intermediate_mp_term_name(List.of("Female Muscle Size", "Female Apoptosis"));
-
-// Information about the data being processed
-        statisticalResult.setResource_name("Resource Name");
-        statisticalResult.setResource_fullname("Full Resource Name");
-        statisticalResult.setResource_id(200L);
-        statisticalResult.setProject_name(List.of("Project X", "Project Y"));
-        statisticalResult.setPhenotyping_center("Center Z");
-
-// Pipeline information
-        statisticalResult.setPipeline_stable_id("PID123");
-        statisticalResult.setPipeline_stable_key(300L);
-        statisticalResult.setPipeline_name("Pipeline Name");
-        statisticalResult.setPipeline_id(400L);
-
-// Procedure information
-        statisticalResult.setProcedure_stable_id(List.of("PRID123", "PRID456"));
-        statisticalResult.setProcedure_stable_key(List.of(500L, 600L));
-        statisticalResult.setProcedure_name("Procedure Name");
-        statisticalResult.setProcedure_id(700L);
-
-// Parameter information
-        statisticalResult.setParameter_stable_id("PAID123");
-        statisticalResult.setParameter_stable_key(List.of(800L));
-        statisticalResult.setParameter_name("Parameter Name");
-        statisticalResult.setParameter_id(900L);
-
-// Genetic information
-        statisticalResult.setColony_id("Colony123");
-        statisticalResult.setMarker_symbol("Gene123");
-        statisticalResult.setMarker_accession_id("M123456");
-        statisticalResult.setAllele_symbol("Allele123");
-        statisticalResult.setAllele_name("Allele Name");
-        statisticalResult.setAllele_accession_id("A123456");
-        statisticalResult.setStrain_name("Strain Name");
-        statisticalResult.setStrain_accession_id("S123456");
-        statisticalResult.setSex("Male");
-        statisticalResult.setZygosity("Homozygote");
-        statisticalResult.setControl_selection_method("Random");
-        statisticalResult.setDependent_variable("Weight");
-        statisticalResult.setMetadata_group("Group1");
-        statisticalResult.setData_frame("Frame1");
-        statisticalResult.setGenetic_background("C57BL/6N");
-        statisticalResult.setProduction_center("EMBL-EBI");
-
-        statisticalResult.setExternal_db_id(101L);
-        statisticalResult.setId(102L);
-        statisticalResult.setOrganisation_id(103L);
-        statisticalResult.setPhenotyping_center_id(104L);
-        statisticalResult.setProject_id(105L);
-
-        statisticalResult.setMale_control_mean(0.5);
-        statisticalResult.setMale_mutant_mean(1.5);
-        statisticalResult.setFemale_control_mean(0.4);
-        statisticalResult.setFemale_mutant_mean(1.4);
-
-        statisticalResult.setGenotype_effect_size_low_vs_normal_high(0.5);
-        statisticalResult.setGenotype_effect_size_low_normal_vs_high(0.6);
-
-        statisticalResult.setFemale_effect_size_low_vs_normal_high(0.7);
-        statisticalResult.setFemale_effect_size_low_normal_vs_high(0.8);
-
-
-        statisticalResult.setMale_effect_size_low_vs_normal_high(0.9);
-        statisticalResult.setMale_effect_size_low_normal_vs_high(1.0);
-
-        statisticalResult.setCategories(List.of("Category 1", "Category 2"));
-        statisticalResult.setCategorical_p_value(0.07);
-        statisticalResult.setCategorical_effect_size(1.1);
-
-        statisticalResult.setBatch_significant(true);
-        statisticalResult.setVariance_significant(false);
-        statisticalResult.setNull_test_p_value(0.08);
-        statisticalResult.setGenotype_effect_p_value(0.09);
-        statisticalResult.setGenotype_effect_stderr_estimate(0.10);
-        statisticalResult.setGenotype_effect_parameter_estimate(0.11);
-
-        statisticalResult.setMale_percentage_change("10%");
-        statisticalResult.setFemale_percentage_change("20%");
-
-        statisticalResult.setSex_effect_p_value(0.12);
-        statisticalResult.setSex_effect_stderr_estimate(0.13);
-        statisticalResult.setSex_effect_parameter_estimate(0.14);
-
-        statisticalResult.setWeight_effect_p_value(0.15);
-        statisticalResult.setWeight_effect_stderr_estimate(0.16);
-        statisticalResult.setWeight_effect_parameter_estimate(0.17);
-
-        statisticalResult.setEffect_size(8.3);
-        statisticalResult.setFemale_control_count(79);
-        statisticalResult.setFemale_mutant_count(7);
-        statisticalResult.setFemale_pvalue_low_normal_vs_high(6.3);
-        statisticalResult.setFemale_pvalue_low_vs_normal_high(8.5);
-        statisticalResult.setGenotype_pvalue_low_normal_vs_high(9.2);
-        statisticalResult.setGenotype_pvalue_low_vs_normal_high(4.1);
-        statisticalResult.setGroup_1_genotype("control");
-        statisticalResult.setGroup_1_residuals_normality_test(4.3);
-        statisticalResult.setGroup_2_genotype("experimental");
-        statisticalResult.setGroup_2_residuals_normality_test(4.3);
-        statisticalResult.setMale_control_count(23);
-        statisticalResult.setMale_mutant_count(21);
-        statisticalResult.setMale_pvalue_low_normal_vs_high(9.2);
-        statisticalResult.setMale_pvalue_low_vs_normal_high(9.2);
-        statisticalResult.setP_value(0.6);
-        statisticalResult.setStatistical_method("Linear Mixed Model framework, LME, including Weight");
-        statisticalResult.setStatus("Successful");
-
-        statisticalResult.setBlups_test(0.20);
-        statisticalResult.setRotated_residuals_test(0.21);
-
-        statisticalResult.setIntercept_estimate(0.22);
-        statisticalResult.setIntercept_estimate_stderr_estimate(0.23);
-
-        statisticalResult.setInteraction_significant(true);
-        statisticalResult.setInteraction_effect_p_value(0.24);
-
-        statisticalResult.setFemale_ko_effect_p_value(0.25);
-        statisticalResult.setFemale_ko_effect_stderr_estimate(0.26);
-        statisticalResult.setFemale_ko_parameter_estimate(0.27);
-        statisticalResult.setFemale_effect_size(0.28);
-
-        statisticalResult.setMale_ko_effect_p_value(0.29);
-        statisticalResult.setMale_ko_effect_stderr_estimate(0.30);
-        statisticalResult.setMale_ko_parameter_estimate(0.31);
-        statisticalResult.setMale_effect_size(0.32);
-
-        statisticalResult.setClassification_tag("Tag1");
-        statisticalResult.setPhenotype_sex(List.of("Male", "Female"));
-
-        statisticalResult.setLife_stage_acc("LS:001");
-        statisticalResult.setLife_stage_name("Adulthood");
-        statisticalResult.setSignificant(true);
-
-// Soft windowing parameters
-        statisticalResult.setSoft_windowing_bandwidth("Medium");
-        statisticalResult.setSoft_windowing_shape("Gaussian");
-        statisticalResult.setSoft_windowing_peaks("3");
-        statisticalResult.setSoft_windowing_min_obs_required("10");
-        statisticalResult.setSoft_windowing_total_obs_or_weight("50");
-        statisticalResult.setSoft_windowing_threshold("0.05");
-        statisticalResult.setSoft_windowing_number_of_doe("5");
-        statisticalResult.setSoft_windowing_doe_note("Doe Note Example");
-        statisticalResult.setMetadata(List.of("Metadata1", "Metadata2"));
-
-
-        return statisticalResult;
+        return new StatisticalResult(
+            "DOC123",
+            100L,
+            "Gene Expression",
+            List.of("AID123", "AID456"),
+            List.of("Heart", "Liver"),
+            List.of("IAID789", "IAID101"),
+            List.of("Ventricle", "Lobe"),
+            List.of("TAID112", "TAID113"),
+            List.of("Circulatory System", "Digestive System"),
+            List.of("MPID123", "MPID456"),
+            List.of("Hypertrophy", "Necrosis"),
+            "MPID789",
+            "Atrophy",
+            List.of("TMPID123", "TMPID456"),
+            List.of("Muscle Structure", "Cell Death"),
+            List.of("IMPID789", "IMPID101"),
+            List.of("Muscle Size", "Apoptosis"),
+            "MMPID123",
+            "Male Hypertrophy",
+            List.of("MTMPID123", "MTMPID456"),
+            List.of("Male Muscle Structure", "Male Cell Death"),
+            List.of("MIMPID789", "MIMPID101"),
+            List.of("Male Muscle Size", "Male Apoptosis"),
+            "FMPID123",
+            "Female Hypertrophy",
+            List.of("FTMPID123", "FTMPID456"),
+            List.of("Female Muscle Structure", "Female Cell Death"),
+            List.of("FIMPID789", "FIMPID101"),
+            List.of("Female Muscle Size", "Female Apoptosis"),
+            "Resource Name",
+            "Full Resource Name",
+            200L,
+            List.of("Project X", "Project Y"),
+            "Center Z",
+            "PID123",
+            300L,
+            "Pipeline Name",
+            400L,
+            List.of("PRID123", "PRID456"),
+            List.of(500L, 600L),
+            "Procedure Name",
+            700L,
+            "PAID123",
+            List.of(800L),
+            "Parameter Name",
+            900L,
+            "Colony123",
+            "Gene123",
+            "M123456",
+            "Allele123",
+            "Allele Name",
+            "A123456",
+            "Strain Name",
+            "S123456",
+            "Male",
+            "Homozygote",
+            "Random",
+            "Weight",
+            "Group1",
+            "Frame1",
+            "C57BL/6N",
+            "EMBL-EBI",
+            101L,
+            102L,
+            103L,
+            104L,
+            105L,
+            0.5,
+            1.5,
+            0.4,
+            1.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0,
+            List.of("Category 1", "Category 2"),
+            0.07,
+            1.1,
+            true,
+            false,
+            0.08,
+            0.09,
+            0.10,
+            0.11,
+            "10%",
+            "20%",
+            0.12,
+            0.13,
+            0.14,
+            0.15,
+            0.16,
+            0.17,
+            0.20,
+            0.21,
+            0.22,
+            0.23,
+            true,
+            0.24,
+            0.25,
+            0.26,
+            0.27,
+            0.28,
+            0.29,
+            0.30,
+            0.31,
+            0.32,
+            "Tag1",
+            List.of("Male", "Female"),
+            "LS:001",
+            "Adulthood",
+            true,
+            "Medium",
+            "Gaussian",
+            "3",
+            "10",
+            "50",
+            "0.05",
+            "5",
+            "Doe Note Example",
+            List.of("Metadata1", "Metadata2"),
+            8.3,
+            79,
+            7,
+            6.3,
+            8.5,
+            9.2,
+            4.1,
+            "control",
+            4.3,
+            "experimental",
+            4.3,
+            23,
+            21,
+            9.2,
+            9.2,
+            0.6,
+            "Linear Mixed Model framework, LME, including Weight",
+            "Successful"
+        );
     }
 
 }

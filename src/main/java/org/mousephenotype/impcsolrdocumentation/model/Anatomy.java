@@ -1,82 +1,77 @@
 package org.mousephenotype.impcsolrdocumentation.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.List;
 
-@Setter
-@Getter
-public class Anatomy {
-    private String data_type;
-    private List<String> anatomy_id;
-    private String anatomy_term;
-    private List<String> anatomy_term_synonym;
-    private List<Integer> anatomy_node_id;
-    private List<String> alt_anatomy_id;
-    private String stage;
-    private List<String> efo_id;
-    private List<String> all_ae_mapped_efo_id;
-    private List<String> uberon_id;
-    private List<String> all_ae_mapped_uberon_id;
-    private List<String> parent_anatomy_id;
-    private List<String> parent_anatomy_term;
-    private List<String> parent_anatomy_term_synonym;
-    private List<String> child_anatomy_id;
-    private List<String> child_anatomy_term;
-    private List<String> child_anatomy_term_synonym;
-    private List<String> intermediate_anatomy_id;
-    private List<String> intermediate_anatomy_term;
-    private List<String> intermediate_anatomy_term_synonym;
-    private List<String> top_level_anatomy_id;
-    private List<String> top_level_anatomy_term;
-    private List<String> top_level_anatomy_term_synonym;
-    private List<String> selected_top_level_anatomy_id;
-    private List<String> selected_top_level_anatomy_term;
-    private List<String> selected_top_level_anatomy_term_synonym;
-    private List<String> mp_id;
-    private List<String> mp_term;
-    private List<String> mp_term_synonym;
-    private List<String> top_level_mp_id;
-    private List<String> top_level_mp_term;
-    private List<String> top_level_mp_term_synonym;
-    private List<String> intermediate_mp_id;
-    private List<String> intermediate_mp_term;
-    private List<String> intermediate_mp_term_synonym;
-    private List<String> child_mp_id;
-    private List<String> child_mp_term;
-    private List<String> child_mp_term_synonym;
-    private List<String> annotation_term_id;
-    private List<String> annotation_term_name;
-    private List<String> name;
-    private List<String> accession;
-    private List<String> exp_name;
-    private String large_thumbnail_file_path;
-    private String small_thumbnail_file_path;
-    private List<String> inferred_ma_term_id;
-    private List<String> inferred_ma_term_name;
-    private List<String> annotated_higher_level_ma_term_id;
-    private List<String> annotated_higher_level_ma_term_name;
-    private List<String> annotated_higher_level_mp_term_id;
-    private List<String> annotated_higher_level_mp_term_name;
-    private List<String> inferred_higher_level_ma_term_id;
-    private List<String> inferred_higher_level_ma_term_name;
-    private List<String> annotated_or_inferred_higher_level_ma_term_name;
-    private List<String> annotated_or_inferred_higher_level_ma_term_id;
-    private List<String> symbol;
-    private List<String> sanger_symbol;
-    private List<String> gene_name;
-    private List<String> subtype;
-    private List<String> gene_synonyms;
-    private List<String> ma_term_id;
-    private List<String> ma_term_name;
-    private List<String> exp_name_exp;
-    private List<String> symbol_gene;
-    private List<String> top_level;
-    private List<String> text;
-    private List<String> auto_suggest;
-    private List<String> anatomy_qf;
-    private String search_term_json;
-    private String children_json;
-    private String scroll_node;
-}
+public record Anatomy(
+    String data_type,
+    List<String> anatomy_id,
+    String anatomy_term,
+    List<String> anatomy_term_synonym,
+    List<Integer> anatomy_node_id,
+    List<String> alt_anatomy_id,
+    String stage,
+    List<String> efo_id,
+    List<String> all_ae_mapped_efo_id,
+    List<String> uberon_id,
+    List<String> all_ae_mapped_uberon_id,
+    List<String> parent_anatomy_id,
+    List<String> parent_anatomy_term,
+    List<String> parent_anatomy_term_synonym,
+    List<String> child_anatomy_id,
+    List<String> child_anatomy_term,
+    List<String> child_anatomy_term_synonym,
+    List<String> intermediate_anatomy_id,
+    List<String> intermediate_anatomy_term,
+    List<String> intermediate_anatomy_term_synonym,
+    List<String> top_level_anatomy_id,
+    List<String> top_level_anatomy_term,
+    List<String> top_level_anatomy_term_synonym,
+    List<String> selected_top_level_anatomy_id,
+    List<String> selected_top_level_anatomy_term,
+    List<String> selected_top_level_anatomy_term_synonym,
+    List<String> mp_id,
+    List<String> mp_term,
+    List<String> mp_term_synonym,
+    List<String> top_level_mp_id,
+    List<String> top_level_mp_term,
+    List<String> top_level_mp_term_synonym,
+    List<String> intermediate_mp_id,
+    List<String> intermediate_mp_term,
+    List<String> intermediate_mp_term_synonym,
+    List<String> child_mp_id,
+    List<String> child_mp_term,
+    List<String> child_mp_term_synonym,
+    List<String> annotation_term_id,
+    List<String> annotation_term_name,
+    List<String> name,
+    List<String> accession,
+    List<String> exp_name,
+    String large_thumbnail_file_path,
+    String small_thumbnail_file_path,
+    List<String> inferred_ma_term_id,
+    List<String> inferred_ma_term_name,
+    List<String> annotated_higher_level_ma_term_id,
+    List<String> annotated_higher_level_ma_term_name,
+    List<String> annotated_higher_level_mp_term_id,
+    List<String> annotated_higher_level_mp_term_name,
+    List<String> inferred_higher_level_ma_term_id,
+    List<String> inferred_higher_level_ma_term_name,
+    List<String> annotated_or_inferred_higher_level_ma_term_name,
+    List<String> annotated_or_inferred_higher_level_ma_term_id,
+    List<String> symbol,
+    List<String> sanger_symbol,
+    List<String> gene_name,
+    List<String> subtype,
+    List<String> gene_synonyms,
+    List<String> ma_term_id,
+    List<String> ma_term_name,
+    List<String> exp_name_exp,
+    List<String> symbol_gene,
+    List<String> top_level,
+    List<String> text,
+    List<String> auto_suggest,
+    List<String> anatomy_qf,
+    String search_term_json,
+    String children_json,
+    String scroll_node
+) {}

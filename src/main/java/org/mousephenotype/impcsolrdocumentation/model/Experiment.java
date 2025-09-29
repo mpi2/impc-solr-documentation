@@ -1,110 +1,104 @@
 package org.mousephenotype.impcsolrdocumentation.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.time.LocalDate;
 import java.util.List;
 
-@Setter
-@Getter
-public class Experiment {
-    private String id;
-    private String observation_id;
-    private String specimen_id;
-    private Long phenotyping_center_id;
-    private String phenotyping_center;
-    private Long production_center_id;
-    private String production_center;
-    private Long specimen_project_id;
-    private String specimen_project_name;
-    private String gene_accession_id;
-    private String gene_symbol;
-    private String allele_accession_id;
-    private String allele_symbol;
-    private String zygosity;
-    private String sex;
-    private Long biological_model_id;
-    private Long biological_sample_id;
-    private String biological_sample_group;
-    private String strain_accession_id;
-    private String strain_name;
-    private String genetic_background;
-    private String allelic_composition;
-    private String colony_id;
-    private String litter_id;
-    private LocalDate date_of_birth;
-    private String external_sample_id;
-    private String life_stage_name;
-    private String life_stage_acc;
-    private Long datasource_id;
-    private String datasource_name;
-    private Long project_id;
-    private String project_name;
-    private Long pipeline_id;
-    private String pipeline_name;
-    private String pipeline_stable_id;
-    private Long procedure_id;
-    private String procedure_name;
-    private String procedure_stable_id;
-    private String procedure_group;
-    private Long parameter_id;
-    private String parameter_name;
-    private String parameter_stable_id;
-    private String procedure_sequence_id;
-    private String experiment_id;
-    private String observation_type;
-    private String data_type;
-    private String experiment_source_id;
-    private LocalDate date_of_experiment;
-    private String weight_parameter_stable_id;
-    private LocalDate weight_date;
-    private Integer weight_days_old;
-    private Float weight;
-    private Float data_point;
-    private Integer order_index;
-    private String dimension;
-    private String time_point;
-    private Float discrete_point;
-    private String category;
-    private String raw_category;
-    private List<String> metadata;
-    private String metadata_group;
-    private List<String> anatomy_id;
-    private List<String> anatomy_term;
-    private List<String> anatomy_id_term;
-    private List<String> anatomy_term_synonym;
-    private List<String> top_level_anatomy_id;
-    private List<String> top_level_anatomy_term;
-    private List<String> top_level_anatomy_term_synonym;
-    private List<String> selected_top_level_anatomy_id;
-    private List<String> selected_top_level_anatomy_term;
-    private List<String> selected_top_level_anatomy_term_synonym;
-    private List<String> intermediate_anatomy_id;
-    private List<String> intermediate_anatomy_term;
-    private List<String> intermediate_anatomy_term_synonym;
-    private List<String> parent_anatomy_id;
-    private List<String> parent_anatomy_term;
-    private List<String> parent_anatomy_term_synonym;
-    private List<String> child_anatomy_id;
-    private List<String> child_anatomy_term;
-    private List<String> child_anatomy_term_synonym;
-    private String download_file_path;
-    private String image_link;
-    private String file_type;
-    private String increment_value;
-    private List<String> parameter_association_stable_id;
-    private List<String> parameter_association_sequence_id;
-    private List<String> parameter_association_dim_id;
-    private List<String> parameter_association_name;
-    private List<String> parameter_association_value;
-    private String developmental_stage_acc;
-    private String developmental_stage_name;
-    private String text_value;
-    private List<String> sub_term_id;
-    private List<String> sub_term_name;
-    private List<String> sub_term_description;
-    private Integer age_in_days;
-    private Integer age_in_weeks;
-
-}
+public record Experiment(
+    String id,
+    String observation_id,
+    String specimen_id,
+    Long phenotyping_center_id,
+    String phenotyping_center,
+    Long production_center_id,
+    String production_center,
+    Long specimen_project_id,
+    String specimen_project_name,
+    String gene_accession_id,
+    String gene_symbol,
+    String allele_accession_id,
+    String allele_symbol,
+    String zygosity,
+    String sex,
+    Long biological_model_id,
+    Long biological_sample_id,
+    String biological_sample_group,
+    String strain_accession_id,
+    String strain_name,
+    String genetic_background,
+    String allelic_composition,
+    String colony_id,
+    String litter_id,
+    LocalDate date_of_birth,
+    String external_sample_id,
+    String life_stage_name,
+    String life_stage_acc,
+    Long datasource_id,
+    String datasource_name,
+    Long project_id,
+    String project_name,
+    Long pipeline_id,
+    String pipeline_name,
+    String pipeline_stable_id,
+    Long procedure_id,
+    String procedure_name,
+    String procedure_stable_id,
+    String procedure_group,
+    Long parameter_id,
+    String parameter_name,
+    String parameter_stable_id,
+    String procedure_sequence_id,
+    String experiment_id,
+    String observation_type,
+    String data_type,
+    String experiment_source_id,
+    LocalDate date_of_experiment,
+    String weight_parameter_stable_id,
+    LocalDate weight_date,
+    Integer weight_days_old,
+    Float weight,
+    Float data_point,
+    Integer order_index,
+    String dimension,
+    String time_point,
+    Float discrete_point,
+    String category,
+    String raw_category,
+    List<String> metadata,
+    String metadata_group,
+    List<String> anatomy_id,
+    List<String> anatomy_term,
+    List<String> anatomy_id_term,
+    List<String> anatomy_term_synonym,
+    List<String> top_level_anatomy_id,
+    List<String> top_level_anatomy_term,
+    List<String> top_level_anatomy_term_synonym,
+    List<String> selected_top_level_anatomy_id,
+    List<String> selected_top_level_anatomy_term,
+    List<String> selected_top_level_anatomy_term_synonym,
+    List<String> intermediate_anatomy_id,
+    List<String> intermediate_anatomy_term,
+    List<String> intermediate_anatomy_term_synonym,
+    List<String> parent_anatomy_id,
+    List<String> parent_anatomy_term,
+    List<String> parent_anatomy_term_synonym,
+    List<String> child_anatomy_id,
+    List<String> child_anatomy_term,
+    List<String> child_anatomy_term_synonym,
+    String download_file_path,
+    String image_link,
+    String file_type,
+    String increment_value,
+    List<String> parameter_association_stable_id,
+    List<String> parameter_association_sequence_id,
+    List<String> parameter_association_dim_id,
+    List<String> parameter_association_name,
+    List<String> parameter_association_value,
+    String developmental_stage_acc,
+    String developmental_stage_name,
+    String text_value,
+    List<String> sub_term_id,
+    List<String> sub_term_name,
+    List<String> sub_term_description,
+    Integer age_in_days,
+    Integer age_in_weeks
+) {}

@@ -8,140 +8,138 @@ public class GeneGenerator {
 
 
     public static Gene generateExampleGeneResponse() {
-        Gene gene = new Gene();
-        gene.setAllele_accession_id(List.of("MGI:123456"));
-        gene.setAllele_name(List.of("Allele Name 1", "Allele Name 2"));
-        gene.setAlt_mp_id(List.of("MP:0000001", "MP:0000002"));
-        gene.setAnnotated_higher_level_ma_term_name(List.of("Term 1", "Term 2"));
-        gene.setAnnotated_higher_level_mp_term_name(List.of("Term 3", "Term 4"));
-        gene.setCcds_id(List.of("CCDS:1234", "CCDS:5678"));
-        gene.setChild_ma_id(List.of("MA:0000001", "MA:0000002"));
-        gene.setChild_ma_term(List.of("Child MA Term 1", "Child MA Term 2"));
-        gene.setChild_ma_term_synonym(List.of("Synonym 1", "Synonym 2"));
-        gene.setChild_mp_id(List.of("MP:0000003", "MP:0000004"));
-        gene.setChild_mp_term(List.of("Child MP Term 1", "Child MP Term 2"));
-        gene.setChild_mp_term_synonym(List.of("Child Synonym 1", "Child Synonym 2"));
-        gene.setClan_acc(List.of("Clan 1", "Clan 2"));
-        gene.setClan_desc(List.of("Clan Desc 1", "Clan Desc 2"));
-        gene.setClan_id(List.of("Clan ID 1", "Clan ID 2"));
-        gene.setDisease_alts(List.of("Disease Alt 1", "Disease Alt 2"));
-        gene.setDisease_classes(List.of("Disease Class 1", "Disease Class 2"));
-        gene.setDisease_id(List.of("Disease ID 1", "Disease ID 2"));
-        gene.setDisease_source(List.of("Source 1", "Source 2"));
-        gene.setDisease_term(List.of("Disease Term 1", "Disease Term 2"));
-        gene.setEmbryo_modalities(List.of("Modality 1", "Modality 2"));
-        gene.setEnsembl_gene_id(List.of("ENSG00000123456", "ENSG00000123457"));
-        gene.setExp_name(List.of("Experiment 1", "Experiment 2"));
-        gene.setGo_term_def(List.of("GO Definition 1", "GO Definition 2"));
-        gene.setGo_term_domain(List.of("Domain 1", "Domain 2"));
-        gene.setGo_term_evid(List.of("Evidence 1", "Evidence 2"));
-        gene.setGo_term_id(List.of("GO:0000001", "GO:0000002"));
-        gene.setGo_term_name(List.of("GO Name 1", "GO Name 2"));
-        gene.setGo_uniprot(List.of("UniProt 1", "UniProt 2"));
-        gene.setHp_id(List.of("HP:0000001", "HP:0000002"));
-        gene.setHp_term(List.of("HP Term 1", "HP Term 2"));
-        gene.setHuman_curated(List.of(true, false));
-        gene.setHuman_gene_symbol(List.of("Gene Symbol 1", "Gene Symbol 2"));
-        gene.setImpc_novel_predicted_in_locus(List.of(true, false));
-        gene.setImpc_predicted(List.of(true, true));
-        gene.setInferred_child_ma_id(List.of("MA:0000003", "MA:0000004"));
-        gene.setInferred_child_ma_term(List.of("Inferred Child MA Term 1", "Inferred Child MA Term 2"));
-        gene.setInferred_child_ma_term_synonym(List.of("Inferred Synonym 1", "Inferred Synonym 2"));
-        gene.setInferred_ma_id(List.of("MA:0000005", "MA:0000006"));
-        gene.setInferred_ma_term(List.of("Inferred MA Term 1", "Inferred MA Term 2"));
-        gene.setInferred_ma_term_synonym(List.of("Inferred Term Synonym 1", "Inferred Term Synonym 2"));
-        gene.setInferred_selected_top_level_ma_id(List.of("MA:0000007", "MA:0000008"));
-        gene.setInferred_selected_top_level_ma_term(List.of("Selected MA Term 1", "Selected MA Term 2"));
-        gene.setInferred_selected_top_level_ma_term_synonym(List.of("Selected Term Synonym 1", "Selected Term Synonym 2"));
-        gene.setIntermediate_mp_id(List.of("MP:0000005", "MP:0000006"));
-        gene.setIntermediate_mp_term(List.of("Intermediate MP Term 1", "Intermediate MP Term 2"));
-        gene.setIntermediate_mp_term_synonym(List.of("Intermediate MP Synonym 1", "Intermediate MP Synonym 2"));
-        gene.setIs_idg_gene(true);
-        gene.setIs_umass_gene(false);
-        gene.setMa_id(List.of("MA:0000009", "MA:0000010"));
-        gene.setMa_term(List.of("MA Term 1", "MA Term 2"));
-        gene.setMa_term_definition(List.of("MA Definition 1", "MA Definition 2"));
-        gene.setMa_term_synonym(List.of("MA Synonym 1", "MA Synonym 2"));
-        gene.setMarker_name("Marker Name Example");
-        gene.setMarker_symbol("MkSym");
-        gene.setMarker_synonym(List.of("Marker Synonym 1", "Marker Synonym 2"));
-        gene.setMarker_type("Marker Type Example");
-        gene.setMgi_accession_id("MGI:0000001");
-        gene.setMgi_novel_predicted_in_locus(List.of(true, false));
-        gene.setMgi_predicted(List.of(false, true));
-        gene.setMgi_predicted_in_locus("In Locus Example");
-        gene.setMgi_predicted_known_gene(List.of(true, true));
-        gene.setMouse_curated(List.of(true, false));
-        gene.setMouse_production_status("Production Status Example");
-        gene.setMp_id(List.of("MP:0000007", "MP:0000008"));
-        gene.setMp_term(List.of("MP Term 1", "MP Term 2"));
-        gene.setMp_term_definition(List.of("MP Definition 1", "MP Definition 2"));
-        gene.setMp_term_synonym(List.of("MP Synonym 1", "MP Synonym 2"));
-        gene.setNcbi_id(List.of("NCBI:0000001", "NCBI:0000002"));
-        gene.setNot_significant_top_level_mp_terms(List.of("Not Significant MP Term 1", "Not Significant MP Term 2"));
-        gene.setNull_allele_production_status("Null Production Status Example");
-        gene.setP_value(List.of(0.01f, 0.05f));
-        gene.setParameter_name(List.of("Parameter Name 1", "Parameter Name 2"));
-        gene.setParameter_stable_id(List.of("Stable ID 1", "Stable ID 2"));
-        gene.setPfama_acc(List.of("Pfam Acc 1", "Pfam Acc 2"));
-        gene.setPfama_go_cat(List.of("GO Category 1", "GO Category 2"));
-        gene.setPfama_go_id(List.of("GO:0000003", "GO:0000004"));
-        gene.setPfama_go_term(List.of("GO Term 1", "GO Term 2"));
-        gene.setPfama_id(List.of("Pfam ID 1", "Pfam ID 2"));
-        gene.setPfama_json(List.of("{\"key\": \"value\"}", "{\"key\": \"value2\"}"));
-        gene.setPhenotype_status("Phenotype Status Example");
-        gene.setPhenotyping_centre(List.of("Centre 1", "Centre 2"));
-        gene.setPhenotyping_data_available(true);
-        gene.setPipeline_name(List.of("Pipeline Name 1", "Pipeline Name 2"));
-        gene.setPipeline_stable_id(List.of("Pipeline Stable ID 1", "Pipeline Stable ID 2"));
-        gene.setProc_param_name(List.of("Param Name 1", "Param Name 2"));
-        gene.setProc_param_stable_id(List.of("Param Stable ID 1", "Param Stable ID 2"));
-        gene.setProcedure_name(List.of("Procedure Name 1", "Procedure Name 2"));
-        gene.setProcedure_stable_id(List.of("Procedure Stable ID 1", "Procedure Stable ID 2"));
-        gene.setProduction_centre(List.of("Production Centre 1", "Production Centre 2"));
-        gene.setScdb_id(List.of("SCDB ID 1", "SCDB ID 2"));
-        gene.setScdb_link(List.of("http://example.com/scdb1", "http://example.com/scdb2"));
-        gene.setSelected_top_level_ma_id(List.of("Selected MA ID 1", "Selected MA ID 2"));
-        gene.setSelected_top_level_ma_term(List.of("Selected MA Term 1", "Selected MA Term 2"));
-        gene.setSelected_top_level_ma_term_id("Selected MA Term ID Example");
-        gene.setSelected_top_level_ma_term_synonym(List.of("Selected MA Term Synonym 1", "Selected MA Term Synonym 2"));
-        gene.setSeq_region_end(123456789);
-        gene.setSeq_region_id("Region ID Example");
-        gene.setSeq_region_start(987654321);
-        gene.setSignificant_top_level_mp_terms(List.of("Significant MP Term 1", "Significant MP Term 2"));
-        gene.setSubtype(List.of("Subtype 1", "Subtype 2"));
-        gene.setTop_level_mp_definition("Top Level MP Definition Example");
-        gene.setTop_level_mp_id(List.of("Top MP ID 1", "Top MP ID 2"));
-        gene.setTop_level_mp_term(List.of("Top MP Term 1", "Top MP Term 2"));
-        gene.setTop_level_mp_term_synonym(List.of("Top MP Term Synonym 1", "Top MP Term Synonym 2"));
-        gene.setType("Type Example");
-        gene.setVega_id(List.of("Vega ID 1", "Vega ID 2"));
-        gene.setXref(List.of("Xref 1", "Xref 2"));
-        gene.setAssignment_status("Assigned");
-        gene.setChr_end(10000);
-        gene.setChr_name("Chr1");
-        gene.setChr_start(5000);
-        gene.setChr_strand("+");
-        gene.setConditional_allele_production_status("Complete");
-        gene.setCrispr_allele_production_status("Pending");
-        gene.setData_type("Genomic");
-        gene.setDatasets_raw_data("RawData123");
-        gene.setDisease_human_phenotypes("None");
-        gene.setDmdd_image_data_available(true);
-        gene.setDmdd_lethal_data_available(false);
-        gene.setEmbryo_analysis_view_name("EmbryoView1");
-        gene.setEmbryo_analysis_view_url("http://example.com/embryo");
-        gene.setEmbryo_data_available(true);
-        gene.setEs_cell_production_status("In Progress");
-        gene.setEvid_code_rank(1);
-        gene.setGo_count(5);
-        gene.setHas_qc(1);
-        gene.setHuman_symbol_synonym(List.of("Synonym1", "Synonym2"));
-        gene.setImpc_predicted_in_locus("Locus1");
-        gene.setImpc_predicted_known_gene(List.of(true, false));
-
-        return gene;
-
+        return new Gene(
+            List.of("MGI:123456"),
+            List.of("Allele Name 1", "Allele Name 2"),
+            List.of("MP:0000001", "MP:0000002"),
+            List.of("Term 1", "Term 2"),
+            List.of("Term 3", "Term 4"),
+            "Assigned",
+            List.of("CCDS:1234", "CCDS:5678"),
+            List.of("MA:0000001", "MA:0000002"),
+            List.of("Child MA Term 1", "Child MA Term 2"),
+            List.of("Synonym 1", "Synonym 2"),
+            List.of("MP:0000003", "MP:0000004"),
+            List.of("Child MP Term 1", "Child MP Term 2"),
+            List.of("Child Synonym 1", "Child Synonym 2"),
+            10000,
+            "Chr1",
+            5000,
+            "+",
+            List.of("Clan 1", "Clan 2"),
+            List.of("Clan Desc 1", "Clan Desc 2"),
+            List.of("Clan ID 1", "Clan ID 2"),
+            "Complete",
+            "Pending",
+            "Genomic",
+            "RawData123",
+            List.of("Disease Alt 1", "Disease Alt 2"),
+            List.of("Disease Class 1", "Disease Class 2"),
+            "None",
+            List.of("Disease ID 1", "Disease ID 2"),
+            List.of("Source 1", "Source 2"),
+            List.of("Disease Term 1", "Disease Term 2"),
+            true,
+            false,
+            "EmbryoView1",
+            "http://example.com/embryo",
+            true,
+            List.of("Modality 1", "Modality 2"),
+            List.of("ENSG00000123456", "ENSG00000123457"),
+            "In Progress",
+            1,
+            List.of("Experiment 1", "Experiment 2"),
+            5,
+            List.of("GO Definition 1", "GO Definition 2"),
+            List.of("Domain 1", "Domain 2"),
+            List.of("Evidence 1", "Evidence 2"),
+            List.of("GO:0000001", "GO:0000002"),
+            List.of("GO Name 1", "GO Name 2"),
+            List.of("UniProt 1", "UniProt 2"),
+            1,
+            List.of("HP:0000001", "HP:0000002"),
+            List.of("HP Term 1", "HP Term 2"),
+            List.of(true, false),
+            List.of("Gene Symbol 1", "Gene Symbol 2"),
+            List.of("Synonym1", "Synonym2"),
+            List.of(true, false),
+            List.of(true, true),
+            "Locus1",
+            List.of(true, false),
+            List.of("MA:0000003", "MA:0000004"),
+            List.of("Inferred Child MA Term 1", "Inferred Child MA Term 2"),
+            List.of("Inferred Synonym 1", "Inferred Synonym 2"),
+            List.of("MA:0000005", "MA:0000006"),
+            List.of("Inferred MA Term 1", "Inferred MA Term 2"),
+            List.of("Inferred Term Synonym 1", "Inferred Term Synonym 2"),
+            List.of("MA:0000007", "MA:0000008"),
+            List.of("Selected MA Term 1", "Selected MA Term 2"),
+            List.of("Selected Term Synonym 1", "Selected Term Synonym 2"),
+            List.of("MP:0000005", "MP:0000006"),
+            List.of("Intermediate MP Term 1", "Intermediate MP Term 2"),
+            List.of("Intermediate MP Synonym 1", "Intermediate MP Synonym 2"),
+            true,
+            false,
+            List.of("MA:0000009", "MA:0000010"),
+            List.of("MA Term 1", "MA Term 2"),
+            List.of("MA Definition 1", "MA Definition 2"),
+            List.of("MA Synonym 1", "MA Synonym 2"),
+            "Marker Name Example",
+            "MkSym",
+            List.of("Marker Synonym 1", "Marker Synonym 2"),
+            "Marker Type Example",
+            "MGI:0000001",
+            List.of(true, false),
+            List.of(false, true),
+            "In Locus Example",
+            List.of(true, true),
+            List.of(true, false),
+            "Production Status Example",
+            List.of("MP:0000007", "MP:0000008"),
+            List.of("MP Term 1", "MP Term 2"),
+            List.of("MP Definition 1", "MP Definition 2"),
+            List.of("MP Synonym 1", "MP Synonym 2"),
+            List.of("NCBI:0000001", "NCBI:0000002"),
+            List.of("Not Significant MP Term 1", "Not Significant MP Term 2"),
+            "Null Production Status Example",
+            List.of(0.01f, 0.05f),
+            List.of("Parameter Name 1", "Parameter Name 2"),
+            List.of("Stable ID 1", "Stable ID 2"),
+            List.of("Pfam Acc 1", "Pfam Acc 2"),
+            List.of("GO Category 1", "GO Category 2"),
+            List.of("GO:0000003", "GO:0000004"),
+            List.of("GO Term 1", "GO Term 2"),
+            List.of("Pfam ID 1", "Pfam ID 2"),
+            List.of("{\"key\": \"value\"}", "{\"key\": \"value2\"}"),
+            "Phenotype Status Example",
+            List.of("Centre 1", "Centre 2"),
+            true,
+            List.of("Pipeline Name 1", "Pipeline Name 2"),
+            List.of("Pipeline Stable ID 1", "Pipeline Stable ID 2"),
+            List.of("Param Name 1", "Param Name 2"),
+            List.of("Param Stable ID 1", "Param Stable ID 2"),
+            List.of("Procedure Name 1", "Procedure Name 2"),
+            List.of("Procedure Stable ID 1", "Procedure Stable ID 2"),
+            List.of("Production Centre 1", "Production Centre 2"),
+            List.of("SCDB ID 1", "SCDB ID 2"),
+            List.of("http://example.com/scdb1", "http://example.com/scdb2"),
+            List.of("Selected MA ID 1", "Selected MA ID 2"),
+            List.of("Selected MA Term 1", "Selected MA Term 2"),
+            "Selected MA Term ID Example",
+            List.of("Selected MA Term Synonym 1", "Selected MA Term Synonym 2"),
+            123456789,
+            "Region ID Example",
+            987654321,
+            List.of("Significant MP Term 1", "Significant MP Term 2"),
+            List.of("Subtype 1", "Subtype 2"),
+            "Top Level MP Definition Example",
+            List.of("Top MP ID 1", "Top MP ID 2"),
+            List.of("Top MP Term 1", "Top MP Term 2"),
+            List.of("Top MP Term Synonym 1", "Top MP Term Synonym 2"),
+            "Type Example",
+            List.of("Vega ID 1", "Vega ID 2"),
+            List.of("Xref 1", "Xref 2")
+        );
     }
 
 }
