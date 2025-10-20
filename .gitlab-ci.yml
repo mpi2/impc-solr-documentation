@@ -7,6 +7,15 @@ variables:
   CI_REGISTRY: dockerhub.ebi.ac.uk
   CI_REGISTRY_IMAGE: $CI_REGISTRY/$CI_PROJECT_PATH
   DOCKER_TLS_CERTDIR: ""
+  GITLAB_ADVANCED_SAST_ENABLED: 'true'
+
+include:
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Jobs/Secret-Detection.gitlab-ci.yml
+
+sast:
+  stage: test
+
 
 stages:
   - build
@@ -45,27 +54,6 @@ build_main_image:
   artifacts:
     paths:
       - "$MOUNT_POINT/"
-
-
-
-sast:
-  stage: test
-  script:
-    - echo "Running SAST scan ..."
-
-  artifacts:
-    reports:
-      container_scanning: gl-sast-report.json
-
-
-secret_detection:
-  stage: test
-  script:
-    - echo "Running secret detection scan ..."
-
-  artifacts:
-    reports:
-      container_scanning: gl-secret-detection-report.json
 
 
 
