@@ -1,4 +1,4 @@
-FROM maven:3-amazoncorretto-21 as build
+FROM maven:3-amazoncorretto-25 as build
 
 COPY pom.xml /usr/src/impc-solr-documentation/
 COPY src /usr/src/impc-solr-documentation/src
@@ -6,7 +6,7 @@ COPY src /usr/src/impc-solr-documentation/src
 RUN mvn -f /usr/src/impc-solr-documentation/pom.xml clean package -DskipTests
 
 # The final image should have a minimal number of layers
-FROM amazoncorretto:21
+FROM amazoncorretto:25
 
 VOLUME /tmp
 
